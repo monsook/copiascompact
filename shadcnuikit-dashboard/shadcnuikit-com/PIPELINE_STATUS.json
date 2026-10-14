@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "status": "completed",
+  "url": "https://shadcnuikit.com/dashboard/default",
+  "siteName": "shadcnuikit-com",
+  "mode": "all",
+  "startedAt": "2026-09-27T12:13:36.179Z",
+  "completedAt": "2026-09-27T12:14:17.422Z",
+  "stages": [
+    {
+      "name": "detect",
+      "status": "passed",
+      "startedAt": "2026-09-27T12:13:36.181Z",
+      "completedAt": "2026-09-27T12:13:42.887Z"
+    },
+    {
+      "name": "clone",
+      "status": "passed",
+      "startedAt": "2026-09-27T12:13:42.887Z",
+      "completedAt": "2026-09-27T12:14:08.895Z"
+    },
+    {
+      "name": "normalize-assets",
+      "status": "passed",
+      "startedAt": "2026-09-27T12:14:08.900Z",
+      "completedAt": "2026-09-27T12:14:09.153Z"
+    },
+    {
+      "name": "extract-design-dna",
+      "status": "passed",
+      "startedAt": "2026-09-27T12:14:09.154Z",
+      "completedAt": "2026-09-27T12:14:14.510Z"
+    },
+    {
+      "name": "generate-styleguide",
+      "status": "passed",
+      "startedAt": "2026-09-27T12:14:14.511Z",
+      "completedAt": "2026-09-27T12:14:14.516Z"
+    },
+    {
+      "name": "extract-ui-ux",
+      "status": "passed",
+      "startedAt": "2026-09-27T12:14:14.520Z",
+      "completedAt": "2026-09-27T12:14:17.318Z"
+    },
+    {
+      "name": "generate-master-spec",
+      "status": "passed",
+      "startedAt": "2026-09-27T12:14:17.321Z",
+      "completedAt": "2026-09-27T12:14:17.378Z"
+    },
+    {
+      "name": "generate-asset-manifest",
+      "status": "passed",
+      "startedAt": "2026-09-27T12:14:17.383Z",
+      "completedAt": "2026-09-27T12:14:17.405Z"
+    },
+    {
+      "name": "generate-prompt-catalog",
+      "status": "passed",
+      "startedAt": "2026-09-27T12:14:17.408Z",
+      "completedAt": "2026-09-27T12:14:17.413Z"
+    }
+  ]
+}

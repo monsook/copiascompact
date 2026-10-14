@@ -1,0 +1,140 @@
+{
+  "dnaVersion": "1.0.0",
+  "identity": {
+    "id": "carolinaraulino-draggable-widget-grid",
+    "semanticName": "DraggableWidgetGrid",
+    "suggestedArchetype": "DraggableWidgetGrid"
+  },
+  "provenance": {
+    "corpusHash": "8f9e7d6c5b4a3928172635445566778899aabbccddeeff001122334455667788",
+    "sourceProvider": "21st.dev",
+    "sourceUrl": "https://21st.dev/r/carolinaraulino/draggable-widget-grid",
+    "capturedAt": "2026-10-06T09:20:00Z",
+    "licensePolicy": "REFERENCE_ONLY"
+  },
+  "epistemology": {
+    "anatomy": "OBSERVED",
+    "geometryConstraints.relations": "OBSERVED",
+    "stateMachine.states": "OBSERVED",
+    "motionDynamics.transitions": "OBSERVED",
+    "accessibilityContract": "DERIVED"
+  },
+  "anatomy": {
+    "rootRole": "WidgetGridContainer",
+    "subcomponents": [
+      {
+        "role": "WidgetGridToolbar",
+        "optional": true,
+        "children": [
+          { "role": "EditLayoutToggle", "optional": false, "children": [] },
+          { "role": "ResetLayoutTrigger", "optional": true, "children": [] }
+        ]
+      },
+      {
+        "role": "DraggableWidgetCell",
+        "optional": false,
+        "children": [
+          { "role": "WidgetDragHandle", "optional": false, "children": [] },
+          { "role": "WidgetSpanSelector", "optional": true, "children": [] },
+          { "role": "WidgetDismissButton", "optional": true, "children": [] },
+          { "role": "WidgetDynamicSlot", "optional": false, "children": [] }
+        ]
+      },
+      {
+        "role": "DropTargetPlaceholder",
+        "optional": false,
+        "children": []
+      }
+    ]
+  },
+  "geometryConstraints": {
+    "density": "normal",
+    "layoutMode": "grid",
+    "relations": [
+      {
+        "sourceRole": "WidgetGridToolbar",
+        "targetRole": "WidgetGridContainer",
+        "constraintType": "stacked-below",
+        "valueToken": "spacing.md"
+      },
+      {
+        "sourceRole": "WidgetDragHandle",
+        "targetRole": "DraggableWidgetCell",
+        "constraintType": "align-start",
+        "valueToken": "spacing.sm"
+      }
+    ],
+    "breakpoints": {
+      "mobile": { "columns": 1, "gap": "spacing.sm" },
+      "desktop": { "columns": 3, "gap": "spacing.md" }
+    }
+  },
+  "tokens": {
+    "colorRoles": {
+      "surface": "color.neutral.50",
+      "cellSurface": "color.neutral.100",
+      "dragActiveRing": "color.primary.500",
+      "dropPlaceholder": "color.primary.100"
+    },
+    "spacingScale": [4, 8, 12, 16, 24],
+    "typographyHierarchy": {
+      "widgetTitle": { "fontSize": "14px", "lineHeight": "1.4" }
+    },
+    "radius": "radius.xl"
+  },
+  "stateMachine": {
+    "initialState": "idle_locked",
+    "states": [
+      "idle_locked",
+      "edit_mode_ready",
+      "dragging_active",
+      "reordering_layout",
+      "resizing_span",
+      "persisting_layout"
+    ],
+    "transitions": [
+      { "from": "idle_locked", "to": "edit_mode_ready", "trigger": "TOGGLE_EDIT_MODE" },
+      { "from": "edit_mode_ready", "to": "dragging_active", "trigger": "DRAG_START" },
+      { "from": "dragging_active", "to": "reordering_layout", "trigger": "DRAG_OVER_TARGET_CELL" },
+      { "from": "reordering_layout", "to": "persisting_layout", "trigger": "DROP_COMMIT" },
+      { "from": "dragging_active", "to": "edit_mode_ready", "trigger": "DRAG_CANCEL_ESC" },
+      { "from": "edit_mode_ready", "to": "resizing_span", "trigger": "SPAN_CHANGE_REQUEST" },
+      { "from": "resizing_span", "to": "persisting_layout", "trigger": "SPAN_COMMIT" },
+      { "from": "persisting_layout", "to": "edit_mode_ready", "trigger": "LAYOUT_SYNCED" },
+      { "from": "edit_mode_ready", "to": "idle_locked", "trigger": "LOCK_LAYOUT" }
+    ]
+  },
+  "motionDynamics": {
+    "transitions": [
+      {
+        "targetRole": "DraggableWidgetCell",
+        "property": "layout-transform",
+        "curveType": "spring",
+        "durationMs": 220,
+        "curveParams": { "stiffness": 300, "damping": 28, "mass": 0.8 }
+      },
+      {
+        "targetRole": "DraggableWidgetCell",
+        "property": "scale-elevation",
+        "curveType": "spring",
+        "durationMs": 140,
+        "curveParams": { "stiffness": 400, "damping": 25, "mass": 0.6 }
+      }
+    ],
+    "reducedMotionFallback": "instant"
+  },
+  "accessibilityContract": {
+    "ariaRole": "grid",
+    "keyboardInteractions": {
+      "Space": "Pick up or drop focused widget in edit mode",
+      "ArrowRight": "Move grabbed widget to next slot",
+      "ArrowLeft": "Move grabbed widget to previous slot",
+      "Escape": "Cancel active drag and restore previous order"
+    },
+    "focusManagement": "roving-tabindex"
+  },
+  "dependencies": [
+    { "name": "framer-motion", "classification": "replaceable" },
+    { "name": "lucide-react", "classification": "replaceable" }
+  ]
+}

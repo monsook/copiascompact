@@ -1,0 +1,161 @@
+{
+  "route": "/ecommerce/product-list-1",
+  "title": "Ecommerce App",
+  "cardsCount": 20,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "Add Products",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "Category",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "Supplier",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 6,
+      "title": "",
+      "snippet": "Stock level",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 7,
+      "title": "",
+      "snippet": "Manage Table",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 8,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 9,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 10,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 11,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 12,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 13,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 14,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 15,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 16,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 17,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 18,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 19,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 2,
+  "inputsSample": [
+    {
+      "type": "search",
+      "placeholder": "Search products",
+      "label": "Search products"
+    },
+    {
+      "type": "search",
+      "placeholder": "Search products",
+      "label": "Search products"
+    }
+  ],
+  "htmlSnapshot": ""
+}

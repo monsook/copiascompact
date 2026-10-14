@@ -1,0 +1,142 @@
+{
+  "route": "/ai-chat/plugins",
+  "title": "Plugins",
+  "cardsCount": 18,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "GitHub",
+      "snippet": "Connection gallery\n\n3 active · 8 available\n\nAll apps\n8\nConnected\n3\nDeveloper tools\n1\nCommunication\n2\nProductivity\n3\nDesign tools\n1\nStorage\n1\nGitHub\n\nBy GitHub, Inc.\n\nGitHub: Search repositories, inspect pull requests, and bring code context into conversations.\n\nDEVELOPER TOOLS\n2 STEPS\nView instructi",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "GitHub",
+      "snippet": "GitHub\n\nBy GitHub, Inc.\n\nGitHub: Search repositories, inspect pull requests, and bring code context into conversations.\n\nDEVELOPER TOOLS\n2 STEPS\nView instruction",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "Figma",
+      "snippet": "Figma\nNew\n\nBy Figma, Inc.\n\nFigma: Read design files, inspect component properties, and connect product context to your assistant.\n\nDESIGN TOOLS\n4 STEPS\nView instruction",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 6,
+      "title": "Notion",
+      "snippet": "Notion\n\nBy Notion Labs, Inc.\n\nNotion: Search team knowledge and retrieve pages from approved workspaces.\n\nPRODUCTIVITY\n4 STEPS\nCONNECTION ERROR\nView instruction",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 7,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 8,
+      "title": "Slack",
+      "snippet": "Slack\n\nBy Slack Technologies\n\nSlack: Search messages, summarize channels, and ground answers in recent team conversations.\n\nCOMMUNICATION\n4 STEPS\nView instruction",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 9,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 10,
+      "title": "Jira",
+      "snippet": "Jira\n\nBy Atlassian\n\nJira: Find issues, review sprint progress, and pull delivery context into project conversations.\n\nPRODUCTIVITY\n3 STEPS\nView instruction",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 11,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 12,
+      "title": "Dropbox",
+      "snippet": "Dropbox\n\nBy Dropbox, Inc.\n\nDropbox: Locate files and retrieve approved workspace documents without leaving the conversation.\n\nSTORAGE\n2 STEPS\nView instruction",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 13,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 14,
+      "title": "Gmail",
+      "snippet": "Gmail\n\nBy Google\n\nGmail: Find approved email threads and use customer context in assistant responses.\n\nCOMMUNICATION\n3 STEPS\nView instruction",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 15,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 16,
+      "title": "Trello",
+      "snippet": "Trello\n\nBy Atlassian\n\nTrello: Read boards, cards, and checklists to keep project answers current and actionable.\n\nPRODUCTIVITY\n3 STEPS\nView instruction",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 17,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 1,
+  "inputsSample": [
+    {
+      "type": "text",
+      "placeholder": "Search integrations…",
+      "label": "Search plugins"
+    }
+  ],
+  "htmlSnapshot": "<a href=\"#ai-workspace-content\" class=\"bg-background focus:ring-ring sr-only z-50 rounded-md px-3 py-2 text-sm focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:ring-2\">Skip to main content</a><section class=\"flex min-w-0 flex-1 flex-col\"><header class=\"grid h-12 shrink-0 grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center px-3 shadow-[inset_0_-1px_0_var(--border)] md:h-[var(--ai-workspace-header-height,3.5rem)] md:px-4\"><div class=\"flex min-w-0 flex-1 items-center gap-2\"><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground size-8 shrink-0 md:hidden\" data-sidebar=\"trigger\" data-slot=\"sidebar-trigger\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-panel-left\" aria-hidden=\"true\"><rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"></rect><path d=\"M9 3v18\"></path></svg><span class=\"sr-only\">Toggle Sidebar</span></button><span class=\"truncate font-medium text-[13px]\">Plugins</span></div><div class=\"flex shrink-0 items-center justify-center gap-1\"></div><div class=\"flex max-w-full min-w-0 items-center gap-1 justify-self-end\"><div class=\"flex min-w-0 items-center gap-1 overflow-x-auto overscroll-x-contain [scrollbar-width:none] [&amp;&gt;*]:shrink-0\"><div class=\"inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-hidden focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground\">Demo workspace</div><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground size-6\" aria-label=\"Reset demo\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-rotate-ccw\" aria-hidden=\"true\"><path d=\"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8\"></path><path d=\"M3 3v5h5\"></path></svg></button></div><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground size-8 shrink-0 scale-100 rounded-lg\" aria-label=\"Toggle theme\" type=\"button\" id=\"radix-_R_mtbsnpfknmlb_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"tabler-icon tabler-icon-device-desktop size-[1.2rem]\" aria-hidden=\"true\"><path d=\"M3 5a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10\"></path><path d=\"M7 20h10\"></path><path d=\"M9 16v4\"></path><path d=\"M15 16v4\"></path></svg><span class=\"sr-only\">Toggle theme</span></button></div></header><div id=\"ai-workspace-content\" class=\"flex min-h-0 flex-1 flex-col\"><div class=\"min-h-0 flex-1 overflow-y-auto\"><div class=\"mx-auto flex flex-col px-4 sm:px-8 gap-6 py-6 sm:py-8\"><div class=\"flex flex-wrap gap-4 items-start justify-between\"><div class=\"flex flex-col gap-1\"><h1 class=\"text-2xl font-semibold tracking-tight\">Plugins</h1><p class=\"text-muted-foreground max-w-2xl text-sm\">Connect the tools your team already uses and make them available to assistants.</p></div><div class=\"flex flex-wrap items-center gap-2\"><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background shadow-xs hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs\">Request integration</button><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-sm hover:bg-primary/90 h-8 rounded-md px-3 text-xs\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-plus\" aria-hidden=\"true\" data-icon=\"inline-start\"><path d=\"M5 12h14\"></path><path d=\"M12 5v14\"></path></svg>Browse all</button></div></div><section class=\"bg-card overflow-hidden rounded-xl border\"><div class=\"flex flex-col gap-4 border-b px-4 py-4 lg:flex-row lg:items-center lg:justify-between lg:px-5\"><div class=\"min-w-0\"><p class=\"text-sm font-medium\">Connection gallery</p><p class=\"text-muted-foreground truncate text-xs\">3<!-- --> active ·<!-- --> <!-- -->8<!-- --> available</p></div><div class=\"relative w-full lg:w-80\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-search text-muted-foreground pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2\" aria-hidden=\"true\"><path d=\"m21 21-4.34-4.34\"></path><circle cx=\"11\" cy=\"11\" r=\"8\"></circle></svg><input class=\"border-input file:text-foreground placeholder:text-muted-foreground focus-visible:ring-ring flex w-full rounded-md border px-3 py-1 text-base shadow-xs transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium focus-visible:ring-1 focus-visible:outline-hidden disabled:cursor-not-allowed disabled:opacity-50 md:text-sm bg-background h-9 pl-9\" aria-label=\"Search plugins\" placeholder=\"Search integrations…\" value=\"\" style=\"\"></div></div><div class=\"flex gap-1 overflow-x-auto border-b px-3 py-2 [scrollbar-width:none] lg:px-5\"><button class=\"inline-flex items-center justify-center whitespace-nowrap transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:text-accent-foreground h-8 text-xs shrink-0 gap-1.5 rounded-lg px-3 bg-muted text-foreground hover:bg-muted font-medium\" aria-pressed=\"true\">All apps<span class=\"text-[11px] tabular-nums text-foreground/65\">8</span></button><button class=\"inline-flex items-center justify-center whitespace-nowrap transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-8 text-xs text-muted-foreground shrink-0 gap-1.5 rounded-lg px-3 font-normal\" aria-pressed=\"false\">Connected<span class=\"text-muted-foreground text-[11px] tabular-nums\">3</span></button><button class=\"inline-flex items-center justify-center whitespace-nowrap transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-8 text-xs text-muted-foreground shrink-0 gap-1.5 rounded-lg px-3 font-normal\" aria-pressed=\"false\">Developer tools<span class=\"text-muted-foreground text-[11px] tabular-nums\">1</span></button><button class=\"inline-flex items-center justify-center whitespace-nowrap transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-8 text-xs text-muted-foreground shrink-0 gap-1.5 rounded-lg px-3 font-normal\" aria-pressed=\"false\">Communication<span class=\"text-muted-foreground text-[11px] tabular-nums\">2</span></button><button class=\"inline-flex items-center justify-center whitespace-nowrap transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-8 text-xs text-muted-foreground shrink-0 gap-1.5 rounded-lg px-3 font-normal\" aria-pressed=\"false\">Productivity<span class=\"text-muted-foreground text-[11px] tabular-nums\">3</span></button><button class=\"inline-flex items-center justify-center whitespace-nowrap transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-8 text-xs text-muted-foreground shrink-0 gap-1.5 rounded-lg px-3 font-normal\" aria-pressed=\"false\">Design tools<span class=\"text-muted-foreground text-[11px] tabular-nums\">1</span></button><button class=\"inline-flex items-center justify-center whitespace-nowrap transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disa"
+}

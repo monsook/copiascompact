@@ -1,0 +1,229 @@
+{
+  "route": "/ecommerce/product-list-4",
+  "title": "Ecommerce App",
+  "cardsCount": 29,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "All\n12",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 6,
+      "title": "",
+      "snippet": "Active\n8",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 7,
+      "title": "",
+      "snippet": "Inactive\n0",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 8,
+      "title": "",
+      "snippet": "Draft\n4",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 9,
+      "title": "",
+      "snippet": "Retail",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 10,
+      "title": "",
+      "snippet": "Wholesale",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 11,
+      "title": "",
+      "snippet": "Alphabetical: A-Z",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 12,
+      "title": "",
+      "snippet": "All stock",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 13,
+      "title": "",
+      "snippet": "All categories",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 14,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 15,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 16,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 17,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 18,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 19,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 20,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 21,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 22,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 23,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 24,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 25,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 26,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 27,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 28,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 3,
+  "inputsSample": [
+    {
+      "type": "search",
+      "placeholder": "Search products...",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "Minimum price",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "Maximum price",
+      "label": ""
+    }
+  ],
+  "htmlSnapshot": "<div class=\"flex min-h-0 flex-1 flex-col gap-6 p-4 md:p-6\"><section class=\"border-border/70 border-b border-dashed pb-4\"><div class=\"flex flex-col gap-4 md:hidden\"><div class=\"border-border/70 bg-background flex size-10 shrink-0 items-center justify-center rounded-xl border\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-package text-muted-foreground size-4.5\" aria-hidden=\"true\"><path d=\"M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z\"></path><path d=\"M12 22V12\"></path><polyline points=\"3.29 7 12 12 20.71 7\"></polyline><path d=\"m7.5 4.27 9 5.15\"></path></svg></div><div class=\"flex flex-col gap-1.5\"><h1 class=\"text-xl font-semibold tracking-tight\">Product List 4</h1><p class=\"text-muted-foreground max-w-[18rem] text-sm leading-6\">Sidebar-driven catalog filtering with dense merchandiser rows.</p></div><a class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-2 h-11 w-full rounded-lg shadow-none\" href=\"/ecommerce/add-product\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-plus size-4\" aria-hidden=\"true\"><path d=\"M5 12h14\"></path><path d=\"M12 5v14\"></path></svg>New Products</a></div><div class=\"hidden gap-4 md:flex md:flex-row md:items-start md:justify-between xl:items-center\"><div class=\"flex items-start gap-3\"><div class=\"border-border/70 bg-background flex size-10 shrink-0 items-center justify-center rounded-xl border\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-package text-muted-foreground size-4.5\" aria-hidden=\"true\"><path d=\"M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z\"></path><path d=\"M12 22V12\"></path><polyline points=\"3.29 7 12 12 20.71 7\"></polyline><path d=\"m7.5 4.27 9 5.15\"></path></svg></div><div class=\"flex flex-col gap-1\"><h1 class=\"text-lg font-semibold tracking-tight md:text-xl\">Product List 4</h1><p class=\"text-muted-foreground text-sm\">Sidebar-driven catalog filtering with dense merchandiser rows.</p></div></div><div class=\"flex items-center gap-2 self-start\"><a class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground hover:bg-primary/90 py-2 h-10 rounded-lg px-4 shadow-none\" href=\"/ecommerce/add-product\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-plus size-4\" aria-hidden=\"true\"><path d=\"M5 12h14\"></path><path d=\"M12 5v14\"></path></svg>New Products</a></div></div></section><section class=\"grid gap-6 xl:min-h-0 xl:flex-1 xl:grid-cols-[284px_minmax(0,1fr)] xl:overflow-hidden\"><aside class=\"xl:border-border/60 flex min-h-0 flex-col gap-5 xl:h-full xl:border-r xl:border-dotted xl:pr-3\"><div class=\"flex min-h-0 flex-1 flex-col gap-5 overflow-y-auto px-1 pb-4 xl:pr-2\"><div class=\"relative\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-search text-muted-foreground absolute top-1/2 left-4 size-4 -translate-y-1/2\" aria-hidden=\"true\"><path d=\"m21 21-4.34-4.34\"></path><circle cx=\"11\" cy=\"11\" r=\"8\"></circle></svg><input type=\"search\" class=\"file:text-foreground placeholder:text-muted-foreground focus-visible:ring-ring flex w-full border px-3 py-1 text-base transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium focus-visible:ring-1 focus-visible:outline-hidden disabled:cursor-not-allowed disabled:opacity-50 md:text-sm border-border/60 h-11 rounded-lg bg-transparent pr-4 pl-11 shadow-none\" placeholder=\"Search products...\" value=\"\" style=\"\"></div><section class=\"border-border/60 flex flex-col gap-3 border-b border-dotted pb-5 last:border-none last:pb-0\"><h2 class=\"text-foreground/85 text-[14px] font-medium tracking-normal\">Product status</h2><div class=\"grid grid-cols-2 gap-2\"><button type=\"button\" class=\"flex min-h-11 items-center justify-between rounded-lg border px-3 py-2.5 text-left transition-colors text-foreground border-primary/40 bg-primary/8\"><span class=\"text-sm font-medium\">All</span><span class=\"rounded-md px-2 py-0.5 text-xs font-medium bg-primary/12 text-primary\">12</span></button><button type=\"button\" class=\"flex min-h-11 items-center justify-between rounded-lg border px-3 py-2.5 text-left transition-colors border-border/50 text-muted-foreground hover:text-foreground bg-transparent\"><span class=\"text-sm font-medium\">Active</span><span class=\"rounded-md px-2 py-0.5 text-xs font-medium bg-muted text-muted-foreground\">8</span></button><button type=\"button\" class=\"flex min-h-11 items-center justify-between rounded-lg border px-3 py-2.5 text-left transition-colors border-border/50 text-muted-foreground hover:text-foreground bg-transparent\"><span class=\"text-sm font-medium\">Inactive</span><span class=\"rounded-md px-2 py-0.5 text-xs font-medium bg-muted text-muted-foreground\">0</span></button><button type=\"button\" class=\"flex min-h-11 items-center justify-between rounded-lg border px-3 py-2.5 text-left transition-colors border-border/50 text-muted-foreground hover:text-foreground bg-transparent\"><span class=\"text-sm font-medium\">Draft</span><span class=\"rounded-md px-2 py-0.5 text-xs font-medium bg-muted text-muted-foreground\">4</span></button></div></section><section class=\"border-border/60 flex flex-col gap-3 border-b border-dotted pb-5 last:border-none last:pb-0\"><h2 class=\"text-foreground/85 text-[14px] font-medium tracking-normal\">Product type</h2><div class=\"grid grid-cols-2 gap-2\"><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border hover:bg-accent hover:text-accent-foreground py-2 border-border/60 h-11 rounded-lg bg-transparent px-4 shadow-none\" type=\"button\">Retail</button><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border hover:bg-accent hover:text-accent-foreground py-2 border-border/60 h-11 rounded-lg bg-transparent px-4 shadow-none\" type=\"button\">Wholesale</button></div></section><section class=\"border-border/60 flex flex-col gap-3 border-b border-dotted pb-5 last:border-none last:pb-0\"><h2 class=\"text-foreground/85 text-[14px] font-medium tracking-normal\">Sort by</h2><button type=\"button\" role=\"combobox\" aria-controls=\"radix-_R_i6av5uiv5uknmlb_\" aria-expanded=\"false\" aria-autocomplete=\"none\" dir=\"ltr\" data-state=\"closed\" class=\"ring-offset-background placeholder:text-muted-foreground focus:ring-ring flex w-full items-center justify-between border py-2 text-sm whitespace-nowrap focus:ring-1 focus:outline-hidden disabled:cursor-not-allowed disabled:opacity-50 [&amp;&gt;span]:line-clamp-1 border-border/60 h-11 rounded-lg bg-transparent px-4 shadow-none\"><span style=\"pointer-events:none\">Alphabetical: A-Z</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down h-4 w-4 opacity-50\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"></path></svg></button></section><section class=\"border-border/60 flex flex-col gap-3 border-b border-dotted pb-5 last:border-none last:pb-0\"><h2 class=\"text-foreground/85 text-[14px] font-medium tracking-normal\">Stock alert</h2><button type=\"button\" role=\"combobox\" aria-controls=\"radix-_R_imav5uiv5uknmlb_\" aria-expanded=\"false\" aria-autocomplete=\"none\" dir=\"ltr\" data-state=\"closed\" class=\"ring-offset-background placeholder:text-muted-foreground focus:ring-ring flex w-full items-center justify-between border py-2 text-sm whitespace-nowrap focus:ring-1 focus:outline-hidden disabled:cursor-not-allowed disabled:opacity-50 [&amp;&gt;span]:line-clamp-1 border-border/60 h-11 rounded-lg bg-transparent px-4 shadow-none\"><span style=\"pointer-events:none\">All stock</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down h-4 w-4 opacity-50\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"></path></svg></button></section><section class=\"border-border/60 flex flex-col gap-3 border-b border-dotted pb-5 last:border-none last:pb-0\"><h2 class=\"text-foreground/85 text-[14px] font-medium tracking-normal\">Category</h2><button type=\"button\" role=\"combobox\" aria-controls=\"radix-_R_j6av5uiv5uknmlb_\" aria-expanded=\"false\" aria-autocomp"
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "status": "completed",
+  "url": "https://artisan-burger-23.aura.build/",
+  "siteName": "artisan-burger-23-aura-build",
+  "mode": "all",
+  "startedAt": "2026-08-31T17:27:59.520Z",
+  "completedAt": "2026-08-31T17:28:46.678Z",
+  "stages": [
+    {
+      "name": "detect",
+      "status": "passed",
+      "startedAt": "2026-08-31T17:27:59.522Z",
+      "completedAt": "2026-08-31T17:28:10.146Z"
+    },
+    {
+      "name": "clone",
+      "status": "passed",
+      "startedAt": "2026-08-31T17:28:10.146Z",
+      "completedAt": "2026-08-31T17:28:25.788Z"
+    },
+    {
+      "name": "normalize-assets",
+      "status": "passed",
+      "startedAt": "2026-08-31T17:28:25.789Z",
+      "completedAt": "2026-08-31T17:28:25.835Z"
+    },
+    {
+      "name": "extract-design-dna",
+      "status": "passed",
+      "startedAt": "2026-08-31T17:28:25.836Z",
+      "completedAt": "2026-08-31T17:28:42.790Z"
+    },
+    {
+      "name": "generate-styleguide",
+      "status": "passed",
+      "startedAt": "2026-08-31T17:28:42.790Z",
+      "completedAt": "2026-08-31T17:28:42.791Z"
+    },
+    {
+      "name": "extract-ui-ux",
+      "status": "passed",
+      "startedAt": "2026-08-31T17:28:42.792Z",
+      "completedAt": "2026-08-31T17:28:46.660Z"
+    },
+    {
+      "name": "generate-master-spec",
+      "status": "passed",
+      "startedAt": "2026-08-31T17:28:46.661Z",
+      "completedAt": "2026-08-31T17:28:46.672Z"
+    },
+    {
+      "name": "generate-asset-manifest",
+      "status": "passed",
+      "startedAt": "2026-08-31T17:28:46.673Z",
+      "completedAt": "2026-08-31T17:28:46.675Z"
+    },
+    {
+      "name": "generate-prompt-catalog",
+      "status": "passed",
+      "startedAt": "2026-08-31T17:28:46.676Z",
+      "completedAt": "2026-08-31T17:28:46.677Z"
+    }
+  ]
+}

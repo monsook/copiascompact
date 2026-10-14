@@ -1,0 +1,79 @@
+{
+  "route": "/ecommerce/dashboard-2",
+  "title": "Ecommerce App",
+  "cardsCount": 9,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "Monthly revenue\n\n$148,230.00 previous month\n\n$189,540.75\n\n+27.9%\nvs last month",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "Orders fulfilled\n\n18,452 previous month\n\n21,847\n\n+18.4%\nvs last month",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "New customers\n\n4,120 previous month\n\n4,975\n\n+20.8%\nvs last month",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "Refunds issued\n\n$9,821.00 previous month\n\n$8,473.00\n\n-13.7%\nvs last month",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 6,
+      "title": "",
+      "snippet": "$276,000.00\n\nTotal Revenue (Last 6 Months)\n\nThis Year\nPrev Year\nJan\nFeb\nMar\nApr\nMay\nJun\n$0\n$15K\n$30K\n$45K\n$60K",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 7,
+      "title": "Revenue Channels",
+      "snippet": "Revenue Channels\n$98K\ntotal revenue\nOnline\nIn-Store\nMarketplace\nChannels\nNumber\nTotal\nW\nWebsite\n4,821\n18.3%\nM\nMobile App\n3,147\n12.7%\nE\nEmail\n1,893\n8.4%\nS\nSocial\n762\n31.2%",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 8,
+      "title": "",
+      "snippet": "Recent Orders\n20\nFilter\n#\tOrder\tCustomer\tStatus\tTotal\tDate\t\n1\t\nORD-2024-001\n2 items\n\t\nSJ\nSarah Johnson\n\tDelivered\t$2,499.00\tJan 28, 2024\t\n\n2\t\nORD-2024-002\n2 items\n\t\nMC\nMichael Chen\n\tShipped\t$1,348.00\tJan 27, 2024\t\n\n3\t\nORD-2024-003\n3 items\n\t\nEW\nEmma Wilson\n\tProcessing\t$1,198.00\tJan 27, 2024\t\n\n4\t\nORD-",
+      "hasChart": true,
+      "hasTable": true
+    }
+  ],
+  "inputsCount": 1,
+  "inputsSample": [
+    {
+      "type": "text",
+      "placeholder": "Search orders… (e.g., ORD-2024-002)",
+      "label": "Search orders"
+    }
+  ],
+  "htmlSnapshot": "<div class=\"flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between sm:gap-6\"><div class=\"space-y-2 sm:space-y-5\"><h2 class=\"text-lg leading-relaxed font-semibold sm:text-[22px]\">Welcome Back, John!</h2><p class=\"text-muted-foreground text-sm sm:text-base\">Today you have<!-- --> <span class=\"text-foreground font-medium\">12 orders</span> to fulfill,<!-- --> <span class=\"text-foreground font-medium\">3 returns</span> pending</p></div><div class=\"flex flex-wrap items-center gap-2 sm:gap-3\"><button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background shadow-xs hover:bg-accent hover:text-accent-foreground rounded-md px-3 text-xs h-8 gap-2 sm:h-9\" aria-label=\"Export\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-download size-4\" aria-hidden=\"true\"><path d=\"M12 15V3\"></path><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"></path><path d=\"m7 10 5 5 5-5\"></path></svg><span class=\"hidden sm:inline\">Export</span></button><button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-sm hover:bg-primary/90 rounded-md px-3 text-xs h-8 gap-2 sm:h-9\" aria-label=\"Add Product\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-plus size-4\" aria-hidden=\"true\"><path d=\"M5 12h14\"></path><path d=\"M12 5v14\"></path></svg><span class=\"hidden sm:inline\">Add Product</span></button></div></div><div class=\"grid gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-4 lg:gap-6\"><div class=\"bg-card flex flex-col gap-3 rounded-xl border p-4 sm:p-5 lg:p-6\"><div class=\"text-muted-foreground flex items-center gap-1.5 sm:gap-2\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-dollar-sign size-3.5 sm:size-4\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8\"></path><path d=\"M12 18V6\"></path></svg><span class=\"truncate text-[10px] font-medium sm:text-xs lg:text-sm\">Monthly revenue</span></div><p class=\"text-muted-foreground/70 hidden text-[10px] sm:block sm:text-xs\">$148,230.00<!-- --> previous month</p><p class=\"text-xl leading-tight font-semibold tracking-tight sm:text-2xl lg:text-[28px]\">$189,540.75</p><div class=\"flex flex-wrap items-center gap-x-1 gap-y-0.5 text-[10px] sm:text-xs\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right size-3 shrink-0 text-emerald-600 sm:size-3.5\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg><span class=\"whitespace-nowrap text-emerald-600\">+<!-- -->27.9<!-- -->%</span><span class=\"text-muted-foreground whitespace-nowrap\">vs last month</span></div></div><div class=\"bg-card flex flex-col gap-3 rounded-xl border p-4 sm:p-5 lg:p-6\"><div class=\"text-muted-foreground flex items-center gap-1.5 sm:gap-2\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-clipboard-list size-3.5 sm:size-4\" aria-hidden=\"true\"><rect width=\"8\" height=\"4\" x=\"8\" y=\"2\" rx=\"1\" ry=\"1\"></rect><path d=\"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2\"></path><path d=\"M12 11h4\"></path><path d=\"M12 16h4\"></path><path d=\"M8 11h.01\"></path><path d=\"M8 16h.01\"></path></svg><span class=\"truncate text-[10px] font-medium sm:text-xs lg:text-sm\">Orders fulfilled</span></div><p class=\"text-muted-foreground/70 hidden text-[10px] sm:block sm:text-xs\">18,452<!-- --> previous month</p><p class=\"text-xl leading-tight font-semibold tracking-tight sm:text-2xl lg:text-[28px]\">21,847</p><div class=\"flex flex-wrap items-center gap-x-1 gap-y-0.5 text-[10px] sm:text-xs\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right size-3 shrink-0 text-emerald-600 sm:size-3.5\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg><span class=\"whitespace-nowrap text-emerald-600\">+<!-- -->18.4<!-- -->%</span><span class=\"text-muted-foreground whitespace-nowrap\">vs last month</span></div></div><div class=\"bg-card flex flex-col gap-3 rounded-xl border p-4 sm:p-5 lg:p-6\"><div class=\"text-muted-foreground flex items-center gap-1.5 sm:gap-2\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-users size-3.5 sm:size-4\" aria-hidden=\"true\"><path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"></path><path d=\"M16 3.128a4 4 0 0 1 0 7.744\"></path><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"></path><circle cx=\"9\" cy=\"7\" r=\"4\"></circle></svg><span class=\"truncate text-[10px] font-medium sm:text-xs lg:text-sm\">New customers</span></div><p class=\"text-muted-foreground/70 hidden text-[10px] sm:block sm:text-xs\">4,120<!-- --> previous month</p><p class=\"text-xl leading-tight font-semibold tracking-tight sm:text-2xl lg:text-[28px]\">4,975</p><div class=\"flex flex-wrap items-center gap-x-1 gap-y-0.5 text-[10px] sm:text-xs\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right size-3 shrink-0 text-emerald-600 sm:size-3.5\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg><span class=\"whitespace-nowrap text-emerald-600\">+<!-- -->20.8<!-- -->%</span><span class=\"text-muted-foreground whitespace-nowrap\">vs last month</span></div></div><div class=\"bg-card flex flex-col gap-3 rounded-xl border p-4 sm:p-5 lg:p-6\"><div class=\"text-muted-foreground flex items-center gap-1.5 sm:gap-2\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-credit-card size-3.5 sm:size-4\" aria-hidden=\"true\"><rect width=\"20\" height=\"14\" x=\"2\" y=\"5\" rx=\"2\"></rect><line x1=\"2\" x2=\"22\" y1=\"10\" y2=\"10\"></line></svg><span class=\"truncate text-[10px] font-medium sm:text-xs lg:text-sm\">Refunds issued</span></div><p class=\"text-muted-foreground/70 hidden text-[10px] sm:block sm:text-xs\">$9,821.00<!-- --> previous month</p><p class=\"text-xl leading-tight font-semibold tracking-tight sm:text-2xl lg:text-[28px]\">$8,473.00</p><div class=\"flex flex-wrap items-center gap-x-1 gap-y-0.5 text-[10px] sm:text-xs\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-down-right size-3 shrink-0 text-red-600 sm:size-3.5\" aria-hidden=\"true\"><path d=\"m7 7 10 10\"></path><path d=\"M17 7v10H7\"></path></svg><span class=\"whitespace-nowrap text-red-600\">-<!-- -->13.7<!-- -->%</span><span class=\"text-muted-foreground whitespace-nowrap\">vs last month</span></div></div></div><div class=\"flex flex-col gap-4 sm:gap-6 xl:flex-row\"><div class=\"bg-card flex min-w-0 flex-1 flex-col gap-4 rounded-xl border p-4 sm:gap-6 sm:p-6\"><div class=\"flex flex-wrap items-center gap-2 sm:gap-4\"><div class=\"flex flex-1 flex-col gap-1\"><p class=\"text-xl leading-tight font-semibold tracking-tight sm:text-2xl\">$276,000.00</p><p class=\"text-muted-foreground text-xs\">Total Revenue (<!-- -->Last 6 Months<!-- -->)</p></div><div class=\"hidden items-center gap-3 sm:flex sm:gap-5\"><div class=\"flex items-center gap-1.5\"><div class=\"size-2.5 rounded-full sm:size-3\" style=\"background-color:var(--primary)\"></div><span class=\"text-muted-foreground text-[10px] sm:text-xs\">This Year</span></div><div class=\"flex items-center gap-1.5\"><div class=\"size-2.5 rounded-full sm:size-3\" style=\"background-color:color-mix(in oklch, var(--primary) 75%, var(--background))\"></div><span class=\"text-muted-foreground text-[10px] sm:text-xs\">Prev Year</span></div></div><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground size-7 sm:size-8\" aria-label=\"Select time period\" type=\"button\" id=\"radix-_R_dbinpfiv5uknmlb_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-ellipsis size-4\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"1\"></circle><circle cx=\"19\" cy=\"12\" r=\"1\"></circle><circle cx=\"5\" cy=\"12\" r=\"1\"></circle></svg></button></div><div class=\"h-[200px] w-full min-w-0 "
+}

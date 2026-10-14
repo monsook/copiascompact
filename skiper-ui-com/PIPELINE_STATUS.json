@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "status": "completed",
+  "url": "https://skiper-ui.com/v1/preview/skiper72",
+  "siteName": "skiper-ui-com",
+  "mode": "all",
+  "startedAt": "2026-08-28T20:25:46.411Z",
+  "completedAt": "2026-08-28T20:26:27.293Z",
+  "stages": [
+    {
+      "name": "detect",
+      "status": "passed",
+      "startedAt": "2026-08-28T20:25:46.413Z",
+      "completedAt": "2026-08-28T20:25:56.464Z"
+    },
+    {
+      "name": "clone",
+      "status": "passed",
+      "startedAt": "2026-08-28T20:25:56.464Z",
+      "completedAt": "2026-08-28T20:26:10.964Z"
+    },
+    {
+      "name": "normalize-assets",
+      "status": "passed",
+      "startedAt": "2026-08-28T20:26:10.965Z",
+      "completedAt": "2026-08-28T20:26:11.004Z"
+    },
+    {
+      "name": "extract-design-dna",
+      "status": "passed",
+      "startedAt": "2026-08-28T20:26:11.005Z",
+      "completedAt": "2026-08-28T20:26:22.302Z"
+    },
+    {
+      "name": "generate-styleguide",
+      "status": "passed",
+      "startedAt": "2026-08-28T20:26:22.302Z",
+      "completedAt": "2026-08-28T20:26:22.305Z"
+    },
+    {
+      "name": "extract-ui-ux",
+      "status": "passed",
+      "startedAt": "2026-08-28T20:26:22.305Z",
+      "completedAt": "2026-08-28T20:26:27.272Z"
+    },
+    {
+      "name": "generate-master-spec",
+      "status": "passed",
+      "startedAt": "2026-08-28T20:26:27.273Z",
+      "completedAt": "2026-08-28T20:26:27.286Z"
+    },
+    {
+      "name": "generate-asset-manifest",
+      "status": "passed",
+      "startedAt": "2026-08-28T20:26:27.287Z",
+      "completedAt": "2026-08-28T20:26:27.291Z"
+    },
+    {
+      "name": "generate-prompt-catalog",
+      "status": "passed",
+      "startedAt": "2026-08-28T20:26:27.292Z",
+      "completedAt": "2026-08-28T20:26:27.293Z"
+    }
+  ]
+}

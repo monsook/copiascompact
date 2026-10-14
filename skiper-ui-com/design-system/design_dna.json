@@ -1,0 +1,148 @@
+{
+  "colors": {
+    "variables": {
+      "--background": "#fff",
+      "--foreground": "#121212",
+      "--border": "#e0e0e0",
+      "--muted": "#f5f4f3",
+      "--muted2": "#fcfcfc",
+      "--muted3": "#f3f3f3",
+      "--muted4": "#fff",
+      "--common": "#171717",
+      "--muted-foreground": "#4f4f4e",
+      "--code1": "#00000080",
+      "--code2": "#6c6c6c80",
+      "--code3": "#00bfff",
+      "--code4": "#00000080",
+      "--code5": "#4dc398",
+      "--code6": "#00bfff",
+      "--accent": "#f5f4f3",
+      "--shadow-glass": "0 4px 8px -2px #0000000f,0 2px 4px -1px #0000",
+      "--swiper-theme-color": "#007aff"
+    },
+    "defaults": {
+      "backgroundColor": "rgb(255, 255, 255)",
+      "color": "rgb(18, 18, 18)"
+    }
+  },
+  "typography": {
+    "h1": {
+      "fontFamily": "Geist, \"Geist Fallback\"",
+      "fontSize": "74.88px",
+      "fontWeight": "500",
+      "lineHeight": "67.392px",
+      "letterSpacing": "-2.2464px",
+      "color": "rgb(255, 255, 255)"
+    },
+    "h2": {
+      "fontFamily": "Inter, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "color": "rgb(18, 18, 18)"
+    },
+    "paragraph": {
+      "fontFamily": "Inter, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(79, 79, 78)"
+    },
+    "button": {
+      "fontFamily": "Inter, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(18, 18, 18)"
+    }
+  },
+  "sections": [
+    {
+      "id": "section-1",
+      "tag": "section",
+      "classes": [
+        "font-geist",
+        "text-[22px]",
+        "font-medium",
+        "leading-[1.3]",
+        "text-white"
+      ],
+      "approxHeight": 5400,
+      "summaryText": "Hereourjourneybegins.From(2020→2024)webuiltsomethingincredible.Startingwithlate-nightcodingsessionsa"
+    }
+  ],
+  "detectedScripts": [
+    "https://skiper-ui.com/_next/static/chunks/fbda214f-dea3e3291bdcdd78.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/1490-447f76aa9006e4a2.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/main-app-fb18742cd9b6c4b2.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/7272-52dd5a4eac8f3b48.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/5743-a6e91db59e8b72da.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/744-1fcab025ea132984.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/7751-318e10a4ca45e209.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/8569-80b67e3781f4059c.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/1049-89e790de1d8e2f7d.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/2506-44af74a954822015.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/app/layout-54c058892e947f88.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/4845-d89772f43c3a753c.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/3080-19e296ef24f6d4df.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/8548-493f378d1980b1e4.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/6868-528d318d9a3bcb21.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/4280-8280c4b05e8e1e04.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/7043-3f55d762888e6aa4.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/6533-235d5fe06da074e6.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/2746-b3b99351038ccb04.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/2440-b64fd04dc0f66a6d.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/app/not-found-a5f839f0b259cb9b.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/7496-d763aa02b7a40961.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/9835-edfafdcea92e22c8.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/4614-0f965dfebc8a0eb3.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/app/(preview)/layout-645de052b9aea204.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/app/(preview)/v1/not-found-7207b6fe0a6dedc1.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/app/(preview)/v1/preview/layout-b0384b4aaecf0574.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/0b0944fb-3a065da329ff8f7c.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/d2123198-406df8b9d90d7eca.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/cbcf771c-de0b3d07cead623a.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/ec6990fe-d57a6764a8591504.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/533550d7-c2cb5a084412510d.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/cddce8cb-0525c58554558644.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/d4c9a489-da7b791822de3e65.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/7652-595a4764b4dbe85a.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/1183-63adaf18a4c4e086.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/5765-d71e62ba794b979f.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/9172-c3355304bb2afe8c.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/1742-999a310388edd3da.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/9445-2f226a40eef8bb4b.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/8441-eb9dc3381ee3c7b8.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/5189-f5f3e560b0a4ed65.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/1187-3f246f1bf5fceea6.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/4022-dc156a8719c5a276.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/699-3f2d5ca2415d3439.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/7922-b90a08530cc530bc.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/3798-698a1d25567d9b9e.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/4509-cc97725b7aeb45e6.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/4334-87bfc4154173a015.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/7121-2b62db6f98571537.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/2886-220e1cc9c5629509.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/3969-dcf31fd414d7c80a.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/5450-5eebd372299ba393.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/app/(preview)/v1/preview/%5Bcomponent%5D/page-f63511d877df28c3.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_vercel/insights/script.js",
+    "https://skiper-ui.com/_next/static/chunks/webpack-c6dfa6975c6a5574.js?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3"
+  ],
+  "detectedCSS": [
+    "https://skiper-ui.com/_next/static/css/31e7804d33f2ad15.css?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/css/627c42846aad1b42.css?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/css/27773d892d6c924d.css?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/css/4822ce85cd708923.css?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/css/ef46db3751d8e999.css?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/css/c37340727ca4fe15.css?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/css/45d4f6442d75f756.css?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/css/3cd83cfe34ca397f.css?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/css/46eb4dc58071b67c.css?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3",
+    "https://skiper-ui.com/_next/static/css/ecdfc97c33854f51.css?dpl=dpl_6kkvQDS6GN7QLTs51mzRYfGaomV3"
+  ]
+}

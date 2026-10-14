@@ -1,0 +1,47 @@
+{
+  "gsap": {
+    "detected": false,
+    "version": null,
+    "hasScrollTrigger": false,
+    "scrollTriggerInstances": 0,
+    "tweensCount": 0,
+    "plugins": [],
+    "timelines": []
+  },
+  "lenis": {
+    "detected": true,
+    "config": null
+  },
+  "microInteractions": {
+    "magneticButtons": [],
+    "tiltCards": [],
+    "spotlightElements": [],
+    "textScramble": false
+  },
+  "webglCanvas": {
+    "canvasCount": 0,
+    "hasThreeJs": false,
+    "shadersCount": 0,
+    "shaders": []
+  },
+  "typography": {
+    "splitTextDetected": false,
+    "variableFonts": [],
+    "marqueesCount": 0
+  },
+  "cssEffects": {
+    "keyframes": [
+      {
+        "name": "underline-fill-forward",
+        "cssText": "@keyframes underline-fill-forward { \n  0% { transform-origin: 0px center; transform: scaleX(0); }\n  100% { transform-origin: 0px center; transform: scaleX(1); }\n}"
+      },
+      {
+        "name": "underline-clear-forward",
+        "cssText": "@keyframes underline-clear-forward { \n  0% { transform-origin: 100% center; transform: scaleX(1); }\n  100% { transform-origin: 100% center; transform: scaleX(0); }\n}"
+      }
+    ],
+    "glassmorphism": false,
+    "clipPaths": [],
+    "svgFilters": []
+  }
+}

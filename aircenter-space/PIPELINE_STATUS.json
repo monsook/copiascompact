@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "status": "completed",
+  "url": "https://aircenter.space/",
+  "siteName": "aircenter-space",
+  "mode": "all",
+  "startedAt": "2026-09-21T14:30:58.866Z",
+  "completedAt": "2026-09-21T14:31:52.435Z",
+  "stages": [
+    {
+      "name": "detect",
+      "status": "passed",
+      "startedAt": "2026-09-21T14:30:58.867Z",
+      "completedAt": "2026-09-21T14:31:07.590Z"
+    },
+    {
+      "name": "clone",
+      "status": "passed",
+      "startedAt": "2026-09-21T14:31:07.592Z",
+      "completedAt": "2026-09-21T14:31:24.758Z"
+    },
+    {
+      "name": "normalize-assets",
+      "status": "passed",
+      "startedAt": "2026-09-21T14:31:24.759Z",
+      "completedAt": "2026-09-21T14:31:24.881Z"
+    },
+    {
+      "name": "extract-design-dna",
+      "status": "passed",
+      "startedAt": "2026-09-21T14:31:24.889Z",
+      "completedAt": "2026-09-21T14:31:40.959Z"
+    },
+    {
+      "name": "generate-styleguide",
+      "status": "passed",
+      "startedAt": "2026-09-21T14:31:40.960Z",
+      "completedAt": "2026-09-21T14:31:40.971Z"
+    },
+    {
+      "name": "extract-ui-ux",
+      "status": "passed",
+      "startedAt": "2026-09-21T14:31:40.976Z",
+      "completedAt": "2026-09-21T14:31:52.344Z"
+    },
+    {
+      "name": "generate-master-spec",
+      "status": "passed",
+      "startedAt": "2026-09-21T14:31:52.346Z",
+      "completedAt": "2026-09-21T14:31:52.376Z"
+    },
+    {
+      "name": "generate-asset-manifest",
+      "status": "passed",
+      "startedAt": "2026-09-21T14:31:52.379Z",
+      "completedAt": "2026-09-21T14:31:52.425Z"
+    },
+    {
+      "name": "generate-prompt-catalog",
+      "status": "passed",
+      "startedAt": "2026-09-21T14:31:52.427Z",
+      "completedAt": "2026-09-21T14:31:52.433Z"
+    }
+  ]
+}

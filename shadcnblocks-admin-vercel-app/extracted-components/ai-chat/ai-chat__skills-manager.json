@@ -1,0 +1,107 @@
+{
+  "route": "/ai-chat/skills-manager",
+  "title": "Skills",
+  "cardsCount": 13,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Weekly brief\nTurn project updates into a short, decision-ready team brief.",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "Data quality review\nCheck a dataset for missing values, duplicates, and unexpected changes.",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "Meeting follow-ups\nExtract decisions and clearly assigned actions from meeting notes.",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "Release notes\nTranslate engineering changes into clear product announcements.",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "Decision record\nToday\nCapture the context, alternatives, and trade-offs behind an important team decision.\nBy Workspace team\nInstall",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 6,
+      "title": "",
+      "snippet": "Customer feedback themes\nToday\nFind recurring patterns in customer conversations and link each theme to supporting examples.\nBy Maya Chen\nInstall",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 7,
+      "title": "",
+      "snippet": "Metric commentary\nYesterday\nExplain what changed in a report, why it might matter, and what should be checked next.\nBy Priya Shah\nInstall",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 8,
+      "title": "",
+      "snippet": "Project handoff\nYesterday\nPrepare a handoff that gives the next owner the context, open questions, and next steps.\nBy Alex Morgan\nInstall",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 9,
+      "title": "",
+      "snippet": "Release notes\n13 Sep\nTranslate engineering changes into clear product announcements.\nBy Jonas Weber\nInstalled",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 10,
+      "title": "",
+      "snippet": "Meeting follow-ups\n12 Sep\nExtract decisions and clearly assigned actions from meeting notes.\nBy Workspace team\nInstalled",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 11,
+      "title": "",
+      "snippet": "Data quality review\n11 Sep\nCheck a dataset for missing values, duplicates, and unexpected changes.\nBy Priya Shah\nInstalled",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 12,
+      "title": "",
+      "snippet": "Weekly brief\n10 Sep\nTurn project updates into a short, decision-ready team brief.\nBy Workspace team\nInstalled",
+      "hasChart": true,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 1,
+  "inputsSample": [
+    {
+      "type": "text",
+      "placeholder": "Search skills…",
+      "label": "Search skills"
+    }
+  ],
+  "htmlSnapshot": "<a href=\"#ai-workspace-content\" class=\"bg-background focus:ring-ring sr-only z-50 rounded-md px-3 py-2 text-sm focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:ring-2\">Skip to main content</a><section class=\"flex min-w-0 flex-1 flex-col\"><header class=\"grid h-12 shrink-0 grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center px-3 shadow-[inset_0_-1px_0_var(--border)] md:h-[var(--ai-workspace-header-height,3.5rem)] md:px-4\"><div class=\"flex min-w-0 flex-1 items-center gap-2\"><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground size-8 shrink-0 md:hidden\" data-sidebar=\"trigger\" data-slot=\"sidebar-trigger\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-panel-left\" aria-hidden=\"true\"><rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"></rect><path d=\"M9 3v18\"></path></svg><span class=\"sr-only\">Toggle Sidebar</span></button><span class=\"truncate font-medium text-[13px]\">Skills</span></div><div class=\"flex shrink-0 items-center justify-center gap-1\"></div><div class=\"flex max-w-full min-w-0 items-center gap-1 justify-self-end\"><div class=\"flex min-w-0 items-center gap-1 overflow-x-auto overscroll-x-contain [scrollbar-width:none] [&amp;&gt;*]:shrink-0\"></div><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground size-8 shrink-0 scale-100 rounded-lg\" aria-label=\"Toggle theme\" type=\"button\" id=\"radix-_R_mtbsnpfknmlb_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"tabler-icon tabler-icon-device-desktop size-[1.2rem]\" aria-hidden=\"true\"><path d=\"M3 5a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10\"></path><path d=\"M7 20h10\"></path><path d=\"M9 16v4\"></path><path d=\"M15 16v4\"></path></svg><span class=\"sr-only\">Toggle theme</span></button></div></header><div id=\"ai-workspace-content\" class=\"flex min-h-0 flex-1 flex-col\"><div class=\"min-h-0 flex-1 overflow-y-auto\"><div class=\"mx-auto flex w-full max-w-6xl flex-col gap-9 px-5 py-8 sm:px-8 sm:py-10 lg:px-12\"><header class=\"flex flex-wrap items-start justify-between gap-5\"><div class=\"flex flex-col gap-2\"><h1 class=\"text-2xl font-semibold tracking-tight\">Skills</h1><p class=\"text-muted-foreground text-sm\">Reusable instructions for your team’s everyday work.</p></div><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-sm hover:bg-primary/90 h-9 px-4 py-2\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-plus\" aria-hidden=\"true\" data-icon=\"inline-start\"><path d=\"M5 12h14\"></path><path d=\"M12 5v14\"></path></svg>Create skill</button></header><section aria-labelledby=\"installed-heading\" class=\"flex flex-col gap-4\"><div class=\"flex flex-wrap items-center justify-between gap-3\"><div class=\"flex items-baseline gap-2\"><h2 id=\"installed-heading\" class=\"text-sm font-medium\">Installed</h2><span class=\"text-muted-foreground text-xs\">3<!-- --> enabled · <!-- -->4<!-- --> total</span></div><div data-slot=\"input-group\" role=\"group\" class=\"group/input-group relative flex h-9 min-w-0 items-center rounded-md border border-input shadow-xs transition-[color,box-shadow] outline-none in-data-[slot=combobox-content]:focus-within:border-inherit in-data-[slot=combobox-content]:focus-within:ring-0 has-[[data-slot=input-group-control]:focus-visible]:border-ring has-[[data-slot=input-group-control]:focus-visible]:ring-3 has-[[data-slot=input-group-control]:focus-visible]:ring-ring/50 has-[[data-slot][aria-invalid=true]]:border-destructive has-[[data-slot][aria-invalid=true]]:ring-3 has-[[data-slot][aria-invalid=true]]:ring-destructive/20 has-[&gt;[data-align=block-end]]:h-auto has-[&gt;[data-align=block-end]]:flex-col has-[&gt;[data-align=block-start]]:h-auto has-[&gt;[data-align=block-start]]:flex-col has-[&gt;textarea]:h-auto dark:bg-input/30 dark:has-[[data-slot][aria-invalid=true]]:ring-destructive/40 has-[&gt;[data-align=block-end]]:[&amp;&gt;input]:pt-3 has-[&gt;[data-align=block-start]]:[&amp;&gt;input]:pb-3 has-[&gt;[data-align=inline-end]]:[&amp;&gt;input]:pr-1.5 has-[&gt;[data-align=inline-start]]:[&amp;&gt;input]:pl-1.5 w-full sm:w-64\"><div role=\"group\" data-slot=\"input-group-addon\" data-align=\"inline-start\" class=\"flex h-auto cursor-text items-center justify-center gap-2 py-1.5 text-sm font-medium text-muted-foreground select-none group-data-[disabled=true]/input-group:opacity-50 [&amp;&gt;kbd]:rounded-[calc(var(--radius)-5px)] [&amp;&gt;svg:not([class*='size-'])]:size-4 order-first pl-2 has-[&gt;button]:-ml-1 has-[&gt;kbd]:ml-[-0.15rem]\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-search\" aria-hidden=\"true\"><path d=\"m21 21-4.34-4.34\"></path><circle cx=\"11\" cy=\"11\" r=\"8\"></circle></svg></div><input class=\"border-input file:text-foreground placeholder:text-muted-foreground focus-visible:ring-ring flex h-9 w-full px-3 py-1 text-base transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium focus-visible:outline-hidden disabled:cursor-not-allowed disabled:opacity-50 md:text-sm flex-1 rounded-none border-0 bg-transparent shadow-none ring-0 focus-visible:ring-0 aria-invalid:ring-0 dark:bg-transparent\" data-slot=\"input-group-control\" aria-label=\"Search skills\" placeholder=\"Search skills…\" value=\"\" style=\"\"></div></div><div class=\"grid gap-3 md:grid-cols-2\"><div class=\"bg-card text-card-foreground rounded-lg border flex items-center gap-4 px-4 py-4\"><button aria-label=\"View Weekly brief\" class=\"focus-visible:ring-ring flex min-w-0 flex-1 flex-col gap-1.5 rounded-sm text-left focus-visible:ring-2 focus-visible:outline-none\"><span class=\"text-sm font-medium\">Weekly brief</span><span class=\"text-muted-foreground line-clamp-1 text-xs leading-5\">Turn project updates into a short, decision-ready team brief.</span></button><button type=\"button\" role=\"switch\" aria-checked=\"true\" data-state=\"checked\" value=\"on\" class=\"peer focus-visible:ring-ring focus-visible:ring-offset-background data-[state=checked]:bg-primary data-[state=unchecked]:bg-input inline-flex h-5 w-9 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent shadow-xs transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-hidden disabled:cursor-not-allowed disabled:opacity-50\" aria-label=\"Enable Weekly brief\"><span data-state=\"checked\" class=\"bg-background pointer-events-none block h-4 w-4 rounded-full ring-0 shadow-lg transition-transform data-[state=checked]:translate-x-4 data-[state=unchecked]:translate-x-0\"></span></button></div><div class=\"bg-card text-card-foreground rounded-lg border flex items-center gap-4 px-4 py-4\"><button aria-label=\"View Data quality review\" class=\"focus-visible:ring-ring flex min-w-0 flex-1 flex-col gap-1.5 rounded-sm text-left focus-visible:ring-2 focus-visible:outline-none\"><span class=\"text-sm font-medium\">Data quality review</span><span class=\"text-muted-foreground line-clamp-1 text-xs leading-5\">Check a dataset for missing values, duplicates, and unexpected changes.</span></button><button type=\"button\" role=\"switch\" aria-checked=\"true\" data-state=\"checked\" value=\"on\" class=\"peer focus-visible:ring-ring focus-visible:ring-offset-background data-[state=checked]:bg-primary data-[state=unchecked]:bg-input inline-flex h-5 w-9 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent shadow-xs transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-hidden disabled:cursor-not-allowed disabled:opacity-50\" aria-label=\"Enable Data quality review\"><span data-state=\"checked\" class=\"bg-background pointer-events-none block h-4 w-4 rounded-full ring-0 shadow-lg transition-transform data-[state=checked]:translate-x-4 data-[state=unchecked]:translate-x-0\"></span></button></div><div class=\"bg-card text-card-foreground rounded-lg border flex items-center gap-4 px-4 py-4\"><button aria-label=\"View Meeting follow-ups\" class=\"focus-visible:ring-ring flex min-w-0 flex-1 flex-col gap-1.5 rounded-sm text-left focus-visible:ring-2 focus-visible:outline-none\"><span class=\"text-sm font-medium\">Meeting follow-ups</span><span class=\"text-muted-foreground line-clamp-1 text-xs leading-5\">Extract decisions and clearly assigned actions from meeting notes.</span></button><button type=\"button\" role=\"switch\" aria-checked=\"true\" data-state=\"checked\" value=\"on\" class=\"peer focus-visible:ring-ring focus-visible:ring-offset-background data-[state=checked]:bg-primary data-[state=unchecked]:bg-input inline-flex h-5 w-9 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent shadow-xs transition-colo"
+}

@@ -1,0 +1,138 @@
+{
+  "colors": {
+    "variables": {
+      "--cor-topo": "#00233a",
+      "--cor-topo-font": "#ffffff",
+      "--cor-pesquisa": "#f2f2f2",
+      "--cor-pesquisa-font": "#121212",
+      "--cor-pesquisa-border": "#00233a",
+      "--cor-button": "#00233a",
+      "--cor-primaria": "#00233a",
+      "--cor-secundaria": "#00233a",
+      "--cor-terciaria": "#121212",
+      "--cor-primaria-rgb-hover": "rgb(0, 32, 52)",
+      "--cor-primaria-rgb-active": "rgb(38, 68, 88)",
+      "--cor-secundaria-rgb-hover": "rgb(0, 32, 52)",
+      "--cor-secundaria-rgb-active": "rgb(38, 68, 88)",
+      "--cor-footer": "#f2f2f2",
+      "--cor-footer-font": "#121212"
+    },
+    "defaults": {
+      "backgroundColor": "rgb(255, 255, 255)",
+      "color": "rgb(33, 37, 41)"
+    }
+  },
+  "typography": {
+    "h1": {
+      "fontFamily": "Poppins, Helvetica, Arial, sans-serif",
+      "fontSize": "32px",
+      "fontWeight": "600",
+      "lineHeight": "38.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(18, 18, 18)"
+    },
+    "h2": {
+      "fontFamily": "Poppins, Helvetica, Arial, sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "lineHeight": "28.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 35, 58)"
+    },
+    "h3": {
+      "fontFamily": "Poppins, Helvetica, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 35, 58)"
+    },
+    "paragraph": {
+      "fontFamily": "Poppins, Helvetica, Arial, sans-serif",
+      "fontSize": "14.4px",
+      "fontWeight": "700",
+      "lineHeight": "21.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(33, 37, 41)"
+    },
+    "button": {
+      "fontFamily": "Poppins, Helvetica, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    }
+  },
+  "sections": [
+    {
+      "id": "header-1",
+      "tag": "header",
+      "classes": [
+        "headerAtive",
+        "position-sticky",
+        "top-0",
+        "w-100",
+        "z-6",
+        "shadow-sm"
+      ],
+      "approxHeight": 108,
+      "summaryText": "0"
+    },
+    {
+      "id": "nav-2",
+      "tag": "nav",
+      "classes": [
+        "navbar",
+        "py-3",
+        "py-md-4",
+        "px-2",
+        "px-md-0"
+      ],
+      "approxHeight": 108,
+      "summaryText": "0"
+    },
+    {
+      "id": "main-3",
+      "tag": "main",
+      "classes": [
+        "pb-4"
+      ],
+      "approxHeight": 2813,
+      "summaryText": "Encontre o seu imóvel ideal! Comprar Rural Todos Selecionados Ambientes Dormitorios Local Bairro Tip"
+    },
+    {
+      "id": "footer-4",
+      "tag": "footer",
+      "classes": [
+        "py-5",
+        "fs-7"
+      ],
+      "approxHeight": 555,
+      "summaryText": "Localização  Avenida Ivaí, 299 Centro - CEP 87140-000 Paiçandu - PR  Como chegar Siga nas redes soci"
+    }
+  ],
+  "detectedScripts": [
+    "https://integriimoveis.com.br/new_model/js/vendors.js?id=9c2c5f8faa66c1a3e72eb7ad5c440571",
+    "https://integriimoveis.com.br/new_model/js/nouislider.min.js",
+    "https://integriimoveis.com.br/new_model/js/barraProgesso.js?id=f1773ead1f74612a9903fc0d66871354",
+    "https://integriimoveis.com.br/new_model/js/search.js?id=f9101502c1a06854b236bbac87103fcc",
+    "https://integriimoveis.com.br/new_model/js/search_rural.js?id=2c596273449e770e349d6d51723586e6",
+    "https://integriimoveis.com.br/new_model/js/swiper.js?id=df45e09cb95952a25d5961056a62880f",
+    "https://integriimoveis.com.br/new_model/js/launchs-carousel1.js?id=be122e5b29efee594703dff1ef388e13",
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js",
+    "https://integriimoveis.com.br/new_model/js/main.js?id=d41d8cd98f00b204e9800998ecf8427e",
+    "https://integriimoveis.com.br/new_model/js/photo.js?id=f754fff8ff79a5c09e1574352eb9cd1a",
+    "https://integriimoveis.com.br/new_model/js/header.js?id=62374d6f71e5466e1370601b48bcd589",
+    "https://integriimoveis.com.br/new_model/js/footer.js?id=c62fea202fa4bd64d9c9cf043500562c",
+    "https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"
+  ],
+  "detectedCSS": [
+    "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap",
+    "https://integriimoveis.com.br/new_model/css/nouislider.min.css",
+    "https://integriimoveis.com.br/new_model/css/launchs-carousel1.css?id=3ab1650fa65babeaa0677891feadacf9",
+    "https://integriimoveis.com.br/new_model/css/sales-highlights1.css?id=a3b76e75cf0339f3466c88f5d9db9e61",
+    "https://integriimoveis.com.br/new_model/css/institucional2.css?id=28c43a3c9f6f83604cddd47e8c7a6cc8",
+    "https://integriimoveis.com.br/new_model/css/main.css?id=2ebd392111e1c602e021f88ea2666ec9"
+  ]
+}

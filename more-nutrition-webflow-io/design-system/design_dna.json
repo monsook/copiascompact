@@ -1,0 +1,89 @@
+{
+  "colors": {
+    "variables": {
+      "--size-font": "calc(var(--size-container) / (var(--size-container-ideal) / var(--size-unit)))"
+    },
+    "defaults": {
+      "backgroundColor": "rgb(232, 239, 228)",
+      "color": "rgb(51, 51, 51)"
+    }
+  },
+  "typography": {
+    "h1": {
+      "fontFamily": "\"Founders Grotesk Condensed\", Arial, sans-serif",
+      "fontSize": "149.333px",
+      "fontWeight": "600",
+      "lineHeight": "104.533px",
+      "letterSpacing": "-4.48px",
+      "color": "rgb(51, 92, 48)"
+    },
+    "h2": {
+      "fontFamily": "\"Founders Grotesk Condensed\", Arial, sans-serif",
+      "fontSize": "133.333px",
+      "fontWeight": "500",
+      "lineHeight": "106.667px",
+      "letterSpacing": "-4px",
+      "color": "rgb(51, 92, 48)"
+    },
+    "h3": {
+      "fontFamily": "\"Founders Grotesk Condensed\", Arial, sans-serif",
+      "fontSize": "53.3333px",
+      "fontWeight": "500",
+      "lineHeight": "42.6667px",
+      "letterSpacing": "-1.6px",
+      "color": "rgb(51, 92, 48)"
+    },
+    "paragraph": {
+      "fontFamily": "\"Founders Grotesk Condensed\", Arial, sans-serif",
+      "fontSize": "40px",
+      "fontWeight": "400",
+      "lineHeight": "36.8px",
+      "letterSpacing": "-1.2px",
+      "color": "rgb(51, 92, 48)"
+    },
+    "button": {
+      "fontFamily": "\"Founders Grotesk Condensed\", Arial, sans-serif",
+      "fontSize": "21.3333px",
+      "fontWeight": "400",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    }
+  },
+  "sections": [
+    {
+      "id": "section-1",
+      "tag": "section",
+      "classes": [
+        "stage"
+      ],
+      "approxHeight": 1877,
+      "summaryText": "Buy now 20 G of Protein 95 % less Sugar 85 MG of Caffeine MATCHA MEETS PROTEIN  Our More Protein Ice"
+    },
+    {
+      "id": "section-2",
+      "tag": "section",
+      "classes": [
+        "flavour"
+      ],
+      "approxHeight": 1524,
+      "summaryText": "Chunky Flavour New Taste, Low Sugar  Simply stir in 3 g of Chunky Flavour with your 300g Matcha Latt"
+    }
+  ],
+  "detectedScripts": [
+    "https://cloud.umami.is/script.js",
+    "https://morematcha.vercel.app/scripts/app.js",
+    "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=686c09a33211842a0ac0183d",
+    "https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/js/more-nutrition.a9ba356d.f9d79368f06abced.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/CustomEase.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/DrawSVGPlugin.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js"
+  ],
+  "detectedCSS": [
+    "https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/css/more-nutrition.shared.e35377ec8.min.css",
+    "https://morematcha.vercel.app/styles/main.css"
+  ]
+}

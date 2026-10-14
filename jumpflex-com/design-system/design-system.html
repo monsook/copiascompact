@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design System & Styleguide - DNA Inspector</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #0b0f19;
+      --card-bg: #111827;
+      --card-border: #1f2937;
+      --text-color: #f3f4f6;
+      --text-muted: #9ca3af;
+      --accent: #3b82f6;
+      --accent-glow: rgba(59, 130, 246, 0.2);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      padding: 40px 20px;
+      line-height: 1.6;
+    }
+    .container { max-width: 1200px; margin: 0 auto; }
+    header {
+      margin-bottom: 40px;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 20px;
+    }
+    h1 { font-size: 2.2rem; font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .subtitle { color: var(--text-muted); font-size: 1.1rem; }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 32px;
+    }
+    .card h2 { font-size: 1.3rem; margin-bottom: 20px; color: #fff; border-bottom: 1px solid var(--card-border); padding-bottom: 10px; }
+    .color-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+    }
+    .color-card {
+      background: #1e293b;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--card-border);
+    }
+    .color-preview { height: 90px; width: 100%; }
+    .color-info { padding: 12px; }
+    .color-name { display: block; font-weight: 600; font-size: 0.85rem; color: #fff; margin-bottom: 4px; word-break: break-all; }
+    .color-val { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--text-muted); }
+    table { width: 100%; border-collapse: collapse; text-align: left; }
+    th, td { padding: 12px; border-bottom: 1px solid var(--card-border); }
+    th { font-size: 0.85rem; text-transform: uppercase; color: var(--text-muted); }
+    code { font-family: 'JetBrains Mono', monospace; background: #1e293b; padding: 2px 6px; border-radius: 4px; font-size: 0.85rem; }
+    .sections-grid { display: flex; flex-direction: column; gap: 12px; }
+    .section-card {
+      display: flex;
+      align-items: center;
+      background: #1e293b;
+      padding: 14px 18px;
+      border-radius: 8px;
+      border: 1px solid var(--card-border);
+      gap: 16px;
+    }
+    .section-badge {
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .section-details { flex-grow: 1; }
+    .sec-id { color: var(--accent); font-family: 'JetBrains Mono', monospace; font-size: 0.9rem; }
+    .classes-list { font-size: 0.8rem; color: var(--text-muted); margin-top: 2px; }
+    .sec-text { font-size: 0.85rem; color: #cbd5e1; font-style: italic; margin-top: 4px; }
+    .section-height { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--text-muted); flex-shrink: 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎨 Design System & Styleguide</h1>
+      <p class="subtitle">Especificação compilada automaticamente a partir da extração do Design DNA.</p>
+    </header>
+
+    <div class="card">
+      <h2>1. Cores & Design Tokens</h2>
+      <div class="color-grid">
+      <div class="color-card">
+        <div class="color-preview" style="background-color: rgb(246, 246, 246);"></div>
+        <div class="color-info">
+          <span class="color-name">Body Background</span>
+          <span class="color-val">rgb(246, 246, 246)</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-preview" style="background-color: rgb(0, 0, 0);"></div>
+        <div class="color-info">
+          <span class="color-name">Body Default Text</span>
+          <span class="color-val">rgb(0, 0, 0)</span>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="card">
+      <h2>2. Escala Tipográfica Computada</h2>
+      <div style="overflow-x: auto;">
+        <table>
+          <thead>
+            <tr><th>Elemento</th><th>Visualização</th><th>Font Family</th><th>Size</th><th>Weight</th><th>Line Height</th></tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td><strong>H1</strong></td>
+          <td>
+            <div style="font-family: "Red Hat Display Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 36px; font-weight: 200; line-height: 39.6px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>"Red Hat Display Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"</code></td>
+          <td>36px</td>
+          <td>200</td>
+          <td>39.6px</td>
+        </tr>
+      
+        <tr>
+          <td><strong>H2</strong></td>
+          <td>
+            <div style="font-family: "Red Hat Display Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 30px; font-weight: 200; line-height: 33px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>"Red Hat Display Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"</code></td>
+          <td>30px</td>
+          <td>200</td>
+          <td>33px</td>
+        </tr>
+      
+        <tr>
+          <td><strong>H3</strong></td>
+          <td>
+            <div style="font-family: "Red Hat Text Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 16px; font-weight: 500; line-height: 24px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>"Red Hat Text Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"</code></td>
+          <td>16px</td>
+          <td>500</td>
+          <td>24px</td>
+        </tr>
+      
+        <tr>
+          <td><strong>PARAGRAPH</strong></td>
+          <td>
+            <div style="font-family: "Red Hat Display Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 20px; font-weight: 700; line-height: 26.66px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>"Red Hat Display Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"</code></td>
+          <td>20px</td>
+          <td>700</td>
+          <td>26.66px</td>
+        </tr>
+      
+        <tr>
+          <td><strong>BUTTON</strong></td>
+          <td>
+            <div style="font-family: "Red Hat Text Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 16px; font-weight: 400; line-height: 16px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>"Red Hat Text Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"</code></td>
+          <td>16px</td>
+          <td>400</td>
+          <td>16px</td>
+        </tr>
+      </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>3. Arquitetura & Seções Mapeadas</h2>
+      <div class="sections-grid">
+        <div class="section-card">
+          <div class="section-badge">1</div>
+          <div class="section-details">
+            <h4>&lt;header&gt; <span class="sec-id">#header-1</span></h4>
+            <p class="classes-list">Classes: <code>brand__header--top, brand__header--home, brand__header, sticky, top-0, z-40, flex, h-nav, w-full, items-center, justify-between, gap-4, px-4, leading-none, backdrop-blur-lg, md:px-8, lg:py-8</code></p>
+            <p class="sec-text">"Jumpflex® TRAMPOLINES ACCESSORIES SUPPORT ABOUT CONTACT BLOG Phone +1 (866) 3057238..."</p>
+          </div>
+          <div class="section-height">80px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">2</div>
+          <div class="section-details">
+            <h4>&lt;main&gt; <span class="sec-id">#mainContent</span></h4>
+            <p class="classes-list">Classes: <code>grow</code></p>
+            <p class="sec-text">"A Jumpflex® trampoline is for life VIEW TRAMPOLINES FLEX™ Trampolines  A family favourite for over 1..."</p>
+          </div>
+          <div class="section-height">12990px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">3</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-4</span></h4>
+            <p class="classes-list">Classes: <code>relative, w-full, -mt-nav, h-full</code></p>
+            <p class="sec-text">"A Jumpflex® trampoline is for life VIEW TRAMPOLINES..."</p>
+          </div>
+          <div class="section-height">972px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">4</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-5</span></h4>
+            <p class="classes-list">Classes: <code>w-full, gap-4, md:gap-8, grid, py-12, md:py-16, lg:py-24, border-none, swimlane-wrapper</code></p>
+            <p class="sec-text">"Our Trampolines FLEX™ 8ft Trampoline 4.9 out of 5 star rating 4.9 star rating 550 reviews $499  $599..."</p>
+          </div>
+          <div class="section-height">764px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">5</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-6</span></h4>
+            <p class="classes-list">Classes: <code>brand__section, relative, size-full, style-dark</code></p>
+            
+          </div>
+          <div class="section-height">1080px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">6</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-7</span></h4>
+            <p class="classes-list">Classes: <code>brand__section, relative, size-full, style-dark</code></p>
+            
+          </div>
+          <div class="section-height">972px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">7</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-8</span></h4>
+            <p class="classes-list">Classes: <code>brand__section, relative, size-full, style-light</code></p>
+            
+          </div>
+          <div class="section-height">1532px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">8</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-9</span></h4>
+            <p class="classes-list">Classes: <code>swimlane-wrapper, brand__section, mx-auto, my-4, xl:my-8</code></p>
+            
+          </div>
+          <div class="section-height">470px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">9</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-10</span></h4>
+            <p class="classes-list">Classes: <code>brand__section, relative, size-full, style-dark</code></p>
+            
+          </div>
+          <div class="section-height">972px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">10</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-11</span></h4>
+            <p class="classes-list">Classes: <code>brand__section, relative, size-full, style-light</code></p>
+            
+          </div>
+          <div class="section-height">972px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">11</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-12</span></h4>
+            <p class="classes-list">Classes: <code>brand__section, relative, size-full, style-dark</code></p>
+            
+          </div>
+          <div class="section-height">457px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">12</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-13</span></h4>
+            <p class="classes-list">Classes: <code>brand__section, relative, size-full, style-dark</code></p>
+            
+          </div>
+          <div class="section-height">1281px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">13</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-14</span></h4>
+            <p class="classes-list">Classes: <code>brand__section, relative, grid, size-full, max-w-7xl, grid-cols-1, md:grid-cols-12, mx-auto, my-4, xl:my-8, gap-4, px-4, xl:gap-8, xl:px-8</code></p>
+            
+          </div>
+          <div class="section-height">798px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">14</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-15</span></h4>
+            <p class="classes-list">Classes: <code>brand__section, relative, size-full, style-dark</code></p>
+            
+          </div>
+          <div class="section-height">506px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">15</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-16</span></h4>
+            <p class="classes-list">Classes: <code>brand__section, relative, size-full, style-light</code></p>
+            
+          </div>
+          <div class="section-height">640px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">16</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-17</span></h4>
+            <p class="classes-list">Classes: <code>w-full, gap-4, md:gap-8, grid, py-6, md:py-8, lg:py-12, border-none, swimlane-wrapper</code></p>
+            <p class="sec-text">"Real Reviews From Real Customers Powered by  4.8 out of 5 star rating 4.8 star rating •19,020 review..."</p>
+          </div>
+          <div class="section-height">556px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">17</div>
+          <div class="section-details">
+            <h4>&lt;footer&gt; <span class="sec-id">#footer-18</span></h4>
+            <p class="classes-list">Classes: <code>w-full, gap-4, md:gap-8, grid, border-none, brand__footer</code></p>
+            <p class="sec-text">"Jumpflex®  USA's favorite trampoline for kids of all ages, our trampolines with net enclosure are de..."</p>
+          </div>
+          <div class="section-height">854px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">18</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-19</span></h4>
+            <p class="classes-list">Classes: <code>max-w-40</code></p>
+            <p class="sec-text">"TRAMPOLINES  FLEX™ 8 ft FLEX™ 10 ft FLEX™ 12 ft HERO™ 10 ft HERO™ 12 ft HERO™ 14 ft HERO™ 15 ft MEGA..."</p>
+          </div>
+          <div class="section-height">412px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">19</div>
+          <div class="section-details">
+            <h4>&lt;nav&gt; <span class="sec-id">#nav-20</span></h4>
+            <p class="classes-list">Classes: <code>grid, gap-2, pb-6</code></p>
+            <p class="sec-text">"FLEX™ 8 ft FLEX™ 10 ft FLEX™ 12 ft HERO™ 10 ft HERO™ 12 ft HERO™ 14 ft HERO™ 15 ft MEGA™ 14 ft MEGA™..."</p>
+          </div>
+          <div class="section-height">368px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">20</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-21</span></h4>
+            <p class="classes-list">Classes: <code>max-w-40</code></p>
+            <p class="sec-text">"ACCESSORIES  ANCHORKIT PRO™ AQUAJET™ FLEXBOARD™ JUMPSLIDE™ PROJAM™ SMARTSHADE™..."</p>
+          </div>
+          <div class="section-height">252px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">21</div>
+          <div class="section-details">
+            <h4>&lt;nav&gt; <span class="sec-id">#nav-22</span></h4>
+            <p class="classes-list">Classes: <code>grid, gap-2, pb-6</code></p>
+            <p class="sec-text">"ANCHORKIT PRO™ AQUAJET™ FLEXBOARD™ JUMPSLIDE™ PROJAM™ SMARTSHADE™..."</p>
+          </div>
+          <div class="section-height">208px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">22</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-23</span></h4>
+            <p class="classes-list">Classes: <code>max-w-40</code></p>
+            <p class="sec-text">"SUPPORT  FAQs & Help Center Assembly Payment Delivery Warranty Parts Customer Support..."</p>
+          </div>
+          <div class="section-height">284px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">23</div>
+          <div class="section-details">
+            <h4>&lt;nav&gt; <span class="sec-id">#nav-24</span></h4>
+            <p class="classes-list">Classes: <code>grid, gap-2, pb-6</code></p>
+            <p class="sec-text">"FAQs & Help Center Assembly Payment Delivery Warranty Parts Customer Support..."</p>
+          </div>
+          <div class="section-height">240px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">24</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-25</span></h4>
+            <p class="classes-list">Classes: <code>max-w-40</code></p>
+            <p class="sec-text">"ABOUT  About Us Our Team Contact Us Blogs Jumpflex Athletes..."</p>
+          </div>
+          <div class="section-height">220px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">25</div>
+          <div class="section-details">
+            <h4>&lt;nav&gt; <span class="sec-id">#nav-26</span></h4>
+            <p class="classes-list">Classes: <code>grid, gap-2, pb-6</code></p>
+            <p class="sec-text">"About Us Our Team Contact Us Blogs Jumpflex Athletes..."</p>
+          </div>
+          <div class="section-height">176px</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

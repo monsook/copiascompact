@@ -1,0 +1,179 @@
+{
+  "gsap": {
+    "detected": true,
+    "version": "3.15.0",
+    "hasScrollTrigger": true,
+    "scrollTriggerInstances": 3,
+    "tweensCount": 32,
+    "plugins": [
+      "attr",
+      "endArray",
+      "roundProps",
+      "modifiers",
+      "snap",
+      "css"
+    ],
+    "timelines": [
+      {
+        "duration": 1,
+        "ease": "power2.out",
+        "props": {}
+      },
+      {
+        "duration": 10,
+        "ease": "none",
+        "props": {}
+      },
+      {
+        "duration": 0.5,
+        "ease": "none",
+        "props": {
+          "scale": 1.12
+        }
+      },
+      {
+        "duration": 2.45,
+        "ease": "power2.out",
+        "props": {}
+      },
+      {
+        "duration": 0.3,
+        "ease": "none",
+        "props": {
+          "scale": 1
+        }
+      },
+      {
+        "duration": 1.2,
+        "ease": "none",
+        "props": {
+          "y": -16
+        }
+      },
+      {
+        "duration": 1.2,
+        "ease": "none",
+        "props": {
+          "y": -24
+        }
+      },
+      {
+        "duration": 1.2,
+        "ease": "none",
+        "props": {
+          "y": -12
+        }
+      },
+      {
+        "duration": 1.2,
+        "ease": "none",
+        "props": {
+          "y": -18
+        }
+      },
+      {
+        "duration": 1.2,
+        "ease": "none",
+        "props": {
+          "y": -10
+        }
+      },
+      {
+        "duration": 1.2,
+        "ease": "none",
+        "props": {
+          "y": -22
+        }
+      },
+      {
+        "duration": 1.2,
+        "ease": "none",
+        "props": {
+          "y": "-=52"
+        }
+      },
+      {
+        "duration": 1.2,
+        "ease": "none",
+        "props": {
+          "y": "-=52"
+        }
+      },
+      {
+        "duration": 1.08,
+        "ease": "power2.out",
+        "props": {}
+      },
+      {
+        "duration": 0.3,
+        "ease": "none",
+        "props": {
+          "y": -230
+        }
+      }
+    ]
+  },
+  "lenis": {
+    "detected": true,
+    "config": null
+  },
+  "microInteractions": {
+    "magneticButtons": [],
+    "tiltCards": [],
+    "spotlightElements": [],
+    "textScramble": false
+  },
+  "webglCanvas": {
+    "canvasCount": 0,
+    "hasThreeJs": false,
+    "shadersCount": 0,
+    "shaders": []
+  },
+  "typography": {
+    "splitTextDetected": false,
+    "variableFonts": [],
+    "marqueesCount": 0
+  },
+  "cssEffects": {
+    "keyframes": [
+      {
+        "name": "spin",
+        "cssText": "@keyframes spin { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}"
+      },
+      {
+        "name": "scribble-reveal",
+        "cssText": "@keyframes scribble-reveal { \n  100% { clip-path: inset(0px); }\n}"
+      },
+      {
+        "name": "splide-loading",
+        "cssText": "@keyframes splide-loading { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(1turn); }\n}"
+      },
+      {
+        "name": "thumbFill",
+        "cssText": "@keyframes thumbFill { \n  0% { transform: scaleY(0); }\n  100% { transform: scaleY(1); }\n}"
+      },
+      {
+        "name": "heading-scribble-reveal",
+        "cssText": "@keyframes heading-scribble-reveal { \n  100% { clip-path: inset(0px); }\n}"
+      },
+      {
+        "name": "lampFlicker",
+        "cssText": "@keyframes lampFlicker { \n  0% { opacity: 0.12; }\n  6% { opacity: 0.85; }\n  8% { opacity: 0.25; }\n  14% { opacity: 0.95; }\n  16% { opacity: 0.35; }\n  28% { opacity: 0.78; }\n  31% { opacity: 0.18; }\n  45% { opacity: 0.92; }\n  48% { opacity: 0.22; }\n  63% { opacity: 0.88; }\n  66% { opacity: 0.16; }\n  82% { opacity: 0.96; }\n  86% { opacity: 0.28; }\n  100% { opacity: 0.8; }\n}"
+      }
+    ],
+    "glassmorphism": true,
+    "clipPaths": [],
+    "svgFilters": [
+      {
+        "id": "filter0_f_427_3224",
+        "hasTurbulence": false,
+        "hasDisplacement": false
+      },
+      {
+        "id": "filter0_df_228_54",
+        "hasTurbulence": false,
+        "hasDisplacement": false
+      }
+    ]
+  }
+}

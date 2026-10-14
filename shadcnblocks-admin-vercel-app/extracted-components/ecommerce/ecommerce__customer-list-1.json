@@ -1,0 +1,77 @@
+{
+  "route": "/ecommerce/customer-list-1",
+  "title": "Ecommerce App",
+  "cardsCount": 8,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "Create Customer",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "Customers\n1,864\n+4.8%\nNew customers\n214\n+11.2%\nRepeat rate\n63.8%\n+2.1%\nLifetime value\n$1,184\n+6.4%",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "Last 90 days",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 6,
+      "title": "",
+      "snippet": "All values",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 7,
+      "title": "",
+      "snippet": "Manage Table",
+      "hasChart": true,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 2,
+  "inputsSample": [
+    {
+      "type": "search",
+      "placeholder": "Search customers",
+      "label": "Search customers"
+    },
+    {
+      "type": "search",
+      "placeholder": "Search customers",
+      "label": "Search customers"
+    }
+  ],
+  "htmlSnapshot": ""
+}

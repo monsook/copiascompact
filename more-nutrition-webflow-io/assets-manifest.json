@@ -1,0 +1,843 @@
+{
+  "generatedAt": "2026-10-02T17:16:04.664Z",
+  "siteUrl": "https://more-nutrition.webflow.io/#reviews",
+  "summary": {
+    "totalAssetsFound": 116,
+    "imageSequencesDetected": 2,
+    "heroBackgroundsDetected": 0,
+    "technicalSvgsDetected": 112,
+    "brandAssetsDetected": 2
+  },
+  "replacements": [
+    {
+      "id": "sequence_689541d1c4bb0b452cb46e3e_b525d1f05540193d88caa60b825b8887a650d649-p-",
+      "category": "3D_ROTATION_SEQUENCE",
+      "detectedFramesCount": 6,
+      "originalPattern": "689541d1c4bb0b452cb46e3e_b525d1f05540193d88caa60b825b8887a650d649-p-_XXXXX.webp",
+      "sampleFile": "assets/689541d1c4bb0b452cb46e3e_b525d1f05540193d88caa60b825b8887a650d649-p-1080.webp",
+      "recommendedStrategy": "THREEJS_PROCEDURAL_OR_GLTF",
+      "rationale": "Substituição por modelo 3D em tempo real amarrado ao scroll (Zero copyright, 60 FPS e iluminação customizável)",
+      "componentSuggestion": "Interactive3DViewer.tsx",
+      "cleanParameters": {
+        "material": "stainless_steel_or_titanium",
+        "rotationAxis": "Y",
+        "scrollDriven": true,
+        "interactiveMouseTilt": true
+      }
+    },
+    {
+      "id": "sequence_689541efc32332b4d96332e4_5aa593a5c181883619e1ec2e48b9a77009ae6ddd-p-",
+      "category": "3D_ROTATION_SEQUENCE",
+      "detectedFramesCount": 6,
+      "originalPattern": "689541efc32332b4d96332e4_5aa593a5c181883619e1ec2e48b9a77009ae6ddd-p-_XXXXX.webp",
+      "sampleFile": "assets/689541efc32332b4d96332e4_5aa593a5c181883619e1ec2e48b9a77009ae6ddd-p-1080.webp",
+      "recommendedStrategy": "THREEJS_PROCEDURAL_OR_GLTF",
+      "rationale": "Substituição por modelo 3D em tempo real amarrado ao scroll (Zero copyright, 60 FPS e iluminação customizável)",
+      "componentSuggestion": "Interactive3DViewer.tsx",
+      "cleanParameters": {
+        "material": "stainless_steel_or_titanium",
+        "rotationAxis": "Y",
+        "scrollDriven": true,
+        "interactiveMouseTilt": true
+      }
+    },
+    {
+      "id": "icon_688651ae6f6e0e5669c9d465_instagram",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/688651ae6f6e0e5669c9d465_instagram.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_688651aeea8f52f9e4d418f2_tiktok",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/688651aeea8f52f9e4d418f2_tiktok.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689534f1390e42ee1492e9df_group 42",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689534f1390e42ee1492e9df_Group 42.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689534f1390e42ee1492e9df_group%2042",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689534f1390e42ee1492e9df_Group%2042.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68953a1b9a0c9299ece16c1e_check",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68953a1b9a0c9299ece16c1e_check.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68953b9f3d54aaa40b14e92f_x",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68953b9f3d54aaa40b14e92f_x.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689734d5c258f310eceeeb26_group 97",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689734d5c258f310eceeeb26_Group 97.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689734d5c258f310eceeeb26_group%2097",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689734d5c258f310eceeeb26_Group%2097.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689754d9448e952a9e6c0aeb_alle-produkte_f1ba7a0d-4d19-4202-af26-db495d4d8559_100x100 1",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689754d9448e952a9e6c0aeb_Alle-Produkte_f1ba7a0d-4d19-4202-af26-db495d4d8559_100x100 1.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689754d9448e952a9e6c0aeb_alle-produkte_f1ba7a0d-4d19-4202-af26-db495d4d8559_100x100%201",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689754d9448e952a9e6c0aeb_Alle-Produkte_f1ba7a0d-4d19-4202-af26-db495d4d8559_100x100%201.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689754d9d94ba5b480581df7_group 84",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689754d9d94ba5b480581df7_Group 84.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689754d9d94ba5b480581df7_group%2084",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689754d9d94ba5b480581df7_Group%2084.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689b2b1554cf5d3d8dbbeb01_group 102",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689b2b1554cf5d3d8dbbeb01_Group 102.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689b2b1554cf5d3d8dbbeb01_group%20102",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689b2b1554cf5d3d8dbbeb01_Group%20102.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689b2b15a9a38cc10d995594_group 96",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689b2b15a9a38cc10d995594_Group 96.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689b2b15a9a38cc10d995594_group%2096",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689b2b15a9a38cc10d995594_Group%2096.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689b2b15baf850f5dbcaba37_group 106",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689b2b15baf850f5dbcaba37_Group 106.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689b2b15baf850f5dbcaba37_group%20106",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689b2b15baf850f5dbcaba37_Group%20106.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689b2b2738c618add8d9334b_group 104",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689b2b2738c618add8d9334b_Group 104.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689b2b2738c618add8d9334b_group%20104",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689b2b2738c618add8d9334b_Group%20104.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689bad624fa04dfe23225ad3_klarna_payment_badge 1",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689bad624fa04dfe23225ad3_Klarna_Payment_Badge 1.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689bad624fa04dfe23225ad3_klarna_payment_badge%201",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689bad624fa04dfe23225ad3_Klarna_Payment_Badge%201.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689c6da07704668cebe17120_group 150",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689c6da07704668cebe17120_Group 150.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689c6da07704668cebe17120_group%20150",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/689c6da07704668cebe17120_Group%20150.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68a9a089d73e5cf84d4ded67_stage-sketch-arrow",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68a9a089d73e5cf84d4ded67_stage-sketch-arrow.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68ae178a30a512b269607fbe_icon-star-half",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68ae178a30a512b269607fbe_icon-star-half.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68ae178a6c618dbc4bb25c48_icon-star",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68ae178a6c618dbc4bb25c48_icon-star.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b2211dbd022ef87bf8047a_payment_3-5-days-delivery",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68b2211dbd022ef87bf8047a_payment_3-5-days-delivery.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b2256a5ce0c9ca5c1aa015_payment_free-shipping",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68b2256a5ce0c9ca5c1aa015_payment_free-shipping.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b2bdb3390600fa418ac907_icon-testimonial-star",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68b2bdb3390600fa418ac907_icon-testimonial-star.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b2c1be2762f3ffc1be06c5_icon-bubble-check",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68b2c1be2762f3ffc1be06c5_icon-bubble-check.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b2de0f2245f238d5eb3226_icon-arrow-right",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68b2de0f2245f238d5eb3226_icon-arrow-right.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b2de0fba88460ab65187e9_icon-arrow-left",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68b2de0fba88460ab65187e9_icon-arrow-left.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b2e8120f5b95bfbd87aebf_testimonial-signature",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68b2e8120f5b95bfbd87aebf_testimonial-signature.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b9b2bf0b05111fd229e95c_sequence-why-people-love-it",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68b9b2bf0b05111fd229e95c_sequence-why-people-love-it.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b9b2bfdc8daf0458376a72_sequence-why-people-arrow",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68b9b2bfdc8daf0458376a72_sequence-why-people-arrow.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b9fcc383366c0bb0fe9ca6_sequence-more-for-coffee-lovers",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68b9fcc383366c0bb0fe9ca6_sequence-more-for-coffee-lovers.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68bb4a56d6965dfedaaf9bbb_sequence-vanilla-crumble",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68bb4a56d6965dfedaaf9bbb_sequence-vanilla-crumble.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68bb4d0addb7dabb6793ee05_sequence-vanilla-crumble-arrow",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68bb4d0addb7dabb6793ee05_sequence-vanilla-crumble-arrow.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68bb4ef605d3c803020c0a8c_sequence-strawberry-cheesecake",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68bb4ef605d3c803020c0a8c_sequence-strawberry-cheesecake.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68bb51400be6f0687f9cb522_sequence-strawberry-cheesecake-arrow",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68bb51400be6f0687f9cb522_sequence-strawberry-cheesecake-arrow.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "brand_68c282d511f17f7c0e481521_more-m-logo",
+      "category": "BRAND_LOGO",
+      "originalFile": "assets/68c282d511f17f7c0e481521_more-m-logo.svg",
+      "recommendedStrategy": "CUSTOM_COMPANY_BRANDING",
+      "rationale": "Substituir pelo logotipo da sua empresa mantendo o container e animações de entrada"
+    },
+    {
+      "id": "icon_68c321a0bcd661b9a1c1040e_free-shipping-mobile",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68c321a0bcd661b9a1c1040e_free-shipping-mobile.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68c948227a747d8be568507e_slider-plus",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68c948227a747d8be568507e_slider-plus.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68c94823659937fb4ddc9834_slider-signature-arrow",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68c94823659937fb4ddc9834_slider-signature-arrow.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68c94823c24b2c7988de3d7a_slider-signature",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68c94823c24b2c7988de3d7a_slider-signature.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68d40d4b080c864fb3ec6e0f_youtube-svgrepo-com",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68d40d4b080c864fb3ec6e0f_youtube-svgrepo-com.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68d41a7021c95a7f4ce8cd14_4bb0c9727f3cc3cf72d4fe155fa50163_real matcha, origin al taste",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68d41a7021c95a7f4ce8cd14_4bb0c9727f3cc3cf72d4fe155fa50163_Real Matcha, Origin al Taste.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68d41a7021c95a7f4ce8cd14_4bb0c9727f3cc3cf72d4fe155fa50163_real%20matcha%2c%20origin%20al%20taste",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/68d41a7021c95a7f4ce8cd14_4bb0c9727f3cc3cf72d4fe155fa50163_Real%20Matcha%2C%20Origin%20al%20Taste.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_687ea845b6162b993ddd0020_group 1 (1)",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/687ea845b6162b993ddd0020_Group 1 (1).svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_687ea845b6162b993ddd0020_group%201%20(1)",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/687ea845b6162b993ddd0020_Group%201%20(1).svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_688651ae6f6e0e5669c9d465_instagram",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/688651ae6f6e0e5669c9d465_instagram.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_688651aeea8f52f9e4d418f2_tiktok",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/688651aeea8f52f9e4d418f2_tiktok.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_688655fd2fed5f707c038914_layer_1 (3)",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/688655fd2fed5f707c038914_Layer_1 (3).svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_688655fd2fed5f707c038914_layer_1%20(3)",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/688655fd2fed5f707c038914_Layer_1%20(3).svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689534f1390e42ee1492e9df_group 42",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689534f1390e42ee1492e9df_Group 42.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689534f1390e42ee1492e9df_group%2042",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689534f1390e42ee1492e9df_Group%2042.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68953a1b9a0c9299ece16c1e_check",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68953a1b9a0c9299ece16c1e_check.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68953b9f3d54aaa40b14e92f_x",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68953b9f3d54aaa40b14e92f_x.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689734d5c258f310eceeeb26_group 97",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689734d5c258f310eceeeb26_Group 97.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689734d5c258f310eceeeb26_group%2097",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689734d5c258f310eceeeb26_Group%2097.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689754d9448e952a9e6c0aeb_alle-produkte_f1ba7a0d-4d19-4202-af26-db495d4d8559_100x100 1",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689754d9448e952a9e6c0aeb_Alle-Produkte_f1ba7a0d-4d19-4202-af26-db495d4d8559_100x100 1.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689754d9448e952a9e6c0aeb_alle-produkte_f1ba7a0d-4d19-4202-af26-db495d4d8559_100x100%201",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689754d9448e952a9e6c0aeb_Alle-Produkte_f1ba7a0d-4d19-4202-af26-db495d4d8559_100x100%201.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689754d9d94ba5b480581df7_group 84",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689754d9d94ba5b480581df7_Group 84.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689754d9d94ba5b480581df7_group%2084",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689754d9d94ba5b480581df7_Group%2084.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_6899e6d17cc0ae7334395045_vector (5)",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/6899e6d17cc0ae7334395045_Vector (5).svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_6899e6d17cc0ae7334395045_vector%20(5)",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/6899e6d17cc0ae7334395045_Vector%20(5).svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689b2b1554cf5d3d8dbbeb01_group 102",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689b2b1554cf5d3d8dbbeb01_Group 102.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689b2b1554cf5d3d8dbbeb01_group%20102",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689b2b1554cf5d3d8dbbeb01_Group%20102.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689b2b15a9a38cc10d995594_group 96",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689b2b15a9a38cc10d995594_Group 96.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689b2b15a9a38cc10d995594_group%2096",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689b2b15a9a38cc10d995594_Group%2096.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689b2b15baf850f5dbcaba37_group 106",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689b2b15baf850f5dbcaba37_Group 106.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689b2b15baf850f5dbcaba37_group%20106",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689b2b15baf850f5dbcaba37_Group%20106.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689b2b15e9b7e50000f8cad0_layer_1 (5)",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689b2b15e9b7e50000f8cad0_Layer_1 (5).svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689b2b15e9b7e50000f8cad0_layer_1%20(5)",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689b2b15e9b7e50000f8cad0_Layer_1%20(5).svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689b2b2738c618add8d9334b_group 104",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689b2b2738c618add8d9334b_Group 104.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689b2b2738c618add8d9334b_group%20104",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689b2b2738c618add8d9334b_Group%20104.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689bad624fa04dfe23225ad3_klarna_payment_badge 1",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689bad624fa04dfe23225ad3_Klarna_Payment_Badge 1.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689bad624fa04dfe23225ad3_klarna_payment_badge%201",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689bad624fa04dfe23225ad3_Klarna_Payment_Badge%201.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689bbc7e54e7ae27ef30fe2a_layer_1 (7)",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689bbc7e54e7ae27ef30fe2a_Layer_1 (7).svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689bbc7e54e7ae27ef30fe2a_layer_1%20(7)",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689bbc7e54e7ae27ef30fe2a_Layer_1%20(7).svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689c4dc54e2bba0f8a77b238_layer_1 (9)",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689c4dc54e2bba0f8a77b238_Layer_1 (9).svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689c4dc54e2bba0f8a77b238_layer_1%20(9)",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689c4dc54e2bba0f8a77b238_Layer_1%20(9).svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689c4ee13616a5bb6e89d831_vector (6)",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689c4ee13616a5bb6e89d831_Vector (6).svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689c4ee13616a5bb6e89d831_vector%20(6)",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689c4ee13616a5bb6e89d831_Vector%20(6).svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689c4f47af9547f0f5223089_vector (7)",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689c4f47af9547f0f5223089_Vector (7).svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689c4f47af9547f0f5223089_vector%20(7)",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689c4f47af9547f0f5223089_Vector%20(7).svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689c6da07704668cebe17120_group 150",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689c6da07704668cebe17120_Group 150.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_689c6da07704668cebe17120_group%20150",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/689c6da07704668cebe17120_Group%20150.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68a9a089d73e5cf84d4ded67_stage-sketch-arrow",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68a9a089d73e5cf84d4ded67_stage-sketch-arrow.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68ae178a30a512b269607fbe_icon-star-half",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68ae178a30a512b269607fbe_icon-star-half.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68ae178a6c618dbc4bb25c48_icon-star",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68ae178a6c618dbc4bb25c48_icon-star.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b2211dbd022ef87bf8047a_payment_3-5-days-delivery",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2211dbd022ef87bf8047a_payment_3-5-days-delivery.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b2256a5ce0c9ca5c1aa015_payment_free-shipping",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2256a5ce0c9ca5c1aa015_payment_free-shipping.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b2bdb3390600fa418ac907_icon-testimonial-star",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b2c1be2762f3ffc1be06c5_icon-bubble-check",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2c1be2762f3ffc1be06c5_icon-bubble-check.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b2de0f2245f238d5eb3226_icon-arrow-right",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2de0f2245f238d5eb3226_icon-arrow-right.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b2de0fba88460ab65187e9_icon-arrow-left",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2de0fba88460ab65187e9_icon-arrow-left.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b2e8120f5b95bfbd87aebf_testimonial-signature",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2e8120f5b95bfbd87aebf_testimonial-signature.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b9b2bf0b05111fd229e95c_sequence-why-people-love-it",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b9b2bf0b05111fd229e95c_sequence-why-people-love-it.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b9b2bfdc8daf0458376a72_sequence-why-people-arrow",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b9b2bfdc8daf0458376a72_sequence-why-people-arrow.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68b9fcc383366c0bb0fe9ca6_sequence-more-for-coffee-lovers",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b9fcc383366c0bb0fe9ca6_sequence-more-for-coffee-lovers.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68bb4a56d6965dfedaaf9bbb_sequence-vanilla-crumble",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68bb4a56d6965dfedaaf9bbb_sequence-vanilla-crumble.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68bb4d0addb7dabb6793ee05_sequence-vanilla-crumble-arrow",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68bb4d0addb7dabb6793ee05_sequence-vanilla-crumble-arrow.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68bb4ef605d3c803020c0a8c_sequence-strawberry-cheesecake",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68bb4ef605d3c803020c0a8c_sequence-strawberry-cheesecake.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68bb51400be6f0687f9cb522_sequence-strawberry-cheesecake-arrow",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68bb51400be6f0687f9cb522_sequence-strawberry-cheesecake-arrow.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "brand_68c282d511f17f7c0e481521_more-m-logo",
+      "category": "BRAND_LOGO",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c282d511f17f7c0e481521_more-m-logo.svg",
+      "recommendedStrategy": "CUSTOM_COMPANY_BRANDING",
+      "rationale": "Substituir pelo logotipo da sua empresa mantendo o container e animações de entrada"
+    },
+    {
+      "id": "icon_68c321a0bcd661b9a1c1040e_free-shipping-mobile",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c321a0bcd661b9a1c1040e_free-shipping-mobile.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68c948227a747d8be568507e_slider-plus",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c948227a747d8be568507e_slider-plus.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68c94823659937fb4ddc9834_slider-signature-arrow",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c94823659937fb4ddc9834_slider-signature-arrow.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68c94823c24b2c7988de3d7a_slider-signature",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c94823c24b2c7988de3d7a_slider-signature.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68d40d4b080c864fb3ec6e0f_youtube-svgrepo-com",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68d40d4b080c864fb3ec6e0f_youtube-svgrepo-com.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68d41a7021c95a7f4ce8cd14_4bb0c9727f3cc3cf72d4fe155fa50163_real matcha, origin al taste",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68d41a7021c95a7f4ce8cd14_4bb0c9727f3cc3cf72d4fe155fa50163_Real Matcha, Origin al Taste.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_68d41a7021c95a7f4ce8cd14_4bb0c9727f3cc3cf72d4fe155fa50163_real%20matcha%2c%20origin%20al%20taste",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.prod.website-files.com/686c09a33211842a0ac0183d/68d41a7021c95a7f4ce8cd14_4bb0c9727f3cc3cf72d4fe155fa50163_Real%20Matcha%2C%20Origin%20al%20Taste.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    }
+  ]
+}

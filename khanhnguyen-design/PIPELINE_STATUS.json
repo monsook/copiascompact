@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "status": "completed",
+  "url": "https://khanhnguyen.design/",
+  "siteName": "khanhnguyen-design",
+  "mode": "all",
+  "startedAt": "2026-09-25T12:43:12.417Z",
+  "completedAt": "2026-09-25T12:44:16.295Z",
+  "stages": [
+    {
+      "name": "detect",
+      "status": "passed",
+      "startedAt": "2026-09-25T12:43:12.418Z",
+      "completedAt": "2026-09-25T12:43:38.654Z"
+    },
+    {
+      "name": "clone",
+      "status": "passed",
+      "startedAt": "2026-09-25T12:43:38.654Z",
+      "completedAt": "2026-09-25T12:43:51.029Z"
+    },
+    {
+      "name": "normalize-assets",
+      "status": "passed",
+      "startedAt": "2026-09-25T12:43:51.030Z",
+      "completedAt": "2026-09-25T12:43:51.077Z"
+    },
+    {
+      "name": "extract-design-dna",
+      "status": "passed",
+      "startedAt": "2026-09-25T12:43:51.077Z",
+      "completedAt": "2026-09-25T12:44:01.271Z"
+    },
+    {
+      "name": "generate-styleguide",
+      "status": "passed",
+      "startedAt": "2026-09-25T12:44:01.272Z",
+      "completedAt": "2026-09-25T12:44:01.275Z"
+    },
+    {
+      "name": "extract-ui-ux",
+      "status": "passed",
+      "startedAt": "2026-09-25T12:44:01.275Z",
+      "completedAt": "2026-09-25T12:44:16.270Z"
+    },
+    {
+      "name": "generate-master-spec",
+      "status": "passed",
+      "startedAt": "2026-09-25T12:44:16.270Z",
+      "completedAt": "2026-09-25T12:44:16.287Z"
+    },
+    {
+      "name": "generate-asset-manifest",
+      "status": "passed",
+      "startedAt": "2026-09-25T12:44:16.287Z",
+      "completedAt": "2026-09-25T12:44:16.292Z"
+    },
+    {
+      "name": "generate-prompt-catalog",
+      "status": "passed",
+      "startedAt": "2026-09-25T12:44:16.293Z",
+      "completedAt": "2026-09-25T12:44:16.294Z"
+    }
+  ]
+}

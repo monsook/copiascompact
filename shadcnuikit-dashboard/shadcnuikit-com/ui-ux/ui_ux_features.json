@@ -1,0 +1,99 @@
+{
+  "gsap": {
+    "detected": false,
+    "version": null,
+    "hasScrollTrigger": false,
+    "scrollTriggerInstances": 0,
+    "tweensCount": 0,
+    "plugins": [],
+    "timelines": []
+  },
+  "lenis": {
+    "detected": false,
+    "config": null
+  },
+  "microInteractions": {
+    "magneticButtons": [],
+    "tiltCards": [],
+    "spotlightElements": [],
+    "textScramble": false
+  },
+  "webglCanvas": {
+    "canvasCount": 0,
+    "hasThreeJs": false,
+    "shadersCount": 0,
+    "shaders": []
+  },
+  "typography": {
+    "splitTextDetected": false,
+    "variableFonts": [],
+    "marqueesCount": 0
+  },
+  "cssEffects": {
+    "keyframes": [
+      {
+        "name": "spin",
+        "cssText": "@keyframes spin { \n  100% { transform: rotate(360deg); }\n}"
+      },
+      {
+        "name": "ping",
+        "cssText": "@keyframes ping { \n  75%, 100% { opacity: 0; transform: scale(2); }\n}"
+      },
+      {
+        "name": "pulse",
+        "cssText": "@keyframes pulse { \n  50% { opacity: 0.5; }\n}"
+      },
+      {
+        "name": "enter",
+        "cssText": "@keyframes enter { \n  0% { opacity: var(--tw-enter-opacity,1); transform: translate3d(var(--tw-enter-translate-x,0),var(--tw-enter-translate-y,0),0)scale3d(var(--tw-enter-scale,1),var(--tw-enter-scale,1),var(--tw-enter-scale,1))rotate(var(--tw-enter-rotate,0)); filter: blur(var(--tw-enter-blur,0)); }\n}"
+      },
+      {
+        "name": "exit",
+        "cssText": "@keyframes exit { \n  100% { opacity: var(--tw-exit-opacity,1); transform: translate3d(var(--tw-exit-translate-x,0),var(--tw-exit-translate-y,0),0)scale3d(var(--tw-exit-scale,1),var(--tw-exit-scale,1),var(--tw-exit-scale,1))rotate(var(--tw-exit-rotate,0)); filter: blur(var(--tw-exit-blur,0)); }\n}"
+      },
+      {
+        "name": "accordion-down",
+        "cssText": "@keyframes accordion-down { \n  0% { height: 0px; }\n  100% { height: var(--radix-accordion-content-height,var(--accordion-panel-height,auto)); }\n}"
+      },
+      {
+        "name": "accordion-up",
+        "cssText": "@keyframes accordion-up { \n  0% { height: var(--radix-accordion-content-height,var(--accordion-panel-height,auto)); }\n  100% { height: 0px; }\n}"
+      },
+      {
+        "name": "caret-blink",
+        "cssText": "@keyframes caret-blink { \n  0%, 70%, 100% { opacity: 1; }\n  20%, 50% { opacity: 0; }\n}"
+      },
+      {
+        "name": "scroll-fade-reveal-t",
+        "cssText": "@keyframes scroll-fade-reveal-t { \n  0% { --scroll-fade-t: 0px; }\n  100% { --scroll-fade-t: var(--_scroll-fade-size-t,var(--scroll-fade-size,min(12%, calc(var(--spacing) * 10)))); }\n}"
+      },
+      {
+        "name": "scroll-fade-reveal-b",
+        "cssText": "@keyframes scroll-fade-reveal-b { \n  0% { --scroll-fade-b: var(--_scroll-fade-size-b,var(--scroll-fade-size,min(12%, calc(var(--spacing) * 10)))); }\n  100% { --scroll-fade-b: 0px; }\n}"
+      },
+      {
+        "name": "scroll-fade-reveal-s",
+        "cssText": "@keyframes scroll-fade-reveal-s { \n  0% { --scroll-fade-s: 0px; }\n  100% { --scroll-fade-s: var(--_scroll-fade-size-s,var(--scroll-fade-size,min(12%, calc(var(--spacing) * 10)))); }\n}"
+      },
+      {
+        "name": "scroll-fade-reveal-e",
+        "cssText": "@keyframes scroll-fade-reveal-e { \n  0% { --scroll-fade-e: var(--_scroll-fade-size-e,var(--scroll-fade-size,min(12%, calc(var(--spacing) * 10)))); }\n  100% { --scroll-fade-e: 0px; }\n}"
+      },
+      {
+        "name": "tw-shimmer",
+        "cssText": "@keyframes tw-shimmer { \n  0% { background-position: 100% 0px; }\n  100% { background-position: 0px 0px; }\n}"
+      },
+      {
+        "name": "pulse-dot",
+        "cssText": "@keyframes pulse-dot { \n  0%, 100% { opacity: 0.8; transform: scale(1); }\n  50% { opacity: 1; transform: scale(1.5); }\n}"
+      },
+      {
+        "name": "fadeIn",
+        "cssText": "@keyframes fadeIn { \n  0% { opacity: 0; }\n  100% { opacity: 1; }\n}"
+      }
+    ],
+    "glassmorphism": false,
+    "clipPaths": [],
+    "svgFilters": []
+  }
+}

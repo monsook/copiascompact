@@ -1,0 +1,217 @@
+{
+  "route": "/ecommerce/product-list-2",
+  "title": "Ecommerce App",
+  "cardsCount": 28,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "New Products",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "New Products",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "Radiance Ritual Set",
+      "snippet": "Radiance Ritual Set\nSKU-SKIN-4006\nActive\nSet\nRetail\n+2\nDropship",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 6,
+      "title": "Timeless Renewal Cream",
+      "snippet": "Timeless Renewal Cream\nSKU-CREAM-9902\nActive\nCream\nPremium\nInventory",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 7,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 8,
+      "title": "HydraBloom Night Cream",
+      "snippet": "HydraBloom Night Cream\nSKU-BALM-8928\nDraft\nCream\nRetail\n+2\nDropship",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 9,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 10,
+      "title": "Radiant Lock Mist",
+      "snippet": "Radiant Lock Mist\nSKU-SERUM-7811\nActive\nSerum\nRetail\nInventory",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 11,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 12,
+      "title": "PureEssence Soap Trio",
+      "snippet": "PureEssence Soap Trio\nSKU-SOAP-5214\nDraft\nSoap\nBundles\n+1",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 13,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 14,
+      "title": "Barrier Repair Drops",
+      "snippet": "Barrier Repair Drops\nSKU-TREAT-6612\nActive\nTreatment\nRetail\nSubscription",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 15,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 16,
+      "title": "Dew Reset Essence",
+      "snippet": "Dew Reset Essence\nSKU-ESSN-2084\nActive\nEssence\nRetail\nSubscription",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 17,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 18,
+      "title": "Velvet Cleanse Balm",
+      "snippet": "Velvet Cleanse Balm\nSKU-CLEAN-1148\nDraft\nCleanser\nBundle\n+1",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 19,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 20,
+      "title": "Overnight Recovery Mask",
+      "snippet": "Overnight Recovery Mask\nSKU-MASK-5501\nActive\nMask\nPremium\nInventory",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 21,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 22,
+      "title": "Cloud Silk Toner",
+      "snippet": "Cloud Silk Toner\nSKU-TONER-7723\nActive\nToner\nRetail\n+2\nDropship",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 23,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 24,
+      "title": "Micro Peel Serum",
+      "snippet": "Micro Peel Serum\nSKU-SERUM-4412\nActive\nSerum\nPremium\nInventory",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 25,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 26,
+      "title": "Botanical Body Polish",
+      "snippet": "Botanical Body Polish\nSKU-BODY-6118\nDraft\nBody Care\nRetail\n+1",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 27,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 2,
+  "inputsSample": [
+    {
+      "type": "search",
+      "placeholder": "Search products...",
+      "label": ""
+    },
+    {
+      "type": "search",
+      "placeholder": "Search products...",
+      "label": ""
+    }
+  ],
+  "htmlSnapshot": ""
+}

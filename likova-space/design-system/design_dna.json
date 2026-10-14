@@ -1,0 +1,273 @@
+{
+  "colors": {
+    "variables": {
+      "--c-white": "#fff",
+      "--c-blue-gray": "#070b20",
+      "--c-blue-dark": "#232739",
+      "--c-blue-deep": "#57566a",
+      "--c-gray": "#bdbec4",
+      "--c-gray-light": "#e3e6eb",
+      "--c-border": "#393c4d",
+      "--c-metal": "linear-gradient(180deg,#c7cbd4,#5a5f65)",
+      "--c-tap-highlight": "rgba(0,0,0,.2)",
+      "--c-error": "#ce1d20"
+    },
+    "defaults": {
+      "backgroundColor": "rgb(255, 255, 255)",
+      "color": "rgb(7, 11, 32)"
+    }
+  },
+  "typography": {
+    "h1": {
+      "fontFamily": "\"TT Norms Pro\", Helvetica, Arial, sans-serif",
+      "fontSize": "200px",
+      "fontWeight": "400",
+      "lineHeight": "190px",
+      "letterSpacing": "-8px",
+      "color": "rgb(255, 255, 255)"
+    },
+    "h2": {
+      "fontFamily": "\"TT Norms Pro\", Helvetica, Arial, sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "450",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.17px",
+      "color": "rgba(255, 255, 255, 0.6)"
+    },
+    "paragraph": {
+      "fontFamily": "\"TT Norms Pro\", Helvetica, Arial, sans-serif",
+      "fontSize": "200px",
+      "fontWeight": "400",
+      "lineHeight": "190px",
+      "letterSpacing": "-8px",
+      "color": "rgb(255, 255, 255)"
+    },
+    "button": {
+      "fontFamily": "\"TT Norms Pro\", Helvetica, Arial, sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "450",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.17px",
+      "color": "rgb(255, 255, 255)"
+    }
+  },
+  "sections": [
+    {
+      "id": "header-1",
+      "tag": "header",
+      "classes": [
+        "header",
+        "is-hidden--print",
+        "header--sticky",
+        "header--landing",
+        "ui-dark"
+      ],
+      "approxHeight": 70,
+      "summaryText": "SELECT OFFICE SPACE 0 CONTACT US"
+    },
+    {
+      "id": "top",
+      "tag": "main",
+      "classes": [
+        "page-content__overflow-fix"
+      ],
+      "approxHeight": 63040,
+      "summaryText": "LIKOVA — WHERE FUTURE GAINS MOMENTUM  WHERE FUTURE GAINS MOMENTUM  BUSINESS CENTER ON THE EDGE OF TH"
+    },
+    {
+      "id": "section-3",
+      "tag": "section",
+      "classes": [
+        "intro",
+        "section",
+        "ui-dark",
+        "ui-background"
+      ],
+      "approxHeight": 4580,
+      "summaryText": "LIKOVA — WHERE FUTURE GAINS MOMENTUM  WHERE FUTURE GAINS MOMENTUM  BUSINESS CENTER ON THE EDGE OF TH"
+    },
+    {
+      "id": "about",
+      "tag": "section",
+      "classes": [
+        "idea",
+        "section",
+        "section--top",
+        "ui-dark"
+      ],
+      "approxHeight": 2619,
+      "summaryText": "IMPRESSIVE IDEAS. DARING INSPIRATION. 1  LIKE A STRIKING WORK OF ART, THIS BUSINESS CENTER TURNS HEA"
+    },
+    {
+      "id": "section-5",
+      "tag": "section",
+      "classes": [
+        "information",
+        "section",
+        "ui-dark",
+        "ui-background"
+      ],
+      "approxHeight": 6480,
+      "summaryText": "ИНФОРМАЦИЯ  VARIABLE NUMBER OF  6-7-8"
+    },
+    {
+      "id": "location",
+      "tag": "section",
+      "classes": [
+        "location",
+        "section",
+        "ui-dark",
+        "ui-background"
+      ],
+      "approxHeight": 9180,
+      "summaryText": ""
+    },
+    {
+      "id": "section-7",
+      "tag": "section",
+      "classes": [
+        "accessibility",
+        "section",
+        "ui-light",
+        "ui-background"
+      ],
+      "approxHeight": 9180,
+      "summaryText": ""
+    },
+    {
+      "id": "section-8",
+      "tag": "section",
+      "classes": [
+        "environment",
+        "section",
+        "ui-dark",
+        "ui-background"
+      ],
+      "approxHeight": 6480,
+      "summaryText": ""
+    },
+    {
+      "id": "genplan",
+      "tag": "section",
+      "classes": [
+        "general-plan",
+        "section",
+        "ui-light",
+        "ui-background-alternative"
+      ],
+      "approxHeight": 2516,
+      "summaryText": "THE MASTER PLAN  BEAUTY OF YOUR PLANS  SEE THE MASTER PLAN"
+    },
+    {
+      "id": "architecture",
+      "tag": "section",
+      "classes": [
+        "architecture",
+        "section",
+        "ui-dark",
+        "ui-background"
+      ],
+      "approxHeight": 9536,
+      "summaryText": ""
+    },
+    {
+      "id": "lobby",
+      "tag": "section",
+      "classes": [
+        "lobby",
+        "section",
+        "ui-dark",
+        "ui-background"
+      ],
+      "approxHeight": 7195,
+      "summaryText": ""
+    },
+    {
+      "id": "offices",
+      "tag": "section",
+      "classes": [
+        "offices",
+        "section",
+        "ui-dark",
+        "ui-background"
+      ],
+      "approxHeight": 6296,
+      "summaryText": ""
+    },
+    {
+      "id": "section-13",
+      "tag": "section",
+      "classes": [
+        "section",
+        "section--top-2",
+        "ui-light",
+        "ui-background"
+      ],
+      "approxHeight": 1716,
+      "summaryText": "PRICELESS IDEAS ARE BORN IN COMFORT.  PRICELESS IDEAS ARE BORN IN COMFORT. LIKOVA PROVIDES YOU WITH "
+    },
+    {
+      "id": "engineering",
+      "tag": "section",
+      "classes": [
+        "engineering",
+        "section",
+        "section--top",
+        "ui-dark",
+        "ui-background"
+      ],
+      "approxHeight": 4323,
+      "summaryText": "TECHNOLOGY 7  INNOVATION IN ACTION  THIS BUILDING FEATURES FULLY AUTOMATED ENGINEERING SYSTEMS RANGI"
+    },
+    {
+      "id": "infrastructure",
+      "tag": "section",
+      "classes": [
+        "infrastructure",
+        "section",
+        "ui-dark",
+        "ui-background"
+      ],
+      "approxHeight": 10220,
+      "summaryText": "RETAIL  RESTAURANTS  CAFÉS  MEDICAL CENTER  FITNESS CLUB  COMMUNAL SPACES  THESE AMENITIES WILL MAKE"
+    },
+    {
+      "id": "team",
+      "tag": "section",
+      "classes": [
+        "team",
+        "section",
+        "section--top",
+        "ui-light",
+        "ui-background"
+      ],
+      "approxHeight": 1210,
+      "summaryText": "OUR TEAM 9  SUPPORTING YOUR SUCCESS  ARCHITECTURAL CONCEPT-PLAN  ARCHITECTURAL LIGHTING  PUBLIC SPAC"
+    },
+    {
+      "id": "footer-17",
+      "tag": "footer",
+      "classes": [
+        "footer",
+        "section",
+        "ui-dark",
+        "ui-background",
+        "is-hidden--print"
+      ],
+      "approxHeight": 588,
+      "summaryText": "CONTACT LIKOVA  OPEN DAILY, 9:00 AM – 9:00 PM  © 2026. LIKOVA  PRIVACY POLICY WEBSITE BY VIDE INFRA "
+    }
+  ],
+  "detectedScripts": [
+    "https://likova.space/assets/javascripts/threejs.js?v=1782384571",
+    "https://likova.space/assets/javascripts/22.js?v=1782384571",
+    "https://likova.space/assets/javascripts/browser-message/browser-message.js?v=1782384571",
+    "https://likova.space/assets/javascripts/shared.js?v=1782384571",
+    "https://likova.space/assets/javascripts/landing.js?v=1782384571",
+    "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495"
+  ],
+  "detectedCSS": [
+    "https://likova.space/assets/stylesheets/global.css?v=1782384571",
+    "https://likova.space/assets/stylesheets/landing.css?v=1782384571"
+  ]
+}

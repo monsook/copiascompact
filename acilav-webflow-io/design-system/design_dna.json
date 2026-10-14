@@ -1,0 +1,270 @@
+{
+  "colors": {
+    "variables": {
+      "--colors--white": "white",
+      "--_typography---font-family--body-font": "Inter, sans-serif",
+      "--colors--deep-gray": "#686868",
+      "--_typography---paragraph-font-sizes--paragraph-medium": "1.25rem",
+      "--_typography---font-weight--font-weight-normal": "400",
+      "--_typography---font-family--heading-font": "Anton, sans-serif",
+      "--colors--simple-black": "#090909",
+      "--_typography---font-weight--font-weight-bold": "700",
+      "--colors--calming-white": "#fffcf2",
+      "--color-shades--transparent": "#fff0",
+      "--colors--primary": "#ffc552",
+      "--color-shades--pastel-grey-30": "#cecac24d",
+      "--color-shades--black-10": "#0000001a",
+      "--_typography---paragraph-font-sizes--paragraph-base": "1rem",
+      "--_ui---primary-button--font-size": "1.25rem",
+      "--_typography---font-weight--font-weight-medium": "500",
+      "--colors--plaster-of-paris": "#e5e2d9",
+      "--_typography---paragraph-font-sizes--paragraph-large": "1.5rem",
+      "--color-shades--simple-black-50": "#09090980",
+      "--_typography---font-sizes--font-size-xs": "1.375rem",
+      "--colors--cottage-cheese": "#fffcf5",
+      "--colors--mirage": "#0e1c29",
+      "--colors--vintage-gray": "#999690",
+      "--colors--early-dawn": "#fff9e5",
+      "--error--color": "#e21616",
+      "--_typography---font-sizes--font-size-sm": "1.75rem",
+      "--_typography---font-weight--font-weight-semi-bold": "600",
+      "--_typography---font-sizes--font-size-md": "2.25rem",
+      "--colors--floral-white": "floralwhite",
+      "--_ui---secondary-btn--font-size": "1.25rem",
+      "--colors--tartan-clear-blue": "#b2cbdc",
+      "--_typography---font-sizes--font-size-3xl": "7.5rem",
+      "--color-shades--white-30": "#ffffff4d",
+      "--colors--new-gray": "#a3a3a3",
+      "--_typography---font-sizes--font-size-2xs": "1.125rem",
+      "--_typography---font-sizes--font-size-lg": "3.25rem",
+      "--_typography---font-sizes--font-size-xl": "3.75rem",
+      "--_typography---font-sizes--font-size-2xl": "6.25rem",
+      "--colors--haze": "#c3c5ca",
+      "--colors--hint-of-red": "#f9f9f9",
+      "--colors--sour-cream": "#fffcf7",
+      "--colors--platinum-dust": "#efebe5",
+      "--colors--cosmic-latte": "#fff7e8",
+      "--colors--pastel-grey": "#cecac2",
+      "--colors--gunsmoke": "#858585",
+      "--colors--dravit-grey": "#5c5c5c",
+      "--colors--heather": "#6f6f80",
+      "--color-shades--primary-5": "#ffc5520d",
+      "--color-shades--white-10": "#ffffff1a",
+      "--color-shades--white-90": "#ffffffe6"
+    },
+    "defaults": {
+      "backgroundColor": "rgb(255, 255, 255)",
+      "color": "rgb(104, 104, 104)"
+    }
+  },
+  "typography": {
+    "h1": {
+      "fontFamily": "Anton, sans-serif",
+      "fontSize": "320px",
+      "fontWeight": "400",
+      "lineHeight": "288px",
+      "letterSpacing": "normal",
+      "color": "rgb(9, 9, 9)"
+    },
+    "h2": {
+      "fontFamily": "Inter, sans-serif",
+      "fontSize": "44px",
+      "fontWeight": "600",
+      "lineHeight": "61.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(163, 163, 163)"
+    },
+    "h3": {
+      "fontFamily": "Inter, sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "lineHeight": "28.8px",
+      "letterSpacing": "0.48px",
+      "color": "rgb(9, 9, 9)"
+    },
+    "paragraph": {
+      "fontFamily": "Inter, sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "lineHeight": "28px",
+      "letterSpacing": "-0.4px",
+      "color": "rgb(104, 104, 104)"
+    },
+    "button": {
+      "fontFamily": "Inter, sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "lineHeight": "16px",
+      "letterSpacing": "0.4px",
+      "color": "rgb(255, 255, 255)"
+    }
+  },
+  "sections": [
+    {
+      "id": "nav-1",
+      "tag": "nav",
+      "classes": [
+        "section",
+        "navbar",
+        "w-variant-ef739076-0998-6507-f8c5-80c7b86de609"
+      ],
+      "approxHeight": 108,
+      "summaryText": "Home Home About About Services Services Insights Insights Review Review CONTACT US CONTACT US"
+    },
+    {
+      "id": "main-2",
+      "tag": "main",
+      "classes": [
+        "main-wrapper"
+      ],
+      "approxHeight": 14714,
+      "summaryText": "SEO THAT CONVERTS Boost traffic, leads, and revenue with SEO. About us We’re a results-driven SEO ag"
+    },
+    {
+      "id": "home",
+      "tag": "header",
+      "classes": [
+        "section",
+        "hero"
+      ],
+      "approxHeight": 894,
+      "summaryText": "SEO THAT CONVERTS Boost traffic, leads, and revenue with SEO."
+    },
+    {
+      "id": "section-4",
+      "tag": "section",
+      "classes": [
+        "section",
+        "logo"
+      ],
+      "approxHeight": 174,
+      "summaryText": ""
+    },
+    {
+      "id": "about",
+      "tag": "section",
+      "classes": [
+        "section",
+        "about"
+      ],
+      "approxHeight": 570,
+      "summaryText": "About us We’re a results-driven SEO agency helping businesses grow traffic, boost rankings, and achi"
+    },
+    {
+      "id": "section-6",
+      "tag": "section",
+      "classes": [
+        "section",
+        "result"
+      ],
+      "approxHeight": 960,
+      "summaryText": "OUR RESULT OUR RESULT  Results-driven SEO agency increasing traffic, rankings, and qualified leads. "
+    },
+    {
+      "id": "section-7",
+      "tag": "section",
+      "classes": [
+        "section",
+        "value"
+      ],
+      "approxHeight": 1072,
+      "summaryText": "CHOOSE US CHOOSE US  Increasing traffic, rankings, and qualified leads.  Proven Results  Enhance you"
+    },
+    {
+      "id": "services",
+      "tag": "section",
+      "classes": [
+        "section",
+        "service"
+      ],
+      "approxHeight": 1894,
+      "summaryText": "OUR SERVICES OUR SERVICES  Boost your site's reach and draw in the right audience with our SEO exper"
+    },
+    {
+      "id": "section-9",
+      "tag": "section",
+      "classes": [
+        "section",
+        "pricing"
+      ],
+      "approxHeight": 887,
+      "summaryText": "PRICING PLAN PRICING PLAN  Increasing visitors, enhancing search positions, and drawing in targeted "
+    },
+    {
+      "id": "insights",
+      "tag": "section",
+      "classes": [
+        "section",
+        "insights"
+      ],
+      "approxHeight": 4660,
+      "summaryText": "SEO INSIGHTS SEO INSIGHTS April 10, 2026 Click SEO Performance Tracsking March 27, 2026 Click On-Pag"
+    },
+    {
+      "id": "review",
+      "tag": "section",
+      "classes": [
+        "section",
+        "review"
+      ],
+      "approxHeight": 864,
+      "summaryText": "CLIENT REVIEW CLIENT REVIEW David Carter Ecom Owner Sarah Mitchell SaaS Founder M. Thompson Startup "
+    },
+    {
+      "id": "section-12",
+      "tag": "section",
+      "classes": [
+        "section",
+        "faq"
+      ],
+      "approxHeight": 1046,
+      "summaryText": "SEO QUERIE SEO QUERIE  Strategic SEO built to increase rankings and conversions.  Guaranteed #1 Rank"
+    },
+    {
+      "id": "section-13",
+      "tag": "section",
+      "classes": [
+        "section",
+        "newsletter"
+      ],
+      "approxHeight": 540,
+      "summaryText": "SUBSCRIBE FOR EXPERT SEO EXPERT SEO TIPS SUBSCRIBE FOR EXPERT SEO EXPERT SEO TIPS SUBSCRIBE FOR EXPE"
+    },
+    {
+      "id": "contact",
+      "tag": "section",
+      "classes": [
+        "section",
+        "contact"
+      ],
+      "approxHeight": 1154,
+      "summaryText": "CONTACT US CONTACT US SUBMIT NOW SUBMIT NOW"
+    },
+    {
+      "id": "footer-15",
+      "tag": "footer",
+      "classes": [
+        "section",
+        "footer"
+      ],
+      "approxHeight": 1641,
+      "summaryText": "ACILAV Style Guide Licence Changelog 404 Password Explore Home About Services Insights Contact Conta"
+    }
+  ],
+  "detectedScripts": [
+    "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+    "https://challenges.cloudflare.com/turnstile/v0/api.js",
+    "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=69a94d5051ada59087892bea",
+    "https://cdn.prod.website-files.com/69a94d5051ada59087892bea/js/webflow.schunk.36b8fb49256177c8.js",
+    "https://cdn.prod.website-files.com/69a94d5051ada59087892bea/js/webflow.schunk.6f5953b19a7f5af8.js",
+    "https://cdn.prod.website-files.com/69a94d5051ada59087892bea/js/webflow.c1d9096e.c630e94305297084.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/CustomEase.min.js"
+  ],
+  "detectedCSS": [
+    "https://cdn.prod.website-files.com/69a94d5051ada59087892bea/css/acilav.webflow.shared.379082d56.css",
+    "https://fonts.googleapis.com/css?family=Anton:300,400,500,600,700%7CInter:300,400,500,600,700"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "route": "/ecommerce/dashboard-6",
+  "title": "Ecommerce App",
+  "cardsCount": 12,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "$1,800,000.00\nTotal Revenue\n+12.0%",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "2.4 days\nAvg. Fulfillment\n-5.0%",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "9,420\nOrders\n+18.0%",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "4.2%\nConversion Rate\n+1.2%",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 6,
+      "title": "",
+      "snippet": "3.1%\nReturn Rate\n-11.0%",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 7,
+      "title": "",
+      "snippet": "184K\nPage Views\n+22.0%",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 8,
+      "title": "Category Performance",
+      "snippet": "Category Performance\n11,308\nElectronics\nClothing\nHome & Garden\nSports\nWeek\nMonth\nMon\nTue\nWed\nThu\nFri\nSat\nSun\n0\n250\n500\n750\n1000",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 9,
+      "title": "",
+      "snippet": "Week\nMonth",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 10,
+      "title": "Order Fulfillment",
+      "snippet": "Order Fulfillment\nOrder\nShipped\nStatus\nDel[%]\nORD-4821\nJan 27, 2025\n92\nORD-4819\nJan 26, 2025\n78\nORD-4815\nJan 25, 2025\n100\nORD-4812\nJan 24, 2025\n65\nORD-4808\nJan 23, 2025\n43\nORD-4805\nJan 22, 2025\n100\nORD-4801\nJan 21, 2025\n88\nORD-4798\nJan 20, 2025\n55\nORD-4794\nJan 19, 2025\n100\nORD-4790\nJan 18, 2025\n71\nO",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 11,
+      "title": "Recent Orders",
+      "snippet": "Recent Orders\n20\nFilter\n#\tOrder\tCustomer\tStatus\tTotal\tDate\t\n1\t\nORD-2024-001\n2 items\n\t\nSJ\nSarah Johnson\n\tDelivered\t$2,499.00\tJan 28, 2024\t\n\n2\t\nORD-2024-002\n2 items\n\t\nMC\nMichael Chen\n\tShipped\t$1,348.00\tJan 27, 2024\t\n\n3\t\nORD-2024-003\n3 items\n\t\nEW\nEmma Wilson\n\tProcessing\t$1,198.00\tJan 27, 2024\t\n\n4\t\nORD-",
+      "hasChart": true,
+      "hasTable": true
+    }
+  ],
+  "inputsCount": 1,
+  "inputsSample": [
+    {
+      "type": "text",
+      "placeholder": "Search orders… (e.g., ORD-2024-002)",
+      "label": "Search orders"
+    }
+  ],
+  "htmlSnapshot": "<div class=\"grid grid-cols-2 gap-4 sm:grid-cols-3\"><div class=\"bg-card flex flex-col rounded-xl border p-4 sm:p-5\"><span class=\"text-2xl font-semibold tracking-tight sm:text-3xl\">$1,800,000.00</span><div class=\"mt-2 flex items-center gap-2\"><span class=\"text-muted-foreground text-xs sm:text-sm\">Total Revenue</span><span class=\"text-[10px] font-medium sm:text-xs text-emerald-600 dark:text-emerald-400\">+<!-- -->12.0<!-- -->%</span></div></div><div class=\"bg-card flex flex-col rounded-xl border p-4 sm:p-5\"><span class=\"text-2xl font-semibold tracking-tight sm:text-3xl\">2.4 days</span><div class=\"mt-2 flex items-center gap-2\"><span class=\"text-muted-foreground text-xs sm:text-sm\">Avg. Fulfillment</span><span class=\"text-[10px] font-medium sm:text-xs text-red-600 dark:text-red-400\">-5.0<!-- -->%</span></div></div><div class=\"bg-card flex flex-col rounded-xl border p-4 sm:p-5\"><span class=\"text-2xl font-semibold tracking-tight sm:text-3xl\">9,420</span><div class=\"mt-2 flex items-center gap-2\"><span class=\"text-muted-foreground text-xs sm:text-sm\">Orders</span><span class=\"text-[10px] font-medium sm:text-xs text-emerald-600 dark:text-emerald-400\">+<!-- -->18.0<!-- -->%</span></div></div><div class=\"bg-card flex flex-col rounded-xl border p-4 sm:p-5\"><span class=\"text-2xl font-semibold tracking-tight sm:text-3xl\">4.2%</span><div class=\"mt-2 flex items-center gap-2\"><span class=\"text-muted-foreground text-xs sm:text-sm\">Conversion Rate</span><span class=\"text-[10px] font-medium sm:text-xs text-emerald-600 dark:text-emerald-400\">+<!-- -->1.2<!-- -->%</span></div></div><div class=\"bg-card flex flex-col rounded-xl border p-4 sm:p-5\"><span class=\"text-2xl font-semibold tracking-tight sm:text-3xl\">3.1%</span><div class=\"mt-2 flex items-center gap-2\"><span class=\"text-muted-foreground text-xs sm:text-sm\">Return Rate</span><span class=\"text-[10px] font-medium sm:text-xs text-emerald-600 dark:text-emerald-400\">-11.0<!-- -->%</span></div></div><div class=\"bg-card flex flex-col rounded-xl border p-4 sm:p-5\"><span class=\"text-2xl font-semibold tracking-tight sm:text-3xl\">184K</span><div class=\"mt-2 flex items-center gap-2\"><span class=\"text-muted-foreground text-xs sm:text-sm\">Page Views</span><span class=\"text-[10px] font-medium sm:text-xs text-emerald-600 dark:text-emerald-400\">+<!-- -->22.0<!-- -->%</span></div></div></div><div class=\"flex flex-col gap-4 xl:flex-row\"><div class=\"bg-card flex min-w-0 flex-1 flex-col gap-4 rounded-xl border p-5\"><div class=\"flex flex-wrap items-start justify-between gap-2\"><div class=\"flex flex-col gap-1\"><h2 class=\"text-sm font-medium text-pretty\">Category Performance</h2><span class=\"text-2xl font-bold tracking-tight\">11,308</span><div class=\"mt-1 flex flex-wrap items-center gap-x-4 gap-y-1\"><div class=\"flex items-center gap-1.5\"><div class=\"size-2 rounded-full\" style=\"background-color:var(--primary)\" aria-hidden=\"true\"></div><span class=\"text-muted-foreground text-[10px]\">Electronics</span></div><div class=\"flex items-center gap-1.5\"><div class=\"size-2 rounded-full\" style=\"background-color:color-mix(in oklch, var(--primary) 75%, var(--background))\" aria-hidden=\"true\"></div><span class=\"text-muted-foreground text-[10px]\">Clothing</span></div><div class=\"flex items-center gap-1.5\"><div class=\"size-2 rounded-full\" style=\"background-color:color-mix(in oklch, var(--primary) 55%, var(--background))\" aria-hidden=\"true\"></div><span class=\"text-muted-foreground text-[10px]\">Home &amp; Garden</span></div><div class=\"flex items-center gap-1.5\"><div class=\"size-2 rounded-full\" style=\"background-color:color-mix(in oklch, var(--primary) 40%, var(--background))\" aria-hidden=\"true\"></div><span class=\"text-muted-foreground text-[10px]\">Sports</span></div></div></div><div class=\"bg-muted/50 flex items-center gap-0.5 rounded-lg border p-0.5\" role=\"tablist\" aria-label=\"Category performance period\"><button class=\"rounded-md px-3 py-1 text-xs font-medium transition-colors bg-background text-foreground shadow-sm\" id=\"category-tab-week\" role=\"tab\" aria-selected=\"true\" aria-controls=\"category-chart-panel\" aria-label=\"Show week view\">Week</button><button class=\"rounded-md px-3 py-1 text-xs font-medium transition-colors text-muted-foreground hover:text-foreground\" id=\"category-tab-month\" role=\"tab\" aria-selected=\"false\" aria-controls=\"category-chart-panel\" aria-label=\"Show month view\">Month</button></div></div><div id=\"category-chart-panel\" role=\"tabpanel\" aria-labelledby=\"category-tab-week\" class=\"h-[240px] w-full min-w-0 sm:h-[280px]\"><div data-slot=\"chart\" data-chart=\"chart-_R_16inpfiv5uknmlb_\" class=\"[&amp;_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&amp;_.recharts-cartesian-grid_line[stroke='#ccc']]:stroke-border/50 [&amp;_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&amp;_.recharts-polar-grid_[stroke='#ccc']]:stroke-border [&amp;_.recharts-radial-bar-background-sector]:fill-muted [&amp;_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&amp;_.recharts-reference-line_[stroke='#ccc']]:stroke-border flex min-h-0 min-w-0 aspect-video justify-center text-xs [&amp;_.recharts-dot[stroke='#fff']]:stroke-transparent [&amp;_.recharts-layer]:outline-hidden [&amp;_.recharts-sector]:outline-hidden [&amp;_.recharts-sector[stroke='#fff']]:stroke-transparent [&amp;_.recharts-surface]:outline-hidden h-full w-full\"><style>\n [data-chart=chart-_R_16inpfiv5uknmlb_] {\n  --color-electronics: var(--primary);\n  --color-clothing: color-mix(in oklch, var(--primary) 75%, var(--background));\n  --color-homeGarden: color-mix(in oklch, var(--primary) 55%, var(--background));\n  --color-sports: color-mix(in oklch, var(--primary) 40%, var(--background));\n}\n\n\n.dark [data-chart=chart-_R_16inpfiv5uknmlb_] {\n  --color-electronics: var(--primary);\n  --color-clothing: color-mix(in oklch, var(--primary) 85%, var(--background));\n  --color-homeGarden: color-mix(in oklch, var(--primary) 65%, var(--background));\n  --color-sports: color-mix(in oklch, var(--primary) 45%, var(--background));\n}\n</style><div class=\"recharts-responsive-container\" style=\"width:100%;height:100%;min-width:1px;min-height:1px\"><div style=\"width:0;height:0;overflow:visible\"><div width=\"818\" height=\"280\" class=\"recharts-wrapper\" style=\"position: relative; cursor: default; width: 818px; height: 280px;\"><div xmlns=\"http://www.w3.org/1999/xhtml\" tabindex=\"-1\" class=\"recharts-tooltip-wrapper\" style=\"visibility: hidden; pointer-events: none; position: absolute; top: 0px; left: 0px;\"></div><svg role=\"application\" tabindex=\"0\" class=\"recharts-surface\" width=\"818\" height=\"280\" viewBox=\"0 0 818 280\" style=\"width: 100%; height: 100%; display: block;\"><title></title><desc></desc><g tabindex=\"-1\" class=\"recharts-zIndex-layer_-100\"><g class=\"recharts-cartesian-grid\"><g class=\"recharts-cartesian-grid-horizontal\"><line stroke-dasharray=\"3 3\" stroke=\"#ccc\" fill=\"none\" x=\"37\" y=\"5\" width=\"776\" height=\"240\" x1=\"37\" y1=\"245\" x2=\"813\" y2=\"245\"></line><line stroke-dasharray=\"3 3\" stroke=\"#ccc\" fill=\"none\" x=\"37\" y=\"5\" width=\"776\" height=\"240\" x1=\"37\" y1=\"185\" x2=\"813\" y2=\"185\"></line><line stroke-dasharray=\"3 3\" stroke=\"#ccc\" fill=\"none\" x=\"37\" y=\"5\" width=\"776\" height=\"240\" x1=\"37\" y1=\"125\" x2=\"813\" y2=\"125\"></line><line stroke-dasharray=\"3 3\" stroke=\"#ccc\" fill=\"none\" x=\"37\" y=\"5\" width=\"776\" height=\"240\" x1=\"37\" y1=\"65\" x2=\"813\" y2=\"65\"></line><line stroke-dasharray=\"3 3\" stroke=\"#ccc\" fill=\"none\" x=\"37\" y=\"5\" width=\"776\" height=\"240\" x1=\"37\" y1=\"5\" x2=\"813\" y2=\"5\"></line></g><g class=\"recharts-cartesian-grid-vertical\"><line stroke-dasharray=\"3 3\" stroke=\"#ccc\" fill=\"none\" x=\"37\" y=\"5\" width=\"776\" height=\"240\" x1=\"37\" y1=\"5\" x2=\"37\" y2=\"245\"></line><line stroke-dasharray=\"3 3\" stroke=\"#ccc\" fill=\"none\" x=\"37\" y=\"5\" width=\"776\" height=\"240\" x1=\"166.33333333333334\" y1=\"5\" x2=\"166.33333333333334\" y2=\"245\"></line><line stroke-dasharray=\"3 3\" stroke=\"#ccc\" fill=\"none\" x=\"37\" y=\"5\" width=\"776\" height=\"240\" x1=\"295.6666666666667\" y1=\"5\" x2=\"295.6666666666667\" y2=\"245\"></line><line stroke-dasharray=\"3 3\" stroke=\"#ccc\" fill=\"none\" x=\"37\" y=\"5\" width=\"776\" height=\"240\" x1=\"425\" y1=\"5\" x2=\"425\" y2=\"245\"></line><line stroke-dasharray=\"3 3\" stroke=\"#ccc\" fill=\"none\" x=\"37\" y=\"5\" width=\"776\" height=\"240\" x1=\"554.3333333333334\" y1=\"5\" x2=\"554.3333333333334\" y2=\"245\"></line><line stroke-dasharray=\"3 3\" stroke=\"#ccc\" fill=\"none\" x=\"37\" y=\"5\" width=\"776\" height=\"240\" x1=\"683.6666666666667\" y1=\"5\" x2=\"683.6666666666667\" y2=\"245\"></line><line stroke-dasharray=\"3 3\" stroke=\"#ccc\" fill=\"none\" x=\"37\" y=\"5\" width=\"776\" height=\"240\" x1=\"813\" y1=\"5\" x2=\"813\" y2=\"245\"></line></g></g></g><g tabindex=\"-1\" class=\"recharts-zIndex-layer_-50\"></g><defs><clipPath id=\"recharts1-clip\"><rect x=\"37\" y=\"5\" height=\"240\" width=\"776\"></rect></clipPath></defs><g tabindex=\"-1\" class=\"recharts-zIndex-layer_100\"></g><g tabindex=\"-1\" class=\"recharts-zIndex-layer_200\"></g><g tabindex=\"-1\" class=\"recharts-zIndex-layer_300\"></g><g tabindex=\"-1\" class=\"recharts-zIndex-layer_400\"><g class=\"recharts-layer recharts-line\"><g class=\"recharts-layer recharts-shape\"><path stroke=\"var(--color-electronics)\" stroke-width=\"2\" fill=\"none\" id=\"recharts-line-_r_0_\" height=\"240\" width=\"776\" class=\"recharts-curve recharts-line-curve\" stroke-dasharray=\"838.514892578125px 838.514892578125px\" d=\"M37,201.8L166.333,144.2L295.667,177.8L425,113L554.333,167.48L683.667,129.8L813,192.2\"></path></g></g><g class=\"recharts-layer recharts-line\"><g class=\"recharts-layer recharts-shape\"><path stroke=\"var(--color-clothing)\" stroke-width=\"2\" fill=\"none\" id=\"recharts-line-_r_1_\" height=\"240\" width=\"776\" class=\"recharts-curve recharts-line-curve\" stroke-dasharray=\"869.2871px 869.287109375px\" d=\"M37,192.2L166.333,113L295.667,153.8L425,177.8L554.333,70.04L683.667,144.2L813,113\"></path></g></g><g class=\"recharts-layer recharts-line\"><g class=\"recharts-layer recharts-shape\"><path stroke=\"var(--color-homeGarden)\" stroke-width=\"2\" fill=\"none\" id=\"recharts-line-_r_2_\" height=\"240\" width=\"776\" class=\"recharts-curve recharts-line-curve\" stroke-dasharray=\"803.5417px "
+}

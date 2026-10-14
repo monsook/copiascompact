@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "status": "completed",
+  "url": "https://more-nutrition.webflow.io/#reviews",
+  "siteName": "more-nutrition-webflow-io",
+  "mode": "all",
+  "startedAt": "2026-10-02T17:15:05.725Z",
+  "completedAt": "2026-10-02T17:16:04.678Z",
+  "stages": [
+    {
+      "name": "detect",
+      "status": "passed",
+      "startedAt": "2026-10-02T17:15:05.728Z",
+      "completedAt": "2026-10-02T17:15:11.950Z"
+    },
+    {
+      "name": "clone",
+      "status": "passed",
+      "startedAt": "2026-10-02T17:15:11.950Z",
+      "completedAt": "2026-10-02T17:15:42.660Z"
+    },
+    {
+      "name": "normalize-assets",
+      "status": "passed",
+      "startedAt": "2026-10-02T17:15:42.661Z",
+      "completedAt": "2026-10-02T17:15:42.792Z"
+    },
+    {
+      "name": "extract-design-dna",
+      "status": "passed",
+      "startedAt": "2026-10-02T17:15:42.793Z",
+      "completedAt": "2026-10-02T17:15:54.908Z"
+    },
+    {
+      "name": "generate-styleguide",
+      "status": "passed",
+      "startedAt": "2026-10-02T17:15:54.908Z",
+      "completedAt": "2026-10-02T17:15:54.911Z"
+    },
+    {
+      "name": "extract-ui-ux",
+      "status": "passed",
+      "startedAt": "2026-10-02T17:15:54.911Z",
+      "completedAt": "2026-10-02T17:16:04.651Z"
+    },
+    {
+      "name": "generate-master-spec",
+      "status": "passed",
+      "startedAt": "2026-10-02T17:16:04.651Z",
+      "completedAt": "2026-10-02T17:16:04.663Z"
+    },
+    {
+      "name": "generate-asset-manifest",
+      "status": "passed",
+      "startedAt": "2026-10-02T17:16:04.663Z",
+      "completedAt": "2026-10-02T17:16:04.675Z"
+    },
+    {
+      "name": "generate-prompt-catalog",
+      "status": "passed",
+      "startedAt": "2026-10-02T17:16:04.676Z",
+      "completedAt": "2026-10-02T17:16:04.678Z"
+    }
+  ]
+}

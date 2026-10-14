@@ -1,0 +1,76 @@
+{
+  "route": "/todo/settings",
+  "title": "Todo App",
+  "cardsCount": 5,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "Profile Information\nUpdate your account profile and email address\n\nProfile Photo\n\nJPG, PNG or GIF. Max size 2MB.\n\nChange photo\nRemove\nFull name\nEmail address\n\nWe'll use this email for account notifications\n\nUsername",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "Password\nChange your password to keep your account secure\nCurrent password\nNew password\nConfirm password\nUpdate password",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "Danger Zone\nIrreversible actions that affect your account\n\nDelete account\n\nPermanently delete your account and all data\n\nDelete",
+      "hasChart": false,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 6,
+  "inputsSample": [
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "email",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "password",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "password",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "password",
+      "placeholder": "",
+      "label": ""
+    }
+  ],
+  "htmlSnapshot": ""
+}

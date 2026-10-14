@@ -1,0 +1,83 @@
+{
+  "generatedAt": "2026-09-25T12:44:16.288Z",
+  "siteUrl": "https://khanhnguyen.design/",
+  "summary": {
+    "totalAssetsFound": 10,
+    "imageSequencesDetected": 0,
+    "heroBackgroundsDetected": 0,
+    "technicalSvgsDetected": 10,
+    "brandAssetsDetected": 0
+  },
+  "replacements": [
+    {
+      "id": "icon_autonomous.cjy4rwnv_z2iv97y",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/_astro/autonomous.CjY4rwNV_Z2iV97Y.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_autonomous.cjy4rwnv_zwcg8r",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/_astro/autonomous.CjY4rwNV_Zwcg8r.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_glass-egg.beyypgun_z2iv97y",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/_astro/glass-egg.BEyyPGun_Z2iV97Y.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_glass-egg.beyypgun_zwcg8r",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/_astro/glass-egg.BEyyPGun_Zwcg8r.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_trusting-social.dpmgxmac_z2iv97y",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/_astro/trusting-social.DpmGxmAc_Z2iV97Y.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_trusting-social.dpmgxmac_zwcg8r",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/_astro/trusting-social.DpmGxmAc_Zwcg8r.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_ven.b2y4cfab_z2iv97y",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/_astro/ven.B2Y4CFaB_Z2iV97Y.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_ven.b2y4cfab_zwcg8r",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/_astro/ven.B2Y4CFaB_Zwcg8r.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_vietnamwork.3okzrbew_z2iv97y",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/_astro/vietnamwork.3okzrBEw_Z2iV97Y.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_vietnamwork.3okzrbew_zwcg8r",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/_astro/vietnamwork.3okzrBEw_Zwcg8r.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    }
+  ]
+}

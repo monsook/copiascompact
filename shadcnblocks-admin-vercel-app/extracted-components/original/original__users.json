@@ -1,0 +1,58 @@
+{
+  "route": "/original/users",
+  "title": "Original App",
+  "cardsCount": 6,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "Total Users\nMore Info\n12,000\n\n+5% than last month",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "New Users\nMore Info\n+350\n\n+10% vs last month",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "Pending Verifications\nMore Info\n42\n\n2% of users",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "Active Users\nMore Info\n7800\n\n65% of all users",
+      "hasChart": true,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 1,
+  "inputsSample": [
+    {
+      "type": "text",
+      "placeholder": "Filter tasks...",
+      "label": ""
+    }
+  ],
+  "htmlSnapshot": "<div class=\"mb-4 flex flex-col gap-2\"><nav aria-label=\"breadcrumb\"><ol class=\"text-muted-foreground flex flex-wrap items-center gap-1.5 text-sm break-words sm:gap-2.5\"><li class=\"inline-flex items-center gap-1.5\"><a class=\"hover:text-foreground transition-colors\" href=\"/\">Home</a></li><li role=\"presentation\" aria-hidden=\"true\" class=\"[&amp;&gt;svg]:h-3.5 [&amp;&gt;svg]:w-3.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-right\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"></path></svg></li><li class=\"inline-flex items-center gap-1.5\"><span role=\"link\" aria-disabled=\"true\" aria-current=\"page\" class=\"text-foreground font-normal\">Users</span></li></ol></nav><div class=\"flex flex-wrap items-center justify-between gap-2\"><h2 class=\"flex-none text-xl font-bold tracking-tight\">User List</h2><div class=\"flex justify-end gap-2\"><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background shadow-xs hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 space-x-1\"><span>Invite User</span> <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"tabler-icon tabler-icon-mail-plus\"><path d=\"M12 19h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v5.5\"></path><path d=\"M16 19h6\"></path><path d=\"M19 16v6\"></path><path d=\"M3 7l9 6l9 -6\"></path></svg></button><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-sm hover:bg-primary/90 h-9 px-4 py-2 space-x-1\"><span>Add User</span> <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"tabler-icon tabler-icon-user-plus\"><path d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0\"></path><path d=\"M16 19h6\"></path><path d=\"M19 16v6\"></path><path d=\"M6 21v-2a4 4 0 0 1 4 -4h4\"></path></svg></button></div></div><div class=\"grid gap-4 sm:grid-cols-2 lg:grid-cols-4\"><div class=\"bg-card text-card-foreground rounded-lg border\"><div class=\"p-6 flex flex-row items-center justify-between space-y-0 pt-4 pb-2\"><div class=\"tracking-tight flex items-center gap-2 text-sm font-medium\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"tabler-icon tabler-icon-users-group\"><path d=\"M10 13a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\"></path><path d=\"M8 21v-1a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v1\"></path><path d=\"M15 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\"></path><path d=\"M17 10h2a2 2 0 0 1 2 2v1\"></path><path d=\"M5 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\"></path><path d=\"M3 13v-1a2 2 0 0 1 2 -2h2\"></path></svg>Total Users</div><button data-state=\"closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"tabler-icon tabler-icon-info-circle text-muted-foreground scale-90 stroke-[1.25]\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0\"></path><path d=\"M12 9h.01\"></path><path d=\"M11 12h1v4h1\"></path></svg><span class=\"sr-only\">More Info</span></button></div><div class=\"p-6 pt-0 pb-4\"><div class=\"text-2xl font-bold\">12,000</div><p class=\"text-muted-foreground text-xs\">+5% than last month</p></div></div><div class=\"bg-card text-card-foreground rounded-lg border\"><div class=\"p-6 flex flex-row items-center justify-between space-y-0 pt-4 pb-2\"><div class=\"tracking-tight flex items-center gap-2 text-sm font-medium\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"tabler-icon tabler-icon-users-plus\"><path d=\"M5 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0\"></path><path d=\"M3 21v-2a4 4 0 0 1 4 -4h4c.96 0 1.84 .338 2.53 .901\"></path><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"></path><path d=\"M16 19h6\"></path><path d=\"M19 16v6\"></path></svg>New Users</div><button data-state=\"closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"tabler-icon tabler-icon-info-circle text-muted-foreground scale-90 stroke-[1.25]\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0\"></path><path d=\"M12 9h.01\"></path><path d=\"M11 12h1v4h1\"></path></svg><span class=\"sr-only\">More Info</span></button></div><div class=\"p-6 pt-0 pb-4\"><div class=\"text-2xl font-bold\">+350</div><p class=\"text-muted-foreground text-xs\">+10% vs last month</p></div></div><div class=\"bg-card text-card-foreground rounded-lg border\"><div class=\"p-6 flex flex-row items-center justify-between space-y-0 pt-4 pb-2\"><div class=\"tracking-tight flex items-center gap-2 text-sm font-medium\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"tabler-icon tabler-icon-user-scan\"><path d=\"M10 9a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\"></path><path d=\"M8 16a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2\"></path><path d=\"M3 7v-2a2 2 0 0 1 2 -2h2\"></path><path d=\"M3 17v2a2 2 0 0 0 2 2h2\"></path><path d=\"M17 3h2a2 2 0 0 1 2 2v2\"></path><path d=\"M17 21h2a2 2 0 0 0 2 -2v-2\"></path></svg>Pending Verifications</div><button data-state=\"closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"tabler-icon tabler-icon-info-circle text-muted-foreground scale-90 stroke-[1.25]\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0\"></path><path d=\"M12 9h.01\"></path><path d=\"M11 12h1v4h1\"></path></svg><span class=\"sr-only\">More Info</span></button></div><div class=\"p-6 pt-0 pb-4\"><div class=\"text-2xl font-bold\">42</div><p class=\"text-muted-foreground text-xs\">2% of users</p></div></div><div class=\"bg-card text-card-foreground rounded-lg border\"><div class=\"p-6 flex flex-row items-center justify-between space-y-0 pt-4 pb-2\"><div class=\"tracking-tight flex items-center gap-2 text-sm font-medium\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"tabler-icon tabler-icon-user-check\"><path d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0\"></path><path d=\"M6 21v-2a4 4 0 0 1 4 -4h4\"></path><path d=\"M15 19l2 2l4 -4\"></path></svg>Active Users</div><button data-state=\"closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"tabler-icon tabler-icon-info-circle text-muted-foreground scale-90 stroke-[1.25]\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0\"></path><path d=\"M12 9h.01\"></path><path d=\"M11 12h1v4h1\"></path></svg><span class=\"sr-only\">More Info</span></button></div><div class=\"p-6 pt-0 pb-4\"><div class=\"text-2xl font-bold\">7800</div><p class=\"text-muted-foreground text-xs\">65% of all users</p></div></div></div></div><div class=\"flex-1\"><div class=\"space-y-4\"><div class=\"flex items-center justify-between\"><div class=\"flex flex-1 flex-col-reverse items-start gap-y-2 sm:flex-row sm:items-center sm:space-x-2\"><input class=\"border-input file:text-foreground placeholder:text-muted-foreground focus-visible:ring-ring flex rounded-md border bg-transparent px-3 py-1 text-base shadow-xs transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium focus-visible:ring-1 focus-visible:outline-hidden disabled:cursor-not-allowed disabled:opacity-50 md:text-sm h-8 w-[150px] lg:w-[250px]\" placeholder=\"Filter tasks...\" value=\"\" style=\"\"><div class=\"flex gap-x-2\"><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background shadow-xs hover:bg-accent hover:text-accent-foreground rounded-md px-3 text-xs h-8 border-dashed\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-_r_a_\" data-state=\"closed\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 15 15\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"h-4 w-4\"><path d=\"M7.49991 0.876892C3.84222 0.876892 0.877075 3.84204 0.877075 7.49972C0.877075 11.1574 3.84222 14.1226 7.49991 14.1226C11.1576 14.1226 14.1227 11.1574 14.1227 7.49972C14.1227 3.84204 11.1576 0.876892 7.49991 0.876892ZM1.82707 7.49972C1.82707 4.36671 4.36689 1.82689 7.49991 1.82689C10.6329 1.82689 13.1727 4.36671 13.1727 7.49972C13.1727 10.6327 10.6329 13.1726 7.49991 13.1726C4.36689 13.1726 1.82707 10.6327 1.82707 7.49972ZM7.50003 4C7.77617 4 8.00003 4.22386 8.00003 4.5V7H10.5C10.7762 7 11 7.22386 11 7.5C11 7.77614 10.7762 8 10.5 8H8.00003V10.5C8.00003 10.7761 7.77617 11 7.50003 11C7.22389 11 7.00003 10.7761 7.00003 10.5V8H4.50003C4.22389 8 4.00003 7.77614 4.00003 7.5C4.00003 7.22386 4.22389 7 4.50003 7H7.00003V"
+}

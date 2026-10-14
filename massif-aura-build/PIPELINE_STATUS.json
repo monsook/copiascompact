@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "status": "completed",
+  "url": "https://massif.aura.build/",
+  "siteName": "massif-aura-build",
+  "mode": "all",
+  "startedAt": "2026-09-25T15:18:42.307Z",
+  "completedAt": "2026-09-25T15:19:49.524Z",
+  "stages": [
+    {
+      "name": "detect",
+      "status": "passed",
+      "startedAt": "2026-09-25T15:18:42.309Z",
+      "completedAt": "2026-09-25T15:19:04.246Z"
+    },
+    {
+      "name": "clone",
+      "status": "passed",
+      "startedAt": "2026-09-25T15:19:04.247Z",
+      "completedAt": "2026-09-25T15:19:33.871Z"
+    },
+    {
+      "name": "normalize-assets",
+      "status": "passed",
+      "startedAt": "2026-09-25T15:19:33.873Z",
+      "completedAt": "2026-09-25T15:19:34.259Z"
+    },
+    {
+      "name": "extract-design-dna",
+      "status": "passed",
+      "startedAt": "2026-09-25T15:19:34.260Z",
+      "completedAt": "2026-09-25T15:19:43.312Z"
+    },
+    {
+      "name": "generate-styleguide",
+      "status": "passed",
+      "startedAt": "2026-09-25T15:19:43.315Z",
+      "completedAt": "2026-09-25T15:19:43.320Z"
+    },
+    {
+      "name": "extract-ui-ux",
+      "status": "passed",
+      "startedAt": "2026-09-25T15:19:43.323Z",
+      "completedAt": "2026-09-25T15:19:49.378Z"
+    },
+    {
+      "name": "generate-master-spec",
+      "status": "passed",
+      "startedAt": "2026-09-25T15:19:49.383Z",
+      "completedAt": "2026-09-25T15:19:49.427Z"
+    },
+    {
+      "name": "generate-asset-manifest",
+      "status": "passed",
+      "startedAt": "2026-09-25T15:19:49.432Z",
+      "completedAt": "2026-09-25T15:19:49.501Z"
+    },
+    {
+      "name": "generate-prompt-catalog",
+      "status": "passed",
+      "startedAt": "2026-09-25T15:19:49.508Z",
+      "completedAt": "2026-09-25T15:19:49.517Z"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "route": "/register",
+  "title": "Shadcnblocks Admin Kit",
+  "cardsCount": 1,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "Create an account\n\nEnter your email and password to create an account.\nAlready have an account? Log In\n\nEmail\nPassword\nConfirm Password\nCreate Account\nOR CONTINUE WITH\nGitHub\nFacebook\n\nBy creating an account, you agree to our Terms of Service and Privacy Policy.",
+      "hasChart": true,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 3,
+  "inputsSample": [
+    {
+      "type": "text",
+      "placeholder": "name@example.com",
+      "label": ""
+    },
+    {
+      "type": "password",
+      "placeholder": "********",
+      "label": ""
+    },
+    {
+      "type": "password",
+      "placeholder": "********",
+      "label": ""
+    }
+  ],
+  "htmlSnapshot": ""
+}

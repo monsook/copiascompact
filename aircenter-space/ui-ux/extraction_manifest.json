@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-09-21T14:31:41.157Z",
+  "binaries": [
+    {
+      "url": "https://aircenter.space/assets/fonts/onest/Onest-Regular.ttf",
+      "filePath": "models/5962e05f7e40_Onest-Regular.ttf",
+      "mimeType": "application/octet-stream",
+      "size": 64272,
+      "hash": "5962e05f7e40"
+    },
+    {
+      "url": "https://aircenter.space/assets/fonts/onest/Onest-Medium.ttf",
+      "filePath": "models/a2523ebe4154_Onest-Medium.ttf",
+      "mimeType": "application/octet-stream",
+      "size": 64444,
+      "hash": "a2523ebe4154"
+    }
+  ],
+  "shaders": [],
+  "blobs": [],
+  "sequences": []
+}

@@ -1,0 +1,85 @@
+{
+  "gsap": {
+    "detected": true,
+    "version": "3.15.0",
+    "hasScrollTrigger": true,
+    "scrollTriggerInstances": 2,
+    "tweensCount": 4,
+    "plugins": [
+      "attr",
+      "endArray",
+      "roundProps",
+      "modifiers",
+      "snap",
+      "css",
+      "drawSVG",
+      "inertia"
+    ],
+    "timelines": [
+      {
+        "duration": 1,
+        "ease": "power2.out",
+        "props": {}
+      },
+      {
+        "duration": 1,
+        "ease": "power2.out",
+        "props": {}
+      },
+      {
+        "duration": 0.5,
+        "ease": "none",
+        "props": {}
+      },
+      {
+        "duration": 0.7,
+        "ease": "expo",
+        "props": {}
+      }
+    ]
+  },
+  "lenis": {
+    "detected": true,
+    "config": null
+  },
+  "microInteractions": {
+    "magneticButtons": [],
+    "tiltCards": [],
+    "spotlightElements": [],
+    "textScramble": false
+  },
+  "webglCanvas": {
+    "canvasCount": 2,
+    "hasThreeJs": false,
+    "shadersCount": 0,
+    "shaders": []
+  },
+  "typography": {
+    "splitTextDetected": false,
+    "variableFonts": [],
+    "marqueesCount": 0
+  },
+  "cssEffects": {
+    "keyframes": [
+      {
+        "name": "spin",
+        "cssText": "@keyframes spin { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}"
+      },
+      {
+        "name": "swiper-preloader-spin",
+        "cssText": "@keyframes swiper-preloader-spin { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(1turn); }\n}"
+      },
+      {
+        "name": "wiggle",
+        "cssText": "@keyframes wiggle { \n  0% { transform: translateY(1px); }\n  20% { transform: translate(-1px, -1px); }\n  32% { transform: translate(0px); }\n  48% { transform: translate(0px); }\n  64% { transform: translate(1px); }\n  80% { transform: translateY(-1px); }\n  100% { transform: translate(0px); }\n}"
+      },
+      {
+        "name": "rotation",
+        "cssText": "@keyframes rotation { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}"
+      }
+    ],
+    "glassmorphism": true,
+    "clipPaths": [],
+    "svgFilters": []
+  }
+}

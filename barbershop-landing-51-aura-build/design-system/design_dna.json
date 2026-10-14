@@ -1,0 +1,24 @@
+{
+  "colors": {
+    "variables": {
+      "--syntax-bg": "#1e1e1e",
+      "--syntax-color": "#d4d4d4",
+      "--slider-track-bg": "rgba(0, 0, 0, .05)",
+      "--slider-active-bg": "rgba(0, 0, 0, .1)"
+    },
+    "defaults": {
+      "backgroundColor": "rgb(255, 255, 255)",
+      "color": "rgb(23, 23, 23)"
+    }
+  },
+  "typography": {},
+  "sections": [],
+  "detectedScripts": [
+    "https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js",
+    "https://barbershop-landing-51.aura.build/assets/index-B2w8MoAU.js"
+  ],
+  "detectedCSS": [
+    "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+    "https://barbershop-landing-51.aura.build/assets/index-Cwh2lsV7.css"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "auditTimestamp": "2026-09-25T13:13:20.969Z",
+  "siteSlug": "khanhnguyen-design",
+  "auditPassed": true,
+  "jsErrors": [],
+  "layoutBoxes": [
+    {
+      "index": 0,
+      "tag": "header",
+      "id": null,
+      "classes": "fixed z-[110] opacity-0 inset-x-0 top-0 flex w-full flex-row items-center justify-between border-b border-(--header-border) bg-(--header-bg) text-(--header-text) px-5 py-4 md:inset-x-auto md:inset-y-0 md:left-0 md:right-auto md:bottom-0 md:w-16 md:flex-col md:items-center md:justify-start md:px-0 md:py-0 md:border-b-0 md:border-r transition-[background-color,color,border-color] duration-500 ease-out",
+      "top": 0,
+      "left": 0,
+      "width": 64,
+      "height": 900
+    },
+    {
+      "index": 1,
+      "tag": "section",
+      "id": null,
+      "classes": "relative flex w-full flex-col shrink-0 h-dvh overflow-hidden bg-[#262220] text-[#f3eee8]",
+      "top": 0,
+      "left": 0,
+      "width": 1920,
+      "height": 900
+    },
+    {
+      "index": 2,
+      "tag": "section",
+      "id": null,
+      "classes": "relative flex w-full flex-col shrink-0 overflow-hidden md:h-dvh bg-[#faf9f6] text-[#2e2b28]",
+      "top": 0,
+      "left": 1920,
+      "width": 1920,
+      "height": 900
+    },
+    {
+      "index": 3,
+      "tag": "section",
+      "id": null,
+      "classes": "relative flex w-full flex-col shrink-0 overflow-hidden md:h-dvh h-[100svh] items-center justify-center bg-[#faf9f6] px-5 py-14 text-[#2e2b28] md:px-0 md:py-0",
+      "top": 0,
+      "left": 3840,
+      "width": 1920,
+      "height": 900
+    },
+    {
+      "index": 4,
+      "tag": "section",
+      "id": null,
+      "classes": "relative flex w-full flex-col shrink-0 overflow-hidden md:h-dvh bg-[#edeae6] text-[#2e2b28]",
+      "top": 0,
+      "left": 5760,
+      "width": 1920,
+      "height": 900
+    },
+    {
+      "index": 5,
+      "tag": "section",
+      "id": null,
+      "classes": "relative flex w-full flex-col shrink-0 overflow-hidden md:h-dvh bg-[#2e2b28] pt-14 text-[#faf9f6] md:pt-0 md:pl-16 md:w-max relative z-1",
+      "top": 0,
+      "left": 7680,
+      "width": 2364,
+      "height": 900
+    },
+    {
+      "index": 6,
+      "tag": "section",
+      "id": null,
+      "classes": "relative flex w-full flex-col shrink-0 overflow-hidden md:h-dvh !overflow-clip bg-[#edeae6] text-[#2e2b28] md:!overflow-hidden",
+      "top": 0,
+      "left": 10044,
+      "width": 1920,
+      "height": 900
+    },
+    {
+      "index": 7,
+      "tag": "section",
+      "id": "contact",
+      "classes": "relative flex w-full flex-col shrink-0 overflow-hidden md:h-dvh bg-[#1f1d1b] text-[#ccc]",
+      "top": 0,
+      "left": 11964,
+      "width": 1920,
+      "height": 900
+    }
+  ],
+  "imagesSummary": {
+    "total": 19,
+    "valid": 19,
+    "broken": []
+  }
+}

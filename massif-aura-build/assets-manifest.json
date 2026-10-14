@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-09-25T15:19:49.438Z",
+  "siteUrl": "https://massif.aura.build/",
+  "summary": {
+    "totalAssetsFound": 7,
+    "imageSequencesDetected": 0,
+    "heroBackgroundsDetected": 6,
+    "technicalSvgsDetected": 0,
+    "brandAssetsDetected": 1
+  },
+  "replacements": [
+    {
+      "id": "brand_logo-aura-gray",
+      "category": "BRAND_LOGO",
+      "originalFile": "assets/logo-aura-gray.svg",
+      "recommendedStrategy": "CUSTOM_COMPANY_BRANDING",
+      "rationale": "Substituir pelo logotipo da sua empresa mantendo o container e animações de entrada"
+    },
+    {
+      "id": "bg_hero-montblanc-1.5x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/vendor/cdn.jsdelivr.net/gh/Sam1983Aing/aura-assets@1.1.0/massif/hero-montblanc-1.5x.jpg",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_hero-montblanc-night-1.5x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/vendor/cdn.jsdelivr.net/gh/Sam1983Aing/aura-assets@1.1.0/massif/hero-montblanc-night-1.5x.jpg",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_hero-montblanc-night",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/vendor/cdn.jsdelivr.net/gh/Sam1983Aing/aura-assets@1.1.0/massif/hero-montblanc-night.jpg",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_hero-montblanc-night@2x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/vendor/cdn.jsdelivr.net/gh/Sam1983Aing/aura-assets@1.1.0/massif/hero-montblanc-night@2x.jpg",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_hero-montblanc",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/vendor/cdn.jsdelivr.net/gh/Sam1983Aing/aura-assets@1.1.0/massif/hero-montblanc.jpg",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_hero-montblanc@2x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/vendor/cdn.jsdelivr.net/gh/Sam1983Aing/aura-assets@1.1.0/massif/hero-montblanc@2x.jpg",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    }
+  ]
+}

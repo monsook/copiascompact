@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "status": "completed",
+  "url": "https://www.habitsupps.com/product/stress-relief-capsule",
+  "siteName": "habitsupps-com",
+  "mode": "all",
+  "startedAt": "2026-10-02T17:13:27.507Z",
+  "completedAt": "2026-10-02T17:14:11.349Z",
+  "stages": [
+    {
+      "name": "detect",
+      "status": "passed",
+      "startedAt": "2026-10-02T17:13:27.510Z",
+      "completedAt": "2026-10-02T17:13:33.795Z"
+    },
+    {
+      "name": "clone",
+      "status": "passed",
+      "startedAt": "2026-10-02T17:13:33.795Z",
+      "completedAt": "2026-10-02T17:14:00.988Z"
+    },
+    {
+      "name": "normalize-assets",
+      "status": "passed",
+      "startedAt": "2026-10-02T17:14:00.989Z",
+      "completedAt": "2026-10-02T17:14:01.055Z"
+    },
+    {
+      "name": "extract-design-dna",
+      "status": "passed",
+      "startedAt": "2026-10-02T17:14:01.055Z",
+      "completedAt": "2026-10-02T17:14:09.570Z"
+    },
+    {
+      "name": "generate-styleguide",
+      "status": "passed",
+      "startedAt": "2026-10-02T17:14:09.570Z",
+      "completedAt": "2026-10-02T17:14:09.573Z"
+    },
+    {
+      "name": "extract-ui-ux",
+      "status": "passed",
+      "startedAt": "2026-10-02T17:14:09.574Z",
+      "completedAt": "2026-10-02T17:14:11.329Z"
+    },
+    {
+      "name": "generate-master-spec",
+      "status": "passed",
+      "startedAt": "2026-10-02T17:14:11.330Z",
+      "completedAt": "2026-10-02T17:14:11.342Z"
+    },
+    {
+      "name": "generate-asset-manifest",
+      "status": "passed",
+      "startedAt": "2026-10-02T17:14:11.343Z",
+      "completedAt": "2026-10-02T17:14:11.347Z"
+    },
+    {
+      "name": "generate-prompt-catalog",
+      "status": "passed",
+      "startedAt": "2026-10-02T17:14:11.347Z",
+      "completedAt": "2026-10-02T17:14:11.348Z"
+    }
+  ]
+}

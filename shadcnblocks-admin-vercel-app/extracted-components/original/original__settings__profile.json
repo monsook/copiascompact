@@ -1,0 +1,40 @@
+{
+  "route": "/original/settings/profile",
+  "title": "Original App",
+  "cardsCount": 2,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 3,
+  "inputsSample": [
+    {
+      "type": "text",
+      "placeholder": "Your name",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "shadcn",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": "m@example.com\nm@google.com\nm@support.com"
+    }
+  ],
+  "htmlSnapshot": ""
+}

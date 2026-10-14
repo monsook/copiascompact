@@ -1,0 +1,66 @@
+{
+  "route": "/ecommerce/dashboard-3",
+  "title": "Ecommerce App",
+  "cardsCount": 8,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "Monthly revenue\n\n$189,540.75\n\n+27.9%($41,310.75)\nvs Last Month\nOrders fulfilled\n\n21,847\n\n+18.4%(3,395)\nvs Last Month\nNew customers\n\n4,975\n\n+20.8%(855)\nvs Last Month\nRefunds issued\n\n$8,473.00\n\n-13.7%($1,348.00)\nvs Last Month",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "$276,000.00\n\nTotal Revenue (Last 6 Months)\n\nThis Year\nPrev Year\nJan\nFeb\nMar\nApr\nMay\nJun\n$0\n$15K\n$30K\n$45K\n$60K",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "Order Status\n\n1,247 Orders This Month\n\n12.5%\n33.9%\n53.6%\nProcessing\nShipped\nDelivered",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "Sales by Category\n\n+8.4%\nvs last month\n\n$250K\nTotal\nElectronics\n$145K\n58%\nAccessories\n$62K\n25%\nSoftware\n$33K\n13%\nOther\n$10K\n4%",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 6,
+      "title": "",
+      "snippet": "Recent Transactions\n20\nFilter\nOrder Ref\tBuyer\tTotal\tStatus\nORD-2024-001\tSarah Johnson\t$2,499.00\tDelivered\nORD-2024-002\tMichael Chen\t$1,348.00\tShipped\nORD-2024-003\tEmma Wilson\t$1,198.00\tProcessing\nORD-2024-004\tJames Rodriguez\t$799.00\tDelivered\nORD-2024-005\tLisa Park\t$599.00\tCancelled\nORD-2024-006\tDav",
+      "hasChart": true,
+      "hasTable": true
+    },
+    {
+      "id": 7,
+      "title": "",
+      "snippet": "Recent Activity\nNew user registration\n2 minutes ago\nAlex Morgan\nNew Order Placed\n2 minutes ago\nAlex Morgan\nPayment Received\n2 minutes ago\nAlex Morgan\nInvoice Sent\n6 minutes ago\nJamie Lee\nSubscription Upgraded\n12 minutes ago\nNoah Roberts\nRefund Issued\n18 minutes ago\nOlivia White\nPassword Reset\n24 min",
+      "hasChart": true,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 0,
+  "inputsSample": [],
+  "htmlSnapshot": "<div class=\"flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between sm:gap-6\"><div class=\"space-y-2 sm:space-y-5\"><h2 class=\"text-lg leading-relaxed font-semibold sm:text-[22px]\">Welcome Back, John!</h2><p class=\"text-muted-foreground text-sm sm:text-base\">Today you have<!-- --> <span class=\"text-foreground font-medium\">12 orders</span> to fulfill,<!-- --> <span class=\"text-foreground font-medium\">3 returns</span> pending</p></div><div class=\"flex flex-wrap items-center gap-2 sm:gap-3\"><button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background shadow-xs hover:bg-accent hover:text-accent-foreground rounded-md px-3 text-xs h-8 gap-2 sm:h-9\" aria-label=\"Export\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-download size-4\" aria-hidden=\"true\"><path d=\"M12 15V3\"></path><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"></path><path d=\"m7 10 5 5 5-5\"></path></svg><span class=\"hidden sm:inline\">Export</span></button><button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-sm hover:bg-primary/90 rounded-md px-3 text-xs h-8 gap-2 sm:h-9\" aria-label=\"Add Product\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-plus size-4\" aria-hidden=\"true\"><path d=\"M5 12h14\"></path><path d=\"M12 5v14\"></path></svg><span class=\"hidden sm:inline\">Add Product</span></button></div></div><div class=\"bg-card rounded-xl border\"><div class=\"divide-border grid grid-cols-1 divide-x-0 divide-y sm:grid-cols-2 sm:divide-y-0 lg:grid-cols-4 lg:divide-x\"><div class=\"space-y-4 p-4 sm:p-6\"><div class=\"text-muted-foreground flex items-center gap-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-dollar-sign size-4 sm:size-[18px]\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8\"></path><path d=\"M12 18V6\"></path></svg><span class=\"text-xs font-medium sm:text-sm\">Monthly revenue</span></div><p class=\"text-2xl font-semibold tracking-tight sm:text-[28px]\">$189,540.75</p><div class=\"flex flex-wrap items-center gap-2 text-[10px] sm:text-xs xl:flex-nowrap\"><span class=\"font-medium text-emerald-600 dark:text-emerald-400\">+<!-- -->27.9<!-- -->%<span class=\"hidden sm:inline\">(<!-- -->$41,310.75<!-- -->)</span></span><span class=\"text-muted-foreground hidden items-center gap-2 sm:inline-flex\"><span class=\"bg-muted-foreground size-1 rounded-full\"></span><span class=\"xl:whitespace-nowrap\">vs Last Month</span></span></div></div><div class=\"space-y-4 p-4 sm:p-6\"><div class=\"text-muted-foreground flex items-center gap-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-clipboard-list size-4 sm:size-[18px]\" aria-hidden=\"true\"><rect width=\"8\" height=\"4\" x=\"8\" y=\"2\" rx=\"1\" ry=\"1\"></rect><path d=\"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2\"></path><path d=\"M12 11h4\"></path><path d=\"M12 16h4\"></path><path d=\"M8 11h.01\"></path><path d=\"M8 16h.01\"></path></svg><span class=\"text-xs font-medium sm:text-sm\">Orders fulfilled</span></div><p class=\"text-2xl font-semibold tracking-tight sm:text-[28px]\">21,847</p><div class=\"flex flex-wrap items-center gap-2 text-[10px] sm:text-xs xl:flex-nowrap\"><span class=\"font-medium text-emerald-600 dark:text-emerald-400\">+<!-- -->18.4<!-- -->%<span class=\"hidden sm:inline\">(<!-- -->3,395<!-- -->)</span></span><span class=\"text-muted-foreground hidden items-center gap-2 sm:inline-flex\"><span class=\"bg-muted-foreground size-1 rounded-full\"></span><span class=\"xl:whitespace-nowrap\">vs Last Month</span></span></div></div><div class=\"space-y-4 p-4 sm:p-6\"><div class=\"text-muted-foreground flex items-center gap-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-users size-4 sm:size-[18px]\" aria-hidden=\"true\"><path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"></path><path d=\"M16 3.128a4 4 0 0 1 0 7.744\"></path><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"></path><circle cx=\"9\" cy=\"7\" r=\"4\"></circle></svg><span class=\"text-xs font-medium sm:text-sm\">New customers</span></div><p class=\"text-2xl font-semibold tracking-tight sm:text-[28px]\">4,975</p><div class=\"flex flex-wrap items-center gap-2 text-[10px] sm:text-xs xl:flex-nowrap\"><span class=\"font-medium text-emerald-600 dark:text-emerald-400\">+<!-- -->20.8<!-- -->%<span class=\"hidden sm:inline\">(<!-- -->855<!-- -->)</span></span><span class=\"text-muted-foreground hidden items-center gap-2 sm:inline-flex\"><span class=\"bg-muted-foreground size-1 rounded-full\"></span><span class=\"xl:whitespace-nowrap\">vs Last Month</span></span></div></div><div class=\"space-y-4 p-4 sm:p-6\"><div class=\"text-muted-foreground flex items-center gap-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-credit-card size-4 sm:size-[18px]\" aria-hidden=\"true\"><rect width=\"20\" height=\"14\" x=\"2\" y=\"5\" rx=\"2\"></rect><line x1=\"2\" x2=\"22\" y1=\"10\" y2=\"10\"></line></svg><span class=\"text-xs font-medium sm:text-sm\">Refunds issued</span></div><p class=\"text-2xl font-semibold tracking-tight sm:text-[28px]\">$8,473.00</p><div class=\"flex flex-wrap items-center gap-2 text-[10px] sm:text-xs xl:flex-nowrap\"><span class=\"font-medium text-red-600 dark:text-red-400\">-<!-- -->13.7<!-- -->%<span class=\"hidden sm:inline\">(<!-- -->$1,348.00<!-- -->)</span></span><span class=\"text-muted-foreground hidden items-center gap-2 sm:inline-flex\"><span class=\"bg-muted-foreground size-1 rounded-full\"></span><span class=\"xl:whitespace-nowrap\">vs Last Month</span></span></div></div></div></div><div class=\"flex flex-col gap-4 sm:gap-6 xl:flex-row\"><div class=\"bg-card flex min-w-0 flex-1 flex-col gap-4 rounded-xl border p-4 sm:gap-6 sm:p-6\"><div class=\"flex flex-wrap items-center gap-2 sm:gap-4\"><div class=\"flex flex-1 flex-col gap-1\"><p class=\"text-xl leading-tight font-semibold tracking-tight sm:text-2xl\">$276,000.00</p><p class=\"text-muted-foreground text-xs\">Total Revenue (<!-- -->Last 6 Months<!-- -->)</p></div><div class=\"hidden items-center gap-3 sm:flex sm:gap-5\"><div class=\"flex items-center gap-1.5 transition-opacity duration-200 motion-reduce:transition-none\"><div class=\"size-2.5 rounded-full sm:size-3\" style=\"background-color:var(--primary)\"></div><span class=\"text-muted-foreground text-[10px] sm:text-xs\">This Year</span></div><div class=\"flex items-center gap-1.5 transition-opacity duration-200 motion-reduce:transition-none\"><div class=\"size-2.5 rounded-full sm:size-3\" style=\"background-color:color-mix(in oklch, var(--primary) 75%, var(--background))\"></div><span class=\"text-muted-foreground text-[10px] sm:text-xs\">Prev Year</span></div></div><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground size-7 sm:size-8\" aria-label=\"Select time period\" type=\"button\" id=\"radix-_R_dbinpfiv5uknmlb_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-ellipsis size-4\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"1\"></circle><circle cx=\"19\" cy=\"12\" r=\"1\"></circle><circle cx=\"5\" cy=\"12\" r=\"1\"></circle></svg></button></div><div class=\"h-[200px] w-full min-w-0 sm:h-[240px] lg:h-[280px]\"><div data-slot=\"chart\" data-chart=\"chart-_R_2binpfiv5uknmlb_\" class=\"[&amp;_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&amp;_.recharts-cartesian-grid_line[stroke='#ccc']]:stroke-border/50 [&amp;_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&amp;_.recharts-polar-grid_[stroke='#ccc']]:stroke-border [&amp;_.recharts-radial-bar-background-sector]:fill-muted [&amp;_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&amp;_.recharts-reference-line_[stroke='#ccc']]:stroke-border flex min-h-0 min-w-0 aspect-video justify-center text-xs [&amp;_.recharts-dot[stroke='#fff']]:stroke-transparent [&amp;_.recharts-layer]:outline-hidden [&amp;_.recharts-sector]:outline-hidden [&amp;_.recharts-sector[stroke='#fff']]:stroke-transparent [&amp;_.recharts-surface]:outline-hidden h-full w-full\"><style>\n [data-chart=chart-_R_2binpfiv5uknmlb_] {\n  --color-thisYear: var(--primary);\n  --color-prevYear: color-mix(in oklch, var(--primary) 75%, var(--background));\n}\n\n\n.dark [data-chart=chart-_R_2binpfiv5uknmlb_] {\n  --color-thisYear: var(--primary);\n  --color-prevYear: color-mix(in oklch, var(--primary) 85%, var(-"
+}

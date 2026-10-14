@@ -1,0 +1,124 @@
+{
+  "colors": {
+    "variables": {},
+    "defaults": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)"
+    }
+  },
+  "typography": {
+    "h1": {
+      "fontFamily": "\"DM Sans\", \"DM Sans Fallback\"",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "lineHeight": "32px",
+      "letterSpacing": "-0.6px",
+      "color": "lab(2.75381 0 0)"
+    },
+    "h2": {
+      "fontFamily": "\"DM Sans\", \"DM Sans Fallback\"",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "color": "lab(42.3743 0.000625849 -0.0228286)"
+    },
+    "paragraph": {
+      "fontFamily": "\"DM Sans\", \"DM Sans Fallback\"",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "lab(48.496 0 0)"
+    },
+    "button": {
+      "fontFamily": "\"DM Sans\", \"DM Sans Fallback\"",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "lab(42.3743 0.000625849 -0.0228286)"
+    }
+  },
+  "sections": [
+    {
+      "id": "main-1",
+      "tag": "main",
+      "classes": [
+        "relative",
+        "flex",
+        "w-full",
+        "flex-1",
+        "flex-col",
+        "bg-background",
+        "md:peer-data-[variant=inset]:m-2",
+        "md:peer-data-[variant=inset]:ml-0",
+        "md:peer-data-[variant=inset]:rounded-xl",
+        "md:peer-data-[variant=inset]:shadow-sm",
+        "md:peer-data-[variant=inset]:peer-data-[state=collapsed]:ml-2"
+      ],
+      "approxHeight": 1393,
+      "summaryText": "Shadcn Outlet Download Toggle theme Dashboard 31 Aug 2026 - 27 Sep 2026 Download Team Members  Toby "
+    },
+    {
+      "id": "header-2",
+      "tag": "header",
+      "classes": [
+        "bg-background/40",
+        "sticky",
+        "top-0",
+        "z-50",
+        "flex",
+        "h-(--header-height)",
+        "shrink-0",
+        "items-center",
+        "gap-2",
+        "border-b",
+        "backdrop-blur-md",
+        "transition-[width,height]",
+        "ease-linear",
+        "group-has-data-[collapsible=icon]/sidebar-wrapper:h-(--header-height)",
+        "md:rounded-tl-xl",
+        "md:rounded-tr-xl"
+      ],
+      "approxHeight": 56,
+      "summaryText": "Shadcn Outlet Download Toggle theme"
+    }
+  ],
+  "detectedScripts": [
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/1r66ydb5gjlky.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/26on2svt3msj5.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/099djglt6_m2p.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/turbopack-1cvjklh_moi92.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/1tialagiztzuz.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/3wxo71hlc0r6q.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/154fkijnh24l7.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/01cxnfs5h31dc.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/288ttto9n66kj.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/2i4i8lafd1fqm.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/0gi6g9xdk1s52.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/3fggkls_qd_pr.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/1rkd5uf348mft.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/0ydrbjzup3tyc.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/0bjfr4o9bzptt.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/2xhj9k7ru32sr.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/0iy3rkcq03wjc.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/1cq91ze3ugc_y.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/0s7118q3ls66d.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/1bw78la49zn-h.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/2d19ry0n72yj8.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/3kcnhtpzvegnd.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/3hxwdgvr9wq8q.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/0sk7p3seq834m.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/3_hvo_h07j_0p.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/20hwd7u3fcc4o.js",
+    "https://dashboard.shadcnuikit.com/iframe-listener.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-SCDGVLHLXH"
+  ],
+  "detectedCSS": [
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/3mi_gz70-madx.css",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/2gu7wg7v9jzv5.css",
+    "https://dashboard.shadcnuikit.com/_next/static/immutable/chunks/12reeuu069o0h.css"
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "colors": {
+    "variables": {},
+    "defaults": {
+      "backgroundColor": "rgb(244, 235, 225)",
+      "color": "rgb(39, 39, 42)"
+    }
+  },
+  "typography": {
+    "h1": {
+      "fontFamily": "Modak, system-ui",
+      "fontSize": "192px",
+      "fontWeight": "400",
+      "lineHeight": "192px",
+      "letterSpacing": "-9.6px",
+      "color": "rgb(249, 24, 20)"
+    },
+    "h2": {
+      "fontFamily": "Modak, system-ui",
+      "fontSize": "60px",
+      "fontWeight": "400",
+      "lineHeight": "60px",
+      "letterSpacing": "-3px",
+      "color": "rgb(249, 24, 20)"
+    },
+    "h3": {
+      "fontFamily": "Inter, sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "lineHeight": "32px",
+      "letterSpacing": "-0.6px",
+      "color": "rgb(249, 24, 20)"
+    },
+    "paragraph": {
+      "fontFamily": "\"Mouse Memoirs\", sans-serif",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.75px",
+      "color": "rgb(244, 168, 4)"
+    },
+    "button": {
+      "fontFamily": "Inter, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(63, 63, 70)"
+    }
+  },
+  "sections": [
+    {
+      "id": "nav-1",
+      "tag": "nav",
+      "classes": [
+        "fixed",
+        "top-0",
+        "inset-x-0",
+        "z-50",
+        "bg-transparent"
+      ],
+      "approxHeight": 64,
+      "summaryText": "CRAV ACCUEIL À PROPOS INGRÉDIENTS ADRESSES LES BURGERS"
+    },
+    {
+      "id": "section-2",
+      "tag": "section",
+      "classes": [
+        "relative",
+        "pt-32",
+        "pb-20",
+        "md:pt-40",
+        "md:pb-32",
+        "flex",
+        "flex-col",
+        "items-center",
+        "text-center",
+        "px-6",
+        "overflow-hidden"
+      ],
+      "approxHeight": 1390,
+      "summaryText": "CRAV THE BURGER  ÉCRASÉ FRAIS  GOÛT AUDACIEUX  Écrasés chauds sur la plaque, nos steaks hachés conse"
+    },
+    {
+      "id": "about",
+      "tag": "section",
+      "classes": [
+        "py-24",
+        "md:py-32",
+        "bg-[#F4EBE1]"
+      ],
+      "approxHeight": 1062,
+      "summaryText": "LE GRAND CLASSIQUE  JUTEUX ET FROMAGER BIEN GARNI  CRAV est de retour et plus audacieux que jamais. "
+    },
+    {
+      "id": "section-4",
+      "tag": "section",
+      "classes": [
+        "py-24",
+        "md:py-32",
+        "relative",
+        "overflow-hidden",
+        "bg-[#f91814]"
+      ],
+      "approxHeight": 683,
+      "summaryText": "L'EXPÉRIENCE  UNE NOURRITURE QUI FAIT DU BIEN 450 KCAL RICHE EN PROTÉINES INGRÉDIENTS FRAIS 100% BIO"
+    },
+    {
+      "id": "ingredients",
+      "tag": "section",
+      "classes": [
+        "py-24",
+        "md:py-32",
+        "bg-[#F4EBE1]"
+      ],
+      "approxHeight": 660,
+      "summaryText": "QUALITÉ PURE Chaque couche remplie de notre saveur signature Tomate Fraîche Cheddar Premium Bœuf Écr"
+    },
+    {
+      "id": "locations",
+      "tag": "section",
+      "classes": [
+        "py-24",
+        "md:py-32",
+        "bg-[#F9CD25]"
+      ],
+      "approxHeight": 1043,
+      "summaryText": "À EMPORTER  LA QUALITÉ QUI VOYAGE AVEC VOUS  Des smash burgers fraîchement emballés, prêts à vous su"
+    },
+    {
+      "id": "section-7",
+      "tag": "section",
+      "classes": [
+        "py-24",
+        "md:py-32",
+        "relative",
+        "overflow-hidden",
+        "bg-[#F4EBE1]"
+      ],
+      "approxHeight": 816,
+      "summaryText": "RESSENTEZ-LE  SENTEZ LA DIFFÉRENCE  Écrasé pour les audacieux, conçu pour les affamés. Plongez dans "
+    },
+    {
+      "id": "footer-8",
+      "tag": "footer",
+      "classes": [
+        "pt-20",
+        "pb-12",
+        "mt-auto",
+        "text-white",
+        "border-t",
+        "bg-[#2c1608]",
+        "border-[#40220d]"
+      ],
+      "approxHeight": 798,
+      "summaryText": "CRAV  L'ultime expérience du burger écrasé, généreux, chaud et préparé à la commande depuis 1997.  N"
+    }
+  ],
+  "detectedScripts": [
+    "https://cdn.tailwindcss.com/",
+    "https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"
+  ],
+  "detectedCSS": [
+    "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Modak&family=Mouse+Memoirs&display=swap"
+  ]
+}

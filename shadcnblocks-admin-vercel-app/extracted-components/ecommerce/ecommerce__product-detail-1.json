@@ -1,0 +1,150 @@
+{
+  "route": "/ecommerce/product-detail-1",
+  "title": "Ecommerce App",
+  "cardsCount": 20,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "Edit",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "Clone",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "Edit",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "Clone",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 6,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 7,
+      "title": "",
+      "snippet": "Thumbnail",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 8,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 9,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 10,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 11,
+      "title": "",
+      "snippet": "Merchandising note\nFeature this product in barrier-repair bundles and recovery landing pages through the end of April.",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 12,
+      "title": "",
+      "snippet": "Ops note\nAustin inventory is healthy, but Miami is trending toward the reorder threshold after a strong marketplace week.",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 13,
+      "title": "",
+      "snippet": "Stock\nCurrent stock availability by warehouse.\n\nQUANTITY AT HAND\n\n66\n\nAdjust stock\nSeattle\nSEA\n148\nAustin\nAUS\n76\nChicago\nCHI\n54\nMiami\nMIA\n21\n\nlow",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 14,
+      "title": "",
+      "snippet": "QUANTITY AT HAND\n\n66\n\nAdjust stock",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 15,
+      "title": "",
+      "snippet": "Adjust stock",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 16,
+      "title": "",
+      "snippet": "Reorder points\nCurrent replenishment rules by warehouse.\n\nSeattle • SEA\n\nREORDER METHOD\nPurchase order\nVENDOR\nAcme Retail\nREORDER POINT\n40\nREORDER QUANTITY\n120\n\nAustin • AUS\n\nREORDER METHOD\nTransfer request\nVENDOR\nCentral warehouse\nREORDER POINT\n24\nREORDER QUANTITY\n80",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 17,
+      "title": "",
+      "snippet": "Seattle • SEA\n\nREORDER METHOD\nPurchase order\nVENDOR\nAcme Retail\nREORDER POINT\n40\nREORDER QUANTITY\n120",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 18,
+      "title": "",
+      "snippet": "Austin • AUS\n\nREORDER METHOD\nTransfer request\nVENDOR\nCentral warehouse\nREORDER POINT\n24\nREORDER QUANTITY\n80",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 19,
+      "title": "",
+      "snippet": "Variants\nSelling configurations carried by this product.\n\n3-piece set\n\nBundle\n\n$389.00\n\n48 units\n\nTravel trio\n\nSize\n\n$179.00\n\n18 units",
+      "hasChart": true,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 0,
+  "inputsSample": [],
+  "htmlSnapshot": ""
+}

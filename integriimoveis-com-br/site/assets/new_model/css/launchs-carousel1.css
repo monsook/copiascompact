@@ -1,0 +1,1 @@
+.group-details{opacity:0;pointer-events:none;transform:translateY(15px);transition:opacity .3s,transform .3s}@media (min-width:992px){.group-details.show-details{opacity:1;pointer-events:auto;transform:translateY(0)}}

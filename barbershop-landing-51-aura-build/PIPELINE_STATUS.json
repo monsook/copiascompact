@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "status": "completed",
+  "url": "https://barbershop-landing-51.aura.build/",
+  "siteName": "barbershop-landing-51-aura-build",
+  "mode": "all",
+  "startedAt": "2026-09-01T16:44:40.294Z",
+  "completedAt": "2026-09-01T16:45:20.651Z",
+  "stages": [
+    {
+      "name": "detect",
+      "status": "passed",
+      "startedAt": "2026-09-01T16:44:40.295Z",
+      "completedAt": "2026-09-01T16:44:51.653Z"
+    },
+    {
+      "name": "clone",
+      "status": "passed",
+      "startedAt": "2026-09-01T16:44:51.654Z",
+      "completedAt": "2026-09-01T16:45:09.228Z"
+    },
+    {
+      "name": "normalize-assets",
+      "status": "passed",
+      "startedAt": "2026-09-01T16:45:09.229Z",
+      "completedAt": "2026-09-01T16:45:09.316Z"
+    },
+    {
+      "name": "extract-design-dna",
+      "status": "passed",
+      "startedAt": "2026-09-01T16:45:09.317Z",
+      "completedAt": "2026-09-01T16:45:15.994Z"
+    },
+    {
+      "name": "generate-styleguide",
+      "status": "passed",
+      "startedAt": "2026-09-01T16:45:15.995Z",
+      "completedAt": "2026-09-01T16:45:15.997Z"
+    },
+    {
+      "name": "extract-ui-ux",
+      "status": "passed",
+      "startedAt": "2026-09-01T16:45:15.998Z",
+      "completedAt": "2026-09-01T16:45:20.635Z"
+    },
+    {
+      "name": "generate-master-spec",
+      "status": "passed",
+      "startedAt": "2026-09-01T16:45:20.636Z",
+      "completedAt": "2026-09-01T16:45:20.646Z"
+    },
+    {
+      "name": "generate-asset-manifest",
+      "status": "passed",
+      "startedAt": "2026-09-01T16:45:20.647Z",
+      "completedAt": "2026-09-01T16:45:20.649Z"
+    },
+    {
+      "name": "generate-prompt-catalog",
+      "status": "passed",
+      "startedAt": "2026-09-01T16:45:20.650Z",
+      "completedAt": "2026-09-01T16:45:20.651Z"
+    }
+  ]
+}

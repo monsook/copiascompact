@@ -1,0 +1,93 @@
+{
+  "route": "/original/settings/notifications",
+  "title": "Original App",
+  "cardsCount": 6,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "Communication emails\n\nReceive emails about your account activity.",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "Marketing emails\n\nReceive emails about new products, features, and more.",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "Social emails\n\nReceive emails for friend requests, follows, and more.",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "Security emails\n\nReceive emails about your account activity and security.",
+      "hasChart": false,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 8,
+  "inputsSample": [
+    {
+      "type": "radio",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "radio",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "radio",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "checkbox",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "checkbox",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "checkbox",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "checkbox",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "checkbox",
+      "placeholder": "",
+      "label": ""
+    }
+  ],
+  "htmlSnapshot": ""
+}

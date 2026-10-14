@@ -1,0 +1,9 @@
+{
+  "url": "https://www.storeyarchitecture.co.uk/",
+  "framework": "Nuxt.js (SSR/SSG)",
+  "siteType": "SPA_SSR",
+  "cloneMode": "STRUCTURED_CLONE",
+  "estimatedFidelity": "65%",
+  "warning": "AVISO: Site Nuxt.js. Clone estrutural disponível, mas componentes Vue não são reproduzíveis.",
+  "detectedAt": "2026-08-25T18:02:37.920Z"
+}

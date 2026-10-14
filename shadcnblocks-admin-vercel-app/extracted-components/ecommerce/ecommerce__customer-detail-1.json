@@ -1,0 +1,45 @@
+{
+  "route": "/ecommerce/customer-detail-1",
+  "title": "Ecommerce App",
+  "cardsCount": 5,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "Send message",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "Send Message",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "Customer details",
+      "snippet": "Customer details\nCustomer source\nOnline Store\nLast online\n22 Mar 2026, 11:24 AM\nShipping address\nSeattle, WA\n\nTheo Hammond\n\n7841 Mercer Street, Suite 12\nCapitol Hill, Building North\nSeattle, WA 98102, United States\n\nContact information\ntheo.hammond@caldwell.app\n+1 (206) 555-0198\nSegments\nVIP\nSkincar",
+      "hasChart": true,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 0,
+  "inputsSample": [],
+  "htmlSnapshot": ""
+}

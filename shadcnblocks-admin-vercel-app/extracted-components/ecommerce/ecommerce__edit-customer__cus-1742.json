@@ -1,0 +1,411 @@
+{
+  "route": "/ecommerce/edit-customer/cus-1742",
+  "title": "Ecommerce App",
+  "cardsCount": 50,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "Account",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "Contacts",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "Billing",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "Shipping",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 6,
+      "title": "",
+      "snippet": "Cards",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 7,
+      "title": "",
+      "snippet": "Preferences",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 8,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 9,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 10,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 11,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 12,
+      "title": "",
+      "snippet": "VIP",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 13,
+      "title": "",
+      "snippet": "Online store",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 14,
+      "title": "",
+      "snippet": "Avery Hall",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 15,
+      "title": "",
+      "snippet": "EMAIL",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 16,
+      "title": "",
+      "snippet": "Marketing opt-in\n\nInclude this customer in campaign sends",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 17,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 18,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 19,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 20,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 21,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 22,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 23,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 24,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 25,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 26,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 27,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 28,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 29,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 30,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 31,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 32,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 33,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 34,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 35,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 36,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 37,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 38,
+      "title": "",
+      "snippet": "Visa",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 39,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 40,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 41,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 42,
+      "title": "",
+      "snippet": "Default card\n\nKeep one preferred payment method pinned.",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 43,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 44,
+      "title": "",
+      "snippet": "Amex",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 45,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 46,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 47,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 48,
+      "title": "",
+      "snippet": "Default card\n\nKeep one preferred payment method pinned.",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 49,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 29,
+  "inputsSample": [
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "Billing contact name",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "Street address",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "Suite, building, floor",
+      "label": ""
+    }
+  ],
+  "htmlSnapshot": ""
+}

@@ -1,0 +1,160 @@
+{
+  "colors": {
+    "variables": {},
+    "defaults": {
+      "backgroundColor": "rgb(245, 241, 232)",
+      "color": "rgb(28, 25, 23)"
+    }
+  },
+  "typography": {
+    "h1": {
+      "fontFamily": "Archivo, sans-serif",
+      "fontSize": "96px",
+      "fontWeight": "700",
+      "lineHeight": "96px",
+      "letterSpacing": "-2.4px",
+      "color": "rgb(28, 25, 23)"
+    },
+    "h2": {
+      "fontFamily": "Archivo, sans-serif",
+      "fontSize": "60px",
+      "fontWeight": "700",
+      "lineHeight": "60px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(28, 25, 23)"
+    },
+    "h3": {
+      "fontFamily": "Archivo, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "lineHeight": "20px",
+      "letterSpacing": "0.35px",
+      "color": "rgb(28, 25, 23)"
+    },
+    "paragraph": {
+      "fontFamily": "Archivo, sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "lineHeight": "16px",
+      "letterSpacing": "3px",
+      "color": "rgb(194, 65, 12)"
+    },
+    "button": {
+      "fontFamily": "Archivo, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(87, 83, 78)"
+    }
+  },
+  "sections": [
+    {
+      "id": "nav",
+      "tag": "header",
+      "classes": [
+        "fixed",
+        "top-0",
+        "left-0",
+        "right-0",
+        "z-50",
+        "transition-all",
+        "duration-500"
+      ],
+      "approxHeight": 78,
+      "summaryText": "NORTHTRAIL Apparel Camping Outdoor Gear Accessories Expeditions 2 Shop Now"
+    },
+    {
+      "id": "section-3",
+      "tag": "section",
+      "classes": [
+        "relative",
+        "pt-28",
+        "lg:pt-36",
+        "pb-10",
+        "lg:pb-16"
+      ],
+      "approxHeight": 1338,
+      "summaryText": "EST. 2011 · FIELD TESTED  ADVENTURE BEGINS WITH RIGHT GEAR.  A curated range of hunting & camping ge"
+    },
+    {
+      "id": "section-4",
+      "tag": "section",
+      "classes": [
+        "py-8",
+        "border-y",
+        "border-stone-200",
+        "overflow-hidden",
+        "bg-[#efe9dc]"
+      ],
+      "approxHeight": 106,
+      "summaryText": "WATERPROOF SHELLS ULTRALIGHT TENTS DOWN INSULATION TRAIL FOOTWEAR HUNTING OPTICS CAMP KITCHENS WATER"
+    },
+    {
+      "id": "gear",
+      "tag": "section",
+      "classes": [
+        "py-20",
+        "lg:py-28"
+      ],
+      "approxHeight": 736,
+      "summaryText": "BEST APPAREL FOR YOU trending  Adventure-ready apparel to fuel your hiking and camping journey.  Add"
+    },
+    {
+      "id": "story",
+      "tag": "section",
+      "classes": [
+        "relative",
+        "bg-stone-950",
+        "text-white"
+      ],
+      "approxHeight": 3240,
+      "summaryText": "01 / 03  01 — ENGINEERED FABRIC  DESIGNED FOR TOUGH CLIMATES  Every shell is laminated with a 3-laye"
+    },
+    {
+      "id": "section-7",
+      "tag": "section",
+      "classes": [
+        "py-20",
+        "lg:py-28"
+      ],
+      "approxHeight": 1106,
+      "summaryText": "HUNTING & CAMPING GEAR.  Buy hunting and camping gear with discounts — earn reward points on every d"
+    },
+    {
+      "id": "experience",
+      "tag": "section",
+      "classes": [
+        "relative",
+        "overflow-hidden",
+        "bg-gradient-to-b",
+        "from-[#f5f1e8]",
+        "via-sky-100",
+        "to-sky-200",
+        "pt-24",
+        "pb-0"
+      ],
+      "approxHeight": 1297,
+      "summaryText": "the mountain's calling  EXPERIENCE  Join 92,000 explorers who trust our gear on summits, ridgelines "
+    },
+    {
+      "id": "footer-9",
+      "tag": "footer",
+      "classes": [
+        "bg-stone-950",
+        "text-white"
+      ],
+      "approxHeight": 429,
+      "summaryText": "NORTHTRAIL  Gear that's engineered to perform — hunting, camping & outdoor equipment since 2011.  SH"
+    }
+  ],
+  "detectedScripts": [
+    "https://cdn.tailwindcss.com/",
+    "https://unpkg.com/lucide@latest",
+    "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+  ],
+  "detectedCSS": [
+    "https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Caveat:wght@600&display=swap"
+  ]
+}

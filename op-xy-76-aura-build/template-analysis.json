@@ -1,0 +1,511 @@
+{
+  "title": "OP–XY · portable synthesizer, sampler and sequencer",
+  "scrollHeight": 22356,
+  "sections": [
+    {
+      "index": 3,
+      "tag": "CANVAS",
+      "id": "cv",
+      "className": "",
+      "textPreview": "",
+      "childCount": 0,
+      "rect": {
+        "top": 0,
+        "height": 1080,
+        "width": 1920
+      }
+    },
+    {
+      "index": 6,
+      "tag": "DIV",
+      "id": "loading",
+      "className": "off",
+      "textPreview": "op–xy",
+      "childCount": 1,
+      "rect": {
+        "top": 0,
+        "height": 1080,
+        "width": 1920
+      }
+    },
+    {
+      "index": 7,
+      "tag": "NAV",
+      "id": "nav",
+      "className": "",
+      "textPreview": "OP–XY\n  \n    sound\n    engines\n    sequencer\n    specs\n    pre-order$2,299",
+      "childCount": 2,
+      "rect": {
+        "top": 0,
+        "height": 64,
+        "width": 1920
+      }
+    },
+    {
+      "index": 8,
+      "tag": "BUTTON",
+      "id": "sndBtn",
+      "className": "snd",
+      "textPreview": "sound",
+      "childCount": 2,
+      "rect": {
+        "top": 27,
+        "height": 11,
+        "width": 58
+      }
+    },
+    {
+      "index": 10,
+      "tag": "MAIN",
+      "id": "page",
+      "className": "",
+      "textPreview": "a synthesizer, a samplerand a sequencer. oneinstrument, all black.\n      \n        OP–XY\n        portable synthesizersamplersequencer\n      \n    \n  \n\n  \n    \n      \n        sample.sequence.synthesize.perform.\n      \n      \n        four rows · 68 keys · one grayscale\n        the whole instrument is a grid. one row of instruments, one row of steps, and a two-octave keyboard under your fingers. the display keeps everything in grayscale, so the red means one thing: record.",
+      "childCount": 8,
+      "rect": {
+        "top": 0,
+        "height": 22356,
+        "width": 1920
+      }
+    },
+    {
+      "index": 11,
+      "tag": "SECTION",
+      "id": "hero",
+      "className": "beat",
+      "textPreview": "a synthesizer, a samplerand a sequencer. oneinstrument, all black.\n      \n        OP–XY\n        portable synthesizersamplersequencer",
+      "childCount": 1,
+      "rect": {
+        "top": 0,
+        "height": 2160,
+        "width": 1920
+      }
+    },
+    {
+      "index": 12,
+      "tag": "SECTION",
+      "id": "strip",
+      "className": "beat",
+      "textPreview": "sample.sequence.synthesize.perform.\n      \n      \n        four rows · 68 keys · one grayscale\n        the whole instrument is a grid. one row of instruments, one row of steps, and a two-octave keyboard under your fingers. the display keeps everything in grayscale, so the red means one thing: record.",
+      "childCount": 1,
+      "rect": {
+        "top": 2160,
+        "height": 2808,
+        "width": 1920
+      }
+    },
+    {
+      "index": 13,
+      "tag": "SECTION",
+      "id": "macro",
+      "className": "beat",
+      "textPreview": "68 mechanical keys.ultra low profile · 0.45 mm travel · a led in every vital key\n        two octaves, printed once.the chromatic keys carry their legends in ink, not in a sticker\n        four grayscale encoders.knurled, push to select · one tone step each\n        480 × 222 ips.the whole interface in grayscale · red only for record",
+      "childCount": 1,
+      "rect": {
+        "top": 4968,
+        "height": 3672,
+        "width": 1920
+      }
+    },
+    {
+      "index": 14,
+      "tag": "DIV",
+      "id": "slate",
+      "className": "slate glass rev in",
+      "textPreview": "68 mechanical keys.ultra low profile · 0.45 mm travel · a led in every vital key\n        two octaves, printed once.the chromatic keys carry their legends in ink, not in a sticker\n        four grayscale encoders.knurled, push to select · one tone step each\n        480 × 222 ips.the whole interface in grayscale · red only for record",
+      "childCount": 4,
+      "rect": {
+        "top": 5913,
+        "height": 81,
+        "width": 440
+      }
+    },
+    {
+      "index": 15,
+      "tag": "SECTION",
+      "id": "engines",
+      "className": "beat",
+      "textPreview": "axisdissolvee-pianohardsyncorganprismsimplewavetable\n      \n      \n        eight synth engines and twenty-four voices, plus a drum sampler, a multisampler and a synth sampler. any engine sits on any of the eight tracks, with four filter types and a send level each.",
+      "childCount": 1,
+      "rect": {
+        "top": 8640,
+        "height": 3240,
+        "width": 1920
+      }
+    },
+    {
+      "index": 16,
+      "tag": "DIV",
+      "id": "engStrip",
+      "className": "strip",
+      "textPreview": "axisdissolvee-pianohardsyncorganprismsimplewavetable",
+      "childCount": 8,
+      "rect": {
+        "top": 8736,
+        "height": 81,
+        "width": 1920
+      }
+    },
+    {
+      "index": 17,
+      "tag": "SECTION",
+      "id": "seq",
+      "className": "beat",
+      "textPreview": "the sequencer.pattern a116 tracks64 steps · 4 pages24 punch-in fx\n          \n          \n          \n            \n            120bpm\n            \n          \n        \n        kicksnarehatsynth\n        12345678910111213141516\n      \n      \n        step components\n        every step can carry its own velocity, timing, pitch and up to fourteen components. brain transposes the chord progression underneath, so a pattern keeps reinventing itself while you play.",
+      "childCount": 1,
+      "rect": {
+        "top": 11880,
+        "height": 2808,
+        "width": 1920
+      }
+    },
+    {
+      "index": 18,
+      "tag": "DIV",
+      "id": "seqPanel",
+      "className": "panel deck rev in",
+      "textPreview": "the sequencer.pattern a116 tracks64 steps · 4 pages24 punch-in fx\n          \n          \n          \n            \n            120bpm\n            \n          \n        \n        kicksnarehatsynth\n        12345678910111213141516",
+      "childCount": 4,
+      "rect": {
+        "top": 12667,
+        "height": 260,
+        "width": 1160
+      }
+    },
+    {
+      "index": 19,
+      "tag": "CANVAS",
+      "id": "scope",
+      "className": "scope",
+      "textPreview": "",
+      "childCount": 0,
+      "rect": {
+        "top": 12686,
+        "height": 40,
+        "width": 315
+      }
+    },
+    {
+      "index": 20,
+      "tag": "DIV",
+      "id": "vu",
+      "className": "vu",
+      "textPreview": "",
+      "childCount": 16,
+      "rect": {
+        "top": 12691,
+        "height": 30,
+        "width": 141
+      }
+    },
+    {
+      "index": 21,
+      "tag": "SPAN",
+      "id": "recDot",
+      "className": "recdot",
+      "textPreview": "",
+      "childCount": 0,
+      "rect": {
+        "top": 12701,
+        "height": 10,
+        "width": 10
+      }
+    },
+    {
+      "index": 22,
+      "tag": "BUTTON",
+      "id": "bpmBtn",
+      "className": "bpm",
+      "textPreview": "120bpm",
+      "childCount": 1,
+      "rect": {
+        "top": 12687,
+        "height": 38,
+        "width": 87
+      }
+    },
+    {
+      "index": 23,
+      "tag": "B",
+      "id": "bpm",
+      "className": "",
+      "textPreview": "120",
+      "childCount": 0,
+      "rect": {
+        "top": 12695,
+        "height": 22,
+        "width": 38
+      }
+    },
+    {
+      "index": 24,
+      "tag": "BUTTON",
+      "id": "seqPlay",
+      "className": "",
+      "textPreview": "",
+      "childCount": 1,
+      "rect": {
+        "top": 12687,
+        "height": 38,
+        "width": 38
+      }
+    },
+    {
+      "index": 25,
+      "tag": "svg",
+      "id": "seqIco",
+      "className": "",
+      "textPreview": "",
+      "childCount": 1,
+      "rect": {
+        "top": 12699,
+        "height": 13,
+        "width": 13
+      }
+    },
+    {
+      "index": 26,
+      "tag": "DIV",
+      "id": "seqGrid",
+      "className": "grid",
+      "textPreview": "kicksnarehatsynth",
+      "childCount": 68,
+      "rect": {
+        "top": 12741,
+        "height": 151,
+        "width": 1116
+      }
+    },
+    {
+      "index": 27,
+      "tag": "DIV",
+      "id": "seqSteps",
+      "className": "steps",
+      "textPreview": "12345678910111213141516",
+      "childCount": 18,
+      "rect": {
+        "top": 12898,
+        "height": 14,
+        "width": 1116
+      }
+    },
+    {
+      "index": 29,
+      "tag": "SECTION",
+      "id": "connect",
+      "className": "beat",
+      "textPreview": "connect everything.\n        the right end is an i/o system. amps, headphones, a modular, a drum machine, your laptop, and the mic on the side records straight into a track.\n      \n      \n        poweron · off. sixteen hours on a charge.\n        usb-caudio and midi, host and device, charging.\n        line in3.5 mm stereo. sample anything.\n        midi in3.5 mm. clock and notes from outside.\n        multi outmidi, cv/gate, sync and aux audio on one jack.\n        line out3.5 mm",
+      "childCount": 1,
+      "rect": {
+        "top": 14688,
+        "height": 3240,
+        "width": 1920
+      }
+    },
+    {
+      "index": 30,
+      "tag": "DIV",
+      "id": "portBand",
+      "className": "band",
+      "textPreview": "poweron · off. sixteen hours on a charge.\n        usb-caudio and midi, host and device, charging.\n        line in3.5 mm stereo. sample anything.\n        midi in3.5 mm. clock and notes from outside.\n        multi outmidi, cv/gate, sync and aux audio on one jack.\n        line out3.5 mm stereo with headset mic support.",
+      "childCount": 6,
+      "rect": {
+        "top": 15605,
+        "height": 109,
+        "width": 1792
+      }
+    },
+    {
+      "index": 31,
+      "tag": "SECTION",
+      "id": "flip",
+      "className": "beat dark",
+      "textPreview": "the other side.\n        the exact footprint of the OP–1 field. an aluminium plate, four feet, two loop pads, and everything it is printed once.\n      \n      \n        size288 × 102 × 29 mm\n        display480 × 222 px ips\n        keys68 mechanical, ultra low profile\n        encoders4 grayscale, push\n        sensors6-axis imu, microphone\n        battery16 hours\n        i/oline in · midi in · multi out · line out · usb-c\n        OP–XY portable synthesizer · synthétiseur portable",
+      "childCount": 1,
+      "rect": {
+        "top": 17928,
+        "height": 2592,
+        "width": 1920
+      }
+    },
+    {
+      "index": 32,
+      "tag": "DIV",
+      "id": "plate",
+      "className": "plate rev in",
+      "textPreview": "size288 × 102 × 29 mm\n        display480 × 222 px ips\n        keys68 mechanical, ultra low profile\n        encoders4 grayscale, push\n        sensors6-axis imu, microphone\n        battery16 hours\n        i/oline in · midi in · multi out · line out · usb-c\n        OP–XY portable synthesizer · synthétiseur portable · tragbarer synthesizer · designed in stockholm",
+      "childCount": 8,
+      "rect": {
+        "top": 18664,
+        "height": 290,
+        "width": 440
+      }
+    },
+    {
+      "index": 33,
+      "tag": "SECTION",
+      "id": "close",
+      "className": "beat",
+      "textPreview": "OP–XY\n        $2,299 · shipping now · free shipping over $120\n        \n          pre-order$2,299\n          user guide\n        \n      \n      \n        \n          storeguidesdownloads\n          supportpressreturns\n        \n        ©2026 teenage engineering ab · stockholm",
+      "childCount": 1,
+      "rect": {
+        "top": 20520,
+        "height": 1836,
+        "width": 1920
+      }
+    },
+    {
+      "index": 34,
+      "tag": "FOOTER",
+      "id": null,
+      "className": "",
+      "textPreview": "storeguidesdownloads\n          supportpressreturns\n        \n        ©2026 teenage engineering ab · stockholm",
+      "childCount": 2,
+      "rect": {
+        "top": 21528,
+        "height": 18,
+        "width": 1920
+      }
+    }
+  ],
+  "images": [],
+  "videos": [],
+  "canvases": [
+    {
+      "width": 960,
+      "height": 540,
+      "className": "",
+      "dataEngine": "three.js r186"
+    },
+    {
+      "width": 840,
+      "height": 112,
+      "className": "scope",
+      "dataEngine": null
+    }
+  ],
+  "headings": [
+    {
+      "level": "H1",
+      "text": "OP–XY"
+    },
+    {
+      "level": "H2",
+      "text": "the sequencer."
+    },
+    {
+      "level": "H2",
+      "text": "connect everything."
+    },
+    {
+      "level": "H2",
+      "text": "the other side."
+    },
+    {
+      "level": "H2",
+      "text": "OP–XY"
+    }
+  ],
+  "paragraphs": [
+    "a synthesizer, a samplerand a sequencer. oneinstrument, all black.",
+    "the whole instrument is a grid. one row of instruments, one row of steps, and a two-octave keyboard under your fingers. the display keeps everything in grayscale, so the red means one thing: record.",
+    "eight synth engines and twenty-four voices, plus a drum sampler, a multisampler and a synth sampler. any engine sits on any of the eight tracks, with four filter types and a send level each.",
+    "every step can carry its own velocity, timing, pitch and up to fourteen components. brain transposes the chord progression underneath, so a pattern keeps reinventing itself while you play.",
+    "the right end is an i/o system. amps, headphones, a modular, a drum machine, your laptop, and the mic on the side records straight into a track.",
+    "the exact footprint of the OP–1 field. an aluminium plate, four feet, two loop pads, and everything it is printed once."
+  ],
+  "navLinks": [
+    {
+      "text": "OP–XY",
+      "href": "https://op-xy-76.aura.build/#hero"
+    },
+    {
+      "text": "engines",
+      "href": "https://op-xy-76.aura.build/#engines"
+    },
+    {
+      "text": "sequencer",
+      "href": "https://op-xy-76.aura.build/#seq"
+    },
+    {
+      "text": "specs",
+      "href": "https://op-xy-76.aura.build/#flip"
+    },
+    {
+      "text": "pre-order$2,299",
+      "href": "https://op-xy-76.aura.build/#close"
+    },
+    {
+      "text": "pre-order$2,299",
+      "href": "https://op-xy-76.aura.build/#"
+    },
+    {
+      "text": "user guide",
+      "href": "https://op-xy-76.aura.build/#"
+    },
+    {
+      "text": "store",
+      "href": "https://op-xy-76.aura.build/#"
+    },
+    {
+      "text": "guides",
+      "href": "https://op-xy-76.aura.build/#"
+    },
+    {
+      "text": "downloads",
+      "href": "https://op-xy-76.aura.build/#"
+    },
+    {
+      "text": "support",
+      "href": "https://op-xy-76.aura.build/#"
+    },
+    {
+      "text": "press",
+      "href": "https://op-xy-76.aura.build/#"
+    },
+    {
+      "text": "returns",
+      "href": "https://op-xy-76.aura.build/#"
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "BUTTON",
+      "text": "sound"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "120bpm"
+    }
+  ],
+  "cssVars": {
+    "--ground": "#000",
+    "--page": "#0a0a0b",
+    "--grey": "#b2b2b2",
+    "--text": "#ededed",
+    "--text-2": "#b8b8bd",
+    "--dim": "#6b6b70",
+    "--line": "#2a2a2e",
+    "--ink": "#0d0d0f",
+    "--rec": "#ff3a2f",
+    "--sans": "'Geist',ui-sans-serif,system-ui,-apple-system,sans-serif",
+    "--mono": "'Geist Mono',ui-monospace,Menlo,monospace",
+    "--s0": "11px",
+    "--s1": "clamp(15px,.5vw + 13px,17px)",
+    "--s2": "clamp(19px,1.2vw + 14px,24px)",
+    "--s3": "clamp(24px,2vw + 16px,36px)",
+    "--s4": "clamp(30px,3.2vw + 14px,54px)",
+    "--s5": "clamp(40px,5vw + 16px,81px)",
+    "--s6": "clamp(52px,8vw + 14px,122px)",
+    "--s7": "clamp(64px,11vw + 12px,168px)",
+    "--gutter": "clamp(20px,4.2vw,64px)",
+    "--nav": "64px"
+  },
+  "hasGSAP": true,
+  "hasLenis": true,
+  "hasThree": true,
+  "bodyBg": "rgb(0, 0, 0)",
+  "bodyColor": "rgb(237, 237, 237)",
+  "bodyFont": "Geist, ui-sans-serif, system-ui, -apple-system, sans-serif",
+  "htmlClasses": "poster lenis",
+  "bodyClasses": ""
+}

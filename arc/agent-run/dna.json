@@ -1,0 +1,171 @@
+{
+  "dnaVersion": "1.0.0",
+  "identity": {
+    "id": "arc-agent-run-01",
+    "semanticName": "AgentExecutionShell",
+    "suggestedArchetype": "ConversationalShell"
+  },
+  "provenance": {
+    "corpusHash": "a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90",
+    "sourceProvider": "arc",
+    "sourceUrl": "https://arc.net/features/agent-run",
+    "capturedAt": "2026-10-05T16:30:00Z",
+    "licensePolicy": "REFERENCE_ONLY"
+  },
+  "epistemology": {
+    "anatomy": "OBSERVED",
+    "geometryConstraints.relations": "OBSERVED",
+    "stateMachine.states": "OBSERVED",
+    "motionDynamics.transitions": "OBSERVED",
+    "accessibilityContract": "DERIVED"
+  },
+  "epistemologicalConfidence": {
+    "confidenceLevel": "OBSERVED",
+    "sources": [
+      "cdp.dom",
+      "css.computed_styles",
+      "aom.ax_tree"
+    ]
+  },
+  "anatomy": {
+    "rootRole": "ChatShell",
+    "subcomponents": [
+      {
+        "role": "MessageStreamViewport",
+        "optional": false,
+        "children": [
+          {
+            "role": "MessageList",
+            "optional": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "role": "ComposerDock",
+        "optional": false,
+        "children": [
+          {
+            "role": "AutoResizingInput",
+            "optional": false,
+            "children": []
+          },
+          {
+            "role": "SubmitButton",
+            "optional": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "geometryConstraints": {
+    "density": "compact",
+    "layoutMode": "flex-col",
+    "relations": [
+      {
+        "sourceRole": "ComposerDock",
+        "targetRole": "ChatShell",
+        "constraintType": "pin-bottom",
+        "valueToken": "spacing.0"
+      }
+    ],
+    "breakpoints": {
+      "mobile": {
+        "padding": "spacing.sm"
+      },
+      "desktop": {
+        "padding": "spacing.md"
+      }
+    }
+  },
+  "relativeGeometryConstraints": [
+    {
+      "sourceRole": "ComposerDock",
+      "targetRole": "ChatShell",
+      "constraintType": "pin-bottom",
+      "valueToken": "spacing.0"
+    }
+  ],
+  "tokens": {
+    "colorRoles": {
+      "surface": "color.neutral.100",
+      "accent": "color.blue.500"
+    },
+    "spacingScale": [
+      4,
+      8,
+      12,
+      16,
+      24
+    ],
+    "typographyHierarchy": {
+      "inputText": {
+        "fontSize": "14px",
+        "lineHeight": "1.4"
+      }
+    },
+    "radius": "radius.lg"
+  },
+  "stateMachine": {
+    "initialState": "idle_empty",
+    "states": [
+      "idle_empty",
+      "typing_with_content",
+      "submitting",
+      "streaming_response",
+      "interrupted_error"
+    ],
+    "transitions": [
+      {
+        "from": "idle_empty",
+        "to": "typing_with_content",
+        "trigger": "INPUT_CHANGED"
+      },
+      {
+        "from": "typing_with_content",
+        "to": "submitting",
+        "trigger": "SUBMIT_INVOKED"
+      },
+      {
+        "from": "submitting",
+        "to": "streaming_response",
+        "trigger": "STREAM_CHUNK_RECEIVED"
+      },
+      {
+        "from": "streaming_response",
+        "to": "idle_empty",
+        "trigger": "STREAM_COMPLETED"
+      }
+    ]
+  },
+  "motionDynamics": {
+    "transitions": [
+      {
+        "targetRole": "ComposerDock",
+        "property": "height",
+        "curveType": "spring",
+        "durationMs": 200,
+        "curveParams": {
+          "stiffness": 240,
+          "damping": 20,
+          "mass": 1
+        }
+      }
+    ],
+    "reducedMotionFallback": "fade-only"
+  },
+  "accessibilityContract": {
+    "ariaRole": "region",
+    "keyboardInteractions": {
+      "Enter": "Submit prompt when not holding Shift"
+    },
+    "focusManagement": "natural"
+  },
+  "dependencies": [
+    {
+      "name": "framer-motion",
+      "classification": "replaceable"
+    }
+  ]
+}

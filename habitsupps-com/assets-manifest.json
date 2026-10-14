@@ -1,0 +1,90 @@
+{
+  "generatedAt": "2026-10-02T17:14:11.343Z",
+  "siteUrl": "https://www.habitsupps.com/product/stress-relief-capsule",
+  "summary": {
+    "totalAssetsFound": 11,
+    "imageSequencesDetected": 0,
+    "heroBackgroundsDetected": 0,
+    "technicalSvgsDetected": 8,
+    "brandAssetsDetected": 3
+  },
+  "replacements": [
+    {
+      "id": "icon_0aae22591e582e7258884b44505709856f891698-20x20",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.sanity.io/images/iuz0iuzl/production/0aae22591e582e7258884b44505709856f891698-20x20.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_4d31b4cc9fcca174e55547000a1350c7315785d5-64x64",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.sanity.io/images/iuz0iuzl/production/4d31b4cc9fcca174e55547000a1350c7315785d5-64x64.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_dd66efb1c7ff3bf7b33dc574539d18614add5fa5-20x20",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/vendor/cdn.sanity.io/images/iuz0iuzl/production/dd66efb1c7ff3bf7b33dc574539d18614add5fa5-20x20.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_arrow.cc00a503",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/_next/static/media/arrow.cc00a503.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_close-icon.ada3c7ff",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/_next/static/media/close-icon.ada3c7ff.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_forward-arrow.cb4baaf0",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/_next/static/media/forward-arrow.cb4baaf0.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "brand_hbh-full-logo.b7717143",
+      "category": "BRAND_LOGO",
+      "originalFile": "assets/_next/static/media/hbh-full-logo.b7717143.svg",
+      "recommendedStrategy": "CUSTOM_COMPANY_BRANDING",
+      "rationale": "Substituir pelo logotipo da sua empresa mantendo o container e animações de entrada"
+    },
+    {
+      "id": "brand_hbh-indigo-logo.99398e7c",
+      "category": "BRAND_LOGO",
+      "originalFile": "assets/_next/static/media/hbh-indigo-logo.99398e7c.svg",
+      "recommendedStrategy": "CUSTOM_COMPANY_BRANDING",
+      "rationale": "Substituir pelo logotipo da sua empresa mantendo o container e animações de entrada"
+    },
+    {
+      "id": "brand_hbh-logo.1dd8b416",
+      "category": "BRAND_LOGO",
+      "originalFile": "assets/_next/static/media/hbh-logo.1dd8b416.svg",
+      "recommendedStrategy": "CUSTOM_COMPANY_BRANDING",
+      "rationale": "Substituir pelo logotipo da sua empresa mantendo o container e animações de entrada"
+    },
+    {
+      "id": "icon_next-btn.94ed236e",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/_next/static/media/next-btn.94ed236e.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_prev-btn.4ba2080f",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/_next/static/media/prev-btn.4ba2080f.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    }
+  ]
+}

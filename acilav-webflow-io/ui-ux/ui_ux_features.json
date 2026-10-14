@@ -1,0 +1,219 @@
+{
+  "gsap": {
+    "detected": true,
+    "version": "3.15.0",
+    "hasScrollTrigger": true,
+    "scrollTriggerInstances": 9,
+    "tweensCount": 113,
+    "plugins": [
+      "attr",
+      "endArray",
+      "roundProps",
+      "modifiers",
+      "snap",
+      "css"
+    ],
+    "timelines": [
+      {
+        "duration": 1,
+        "ease": "power2.out",
+        "props": {}
+      },
+      {
+        "duration": 0.6,
+        "ease": "power2.out",
+        "props": {}
+      },
+      {
+        "duration": 0.3,
+        "ease": "power2.out",
+        "props": {
+          "opacity": 1
+        }
+      },
+      {
+        "duration": 0.6,
+        "ease": "power2.out",
+        "props": {
+          "opacity": 0,
+          "y": "2.5rem"
+        }
+      },
+      {
+        "duration": 0.6,
+        "ease": "power2.out",
+        "props": {}
+      },
+      {
+        "duration": 0.3,
+        "ease": "power2.out",
+        "props": {
+          "opacity": 1
+        }
+      },
+      {
+        "duration": 0.6,
+        "ease": "power2.out",
+        "props": {
+          "opacity": 0,
+          "y": "2.5rem"
+        }
+      },
+      {
+        "duration": 0.6,
+        "ease": "power2.out",
+        "props": {}
+      },
+      {
+        "duration": 0.3,
+        "ease": "power2.out",
+        "props": {
+          "opacity": 1
+        }
+      },
+      {
+        "duration": 0.6,
+        "ease": "power2.out",
+        "props": {
+          "opacity": 0,
+          "y": "2.5rem"
+        }
+      },
+      {
+        "duration": 0.6,
+        "ease": "power2.out",
+        "props": {}
+      },
+      {
+        "duration": 0.3,
+        "ease": "power2.out",
+        "props": {
+          "opacity": 1
+        }
+      },
+      {
+        "duration": 0.6,
+        "ease": "power2.out",
+        "props": {
+          "opacity": 0,
+          "y": "2.5rem"
+        }
+      },
+      {
+        "duration": 0.6,
+        "ease": "power2.out",
+        "props": {}
+      },
+      {
+        "duration": 0.3,
+        "ease": "power2.out",
+        "props": {
+          "opacity": 1
+        }
+      }
+    ]
+  },
+  "lenis": {
+    "detected": false,
+    "config": null
+  },
+  "microInteractions": {
+    "magneticButtons": [
+      {
+        "tag": "a",
+        "text": "CONTACT US\nCONTACT US",
+        "selector": ".primary-btn.w-inline-block"
+      },
+      {
+        "tag": "a",
+        "text": "",
+        "selector": ".scroll-down-btn.w-inline-block"
+      },
+      {
+        "tag": "a",
+        "text": "CONTACT US\nCONTACT US",
+        "selector": ".primary-btn.w-inline-block"
+      },
+      {
+        "tag": "a",
+        "text": "Proven Results\n\nEnhance your w",
+        "selector": "#w-tabs-0-data-w-tab-0"
+      },
+      {
+        "tag": "a",
+        "text": "Data-Driven Approach\n\nWe use a",
+        "selector": "#w-tabs-0-data-w-tab-1"
+      },
+      {
+        "tag": "a",
+        "text": "Transparent Reporting\n\nStay in",
+        "selector": "#w-tabs-0-data-w-tab-2"
+      },
+      {
+        "tag": "a",
+        "text": "Dedicated Support\n\nOur team is",
+        "selector": "#w-tabs-0-data-w-tab-3"
+      },
+      {
+        "tag": "a",
+        "text": "Long-Term Growth\n\nWe focus on",
+        "selector": "#w-tabs-0-data-w-tab-4"
+      },
+      {
+        "tag": "a",
+        "text": "BOOK STRATEGY CALL\nBOOK STRATE",
+        "selector": ".primary-btn.w-inline-block"
+      },
+      {
+        "tag": "a",
+        "text": "How Are Reports Shared?\n\nClear",
+        "selector": "#w-tabs-2-data-w-tab-2"
+      },
+      {
+        "tag": "a",
+        "text": "SEO Results Timeline?\n\nSEO tak",
+        "selector": "#w-tabs-2-data-w-tab-3"
+      },
+      {
+        "tag": "a",
+        "text": "ASK A QUESTION\nASK A QUESTION",
+        "selector": ".primary-btn.w-variant-e44058f5-3198-c999-95cf-f55dc1dcbd03.w-inline-block"
+      },
+      {
+        "tag": "button",
+        "text": "SUBSCRIBE NOW\nSUBSCRIBE NOW",
+        "selector": ".submit-btn.width-full"
+      },
+      {
+        "tag": "button",
+        "text": "SUBMIT NOW\nSUBMIT NOW",
+        "selector": ".submit-btn.width-full"
+      }
+    ],
+    "tiltCards": [],
+    "spotlightElements": [],
+    "textScramble": false
+  },
+  "webglCanvas": {
+    "canvasCount": 0,
+    "hasThreeJs": false,
+    "shadersCount": 0,
+    "shaders": []
+  },
+  "typography": {
+    "splitTextDetected": false,
+    "variableFonts": [],
+    "marqueesCount": 0
+  },
+  "cssEffects": {
+    "keyframes": [
+      {
+        "name": "spin",
+        "cssText": "@keyframes spin { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}"
+      }
+    ],
+    "glassmorphism": true,
+    "clipPaths": [],
+    "svgFilters": []
+  }
+}

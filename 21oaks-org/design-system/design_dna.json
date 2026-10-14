@@ -1,0 +1,202 @@
+{
+  "colors": {
+    "variables": {
+      "--black": "#292929",
+      "--primary": "#e8ceff"
+    },
+    "defaults": {
+      "backgroundColor": "rgb(255, 255, 255)",
+      "color": "rgb(41, 41, 41)"
+    }
+  },
+  "typography": {
+    "h1": {
+      "fontFamily": "Exposure, Georgia, sans-serif",
+      "fontSize": "96px",
+      "fontWeight": "400",
+      "lineHeight": "86.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    },
+    "h2": {
+      "fontFamily": "Exposure, Georgia, sans-serif",
+      "fontSize": "88.32px",
+      "fontWeight": "400",
+      "lineHeight": "101.568px",
+      "letterSpacing": "-1.7664px",
+      "color": "rgb(41, 41, 41)"
+    },
+    "paragraph": {
+      "fontFamily": "Exposure, Georgia, sans-serif",
+      "fontSize": "17.28px",
+      "fontWeight": "400",
+      "lineHeight": "24.192px",
+      "letterSpacing": "normal",
+      "color": "rgb(41, 41, 41)"
+    },
+    "button": {
+      "fontFamily": "Exposure, Georgia, sans-serif",
+      "fontSize": "19.2px",
+      "fontWeight": "400",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(41, 41, 41)"
+    }
+  },
+  "sections": [
+    {
+      "id": "header-1",
+      "tag": "header",
+      "classes": [
+        "header"
+      ],
+      "approxHeight": 82,
+      "summaryText": "21OAKS Menu Schedule a Tour Apply Now"
+    },
+    {
+      "id": "main-2",
+      "tag": "main",
+      "classes": [
+        "main"
+      ],
+      "approxHeight": 5797,
+      "summaryText": "Live better, closer to USC Freshly renovated and upgraded. Minutes from Williams-Brice. Designed for"
+    },
+    {
+      "id": "section-3",
+      "tag": "section",
+      "classes": [
+        "hero"
+      ],
+      "approxHeight": 1080,
+      "summaryText": "Live better, closer to USC Freshly renovated and upgraded. Minutes from Williams-Brice. Designed for"
+    },
+    {
+      "id": "section-4",
+      "tag": "section",
+      "classes": [
+        "dynamic_section"
+      ],
+      "approxHeight": 4717,
+      "summaryText": "Everything student living should be"
+    },
+    {
+      "id": "section-5",
+      "tag": "section",
+      "classes": [
+        "sides"
+      ],
+      "approxHeight": 2903,
+      "summaryText": "Made for everyday living Private space Your space to reset and focus Shared spaces Room to connect, "
+    },
+    {
+      "id": "section-6",
+      "tag": "section",
+      "classes": [
+        "apartments"
+      ],
+      "approxHeight": 5724,
+      "summaryText": "Where student life feels balanced Available 4 Bed 2 Baths 1,108 ft2 D1 695.00 A 4-bedroom layout tha"
+    },
+    {
+      "id": "section-7",
+      "tag": "section",
+      "classes": [
+        "fs"
+      ],
+      "approxHeight": 1306,
+      "summaryText": "Closer than you think"
+    },
+    {
+      "id": "section-8",
+      "tag": "section",
+      "classes": [
+        "everything_u_need"
+      ],
+      "approxHeight": 745,
+      "summaryText": "Everything you ‍need, within reach From campus to everyday essentials — everything is closer than yo"
+    },
+    {
+      "id": "section-9",
+      "tag": "section",
+      "classes": [
+        "amenities_section"
+      ],
+      "approxHeight": 1370,
+      "summaryText": "Just outside your door Discover Amenities Grilling Courtyard Host easy evenings with friends in the "
+    },
+    {
+      "id": "section-10",
+      "tag": "section",
+      "classes": [
+        "how_it_works"
+      ],
+      "approxHeight": 1222,
+      "summaryText": "Simple Move-In How it Works Sounds like a fit? Apply now or book a tour. Schedule a Tour Find your s"
+    },
+    {
+      "id": "section-11",
+      "tag": "section",
+      "classes": [
+        "testimonials"
+      ],
+      "approxHeight": 1286,
+      "summaryText": "Real student experiences Emily Carter Ryan Mitchell Daniel Brooks “I can't say enough about how grea"
+    },
+    {
+      "id": "section-12",
+      "tag": "section",
+      "classes": [
+        "faqs"
+      ],
+      "approxHeight": 1045,
+      "summaryText": "Frequently asked questions Everything you might want to know before moving in. Didn’t find what you "
+    },
+    {
+      "id": "section-13",
+      "tag": "section",
+      "classes": [],
+      "approxHeight": 2648,
+      "summaryText": "Find your place. Make it yours. Schedule a Tour 21Oaks Your space. Still on. Discover Apartments Ame"
+    },
+    {
+      "id": "section-14",
+      "tag": "section",
+      "classes": [
+        "fs_cta"
+      ],
+      "approxHeight": 1080,
+      "summaryText": "Find your place. Make it yours. Schedule a Tour"
+    },
+    {
+      "id": "footer-15",
+      "tag": "footer",
+      "classes": [
+        "footer"
+      ],
+      "approxHeight": 1568,
+      "summaryText": "21Oaks Your space. Still on. Discover Apartments Amenities Location Gallery How to apply Contact Con"
+    }
+  ],
+  "detectedScripts": [
+    "https://cdn.prod.website-files.com/69f216b8ea891f70c9adbd5c/69fa31dc2e254ab3cf107566_da757a545ade9d08b82e25cc94fc5835_testimonials_dynamic.txt",
+    "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6a31483f3822b51654193a68",
+    "https://cdn.prod.website-files.com/6a31483f3822b51654193a68/js/webflow.867724da.88cb9e1b5b90ca85.js",
+    "https://unpkg.com/lenis@1.3.23/dist/lenis.min.js",
+    "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js",
+    "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js",
+    "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js",
+    "https://cdn.prod.website-files.com/69f216b8ea891f70c9adbd5c/69fa33c214774f1e6c7e21eb_back_to_top.txt",
+    "https://cdn.prod.website-files.com/69f216b8ea891f70c9adbd5c/69fddeb69ef94c938c057c4b_cdf7572af00d7dc1b5f05e7d48f0bafd_hsl-videos.txt",
+    "https://cdn.prod.website-files.com/69f216b8ea891f70c9adbd5c/69fa344fb15f51111e08041a_scribble_dynamic.txt",
+    "https://cdn.prod.website-files.com/69f216b8ea891f70c9adbd5c/69fa3124be34ecb6336f3a66_dynamic_photos.txt",
+    "https://cdn.prod.website-files.com/69f216b8ea891f70c9adbd5c/69fa3179ad87e5229d40d184_de5af900d1f248d0e92602af4981ee72_apartments_dynamic.txt",
+    "https://cdn.prod.website-files.com/69f216b8ea891f70c9adbd5c/6a03a184bf480c62e71d219d_bars-home.txt",
+    "https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.2/dist/js/splide.min.js"
+  ],
+  "detectedCSS": [
+    "https://cdn.prod.website-files.com/6a31483f3822b51654193a68/css/21oakswebsite.webflow.shared.ffa28cae7.min.css",
+    "https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.2/dist/css/splide-core.min.css",
+    "https://unpkg.com/lenis@1.3.23/dist/lenis.css"
+  ]
+}

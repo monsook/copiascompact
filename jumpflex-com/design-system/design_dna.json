@@ -1,0 +1,393 @@
+{
+  "colors": {
+    "variables": {},
+    "defaults": {
+      "backgroundColor": "rgb(246, 246, 246)",
+      "color": "rgb(0, 0, 0)"
+    }
+  },
+  "typography": {
+    "h1": {
+      "fontFamily": "\"Red Hat Display Variable\", ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "36px",
+      "fontWeight": "200",
+      "lineHeight": "39.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    },
+    "h2": {
+      "fontFamily": "\"Red Hat Display Variable\", ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "30px",
+      "fontWeight": "200",
+      "lineHeight": "33px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    },
+    "h3": {
+      "fontFamily": "\"Red Hat Text Variable\", ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)"
+    },
+    "paragraph": {
+      "fontFamily": "\"Red Hat Display Variable\", ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "lineHeight": "26.66px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    },
+    "button": {
+      "fontFamily": "\"Red Hat Text Variable\", ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    }
+  },
+  "sections": [
+    {
+      "id": "header-1",
+      "tag": "header",
+      "classes": [
+        "brand__header--top",
+        "brand__header--home",
+        "brand__header",
+        "sticky",
+        "top-0",
+        "z-40",
+        "flex",
+        "h-nav",
+        "w-full",
+        "items-center",
+        "justify-between",
+        "gap-4",
+        "px-4",
+        "leading-none",
+        "backdrop-blur-lg",
+        "md:px-8",
+        "lg:py-8"
+      ],
+      "approxHeight": 80,
+      "summaryText": "Jumpflex® TRAMPOLINES ACCESSORIES SUPPORT ABOUT CONTACT BLOG Phone +1 (866) 3057238"
+    },
+    {
+      "id": "mainContent",
+      "tag": "main",
+      "classes": [
+        "grow"
+      ],
+      "approxHeight": 12990,
+      "summaryText": "A Jumpflex® trampoline is for life VIEW TRAMPOLINES FLEX™ Trampolines  A family favourite for over 1"
+    },
+    {
+      "id": "section-4",
+      "tag": "section",
+      "classes": [
+        "relative",
+        "w-full",
+        "-mt-nav",
+        "h-full"
+      ],
+      "approxHeight": 972,
+      "summaryText": "A Jumpflex® trampoline is for life VIEW TRAMPOLINES"
+    },
+    {
+      "id": "section-5",
+      "tag": "section",
+      "classes": [
+        "w-full",
+        "gap-4",
+        "md:gap-8",
+        "grid",
+        "py-12",
+        "md:py-16",
+        "lg:py-24",
+        "border-none",
+        "swimlane-wrapper"
+      ],
+      "approxHeight": 764,
+      "summaryText": "Our Trampolines FLEX™ 8ft Trampoline 4.9 out of 5 star rating 4.9 star rating 550 reviews $499  $599"
+    },
+    {
+      "id": "section-6",
+      "tag": "section",
+      "classes": [
+        "brand__section",
+        "relative",
+        "size-full",
+        "style-dark"
+      ],
+      "approxHeight": 1080,
+      "summaryText": ""
+    },
+    {
+      "id": "section-7",
+      "tag": "section",
+      "classes": [
+        "brand__section",
+        "relative",
+        "size-full",
+        "style-dark"
+      ],
+      "approxHeight": 972,
+      "summaryText": ""
+    },
+    {
+      "id": "section-8",
+      "tag": "section",
+      "classes": [
+        "brand__section",
+        "relative",
+        "size-full",
+        "style-light"
+      ],
+      "approxHeight": 1532,
+      "summaryText": ""
+    },
+    {
+      "id": "section-9",
+      "tag": "section",
+      "classes": [
+        "swimlane-wrapper",
+        "brand__section",
+        "mx-auto",
+        "my-4",
+        "xl:my-8"
+      ],
+      "approxHeight": 470,
+      "summaryText": ""
+    },
+    {
+      "id": "section-10",
+      "tag": "section",
+      "classes": [
+        "brand__section",
+        "relative",
+        "size-full",
+        "style-dark"
+      ],
+      "approxHeight": 972,
+      "summaryText": ""
+    },
+    {
+      "id": "section-11",
+      "tag": "section",
+      "classes": [
+        "brand__section",
+        "relative",
+        "size-full",
+        "style-light"
+      ],
+      "approxHeight": 972,
+      "summaryText": ""
+    },
+    {
+      "id": "section-12",
+      "tag": "section",
+      "classes": [
+        "brand__section",
+        "relative",
+        "size-full",
+        "style-dark"
+      ],
+      "approxHeight": 457,
+      "summaryText": ""
+    },
+    {
+      "id": "section-13",
+      "tag": "section",
+      "classes": [
+        "brand__section",
+        "relative",
+        "size-full",
+        "style-dark"
+      ],
+      "approxHeight": 1281,
+      "summaryText": ""
+    },
+    {
+      "id": "section-14",
+      "tag": "section",
+      "classes": [
+        "brand__section",
+        "relative",
+        "grid",
+        "size-full",
+        "max-w-7xl",
+        "grid-cols-1",
+        "md:grid-cols-12",
+        "mx-auto",
+        "my-4",
+        "xl:my-8",
+        "gap-4",
+        "px-4",
+        "xl:gap-8",
+        "xl:px-8"
+      ],
+      "approxHeight": 798,
+      "summaryText": ""
+    },
+    {
+      "id": "section-15",
+      "tag": "section",
+      "classes": [
+        "brand__section",
+        "relative",
+        "size-full",
+        "style-dark"
+      ],
+      "approxHeight": 506,
+      "summaryText": ""
+    },
+    {
+      "id": "section-16",
+      "tag": "section",
+      "classes": [
+        "brand__section",
+        "relative",
+        "size-full",
+        "style-light"
+      ],
+      "approxHeight": 640,
+      "summaryText": ""
+    },
+    {
+      "id": "section-17",
+      "tag": "section",
+      "classes": [
+        "w-full",
+        "gap-4",
+        "md:gap-8",
+        "grid",
+        "py-6",
+        "md:py-8",
+        "lg:py-12",
+        "border-none",
+        "swimlane-wrapper"
+      ],
+      "approxHeight": 556,
+      "summaryText": "Real Reviews From Real Customers Powered by  4.8 out of 5 star rating 4.8 star rating •19,020 review"
+    },
+    {
+      "id": "footer-18",
+      "tag": "footer",
+      "classes": [
+        "w-full",
+        "gap-4",
+        "md:gap-8",
+        "grid",
+        "border-none",
+        "brand__footer"
+      ],
+      "approxHeight": 854,
+      "summaryText": "Jumpflex®  USA's favorite trampoline for kids of all ages, our trampolines with net enclosure are de"
+    },
+    {
+      "id": "section-19",
+      "tag": "section",
+      "classes": [
+        "max-w-40"
+      ],
+      "approxHeight": 412,
+      "summaryText": "TRAMPOLINES  FLEX™ 8 ft FLEX™ 10 ft FLEX™ 12 ft HERO™ 10 ft HERO™ 12 ft HERO™ 14 ft HERO™ 15 ft MEGA"
+    },
+    {
+      "id": "nav-20",
+      "tag": "nav",
+      "classes": [
+        "grid",
+        "gap-2",
+        "pb-6"
+      ],
+      "approxHeight": 368,
+      "summaryText": "FLEX™ 8 ft FLEX™ 10 ft FLEX™ 12 ft HERO™ 10 ft HERO™ 12 ft HERO™ 14 ft HERO™ 15 ft MEGA™ 14 ft MEGA™"
+    },
+    {
+      "id": "section-21",
+      "tag": "section",
+      "classes": [
+        "max-w-40"
+      ],
+      "approxHeight": 252,
+      "summaryText": "ACCESSORIES  ANCHORKIT PRO™ AQUAJET™ FLEXBOARD™ JUMPSLIDE™ PROJAM™ SMARTSHADE™"
+    },
+    {
+      "id": "nav-22",
+      "tag": "nav",
+      "classes": [
+        "grid",
+        "gap-2",
+        "pb-6"
+      ],
+      "approxHeight": 208,
+      "summaryText": "ANCHORKIT PRO™ AQUAJET™ FLEXBOARD™ JUMPSLIDE™ PROJAM™ SMARTSHADE™"
+    },
+    {
+      "id": "section-23",
+      "tag": "section",
+      "classes": [
+        "max-w-40"
+      ],
+      "approxHeight": 284,
+      "summaryText": "SUPPORT  FAQs & Help Center Assembly Payment Delivery Warranty Parts Customer Support"
+    },
+    {
+      "id": "nav-24",
+      "tag": "nav",
+      "classes": [
+        "grid",
+        "gap-2",
+        "pb-6"
+      ],
+      "approxHeight": 240,
+      "summaryText": "FAQs & Help Center Assembly Payment Delivery Warranty Parts Customer Support"
+    },
+    {
+      "id": "section-25",
+      "tag": "section",
+      "classes": [
+        "max-w-40"
+      ],
+      "approxHeight": 220,
+      "summaryText": "ABOUT  About Us Our Team Contact Us Blogs Jumpflex Athletes"
+    },
+    {
+      "id": "nav-26",
+      "tag": "nav",
+      "classes": [
+        "grid",
+        "gap-2",
+        "pb-6"
+      ],
+      "approxHeight": 176,
+      "summaryText": "About Us Our Team Contact Us Blogs Jumpflex Athletes"
+    }
+  ],
+  "detectedScripts": [
+    "https://bat.bing.com/bat.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-NRLN4QQ&gtg_health=1",
+    "https://metrics.jumpflex.com/gtag/js?id=G-KQEJMY7GTX&cx=c&gtm=4e68r0&sign=6d82279f12b6c28e1572006692b48f4caa44d44cdca81ac9094ed35b9f427df6_20260831",
+    "https://static-tracking.klaviyo.com/onsite/js/fender_analytics.260bfd76609a3.js?cb=2",
+    "https://static-tracking.klaviyo.com/onsite/js/static.cf5be546f15dc.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/runtime.e832a8521a12a.js?cb=2",
+    "https://static-tracking.klaviyo.com/onsite/js/post_identification_sync.ac925c49ab397.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/event_adapter.dcd7f3a30a106.js?cb=2",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/656914132/?random=1788205171145&cv=11&fst=1788205171145&bg=ffffff&guid=ON&async=1&gtm=45he68r0v888523359z878998445za20kzb78998445zd78998445xea&gcd=13r3r3r3r5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120385423&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.jumpflex.com%2F&rcb=10&frm=0&tiba=Jumpflex%C2%AE%20Trampolines%20USA%20-%20Trampolines%20For%20Sale%20Online&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2022306279.1788205170&uaa=x86&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=DA&data=ads_data_redaction%3Dfalse&gap.gtb=2&ept=9&rfmt=3&fmt=4",
+    "https://www.dwin1.com/61319.js",
+    "https://config.gorgias.chat/bundle-loader/01GYCC415SJ59VT16WGKDFVW32?v=R195",
+    "https://www.gstatic.com/shopping/merchant/merchantwidget.js?v=Rb5",
+    "https://cdn.shopify.com/shopifycloud/privacy-banner/storefront-banner.js",
+    "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=30ffc21d&appKey=01GYCC415SJ59VT16WGKDFVW32",
+    "https://metrics.jumpflex.com/gtm.js?id=GTM-NRLN4QQ",
+    "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=Q5prn5",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://cdn.shopify.com/shopifycloud/perf-kit/shopify-perf-kit-spa.min.js"
+  ],
+  "detectedCSS": [
+    "https://cdn.shopify.com/oxygen-v2/35309/25699/53445/4336934/assets/app-A5WtPWqV.css"
+  ]
+}

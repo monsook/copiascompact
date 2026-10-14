@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "status": "completed",
+  "url": "https://www.jumpflex.com/",
+  "siteName": "jumpflex-com",
+  "mode": "all",
+  "startedAt": "2026-08-31T19:38:55.595Z",
+  "completedAt": "2026-08-31T19:39:56.240Z",
+  "stages": [
+    {
+      "name": "detect",
+      "status": "passed",
+      "startedAt": "2026-08-31T19:38:55.599Z",
+      "completedAt": "2026-08-31T19:39:06.993Z"
+    },
+    {
+      "name": "clone",
+      "status": "passed",
+      "startedAt": "2026-08-31T19:39:06.994Z",
+      "completedAt": "2026-08-31T19:39:26.574Z"
+    },
+    {
+      "name": "normalize-assets",
+      "status": "passed",
+      "startedAt": "2026-08-31T19:39:26.576Z",
+      "completedAt": "2026-08-31T19:39:26.857Z"
+    },
+    {
+      "name": "extract-design-dna",
+      "status": "passed",
+      "startedAt": "2026-08-31T19:39:26.858Z",
+      "completedAt": "2026-08-31T19:39:46.612Z"
+    },
+    {
+      "name": "generate-styleguide",
+      "status": "passed",
+      "startedAt": "2026-08-31T19:39:46.614Z",
+      "completedAt": "2026-08-31T19:39:46.619Z"
+    },
+    {
+      "name": "extract-ui-ux",
+      "status": "passed",
+      "startedAt": "2026-08-31T19:39:46.622Z",
+      "completedAt": "2026-08-31T19:39:56.174Z"
+    },
+    {
+      "name": "generate-master-spec",
+      "status": "passed",
+      "startedAt": "2026-08-31T19:39:56.176Z",
+      "completedAt": "2026-08-31T19:39:56.222Z"
+    },
+    {
+      "name": "generate-asset-manifest",
+      "status": "passed",
+      "startedAt": "2026-08-31T19:39:56.224Z",
+      "completedAt": "2026-08-31T19:39:56.231Z"
+    },
+    {
+      "name": "generate-prompt-catalog",
+      "status": "passed",
+      "startedAt": "2026-08-31T19:39:56.233Z",
+      "completedAt": "2026-08-31T19:39:56.237Z"
+    }
+  ]
+}

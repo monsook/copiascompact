@@ -1,0 +1,96 @@
+{
+  "route": "/payment-processor/create-invoice-3",
+  "title": "Payment Processor",
+  "cardsCount": 5,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "Item 1\n$399.00\nNAME\nDESCRIPTION\nQUANTITY\nUNIT PRICE\nAMOUNT\n$399.00",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "Item 2\n$711.00\nNAME\nDESCRIPTION\nQUANTITY\nUNIT PRICE\nAMOUNT\n$711.00",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "Item 3\n$540.00\nNAME\nDESCRIPTION\nQUANTITY\nUNIT PRICE\nAMOUNT\n$540.00",
+      "hasChart": true,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 19,
+  "inputsSample": [
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "number",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "number",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": ""
+    }
+  ],
+  "htmlSnapshot": ""
+}

@@ -1,0 +1,32 @@
+{
+  "colors": {
+    "variables": {},
+    "defaults": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)"
+    }
+  },
+  "typography": {
+    "h1": {
+      "fontFamily": "\"Helvetica Neue\", Helvetica, Arial",
+      "fontSize": "40px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    },
+    "button": {
+      "fontFamily": "\"Helvetica Neue\", Helvetica, Arial",
+      "fontSize": "10px",
+      "fontWeight": "600",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    }
+  },
+  "sections": [],
+  "detectedScripts": [],
+  "detectedCSS": [
+    "https://f.vimeocdn.com/p/4.46.115/css/player.css"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "route": "/ecommerce/add-product",
+  "title": "Ecommerce App",
+  "cardsCount": 2,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 19,
+  "inputsSample": [
+    {
+      "type": "file",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "Shirt, t-shirts, etc.",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "eg. 348121032",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "0123456789012",
+      "label": ""
+    },
+    {
+      "type": "file",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": "Size\nColor\nBundle\nScent"
+    },
+    {
+      "type": "text",
+      "placeholder": "50 ml",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "45.00",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "0",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "45.00",
+      "label": ""
+    }
+  ],
+  "htmlSnapshot": ""
+}

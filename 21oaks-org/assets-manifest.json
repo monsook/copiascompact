@@ -1,0 +1,471 @@
+{
+  "generatedAt": "2026-09-21T13:55:19.615Z",
+  "siteUrl": "https://21oaks.org/",
+  "summary": {
+    "totalAssetsFound": 58,
+    "imageSequencesDetected": 0,
+    "heroBackgroundsDetected": 52,
+    "technicalSvgsDetected": 6,
+    "brandAssetsDetected": 0
+  },
+  "replacements": [
+    {
+      "id": "bg_69f2255231f512ef624cd10b_hero-1-1.5x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/69f2255231f512ef624cd10b_hero-1-1.5x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_69f2255231f512ef624cd10b_hero-1",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/69f2255231f512ef624cd10b_hero-1.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_69f2255231f512ef624cd10b_hero-1@2x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/69f2255231f512ef624cd10b_hero-1@2x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_69f22e29852ebaeee90e1715_hero-svg",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/69f22e29852ebaeee90e1715_hero-svg.svg",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "icon_69f22f4064493a4928e32d91_sun",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/69f22f4064493a4928e32d91_sun.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_69f24399e38c6cb2a48593ee_scribble-1",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/69f24399e38c6cb2a48593ee_scribble-1.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_69f2582761028a19bce7354f_scribble-2",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/69f2582761028a19bce7354f_scribble-2.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_69f2824a8a8185078f641873_scribble-3",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/69f2824a8a8185078f641873_scribble-3.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_69f331d0cad5839eb675d5c8_81027244c92a22f1edf005213c61daf9_scribble-4",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/69f331d0cad5839eb675d5c8_81027244c92a22f1edf005213c61daf9_scribble-4.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "icon_69f4f637911d43d3e36436b5_svg-line-5",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/69f4f637911d43d3e36436b5_svg-line-5.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    },
+    {
+      "id": "bg_6a31483f3822b51654193ac2_hero-1-1.5x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193ac2_hero-1-1.5x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193ac2_hero-1-p-1080-1.5x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193ac2_hero-1-p-1080-1.5x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193ac2_hero-1-p-1080",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193ac2_hero-1-p-1080.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193ac2_hero-1-p-1080@2x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193ac2_hero-1-p-1080@2x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193ac2_hero-1-p-1600-1.5x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193ac2_hero-1-p-1600-1.5x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193ac2_hero-1-p-1600",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193ac2_hero-1-p-1600.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193ac2_hero-1-p-1600@2x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193ac2_hero-1-p-1600@2x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193ac2_hero-1-p-500-1.5x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193ac2_hero-1-p-500-1.5x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193ac2_hero-1-p-500",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193ac2_hero-1-p-500.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193ac2_hero-1-p-500@2x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193ac2_hero-1-p-500@2x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193ac2_hero-1-p-800-1.5x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193ac2_hero-1-p-800-1.5x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193ac2_hero-1-p-800",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193ac2_hero-1-p-800.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193ac2_hero-1-p-800@2x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193ac2_hero-1-p-800@2x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193ac2_hero-1",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193ac2_hero-1.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193ac2_hero-1@2x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193ac2_hero-1@2x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb0_d1-hero-1.5x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb0_D1-Hero-1.5x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb0_d1-hero-p-1080-1.5x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb0_D1-Hero-p-1080-1.5x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb0_d1-hero-p-1080",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb0_D1-Hero-p-1080.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb0_d1-hero-p-1080@2x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb0_D1-Hero-p-1080@2x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb0_d1-hero-p-500-1.5x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb0_D1-Hero-p-500-1.5x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb0_d1-hero-p-500",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb0_D1-Hero-p-500.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb0_d1-hero-p-500@2x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb0_D1-Hero-p-500@2x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb0_d1-hero-p-800-1.5x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb0_D1-Hero-p-800-1.5x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb0_d1-hero-p-800",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb0_D1-Hero-p-800.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb0_d1-hero-p-800@2x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb0_D1-Hero-p-800@2x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb0_d1-hero",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb0_D1-Hero.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb0_d1-hero@2x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb0_D1-Hero@2x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb1_c1-hero-1.5x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb1_C1-Hero-1.5x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb1_c1-hero-p-1080-1.5x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb1_C1-Hero-p-1080-1.5x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb1_c1-hero-p-1080",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb1_C1-Hero-p-1080.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb1_c1-hero-p-1080@2x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb1_C1-Hero-p-1080@2x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb1_c1-hero-p-500-1.5x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb1_C1-Hero-p-500-1.5x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb1_c1-hero-p-500",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb1_C1-Hero-p-500.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb1_c1-hero-p-500@2x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb1_C1-Hero-p-500@2x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb1_c1-hero-p-800-1.5x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb1_C1-Hero-p-800-1.5x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb1_c1-hero-p-800",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb1_C1-Hero-p-800.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb1_c1-hero-p-800@2x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb1_C1-Hero-p-800@2x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb1_c1-hero",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb1_C1-Hero.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb1_c1-hero@2x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb1_C1-Hero@2x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb3_d2-hero-1.5x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb3_D2-Hero-1.5x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb3_d2-hero-p-500-1.5x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb3_D2-Hero-p-500-1.5x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb3_d2-hero-p-500",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb3_D2-Hero-p-500.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb3_d2-hero-p-500@2x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb3_D2-Hero-p-500@2x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb3_d2-hero-p-800-1.5x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb3_D2-Hero-p-800-1.5x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb3_d2-hero-p-800",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb3_D2-Hero-p-800.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb3_d2-hero-p-800@2x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb3_D2-Hero-p-800@2x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb3_d2-hero",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb3_D2-Hero.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    },
+    {
+      "id": "bg_6a31483f3822b51654193bb3_d2-hero@2x",
+      "category": "HERO_BACKGROUND_TEXTURE",
+      "originalFile": "assets/6a31483f3822b51654193bb3_D2-Hero@2x.avif",
+      "recommendedStrategy": "AI_GENERATED_IMAGE_OR_PROCEDURAL_CSS",
+      "rationale": "Substituir por fotografia gerada por IA com a mesma proporção e paleta, ou canvas procedural",
+      "suggestedAiPrompt": "Top-down knolling photography of modern industrial technology components, studio lighting, deep metallic tones, dark cyan accents, clean composition, 16:9 ratio, ultra-detailed."
+    }
+  ]
+}

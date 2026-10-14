@@ -1,0 +1,12 @@
+{
+  "auditTimestamp": "2026-08-25T18:24:56.858Z",
+  "siteSlug": "storeyarchitecture-co-uk",
+  "auditPassed": true,
+  "jsErrors": [],
+  "layoutBoxes": [],
+  "imagesSummary": {
+    "total": 49,
+    "valid": 49,
+    "broken": []
+  }
+}

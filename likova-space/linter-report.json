@@ -1,0 +1,579 @@
+{
+  "auditTimestamp": "2026-09-18T18:11:33.139Z",
+  "siteSlug": "likova-space",
+  "auditPassed": false,
+  "jsErrors": [],
+  "layoutBoxes": [
+    {
+      "index": 0,
+      "tag": "header",
+      "id": null,
+      "classes": "header is-hidden--print header--sticky header--landing ui-dark",
+      "top": 0,
+      "left": 0,
+      "width": 1440,
+      "height": 50
+    },
+    {
+      "index": 1,
+      "tag": "section",
+      "id": null,
+      "classes": "intro section ui-dark ui-background",
+      "top": 0,
+      "left": 0,
+      "width": 1440,
+      "height": 3800
+    },
+    {
+      "index": 2,
+      "tag": "section",
+      "id": "about",
+      "classes": "idea section section--top ui-dark ",
+      "top": 2800,
+      "left": -2880,
+      "width": 1440,
+      "height": 2101
+    },
+    {
+      "index": 3,
+      "tag": "section",
+      "id": null,
+      "classes": "information section ui-dark ui-background",
+      "top": 4001,
+      "left": -2880,
+      "width": 1440,
+      "height": 5400
+    },
+    {
+      "index": 4,
+      "tag": "section",
+      "id": "location",
+      "classes": "location section ui-dark ui-background",
+      "top": 7601,
+      "left": -2880,
+      "width": 1440,
+      "height": 7650
+    },
+    {
+      "index": 5,
+      "tag": "section",
+      "id": null,
+      "classes": "accessibility section ui-light ui-background",
+      "top": 13451,
+      "left": -2880,
+      "width": 1440,
+      "height": 7650
+    },
+    {
+      "index": 6,
+      "tag": "section",
+      "id": null,
+      "classes": "environment section ui-dark ui-background",
+      "top": 19301,
+      "left": -2880,
+      "width": 1440,
+      "height": 5400
+    },
+    {
+      "index": 7,
+      "tag": "section",
+      "id": "genplan",
+      "classes": "general-plan section ui-light ui-background-alternative",
+      "top": 23801,
+      "left": -2880,
+      "width": 1440,
+      "height": 2097
+    },
+    {
+      "index": 8,
+      "tag": "section",
+      "id": "architecture",
+      "classes": "architecture section ui-dark ui-background",
+      "top": 24098,
+      "left": -2880,
+      "width": 1440,
+      "height": 7947
+    },
+    {
+      "index": 9,
+      "tag": "section",
+      "id": "lobby",
+      "classes": "lobby section ui-dark ui-background",
+      "top": 30245,
+      "left": -2880,
+      "width": 1440,
+      "height": 5595
+    },
+    {
+      "index": 10,
+      "tag": "section",
+      "id": "offices",
+      "classes": "offices section ui-dark ui-background",
+      "top": 34940,
+      "left": -2880,
+      "width": 1440,
+      "height": 5247
+    },
+    {
+      "index": 11,
+      "tag": "section",
+      "id": null,
+      "classes": "section section--top-2 ui-light ui-background",
+      "top": 39287,
+      "left": -2880,
+      "width": 1440,
+      "height": 1255
+    },
+    {
+      "index": 12,
+      "tag": "section",
+      "id": "engineering",
+      "classes": "engineering section section--top ui-dark ui-background",
+      "top": 39642,
+      "left": -2880,
+      "width": 1440,
+      "height": 3486
+    },
+    {
+      "index": 13,
+      "tag": "section",
+      "id": "infrastructure",
+      "classes": "infrastructure section ui-dark ui-background",
+      "top": 42228,
+      "left": -2880,
+      "width": 1440,
+      "height": 7998
+    },
+    {
+      "index": 14,
+      "tag": "section",
+      "id": "team",
+      "classes": "team section section--top ui-light ui-background",
+      "top": 50225,
+      "left": -2880,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "index": 15,
+      "tag": "footer",
+      "id": null,
+      "classes": "footer section ui-dark ui-background is-hidden--print",
+      "top": 51124,
+      "left": -2880,
+      "width": 1440,
+      "height": 401
+    },
+    {
+      "index": 16,
+      "tag": "header",
+      "id": null,
+      "classes": "header header--modal is-hidden--print ui-dark",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "index": 17,
+      "tag": "footer",
+      "id": null,
+      "classes": "form-footer",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "index": 18,
+      "tag": "header",
+      "id": null,
+      "classes": "header header--modal is-hidden--print ui-dark",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "imagesSummary": {
+    "total": 96,
+    "valid": 21,
+    "broken": [
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/1.intro/background-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/1.intro/building-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/1.intro/building-xs-lights.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/2.idea/cube-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/2.idea/image-1@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/2.idea/image-2@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/4.location/intro-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/4.location/slider-1@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/4.location/slider-2@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/4.location/slider-3@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/4.location/slider-1@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/4.location/slider-2@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/4.location/slider-3@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/5.accessibility/background-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/5.accessibility/xs-map-1.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/5.accessibility/xs-map-1.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/5.accessibility/xs-map-2.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/5.accessibility/xs-map-3-en.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/6.environment/background-1@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/6.environment/background-2@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/6.environment/background-3@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/6.environment/background-1@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/6.environment/xs-image-1.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/6.environment/background-2@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/6.environment/xs-image-2.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/6.environment/background-3@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/6.environment/xs-image-3.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/6.environment/xs-image-1.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/6.environment/xs-image-2.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/6.environment/xs-image-3.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/7.general-plan/image-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/8.architecture/intro@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/8.architecture/slider-1-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/8.architecture/architect@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/8.architecture/slider-1-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/8.architecture/slider-2-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/8.architecture/slider-3-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/8.architecture/slider-4-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/8.architecture/slider-5-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/8.architecture/architect-person@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/9.lobby/intro-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/9.lobby/decor-1@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/9.lobby/decor-2@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/9.lobby/decor-3@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/9.lobby/decor-4@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/9.lobby/decor-5@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/9.lobby/decor-6@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/9.lobby/decor-7@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/9.lobby/decor-8@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/9.lobby/image@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/9.lobby/slider-1@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/9.lobby/slider-2@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/9.lobby/slider-3@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/10.offices/intro-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/10.offices/slider-1-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/10.offices/slider-1-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/10.offices/slider-2-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/10.offices/slider-3-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/10.offices/slider-4-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/10.offices/slider-5-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/12.engineering/intro@xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/13.infrastructure/intro-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/13.infrastructure/content-1-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/13.infrastructure/content-2-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/13.infrastructure/content-3-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/13.infrastructure/content-4-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/13.infrastructure/content-5-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/13.infrastructure/content-6-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/13.infrastructure/content-1-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/13.infrastructure/content-2-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/13.infrastructure/content-3-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/13.infrastructure/content-4-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/13.infrastructure/content-5-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/13.infrastructure/content-6-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      },
+      {
+        "src": "http://127.0.0.1:54514/assets/images/media/landing/13.infrastructure/slider-1-xs.webp?v=1782384571",
+        "alt": "",
+        "naturalWidth": 0
+      }
+    ]
+  }
+}

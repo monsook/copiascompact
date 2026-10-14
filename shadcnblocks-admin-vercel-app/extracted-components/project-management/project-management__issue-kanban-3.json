@@ -1,0 +1,150 @@
+{
+  "route": "/project-management/issue-kanban-3",
+  "title": "Project Management",
+  "cardsCount": 20,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "Document drag and resize behavior",
+      "snippet": "RFC-104\n\nDocument drag and resize behavior\nBlocked\n/\nBlocked\nBacklog",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "Prepare issue calendar follow-up screen",
+      "snippet": "RFC-108\n\nPrepare issue calendar follow-up screen\nNo owner yet\nBacklog",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "Map unresolved import states",
+      "snippet": "RFC-109\n\nMap unresolved import states\n\nCover empty, delayed, and failed dependency states.\n\nQueued yesterday\n/\nMedium\nBacklog\n2 sub",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "Draft permissions matrix",
+      "snippet": "RFC-110\n\nDraft permissions matrix\n\nList role behavior before access work starts.\n\nAdded to backlog\n/\nLow\nBacklog",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 6,
+      "title": "Review gantt interaction states",
+      "snippet": "RFC-102\n\nReview gantt interaction states\nUpdated today\n/\nMedium\nTodo\n1 sub",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 7,
+      "title": "Create empty and loading timeline states",
+      "snippet": "RFC-105\n\nCreate empty and loading timeline states\nUpdated today\n/\nMedium\nTodo\n2 sub",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 8,
+      "title": "Define compact issue row actions",
+      "snippet": "RFC-111\n\nDefine compact issue row actions\n\nConfirm the small-screen action set for issue cards.\n\nPlanned today\n/\nHigh\nTodo\n3 sub",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 9,
+      "title": "Validate bulk selection copy",
+      "snippet": "RFC-112\n\nValidate bulk selection copy\n\nReview toolbar labels for multi-select workflows.\n\nMoved to todo\n/\nMedium\nTodo\n1 sub",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 10,
+      "title": "Finalize issue timeline architecture",
+      "snippet": "RFC-101\n\nFinalize issue timeline architecture\nUpdated 2h ago\n/\nHigh\nIn Progress\n3 sub",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 11,
+      "title": "Wire activity stream pagination",
+      "snippet": "RFC-113\n\nWire activity stream pagination\n\nKeep the activity panel responsive with larger histories.\n\nUpdated 30m ago\n/\nHigh\nIn Progress\n4 sub",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 12,
+      "title": "Tune drag preview affordances",
+      "snippet": "RFC-114\n\nTune drag preview affordances\n\nMake drag feedback clearer across dense boards.\n\nIn progress\n/\nMedium\nIn Progress\n2 sub",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 13,
+      "title": "Sync issue filters with project views",
+      "snippet": "RFC-103\n\nSync issue filters with project views\nUpdated yesterday\n/\nHigh\nReview\n4 sub",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 14,
+      "title": "Polish the quarter view density",
+      "snippet": "RFC-107\n\nPolish the quarter view density\nUpdated today\n/\nMedium\nReview\n2 sub",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 15,
+      "title": "Review dependency warning variants",
+      "snippet": "RFC-115\n\nReview dependency warning variants\n\nCheck blocked, stale, and missing dependency treatments.\n\nReady for review\n/\nMedium\nReview\n2 sub",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 16,
+      "title": "QA keyboard reorder flow",
+      "snippet": "RFC-116\n\nQA keyboard reorder flow\n\nVerify keyboard parity for board movement patterns.\n\nBlocked on QA notes\n/\nHigh\n/\nBlocked\nReview\n1 sub",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 17,
+      "title": "Add mock dependencies and handoff notes",
+      "snippet": "RFC-106\n\nAdd mock dependencies and handoff notes\nClosed today\n/\nLow\nDone\n1 sub",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 18,
+      "title": "Ship saved filter presets",
+      "snippet": "RFC-117\n\nShip saved filter presets\n\nPersist personal filters for repeated triage sessions.\n\nClosed yesterday\n/\nLow\nDone\n1 sub",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 19,
+      "title": "Archive legacy issue badges",
+      "snippet": "RFC-118\n\nArchive legacy issue badges\n\nRemove stale badge variants from issue surfaces.\n\nClosed today\n/\nMedium\nDone",
+      "hasChart": true,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 0,
+  "inputsSample": [],
+  "htmlSnapshot": "<div class=\"border-b\"><div class=\"flex min-h-14 items-center gap-4 px-4 sm:px-6\"><div class=\"no-scrollbar flex min-w-0 flex-1 items-center overflow-x-auto\"><div class=\"flex shrink-0 items-center gap-2 pr-1\"><div class=\"bg-muted text-foreground flex size-7 items-center justify-center rounded-md\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-folder-kanban size-4\" aria-hidden=\"true\"><path d=\"M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z\"></path><path d=\"M8 10v4\"></path><path d=\"M12 10v2\"></path><path d=\"M16 10v6\"></path></svg></div><span class=\"text-foreground/85 max-w-48 truncate px-2 text-[14px] font-medium\">Renewal Forecast Console</span></div><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent text-muted-foreground hover:text-foreground size-8 shrink-0 rounded-md\" aria-label=\"Project options\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-ellipsis size-4\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"1\"></circle><circle cx=\"19\" cy=\"12\" r=\"1\"></circle><circle cx=\"5\" cy=\"12\" r=\"1\"></circle></svg></button><div class=\"mx-4 h-5 w-px shrink-0 border-l\"></div><div class=\"flex items-center gap-1\"><button type=\"button\" class=\"relative z-10 flex items-center rounded-md px-2 py-1.5 text-[13px] font-medium transition-colors bg-muted text-foreground\">Issues<span class=\"bg-foreground absolute bottom-[-14px] left-1/2 h-0.5 w-[80%] -translate-x-1/2 rounded-t-md\"></span></button><button type=\"button\" class=\"relative z-10 flex items-center rounded-md px-2 py-1.5 text-[13px] font-medium transition-colors text-muted-foreground hover:bg-muted/50 hover:text-foreground\">Cycles</button><button type=\"button\" class=\"relative z-10 flex items-center rounded-md px-2 py-1.5 text-[13px] font-medium transition-colors text-muted-foreground hover:bg-muted/50 hover:text-foreground\">Modules</button><button type=\"button\" class=\"relative z-10 flex items-center rounded-md px-2 py-1.5 text-[13px] font-medium transition-colors text-muted-foreground hover:bg-muted/50 hover:text-foreground\">Views</button><button type=\"button\" class=\"relative z-10 flex items-center rounded-md px-2 py-1.5 text-[13px] font-medium transition-colors text-muted-foreground hover:bg-muted/50 hover:text-foreground\">Pages</button></div></div><div class=\"flex shrink-0 items-center gap-2\"><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background shadow-xs hover:bg-accent hover:text-accent-foreground size-8\" aria-label=\"Filter issues\" type=\"button\" id=\"radix-_R_34lfiv5uknmlb_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-sliders-horizontal size-3.5\" aria-hidden=\"true\"><path d=\"M10 5H3\"></path><path d=\"M12 19H3\"></path><path d=\"M14 3v4\"></path><path d=\"M16 17v4\"></path><path d=\"M21 12h-9\"></path><path d=\"M21 19h-5\"></path><path d=\"M21 5h-7\"></path><path d=\"M8 10v4\"></path><path d=\"M8 12H3\"></path></svg></button><button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-sm hover:bg-primary/90 rounded-md px-3 text-xs h-8 shrink-0 gap-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-plus size-3.5\" aria-hidden=\"true\"><path d=\"M5 12h14\"></path><path d=\"M12 5v14\"></path></svg>Add issue</button></div></div></div><div class=\"flex min-h-11 items-center justify-between border-b px-4 py-1.5 sm:px-6\"><div class=\"text-foreground text-[14px] font-semibold\">18<!-- --> Issues</div><div class=\"text-muted-foreground text-[13px] font-medium\">Grouped by status</div></div><section class=\"border-b px-4 py-4 sm:px-6\"><div class=\"flex flex-col gap-4\"><div><p class=\"text-muted-foreground text-[11px] font-semibold tracking-[0.16em] uppercase\">Issue status</p><h2 class=\"mt-1 text-xl font-semibold tracking-tight text-zinc-950 dark:text-zinc-50\">Board health</h2><p class=\"text-muted-foreground mt-1 text-[13px]\">18<!-- --> issues distributed across active statuses</p></div><div class=\"h-1.5 overflow-hidden rounded-full bg-zinc-200 dark:bg-zinc-800\"><div class=\"flex h-full\"><span class=\"bg-zinc-400 dark:bg-zinc-500\" style=\"width:22.22222222222222%\"></span><span class=\"bg-cyan-400 dark:bg-cyan-500\" style=\"width:22.22222222222222%\"></span><span class=\"bg-amber-400 dark:bg-amber-500\" style=\"width:16.666666666666664%\"></span><span class=\"bg-fuchsia-400 dark:bg-fuchsia-500\" style=\"width:22.22222222222222%\"></span><span class=\"bg-emerald-400 dark:bg-emerald-500\" style=\"width:16.666666666666664%\"></span></div></div><div class=\"flex flex-wrap gap-x-8 gap-y-2\"><div class=\"flex items-center gap-2 text-[12px] text-zinc-500 dark:text-zinc-400\"><span class=\"size-1.5 rounded-full bg-zinc-400 dark:bg-zinc-500\"></span><span>Backlog</span><span class=\"font-medium text-zinc-900 dark:text-zinc-100\">4</span></div><div class=\"flex items-center gap-2 text-[12px] text-zinc-500 dark:text-zinc-400\"><span class=\"size-1.5 rounded-full bg-cyan-400 dark:bg-cyan-500\"></span><span>Todo</span><span class=\"font-medium text-zinc-900 dark:text-zinc-100\">4</span></div><div class=\"flex items-center gap-2 text-[12px] text-zinc-500 dark:text-zinc-400\"><span class=\"size-1.5 rounded-full bg-amber-400 dark:bg-amber-500\"></span><span>In Progress</span><span class=\"font-medium text-zinc-900 dark:text-zinc-100\">3</span></div><div class=\"flex items-center gap-2 text-[12px] text-zinc-500 dark:text-zinc-400\"><span class=\"size-1.5 rounded-full bg-fuchsia-400 dark:bg-fuchsia-500\"></span><span>Review</span><span class=\"font-medium text-zinc-900 dark:text-zinc-100\">4</span></div><div class=\"flex items-center gap-2 text-[12px] text-zinc-500 dark:text-zinc-400\"><span class=\"size-1.5 rounded-full bg-emerald-400 dark:bg-emerald-500\"></span><span>Done</span><span class=\"font-medium text-zinc-900 dark:text-zinc-100\">3</span></div></div></div></section><div class=\"min-h-0 flex-1 overflow-hidden bg-zinc-50/80 px-3 py-3 sm:px-4 dark:bg-zinc-950/40\"><div class=\"no-scrollbar flex h-full min-h-0 items-stretch overflow-x-auto pb-2 gap-5\"><section class=\"flex h-full min-h-0 shrink-0 flex-col overflow-hidden w-[320px] bg-transparent\"><div class=\"sticky top-0 z-10 flex min-h-12 items-center justify-between gap-3 bg-zinc-50/95 px-1 backdrop-blur dark:bg-zinc-950/90\"><span class=\"inline-flex h-6 w-28 items-center gap-1.5 rounded-md border px-2 text-[12px] font-semibold border-zinc-200 bg-zinc-50 text-zinc-700 dark:border-zinc-800 dark:bg-zinc-900/70 dark:text-zinc-300\"><span class=\"h-3 w-1 rounded-full bg-zinc-400 dark:bg-zinc-500\"></span>Backlog</span><div class=\"flex items-center gap-2\"><span class=\"text-muted-foreground min-w-4 text-right text-[12px] font-medium\">4</span><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent text-muted-foreground hover:text-foreground size-7 rounded-md\" aria-label=\"Add issue to Backlog\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-plus size-4\" aria-hidden=\"true\"><path d=\"M5 12h14\"></path><path d=\"M12 5v14\"></path></svg></button></div></div><div class=\"min-h-0 flex-1 overflow-y-auto px-1 pb-3\"><div class=\"flex flex-col gap-3\"><article data-kanban-card=\"true\" draggable=\"true\" class=\"group relative border bg-white p-3 shadow-[0_1px_2px_rgba(15,23,42,0.04)] transition dark:bg-zinc-950 rounded-lg border-zinc-200/80 dark:border-zinc-800/80 hover:border-zinc-300/80 hover:shadow-[0_10px_24px_rgba(15,23,42,0.08)] dark:hover:border-zinc-700/80\"><div class=\"flex items-start justify-between gap-3\"><div class=\"min-w-0\"><p class=\"truncate text-[11px] font-semibold tracking-[0.12em] text-zinc-500 uppercase dark:text-zinc-400\">RFC-104</p><h3 class=\"mt-1 line-clamp-2 text-[14px] font-semibold text-zinc-900 dark:text-zinc-50\">Document drag and resize behavior</h3></div><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent text-muted-foreground hover:text-foreground -mr-1 size-7 shrink-0 rounded-md opacity-0 transition-opacity group-hover:opacity-100\" aria-label=\"More actions for Document drag and r"
+}

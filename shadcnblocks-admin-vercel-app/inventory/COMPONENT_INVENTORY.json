@@ -1,0 +1,643 @@
+{
+  "scrapedAt": "2026-09-30T19:21:48.427Z",
+  "source": "https://shadcnblocks-admin.vercel.app",
+  "navigation": [
+    {
+      "label": "Ecommerce",
+      "items": [
+        {
+          "text": "Dashboard",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Dashboard 1",
+          "href": "/ecommerce/dashboard-1",
+          "isCollapsible": false
+        },
+        {
+          "text": "Dashboard 2",
+          "href": "/ecommerce/dashboard-2",
+          "isCollapsible": false
+        },
+        {
+          "text": "Dashboard 3",
+          "href": "/ecommerce/dashboard-3",
+          "isCollapsible": false
+        },
+        {
+          "text": "Dashboard 4",
+          "href": "/ecommerce/dashboard-4",
+          "isCollapsible": false
+        },
+        {
+          "text": "Dashboard 5",
+          "href": "/ecommerce/dashboard-5",
+          "isCollapsible": false
+        },
+        {
+          "text": "Dashboard 6",
+          "href": "/ecommerce/dashboard-6",
+          "isCollapsible": false
+        },
+        {
+          "text": "Dashboard 7",
+          "href": "/ecommerce/dashboard-7",
+          "isCollapsible": false
+        },
+        {
+          "text": "Dashboard 8",
+          "href": "/ecommerce/dashboard-8",
+          "isCollapsible": false
+        },
+        {
+          "text": "Dashboard 9",
+          "href": "/ecommerce/dashboard-9",
+          "isCollapsible": false
+        },
+        {
+          "text": "Products",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Orders",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Customers",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Shipments",
+          "href": null,
+          "isCollapsible": true
+        }
+      ]
+    },
+    {
+      "label": "Project Management",
+      "items": [
+        {
+          "text": "Dashboard",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Projects",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Teams",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Members",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Issues",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Inbox",
+          "href": null,
+          "isCollapsible": true
+        }
+      ]
+    },
+    {
+      "label": "Payment Processor",
+      "items": [
+        {
+          "text": "Dashboard",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Transactions",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Customers",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Subscriptions",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Invoices",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Developers",
+          "href": null,
+          "isCollapsible": true
+        }
+      ]
+    },
+    {
+      "label": "AI Chat App",
+      "items": [
+        {
+          "text": "Composers",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Conversations",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "API Platform",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Workflows",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Automations",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Documents",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Research",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Applications",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Skills",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Agents",
+          "href": null,
+          "isCollapsible": true
+        }
+      ]
+    },
+    {
+      "label": "Todo",
+      "items": [
+        {
+          "text": "Tasks",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Projects",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Manage",
+          "href": null,
+          "isCollapsible": true
+        }
+      ]
+    },
+    {
+      "label": "Original",
+      "items": [
+        {
+          "text": "Dashboard",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Users",
+          "href": "/original/users",
+          "isCollapsible": false
+        },
+        {
+          "text": "Tasks",
+          "href": "/original/tasks",
+          "isCollapsible": false
+        },
+        {
+          "text": "Settings",
+          "href": null,
+          "isCollapsible": true
+        }
+      ]
+    },
+    {
+      "label": "Developers",
+      "items": [
+        {
+          "text": "Dev Tools",
+          "href": null,
+          "isCollapsible": true
+        }
+      ]
+    },
+    {
+      "label": "Pages",
+      "items": [
+        {
+          "text": "Auth",
+          "href": null,
+          "isCollapsible": true
+        },
+        {
+          "text": "Errors",
+          "href": null,
+          "isCollapsible": true
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "ecommerce-dash-1",
+      "title": "Ecommerce App",
+      "cardsCount": 6,
+      "cardsSample": [
+        {
+          "index": 2,
+          "snippet": "Monthly revenue\n\n$148,230.00 previous month\n\n$189,540.75\n\n+27.9%\nvs last month\nOrders fulfilled\n\n18,452 previous month\n\n21,847\n\n+18.4%\nvs last month\nNew customers\n\n4,120 previous month\n\n4,975\n\n+20.8%\n",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 3,
+          "snippet": "Total Revenue\nThis Year\nPrev Year\n\n$633,000.00\n\nTHIS YEAR VS LAST YEAR\n\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\n$0\n$20K\n$40K\n$60K\n$80K",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 4,
+          "snippet": "Revenue by Channel\nOnline\nIn-Store\nWholesale\nMarketplace\n$0\n$30K\n$60K\n$90K\n$120K\nJan\nFeb\nMar\nApr\nMay\nJun",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 5,
+          "snippet": "Average Order Value\n\n$959.00\n2.4%\nvs last month\nFeb 01\nFeb 28",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 6,
+          "snippet": "Average Sales\n\n837\n1.3%\nvs last month\nThis month\nLast month\nFeb 01\nFeb 28",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 7,
+          "snippet": "Product Categories\n38%\nElectronics\nElectronics\n38%\nClothing\n27%\nHome & Garden\n21%\nSports\n14%\nLast 28 days",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        }
+      ],
+      "kpisSample": [
+        {
+          "value": "$189,540.75",
+          "context": "Monthly revenue\n\n$148,230.00 previous month\n\n$189,540.75\n\n+27.9%\nvs last month"
+        },
+        {
+          "value": "21,847",
+          "context": "Orders fulfilled\n\n18,452 previous month\n\n21,847\n\n+18.4%\nvs last month"
+        },
+        {
+          "value": "4,975",
+          "context": "New customers\n\n4,120 previous month\n\n4,975\n\n+20.8%\nvs last month"
+        },
+        {
+          "value": "$8,473.00",
+          "context": "Refunds issued\n\n$9,821.00 previous month\n\n$8,473.00\n\n-13.7%\nvs last month"
+        },
+        {
+          "value": "$633,000.00",
+          "context": "$633,000.00\n\nTHIS YEAR VS LAST YEAR"
+        }
+      ]
+    },
+    {
+      "name": "ecommerce-dash-2",
+      "title": "Ecommerce App",
+      "cardsCount": 7,
+      "cardsSample": [
+        {
+          "index": 2,
+          "snippet": "Monthly revenue\n\n$148,230.00 previous month\n\n$189,540.75\n\n+27.9%\nvs last month",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 3,
+          "snippet": "Orders fulfilled\n\n18,452 previous month\n\n21,847\n\n+18.4%\nvs last month",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 4,
+          "snippet": "New customers\n\n4,120 previous month\n\n4,975\n\n+20.8%\nvs last month",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 5,
+          "snippet": "Refunds issued\n\n$9,821.00 previous month\n\n$8,473.00\n\n-13.7%\nvs last month",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 6,
+          "snippet": "$276,000.00\n\nTotal Revenue (Last 6 Months)\n\nThis Year\nPrev Year\nJan\nFeb\nMar\nApr\nMay\nJun\n$0\n$15K\n$30K\n$45K\n$60K",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 7,
+          "snippet": "Revenue Channels\n$98K\ntotal revenue\nOnline\nIn-Store\nMarketplace\nChannels\nNumber\nTotal\nW\nWebsite\n4,821\n18.3%\nM\nMobile App\n3,147\n12.7%\nE\nEmail\n1,893\n8.4%\nS\nSocial\n762\n31.2%",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        }
+      ],
+      "kpisSample": [
+        {
+          "value": "$189,540.75",
+          "context": "Monthly revenue\n\n$148,230.00 previous month\n\n$189,540.75\n\n+27.9%\nvs last month"
+        },
+        {
+          "value": "21,847",
+          "context": "Orders fulfilled\n\n18,452 previous month\n\n21,847\n\n+18.4%\nvs last month"
+        },
+        {
+          "value": "4,975",
+          "context": "New customers\n\n4,120 previous month\n\n4,975\n\n+20.8%\nvs last month"
+        },
+        {
+          "value": "$8,473.00",
+          "context": "Refunds issued\n\n$9,821.00 previous month\n\n$8,473.00\n\n-13.7%\nvs last month"
+        },
+        {
+          "value": "$276,000.00",
+          "context": "$276,000.00\n\nTotal Revenue (Last 6 Months)"
+        },
+        {
+          "value": "$98K",
+          "context": "$98K\ntotal revenue"
+        }
+      ]
+    },
+    {
+      "name": "ecommerce-dash-3",
+      "title": "Ecommerce App",
+      "cardsCount": 6,
+      "cardsSample": [
+        {
+          "index": 2,
+          "snippet": "Monthly revenue\n\n$189,540.75\n\n+27.9%($41,310.75)\nvs Last Month\nOrders fulfilled\n\n21,847\n\n+18.4%(3,395)\nvs Last Month\nNew customers\n\n4,975\n\n+20.8%(855)\nvs Last Month\nRefunds issued\n\n$8,473.00\n\n-13.7%($",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 3,
+          "snippet": "$276,000.00\n\nTotal Revenue (Last 6 Months)\n\nThis Year\nPrev Year\nJan\nFeb\nMar\nApr\nMay\nJun\n$0\n$15K\n$30K\n$45K\n$60K",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 4,
+          "snippet": "Order Status\n\n1,247 Orders This Month\n\n12.5%\n33.9%\n53.6%\nProcessing\nShipped\nDelivered",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 5,
+          "snippet": "Sales by Category\n\n+8.4%\nvs last month\n\n$250K\nTotal\nElectronics\n$145K\n58%\nAccessories\n$62K\n25%\nSoftware\n$33K\n13%\nOther\n$10K\n4%",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 6,
+          "snippet": "Recent Transactions\n20\nFilter\nOrder Ref\tBuyer\tTotal\tStatus\nORD-2024-001\tSarah Johnson\t$2,499.00\tDelivered\nORD-2024-002\tMichael Chen\t$1,348.00\tShipped\nORD-2024-003\tEmma Wilson\t$1,198.00\tProcessing\nORD-",
+          "hasChart": true,
+          "hasTable": true,
+          "tag": "div"
+        },
+        {
+          "index": 7,
+          "snippet": "Recent Activity\nNew user registration\n2 minutes ago\nAlex Morgan\nNew Order Placed\n2 minutes ago\nAlex Morgan\nPayment Received\n2 minutes ago\nAlex Morgan\nInvoice Sent\n6 minutes ago\nJamie Lee\nSubscription ",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        }
+      ],
+      "kpisSample": [
+        {
+          "value": "$189,540.75",
+          "context": "Monthly revenue\n\n$189,540.75\n\n+27.9%($41,310.75)\nvs Last Month"
+        },
+        {
+          "value": "21,847",
+          "context": "Orders fulfilled\n\n21,847\n\n+18.4%(3,395)\nvs Last Month"
+        },
+        {
+          "value": "4,975",
+          "context": "New customers\n\n4,975\n\n+20.8%(855)\nvs Last Month"
+        },
+        {
+          "value": "$8,473.00",
+          "context": "Refunds issued\n\n$8,473.00\n\n-13.7%($1,348.00)\nvs Last Month"
+        },
+        {
+          "value": "$276,000.00",
+          "context": "$276,000.00\n\nTotal Revenue (Last 6 Months)"
+        }
+      ]
+    },
+    {
+      "name": "ecommerce-dash-4",
+      "title": "Ecommerce App",
+      "cardsCount": 4,
+      "cardsSample": [
+        {
+          "index": 2,
+          "snippet": "Revenue Overview\n\n$4,702,000.00\n\n+18.5%\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\n$0\n$150K\n$300K\n$450K\n$600K",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 3,
+          "snippet": "Costs Breakdown\n\nCOGS\nOperating Expenses\n\n$2,705,800.00\n\n-12.1%\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\n$0\n$75K\n$150K\n$225K\n$300K",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 4,
+          "snippet": "Gross Revenue\n\n$426,800.00 previous month\n\n$487,500.00\n\n+14.2%\nvs last month\nNet Profit\n\n$168,200.00 previous month\n\n$213,100.00\n\n+26.7%\nvs last month\nRefund Rate\n\n4.2% previous month\n\n3.1%\n\n+26.2%\nvs",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 5,
+          "snippet": "Transactions\n50\nAll\nStatus\nMethod\nTransaction ID\tCustomer\tAmount\tType\tPayment Method\tDate\tStatus\t\nTXN-100201\t\nSJ\nSarah Johnson\n\t$129.99\tSale\tCredit Card\tToday\t\nCompleted\t\n\nTXN-100202\t\nMC\nMichael Chen\n",
+          "hasChart": true,
+          "hasTable": true,
+          "tag": "div"
+        }
+      ],
+      "kpisSample": [
+        {
+          "value": "$4,702,000.00",
+          "context": "$4,702,000.00\n\n+18.5%"
+        },
+        {
+          "value": "$2,705,800.00",
+          "context": "$2,705,800.00\n\n-12.1%"
+        },
+        {
+          "value": "$487,500.00",
+          "context": "Gross Revenue\n\n$426,800.00 previous month\n\n$487,500.00\n\n+14.2%\nvs last month"
+        },
+        {
+          "value": "$213,100.00",
+          "context": "Net Profit\n\n$168,200.00 previous month\n\n$213,100.00\n\n+26.7%\nvs last month"
+        },
+        {
+          "value": "$74.20",
+          "context": "Avg Transaction\n\n$68.40 previous month\n\n$74.20\n\n+8.5%\nvs last month"
+        }
+      ]
+    },
+    {
+      "name": "ecommerce-dash-5",
+      "title": "Ecommerce App",
+      "cardsCount": 10,
+      "cardsSample": [
+        {
+          "index": 2,
+          "snippet": "$276,000.00\n\nTotal Revenue (Last 6 Months)\n\nThis Year\nPrev Year\nJan\nFeb\nMar\nApr\nMay\nJun\n$0\n$15K\n$30K\n$45K\n$60K",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 3,
+          "snippet": "Total Revenue\n$1,800,000.00\n+12.0%\nvs last month",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 4,
+          "snippet": "Avg. Fulfillment\n2.4 days\n-5.0%\nvs last month",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 5,
+          "snippet": "Orders\n9,420\n+18.0%\nvs last month",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 6,
+          "snippet": "Conversion Rate\n4.2%\n+1.2%\nvs last month",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        },
+        {
+          "index": 7,
+          "snippet": "Return Rate\n3.1%\n-11.0%\nvs last month",
+          "hasChart": true,
+          "hasTable": false,
+          "tag": "div"
+        }
+      ],
+      "kpisSample": [
+        {
+          "value": "$276,000.00",
+          "context": "$276,000.00\n\nTotal Revenue (Last 6 Months)"
+        },
+        {
+          "value": "$1,800,000.00",
+          "context": "Total Revenue\n$1,800,000.00\n+12.0%\nvs last month"
+        },
+        {
+          "value": "9,420",
+          "context": "Orders\n9,420\n+18.0%\nvs last month"
+        },
+        {
+          "value": "11,308",
+          "context": "Category Performance\n11,308\nElectronics\nClothing\nHome & Garden\nSports"
+        }
+      ]
+    },
+    {
+      "name": "project-management",
+      "title": "404",
+      "cardsCount": 0,
+      "cardsSample": [],
+      "kpisSample": [
+        {
+          "value": "404",
+          "context": "404\nOops! Page Not Found!\n\nIt seems like the page you're looking for\ndoes not exist or might have be"
+        }
+      ]
+    },
+    {
+      "name": "payment-processor",
+      "title": "404",
+      "cardsCount": 0,
+      "cardsSample": [],
+      "kpisSample": [
+        {
+          "value": "404",
+          "context": "404\nOops! Page Not Found!\n\nIt seems like the page you're looking for\ndoes not exist or might have be"
+        }
+      ]
+    }
+  ]
+}

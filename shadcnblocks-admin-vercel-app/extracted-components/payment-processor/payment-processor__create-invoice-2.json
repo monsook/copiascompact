@@ -1,0 +1,84 @@
+{
+  "route": "/payment-processor/create-invoice-2",
+  "title": "Payment Processor",
+  "cardsCount": 4,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "Item Name\nQty\nRate\nTotal\nAdmin workspace license\n$\n$1,596.00\nPayment screens implementation\n$\n$1,920.00\nDesign handoff and QA notes\n$\n$945.00\nImplementation support\n$\n$760.00\nAdd a New Item",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "Service\tQty\tRate\tAmount\n\n\nAdmin workspace license\n\nSeats for the Shadcnblocks admin workspace\n\n\t4\t$399.00\t$1,596.00\n\n\nPayment screens implementation\n\nInvoice, subscription, and payment processor UI screens\n\n\t8\t$240.00\t$1,920.00\n\n\nDesign handoff and QA notes\n\nDesign-system files, implementation notes",
+      "hasChart": false,
+      "hasTable": true
+    }
+  ],
+  "inputsCount": 9,
+  "inputsSample": [
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "number",
+      "placeholder": "",
+      "label": "Quantity"
+    },
+    {
+      "type": "number",
+      "placeholder": "",
+      "label": "Rate"
+    },
+    {
+      "type": "number",
+      "placeholder": "",
+      "label": "Quantity"
+    },
+    {
+      "type": "number",
+      "placeholder": "",
+      "label": "Rate"
+    },
+    {
+      "type": "number",
+      "placeholder": "",
+      "label": "Quantity"
+    },
+    {
+      "type": "number",
+      "placeholder": "",
+      "label": "Rate"
+    },
+    {
+      "type": "number",
+      "placeholder": "",
+      "label": "Quantity"
+    },
+    {
+      "type": "number",
+      "placeholder": "",
+      "label": "Rate"
+    }
+  ],
+  "htmlSnapshot": ""
+}

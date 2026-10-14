@@ -1,0 +1,33 @@
+{
+  "auditTimestamp": "2026-10-02T17:37:34.246Z",
+  "siteSlug": "habitsupps-com",
+  "auditPassed": true,
+  "jsErrors": [],
+  "layoutBoxes": [
+    {
+      "index": 0,
+      "tag": "header",
+      "id": null,
+      "classes": "header-wrapper",
+      "top": 0,
+      "left": 0,
+      "width": 1440,
+      "height": 41
+    },
+    {
+      "index": 1,
+      "tag": "footer",
+      "id": null,
+      "classes": "footer-wrapper",
+      "top": 6222,
+      "left": 0,
+      "width": 1440,
+      "height": 947
+    }
+  ],
+  "imagesSummary": {
+    "total": 30,
+    "valid": 30,
+    "broken": []
+  }
+}

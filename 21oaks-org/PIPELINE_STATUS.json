@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "status": "completed",
+  "url": "https://21oaks.org/",
+  "siteName": "21oaks-org",
+  "mode": "all",
+  "startedAt": "2026-09-21T13:54:44.567Z",
+  "completedAt": "2026-09-21T13:55:19.622Z",
+  "stages": [
+    {
+      "name": "detect",
+      "status": "passed",
+      "startedAt": "2026-09-21T13:54:44.570Z",
+      "completedAt": "2026-09-21T13:54:47.293Z"
+    },
+    {
+      "name": "clone",
+      "status": "passed",
+      "startedAt": "2026-09-21T13:54:47.294Z",
+      "completedAt": "2026-09-21T13:54:59.858Z"
+    },
+    {
+      "name": "normalize-assets",
+      "status": "passed",
+      "startedAt": "2026-09-21T13:54:59.858Z",
+      "completedAt": "2026-09-21T13:55:00.068Z"
+    },
+    {
+      "name": "extract-design-dna",
+      "status": "passed",
+      "startedAt": "2026-09-21T13:55:00.069Z",
+      "completedAt": "2026-09-21T13:55:12.143Z"
+    },
+    {
+      "name": "generate-styleguide",
+      "status": "passed",
+      "startedAt": "2026-09-21T13:55:12.143Z",
+      "completedAt": "2026-09-21T13:55:12.145Z"
+    },
+    {
+      "name": "extract-ui-ux",
+      "status": "passed",
+      "startedAt": "2026-09-21T13:55:12.145Z",
+      "completedAt": "2026-09-21T13:55:19.602Z"
+    },
+    {
+      "name": "generate-master-spec",
+      "status": "passed",
+      "startedAt": "2026-09-21T13:55:19.603Z",
+      "completedAt": "2026-09-21T13:55:19.614Z"
+    },
+    {
+      "name": "generate-asset-manifest",
+      "status": "passed",
+      "startedAt": "2026-09-21T13:55:19.614Z",
+      "completedAt": "2026-09-21T13:55:19.619Z"
+    },
+    {
+      "name": "generate-prompt-catalog",
+      "status": "passed",
+      "startedAt": "2026-09-21T13:55:19.620Z",
+      "completedAt": "2026-09-21T13:55:19.622Z"
+    }
+  ]
+}

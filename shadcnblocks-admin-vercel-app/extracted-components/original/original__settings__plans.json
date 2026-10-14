@@ -1,0 +1,45 @@
+{
+  "route": "/original/settings/plans",
+  "title": "Original App",
+  "cardsCount": 5,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "Monthly\n\n$49.99 / month\n\nBilled monthly",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "Annual\nSave %100\n\n$41.40 / month\n\n$499.99 yearly",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "Lifeftimes\n\n$899.99\n\n1x Billed",
+      "hasChart": false,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 0,
+  "inputsSample": [],
+  "htmlSnapshot": ""
+}

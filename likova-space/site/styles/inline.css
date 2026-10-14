@@ -1,0 +1,5 @@
+
+                body { background: #ffffff; color: #ffffff; }
+                a { color: #ffffff; }
+                .js.not-ready, .js.not-ready * { transition: none !important; }
+            

@@ -1,0 +1,47 @@
+{
+  "route": "/payment-processor/create-invoice",
+  "title": "Payment Processor",
+  "cardsCount": 3,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "Invoice #0001",
+      "snippet": "Invoice #0001\nIssue Date\n27/05/2026\nCurrency\nUSD\nDue Date\n10/06/2026\nSerial Number\n0001\n\nBilled By\n\nShadcnblocks.com\n\nLevel 12, 45 Clarence Street, Sydney NSW 2000\n\nEmail\nbilling@shadcnblocks.com\n\nBilled To\n\nOlivia Bennett\n\n18 Collins Street, Melbourne VIC 3000\n\nPhone\n+61 2 7908 4420\nDescription\tQty",
+      "hasChart": true,
+      "hasTable": true
+    }
+  ],
+  "inputsCount": 3,
+  "inputsSample": [
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "Label",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "Value",
+      "label": ""
+    }
+  ],
+  "htmlSnapshot": ""
+}

@@ -1,0 +1,63 @@
+{
+  "gsap": {
+    "detected": false,
+    "version": null,
+    "hasScrollTrigger": false,
+    "scrollTriggerInstances": 0,
+    "tweensCount": 0,
+    "plugins": [],
+    "timelines": []
+  },
+  "lenis": {
+    "detected": false,
+    "config": null
+  },
+  "microInteractions": {
+    "magneticButtons": [
+      {
+        "tag": "a",
+        "text": "",
+        "selector": ".btn.header__logo.btn--link"
+      },
+      {
+        "tag": "span",
+        "text": "",
+        "selector": ".btn.lobby__slider-item-icon.btn--secondary.btn--sm-static.btn--square.is-decorative.ui-dark.is-hidden--sm-down"
+      },
+      {
+        "tag": "span",
+        "text": "",
+        "selector": ".btn.lobby__slider-item-icon.btn--secondary.btn--sm-static.btn--square.is-decorative.ui-dark.is-hidden--sm-down"
+      }
+    ],
+    "tiltCards": [],
+    "spotlightElements": [],
+    "textScramble": false
+  },
+  "webglCanvas": {
+    "canvasCount": 1,
+    "hasThreeJs": false,
+    "shadersCount": 0,
+    "shaders": []
+  },
+  "typography": {
+    "splitTextDetected": false,
+    "variableFonts": [],
+    "marqueesCount": 0
+  },
+  "cssEffects": {
+    "keyframes": [
+      {
+        "name": "arrowDown",
+        "cssText": "@keyframes arrowDown { \n  0% { transform: translateY(calc(var(--btn-height) * -.75)); }\n  100% { transform: translateY(calc(var(--btn-height) * .75)); }\n}"
+      },
+      {
+        "name": "loader",
+        "cssText": "@keyframes loader { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(1turn); }\n}"
+      }
+    ],
+    "glassmorphism": false,
+    "clipPaths": [],
+    "svgFilters": []
+  }
+}

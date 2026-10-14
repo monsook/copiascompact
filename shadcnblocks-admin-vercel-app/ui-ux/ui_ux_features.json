@@ -1,0 +1,99 @@
+{
+  "gsap": {
+    "detected": false,
+    "version": null,
+    "hasScrollTrigger": false,
+    "scrollTriggerInstances": 0,
+    "tweensCount": 0,
+    "plugins": [],
+    "timelines": []
+  },
+  "lenis": {
+    "detected": false,
+    "config": null
+  },
+  "microInteractions": {
+    "magneticButtons": [],
+    "tiltCards": [],
+    "spotlightElements": [],
+    "textScramble": false
+  },
+  "webglCanvas": {
+    "canvasCount": 0,
+    "hasThreeJs": false,
+    "shadersCount": 0,
+    "shaders": []
+  },
+  "typography": {
+    "splitTextDetected": false,
+    "variableFonts": [],
+    "marqueesCount": 0
+  },
+  "cssEffects": {
+    "keyframes": [
+      {
+        "name": "composer-workspace-home-reveal",
+        "cssText": "@keyframes composer-workspace-home-reveal { \n  0% { opacity: 0; filter: blur(17px); transform: translateY(23px); }\n  100% { opacity: 1; filter: blur(); transform: translate(0px); }\n}"
+      },
+      {
+        "name": "ai-home-reveal",
+        "cssText": "@keyframes ai-home-reveal { \n  0% { opacity: 0; filter: blur(17px); transform: translateY(23px); }\n  100% { opacity: 1; filter: blur(); transform: translate(0px); }\n}"
+      },
+      {
+        "name": "ai-pixel-pulse",
+        "cssText": "@keyframes ai-pixel-pulse { \n  0%, 55%, 100% { opacity: 0.14; transform: scale(0.88); }\n  24% { opacity: 0.82; transform: scale(1); }\n}"
+      },
+      {
+        "name": "ai-response-enter",
+        "cssText": "@keyframes ai-response-enter { \n  0% { opacity: 0; transform: translateY(10px); }\n  100% { opacity: 1; transform: translate(0px); }\n}"
+      },
+      {
+        "name": "records-pulse",
+        "cssText": "@keyframes records-pulse { \n  0%, 100% { opacity: 0.35; transform: scale(0.8); }\n  50% { opacity: 1; transform: scale(1); }\n}"
+      },
+      {
+        "name": "pop-in",
+        "cssText": "@keyframes pop-in { \n  0% { opacity: 0; transform: scale(0.95); }\n  100% { opacity: 1; transform: scale(1); }\n}"
+      },
+      {
+        "name": "spin",
+        "cssText": "@keyframes spin { \n  100% { transform: rotate(360deg); }\n}"
+      },
+      {
+        "name": "ping",
+        "cssText": "@keyframes ping { \n  75%, 100% { opacity: 0; transform: scale(2); }\n}"
+      },
+      {
+        "name": "pulse",
+        "cssText": "@keyframes pulse { \n  50% { opacity: 0.5; }\n}"
+      },
+      {
+        "name": "enter",
+        "cssText": "@keyframes enter { \n  0% { opacity: var(--tw-enter-opacity,1); transform: translate3d(var(--tw-enter-translate-x,0),var(--tw-enter-translate-y,0),0)scale3d(var(--tw-enter-scale,1),var(--tw-enter-scale,1),var(--tw-enter-scale,1))rotate(var(--tw-enter-rotate,0)); filter: blur(var(--tw-enter-blur,0)); }\n}"
+      },
+      {
+        "name": "exit",
+        "cssText": "@keyframes exit { \n  100% { opacity: var(--tw-exit-opacity,1); transform: translate3d(var(--tw-exit-translate-x,0),var(--tw-exit-translate-y,0),0)scale3d(var(--tw-exit-scale,1),var(--tw-exit-scale,1),var(--tw-exit-scale,1))rotate(var(--tw-exit-rotate,0)); filter: blur(var(--tw-exit-blur,0)); }\n}"
+      },
+      {
+        "name": "accordion-down",
+        "cssText": "@keyframes accordion-down { \n  0% { height: 0px; }\n  100% { height: var(--radix-accordion-content-height,var(--accordion-panel-height,auto)); }\n}"
+      },
+      {
+        "name": "accordion-up",
+        "cssText": "@keyframes accordion-up { \n  0% { height: var(--radix-accordion-content-height,var(--accordion-panel-height,auto)); }\n  100% { height: 0px; }\n}"
+      },
+      {
+        "name": "swipe-out-left",
+        "cssText": "@keyframes swipe-out-left { \n  0% { transform: var(--y) translateX(var(--swipe-amount-x)); opacity: 1; }\n  100% { transform: var(--y) translateX(calc(var(--swipe-amount-x) - 100%)); opacity: 0; }\n}"
+      },
+      {
+        "name": "swipe-out-right",
+        "cssText": "@keyframes swipe-out-right { \n  0% { transform: var(--y) translateX(var(--swipe-amount-x)); opacity: 1; }\n  100% { transform: var(--y) translateX(calc(var(--swipe-amount-x) + 100%)); opacity: 0; }\n}"
+      }
+    ],
+    "glassmorphism": false,
+    "clipPaths": [],
+    "svgFilters": []
+  }
+}

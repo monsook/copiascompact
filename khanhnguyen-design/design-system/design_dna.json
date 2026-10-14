@@ -1,0 +1,242 @@
+{
+  "colors": {
+    "variables": {},
+    "defaults": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)"
+    }
+  },
+  "typography": {
+    "h1": {
+      "fontFamily": "\"PP Editorial Old\", serif",
+      "fontSize": "241.333px",
+      "fontWeight": "400",
+      "lineHeight": "241.333px",
+      "letterSpacing": "-9.65333px",
+      "color": "rgb(243, 238, 232)"
+    },
+    "h2": {
+      "fontFamily": "\"PP Editorial Old\", serif",
+      "fontSize": "241.333px",
+      "fontWeight": "400",
+      "lineHeight": "241.333px",
+      "letterSpacing": "-9.65333px",
+      "color": "rgb(204, 204, 204)"
+    },
+    "paragraph": {
+      "fontFamily": "\"PP Neue Montreal\", ui-sans-serif, system-ui, sans-serif",
+      "fontSize": "14.6667px",
+      "fontWeight": "400",
+      "lineHeight": "22px",
+      "letterSpacing": "0.366667px",
+      "color": "rgb(243, 238, 232)"
+    },
+    "button": {
+      "fontFamily": "\"PP Neue Montreal\", ui-sans-serif, system-ui, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(243, 238, 232)"
+    }
+  },
+  "sections": [
+    {
+      "id": "header-1",
+      "tag": "header",
+      "classes": [
+        "fixed",
+        "z-[110]",
+        "opacity-0",
+        "inset-x-0",
+        "top-0",
+        "flex",
+        "w-full",
+        "flex-row",
+        "items-center",
+        "justify-between",
+        "border-b",
+        "border-(--header-border)",
+        "bg-(--header-bg)",
+        "text-(--header-text)",
+        "px-5",
+        "py-4",
+        "md:inset-x-auto",
+        "md:inset-y-0",
+        "md:left-0",
+        "md:right-auto",
+        "md:bottom-0",
+        "md:w-16",
+        "md:flex-col",
+        "md:items-center",
+        "md:justify-start",
+        "md:px-0",
+        "md:py-0",
+        "md:border-b-0",
+        "md:border-r",
+        "transition-[background-color,color,border-color]",
+        "duration-500",
+        "ease-out"
+      ],
+      "approxHeight": 1080,
+      "summaryText": "FOLIO — EDITION  © 2026"
+    },
+    {
+      "id": "main-3",
+      "tag": "main",
+      "classes": [],
+      "approxHeight": 14912,
+      "summaryText": "KHANH NGUYEN  Independent designer based in Vietnam — focused on thoughtful, considered digital work"
+    },
+    {
+      "id": "section-4",
+      "tag": "section",
+      "classes": [
+        "relative",
+        "flex",
+        "w-full",
+        "flex-col",
+        "shrink-0",
+        "h-dvh",
+        "overflow-hidden",
+        "bg-[#262220]",
+        "text-[#f3eee8]"
+      ],
+      "approxHeight": 1080,
+      "summaryText": "KHANH NGUYEN  Independent designer based in Vietnam — focused on thoughtful, considered digital work"
+    },
+    {
+      "id": "section-5",
+      "tag": "section",
+      "classes": [
+        "relative",
+        "flex",
+        "w-full",
+        "flex-col",
+        "shrink-0",
+        "overflow-hidden",
+        "md:h-dvh",
+        "bg-[#faf9f6]",
+        "text-[#2e2b28]"
+      ],
+      "approxHeight": 1080,
+      "summaryText": "CHAPTER I  QUICK INTRO  Hi, I’m Khanh — a designer with 10+ years of experience in digital products,"
+    },
+    {
+      "id": "section-6",
+      "tag": "section",
+      "classes": [
+        "relative",
+        "flex",
+        "w-full",
+        "flex-col",
+        "shrink-0",
+        "overflow-hidden",
+        "md:h-dvh",
+        "h-[100svh]",
+        "items-center",
+        "justify-center",
+        "bg-[#faf9f6]",
+        "px-5",
+        "py-14",
+        "text-[#2e2b28]",
+        "md:px-0",
+        "md:py-0"
+      ],
+      "approxHeight": 1080,
+      "summaryText": "THE  WORK"
+    },
+    {
+      "id": "section-7",
+      "tag": "section",
+      "classes": [
+        "relative",
+        "flex",
+        "w-full",
+        "flex-col",
+        "shrink-0",
+        "overflow-hidden",
+        "md:h-dvh",
+        "bg-[#edeae6]",
+        "text-[#2e2b28]"
+      ],
+      "approxHeight": 1080,
+      "summaryText": "CHAPTER II  RELATED WORK  EVO Money Plant Tag Swiss Haus Betahaus View All Work  ❋ LIVE SITE UNAVAIL"
+    },
+    {
+      "id": "section-8",
+      "tag": "section",
+      "classes": [
+        "relative",
+        "flex",
+        "w-full",
+        "flex-col",
+        "shrink-0",
+        "overflow-hidden",
+        "md:h-dvh",
+        "bg-[#2e2b28]",
+        "pt-14",
+        "text-[#faf9f6]",
+        "md:pt-0",
+        "md:pl-16",
+        "md:w-max",
+        "z-1"
+      ],
+      "approxHeight": 1080,
+      "summaryText": "CHAPTER III  WHAT I DO?  Designing digital experiences with clarity, structure, and intention.  01  "
+    },
+    {
+      "id": "section-9",
+      "tag": "section",
+      "classes": [
+        "relative",
+        "flex",
+        "w-full",
+        "flex-col",
+        "shrink-0",
+        "overflow-hidden",
+        "md:h-dvh",
+        "!overflow-clip",
+        "bg-[#edeae6]",
+        "text-[#2e2b28]",
+        "md:!overflow-hidden"
+      ],
+      "approxHeight": 1080,
+      "summaryText": "CHAPTER IV  SELECTED EXPERIENCES  Trusting Social Vietnamwork Autonomous VEN Agency Glass Egg  And m"
+    },
+    {
+      "id": "contact",
+      "tag": "section",
+      "classes": [
+        "relative",
+        "flex",
+        "w-full",
+        "flex-col",
+        "shrink-0",
+        "overflow-hidden",
+        "md:h-dvh",
+        "bg-[#1f1d1b]",
+        "text-[#ccc]"
+      ],
+      "approxHeight": 1080,
+      "summaryText": "WHERE STORIES FIND THEIR FORM  NEXT CHAPTER  CONTACT TO  kennguyen02587@gmail.com Instagram Behance "
+    }
+  ],
+  "detectedScripts": [
+    "https://khanhnguyen.design/_astro/Header.astro_astro_type_script_index_0_lang.-_d_Djl9.js",
+    "https://khanhnguyen.design/_astro/FullscreenMenu.astro_astro_type_script_index_0_lang.D_q-HyZd.js",
+    "https://khanhnguyen.design/_astro/TabletOrientationNotice.astro_astro_type_script_index_0_lang.DmoMhxPB.js",
+    "https://khanhnguyen.design/_astro/Loading.astro_astro_type_script_index_0_lang.zYvD-WGL.js",
+    "https://khanhnguyen.design/_astro/About.astro_astro_type_script_index_0_lang.DrXWdl1D.js",
+    "https://khanhnguyen.design/_astro/Work.astro_astro_type_script_index_0_lang.B0cS72Vi.js",
+    "https://khanhnguyen.design/_astro/Services.astro_astro_type_script_index_0_lang.CavSbKjf.js",
+    "https://khanhnguyen.design/_astro/Clients.astro_astro_type_script_index_0_lang.CkJXhcIa.js",
+    "https://khanhnguyen.design/_astro/Footer.astro_astro_type_script_index_0_lang.En_bDpoP.js",
+    "https://khanhnguyen.design/_astro/Layout.astro_astro_type_script_index_0_lang.78jby32H.js",
+    "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+    "https://khanhnguyen.design/_astro/index.astro_astro_type_script_index_0_lang.FpIfv3r_.js"
+  ],
+  "detectedCSS": [
+    "https://khanhnguyen.design/_astro/global.BvueZpQ-.css"
+  ]
+}

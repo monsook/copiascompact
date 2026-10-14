@@ -1,0 +1,136 @@
+{
+  "route": "/payment-processor/dashboard-6",
+  "title": "Payment Processor",
+  "cardsCount": 18,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "Payments routed\n\n128.4k\n\n150k",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "Authorization rate\n\n94.5%\n\n94%",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "Avg auth latency\n\n444ms\n\n400ms",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "Blocked by rules\n\n3.1k\n\n+6.1%\nvs previous",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 6,
+      "title": "",
+      "snippet": "Visa\n\n58.9k · 95.4%\n+0.6%\n\nMastercard\n\n41.2k · 94.8%\n+0.3%\n\nAmex\n\n13.6k · 91.2%\n-1.4%\n\nDiscover\n\n7.1k · 89.7%\n-0.8%\n\nUnionPay\n\n4.5k · 93.1%\n+0.2%",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 7,
+      "title": "Acquirer traffic & health",
+      "snippet": "Acquirer traffic & health\nLast 24 hours · updated Jul 21 / 10:03 AM\n\nPayment intake\n\nEndpoint\n/v1/payment_intents\nIntents\n128.4k\n\nRisk gate\n\nChecks\nAVS · 3DS · Fraud\nBlocked\n3.1k\n\nBlocked\n\nRules hit\n3.1k\n\nDynamic router\n\nProfile\nGlobal card\nRouted\n125.3k\n\nStripe\n\nTraffic\n62% · 77.7k\nAuth rate\n95.8%\n",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 8,
+      "title": "",
+      "snippet": "Payment intake\n\nEndpoint\n/v1/payment_intents\nIntents\n128.4k",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 9,
+      "title": "",
+      "snippet": "Risk gate\n\nChecks\nAVS · 3DS · Fraud\nBlocked\n3.1k",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 10,
+      "title": "",
+      "snippet": "Blocked\n\nRules hit\n3.1k",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 11,
+      "title": "",
+      "snippet": "Dynamic router\n\nProfile\nGlobal card\nRouted\n125.3k",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 12,
+      "title": "",
+      "snippet": "Stripe\n\nTraffic\n62% · 77.7k\nAuth rate\n95.8%\nAvg latency\n380ms\nAuthorized\n74.4k",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 13,
+      "title": "",
+      "snippet": "Adyen\n\nTraffic\n27% · 33.8k\nAuth rate\n94.1%\nAvg latency\n402ms\nAuthorized\n31.8k",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 14,
+      "title": "",
+      "snippet": "Checkout.com\n\nTraffic\n11% · 13.8k\nAuth rate\n88.4%\nAvg latency\n910ms\nAuthorized\n12.2k",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 15,
+      "title": "",
+      "snippet": "Authorized\n\nCaptured\n118.4k",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 16,
+      "title": "Risk & decline exceptions",
+      "snippet": "Risk & decline exceptions\nAll8\nBlocked3\nChallenged2\nRerouted1\nRetried2\nTime\tPayment\tRule\tDetail\tAction\n10:42:18\tpay_3k9wq2\tVelocity: attempts per card\t6 attempts in 9 min · card ••••4242\tBlocked\n10:37:04\tpay_8mzx41\tFraud score 0.91 > 0.85\tdevice fingerprint reused ×14\tBlocked\n10:15:52\tpay_1qd07b\tAVS",
+      "hasChart": true,
+      "hasTable": true
+    },
+    {
+      "id": 17,
+      "title": "Active routing profile",
+      "snippet": "Active routing profile\nEdit profile\n1. INGRESS (ENTRY POINT)\nEndpoint\n/v1/payment_intents\nPOST\nAuth protocol\nSecret key + HMAC (strict)\nIdempotency\nRequired · 24h window\nRate limit\nreq/min per key\n400\n2. PRE-AUTHORIZATION (RISK CHECKS)\n\nAVS / CVV\n\nMode\nFULL\nOn fail\nCHALLENGE\n\n3D Secure\n\nTrigger\nRISK",
+      "hasChart": true,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 0,
+  "inputsSample": [],
+  "htmlSnapshot": "<div class=\"mx-auto flex w-full max-w-[1536px] min-w-0 flex-col gap-4 p-4 md:p-6\"><header class=\"flex flex-wrap items-center justify-between gap-3\"><div class=\"flex min-w-0 items-center gap-1.5\"><span class=\"text-muted-foreground truncate text-sm\">Routing profiles</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-right text-muted-foreground size-4 shrink-0\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"></path></svg><h1 class=\"truncate text-lg font-semibold tracking-tight\">Global card acceptance</h1></div><div class=\"flex shrink-0 items-center gap-2\"><button type=\"button\" role=\"combobox\" aria-controls=\"radix-_R_olfiv5uknmlb_\" aria-expanded=\"false\" aria-autocomplete=\"none\" dir=\"ltr\" data-state=\"closed\" class=\"border-input ring-offset-background placeholder:text-muted-foreground focus:ring-ring flex items-center justify-between rounded-md border bg-transparent px-3 py-2 text-sm whitespace-nowrap shadow-xs focus:ring-1 focus:outline-hidden disabled:cursor-not-allowed disabled:opacity-50 [&amp;&gt;span]:line-clamp-1 h-8 w-[160px]\"><span style=\"pointer-events:none\">Last 24 hours</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down h-4 w-4 opacity-50\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"></path></svg></button><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-sm hover:bg-primary/90 h-8 rounded-md px-3 text-xs\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-plus size-4\" aria-hidden=\"true\"><path d=\"M5 12h14\"></path><path d=\"M12 5v14\"></path></svg>New rule</button></div></header><div class=\"grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4\"><div class=\"bg-card flex min-w-0 flex-col rounded-lg border\"><div class=\"flex items-center justify-between gap-2 px-4 pt-3.5\"><div class=\"flex min-w-0 items-center gap-1.5\"><p class=\"truncate text-sm font-medium\">Payments routed</p><button data-state=\"closed\" aria-label=\"About Payments routed\" class=\"text-muted-foreground hover:text-foreground shrink-0 transition-colors\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-info size-3.5\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M12 16v-4\"></path><path d=\"M12 8h.01\"></path></svg></button></div><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-credit-card text-muted-foreground size-4 shrink-0\" aria-hidden=\"true\"><rect width=\"20\" height=\"14\" x=\"2\" y=\"5\" rx=\"2\"></rect><line x1=\"2\" x2=\"22\" y1=\"10\" y2=\"10\"></line></svg></div><div class=\"px-4 py-3\"><p class=\"text-3xl font-semibold tracking-tight tabular-nums\">128.4<span class=\"text-muted-foreground ml-1 text-base font-normal\">k</span></p></div><div class=\"mt-auto flex min-h-11 flex-wrap items-center gap-x-3 gap-y-2 border-t px-4 py-2.5\"><span aria-hidden=\"true\" class=\"bg-muted h-1.5 min-w-10 flex-1 overflow-hidden rounded-full\"><span class=\"block h-full rounded-full bg-foreground\" style=\"width:86%\"></span></span><span class=\"shrink-0 text-xs font-medium tabular-nums\">150k</span></div></div><div class=\"bg-card flex min-w-0 flex-col rounded-lg border\"><div class=\"flex items-center justify-between gap-2 px-4 pt-3.5\"><div class=\"flex min-w-0 items-center gap-1.5\"><p class=\"truncate text-sm font-medium\">Authorization rate</p><button data-state=\"closed\" aria-label=\"About Authorization rate\" class=\"text-muted-foreground hover:text-foreground shrink-0 transition-colors\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-info size-3.5\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M12 16v-4\"></path><path d=\"M12 8h.01\"></path></svg></button></div><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-shield-check text-muted-foreground size-4 shrink-0\" aria-hidden=\"true\"><path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\"></path><path d=\"m9 12 2 2 4-4\"></path></svg></div><div class=\"px-4 py-3\"><p class=\"text-3xl font-semibold tracking-tight tabular-nums\">94.5<span class=\"text-muted-foreground ml-1 text-base font-normal\">%</span></p></div><div class=\"mt-auto flex min-h-11 flex-wrap items-center gap-x-3 gap-y-2 border-t px-4 py-2.5\"><span aria-hidden=\"true\" class=\"bg-muted h-1.5 min-w-10 flex-1 overflow-hidden rounded-full\"><span class=\"block h-full rounded-full bg-emerald-500\" style=\"width:100%\"></span></span><span class=\"shrink-0 text-xs font-medium tabular-nums text-emerald-600 dark:text-emerald-400\">94%</span></div></div><div class=\"bg-card flex min-w-0 flex-col rounded-lg border\"><div class=\"flex items-center justify-between gap-2 px-4 pt-3.5\"><div class=\"flex min-w-0 items-center gap-1.5\"><p class=\"truncate text-sm font-medium\">Avg auth latency</p><button data-state=\"closed\" aria-label=\"About Avg auth latency\" class=\"text-muted-foreground hover:text-foreground shrink-0 transition-colors\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-info size-3.5\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M12 16v-4\"></path><path d=\"M12 8h.01\"></path></svg></button></div><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-gauge text-muted-foreground size-4 shrink-0\" aria-hidden=\"true\"><path d=\"m12 14 4-4\"></path><path d=\"M3.34 19a10 10 0 1 1 17.32 0\"></path></svg></div><div class=\"px-4 py-3\"><p class=\"text-3xl font-semibold tracking-tight tabular-nums\">444<span class=\"text-muted-foreground ml-1 text-base font-normal\">ms</span></p></div><div class=\"mt-auto flex min-h-11 flex-wrap items-center gap-x-3 gap-y-2 border-t px-4 py-2.5\"><span aria-hidden=\"true\" class=\"bg-muted h-1.5 min-w-10 flex-1 overflow-hidden rounded-full\"><span class=\"block h-full rounded-full bg-foreground\" style=\"width:90%\"></span></span><span class=\"shrink-0 text-xs font-medium tabular-nums\">400ms</span></div></div><div class=\"bg-card flex min-w-0 flex-col rounded-lg border\"><div class=\"flex items-center justify-between gap-2 px-4 pt-3.5\"><div class=\"flex min-w-0 items-center gap-1.5\"><p class=\"truncate text-sm font-medium\">Blocked by rules</p><button data-state=\"closed\" aria-label=\"About Blocked by rules\" class=\"text-muted-foreground hover:text-foreground shrink-0 transition-colors\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-info size-3.5\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M12 16v-4\"></path><path d=\"M12 8h.01\"></path></svg></button></div><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-shield-x text-muted-foreground size-4 shrink-0\" aria-hidden=\"true\"><path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\"></path><path d=\"m14.5 9.5-5 5\"></path><path d=\"m9.5 9.5 5 5\"></path></svg></div><div class=\"px-4 py-3\"><p class=\"text-3xl font-semibold tracking-tight tabular-nums\">3.1<span class=\"text-muted-foreground ml-1 text-base font-normal\">k</span></p></div><div class=\"mt-auto flex min-h-11 flex-wrap items-center gap-x-3 gap-y-2 border-t px-4 py-2.5\"><span class=\"flex items-center gap-1 text-xs font-medium tabular-nums text-rose-600 dark:text-rose-400\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right size-3.5 shrink-0\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg>+6.1%<span class=\"text-muted-foreground font-normal\">vs previous</span></span></div></div></div><div class=\"bg-card overflow-hidden rounded-lg border\"><div class=\"-mt-px -ml-px grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5\"><div class=\"flex min-w-0 items-center gap-3 border-t border-l px-4 py-3\"><span class=\"grid size-9 shrink-0 place-items-center rounded-md ring-1 ring-inset bg-emerald-50 text-emerald-600 ring-emerald-600/20 dark:bg-emerald-950/50 dark:text-emerald-400 dark:ring-emerald-400/20\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"roun"
+}

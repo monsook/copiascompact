@@ -1,0 +1,65 @@
+{
+  "route": "/payment-processor/invoice-list-4",
+  "title": "Payment Processor",
+  "cardsCount": 7,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "INV-7183",
+      "snippet": "PAID\n\nINVOICE\n\nINV-7183\n\nIssued Jun 11, 2026 / Due Jun 28, 2026\n\nFROM\n\nShadcnblocks.com\n\nLevel 12, 45 Clarence Street\n\nSydney NSW 2000\n\nBILL TO\n\nVela Design Co.\n\nfinance@veladesign.co\n\n88 Minna Street, San Francisco, CA 94105\n\nMETHOD\n\nVisa ending 4928\n\nREFERENCE\n\nVD-2026-118\n\nDUE\n\n$0.00\n\nWork order ",
+      "hasChart": false,
+      "hasTable": true
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "METHOD\n\nVisa ending 4928",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "REFERENCE\n\nVD-2026-118",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "DUE\n\n$0.00",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 6,
+      "title": "",
+      "snippet": "#\tDescription\tQty\tRate\tAmount\n1\t\n\nAdmin kit integration\n\nTables, charts, shells, and processor workflows\n\n\t12\t$540.00\t$6,480.00\n2\t\n\nQA implementation pass\n\nResponsive verification and invoice PDF tuning\n\n\t4\t$480.00\t$1,920.00",
+      "hasChart": false,
+      "hasTable": true
+    }
+  ],
+  "inputsCount": 1,
+  "inputsSample": [
+    {
+      "type": "text",
+      "placeholder": "Search",
+      "label": ""
+    }
+  ],
+  "htmlSnapshot": "<section class=\"grid min-h-0 w-full flex-1 grid-cols-1 lg:grid-cols-[minmax(28rem,0.52fr)_minmax(0,1fr)] xl:grid-cols-[minmax(34rem,1fr)_minmax(0,50rem)] 2xl:grid-cols-[minmax(40rem,1fr)_minmax(0,52rem)]\"><div class=\"flex min-h-[28rem] flex-col overflow-hidden\"><header class=\"border-b px-4 py-4 sm:px-5\"><div class=\"flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between\"><div><h1 class=\"text-lg font-semibold tracking-tight\">Invoices</h1><p class=\"text-muted-foreground text-sm\">Review, collect, and reconcile customer invoices.</p></div></div><div class=\"mt-4 flex flex-col gap-2 sm:flex-row\"><div class=\"relative min-w-0 flex-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-search text-muted-foreground pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2\" aria-hidden=\"true\"><path d=\"m21 21-4.34-4.34\"></path><circle cx=\"11\" cy=\"11\" r=\"8\"></circle></svg><input class=\"border-input file:text-foreground placeholder:text-muted-foreground focus-visible:ring-ring flex w-full border bg-transparent px-3 py-1 text-base shadow-xs transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium focus-visible:ring-1 focus-visible:outline-hidden disabled:cursor-not-allowed disabled:opacity-50 md:text-sm h-9 rounded-md pr-9 pl-9\" placeholder=\"Search\" value=\"\" style=\"\"></div><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-sm hover:bg-primary/90 px-4 py-2 h-9 rounded-md\" type=\"button\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-plus size-4\" aria-hidden=\"true\"><path d=\"M5 12h14\"></path><path d=\"M12 5v14\"></path></svg>New invoice</button></div></header><div class=\"border-b px-4 sm:px-5\"><div class=\"flex gap-6 overflow-x-auto\"><button class=\"relative h-11 shrink-0 border-b-2 px-1 text-sm font-medium transition-colors border-foreground text-foreground\" type=\"button\">All invoices</button><button class=\"relative h-11 shrink-0 border-b-2 px-1 text-sm font-medium transition-colors text-muted-foreground hover:text-foreground border-transparent\" type=\"button\">Open</button><button class=\"relative h-11 shrink-0 border-b-2 px-1 text-sm font-medium transition-colors text-muted-foreground hover:text-foreground border-transparent\" type=\"button\">Paid</button><button class=\"relative h-11 shrink-0 border-b-2 px-1 text-sm font-medium transition-colors text-muted-foreground hover:text-foreground border-transparent\" type=\"button\">Needs attention</button></div></div><div class=\"vertical-scrollbar min-h-0 flex-1 overflow-y-auto pb-3 [&amp;&gt;button:last-of-type]:border-b-0\" style=\"mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 85%, rgba(0, 0, 0, 0) 100%);\"><button class=\"group relative grid min-h-[4.75rem] w-full grid-cols-[minmax(0,1fr)_auto] items-center gap-4 border-b px-4 py-3 text-left transition-colors sm:px-5 hover:bg-muted/25\" type=\"button\"><div class=\"min-w-0\"><div class=\"flex min-w-0 items-center gap-2\"><p class=\"truncate text-sm font-semibold tracking-[-0.01em]\">Northline Studio</p><span class=\"text-muted-foreground hidden text-xs sm:inline\">INV-7184</span></div><div class=\"text-muted-foreground mt-1 flex min-w-0 flex-wrap items-center gap-x-2 gap-y-1 text-xs leading-5\"><span class=\"truncate\">Pro blocks license</span><span aria-hidden=\"true\">/</span><span>Jun 14, 2026</span><span aria-hidden=\"true\">/</span><span class=\"font-medium tabular-nums\">$2,499.00</span></div></div><div class=\"flex min-w-28 flex-col items-end gap-2\"><div class=\"inline-flex items-center border py-0.5 transition-colors focus:outline-hidden focus:ring-2 focus:ring-ring focus:ring-offset-2 h-6 gap-1.5 rounded-md px-2 text-[11px] font-medium shadow-none border-blue-600/20 bg-blue-50 text-blue-700 dark:border-blue-400/20 dark:bg-blue-900/30 dark:text-blue-400\"><span class=\"size-1.5 rounded-full bg-blue-500\"></span>Sent</div><p class=\"text-muted-foreground text-xs tabular-nums\">Due <!-- -->Jul 12, 2026</p></div></button><button class=\"group relative grid min-h-[4.75rem] w-full grid-cols-[minmax(0,1fr)_auto] items-center gap-4 border-b px-4 py-3 text-left transition-colors sm:px-5 hover:bg-muted/25 bg-[linear-gradient(90deg,color-mix(in_oklch,var(--foreground)_5%,transparent),transparent_72%)]\" type=\"button\"><div class=\"min-w-0\"><div class=\"flex min-w-0 items-center gap-2\"><p class=\"truncate text-sm font-semibold tracking-[-0.01em]\">Vela Design Co.</p><span class=\"text-muted-foreground hidden text-xs sm:inline\">INV-7183</span></div><div class=\"text-muted-foreground mt-1 flex min-w-0 flex-wrap items-center gap-x-2 gap-y-1 text-xs leading-5\"><span class=\"truncate\">Admin kit integration</span><span aria-hidden=\"true\">/</span><span>Jun 11, 2026</span><span aria-hidden=\"true\">/</span><span class=\"font-medium tabular-nums\">$8,400.00</span></div></div><div class=\"flex min-w-28 flex-col items-end gap-2\"><div class=\"inline-flex items-center border py-0.5 transition-colors focus:outline-hidden focus:ring-2 focus:ring-ring focus:ring-offset-2 h-6 gap-1.5 rounded-md px-2 text-[11px] font-medium shadow-none border-emerald-600/20 bg-emerald-50 text-emerald-700 dark:border-emerald-400/20 dark:bg-emerald-900/30 dark:text-emerald-400\"><span class=\"size-1.5 rounded-full bg-emerald-500\"></span>Paid</div><p class=\"text-muted-foreground text-xs tabular-nums\">Due <!-- -->Jun 28, 2026</p></div></button><button class=\"group relative grid min-h-[4.75rem] w-full grid-cols-[minmax(0,1fr)_auto] items-center gap-4 border-b px-4 py-3 text-left transition-colors sm:px-5 hover:bg-muted/25\" type=\"button\"><div class=\"min-w-0\"><div class=\"flex min-w-0 items-center gap-2\"><p class=\"truncate text-sm font-semibold tracking-[-0.01em]\">Harborline Apps</p><span class=\"text-muted-foreground hidden text-xs sm:inline\">INV-7182</span></div><div class=\"text-muted-foreground mt-1 flex min-w-0 flex-wrap items-center gap-x-2 gap-y-1 text-xs leading-5\"><span class=\"truncate\">Template migration</span><span aria-hidden=\"true\">/</span><span>Jun 1, 2026</span><span aria-hidden=\"true\">/</span><span class=\"font-medium tabular-nums\">$3,180.00</span></div></div><div class=\"flex min-w-28 flex-col items-end gap-2\"><div class=\"inline-flex items-center border py-0.5 transition-colors focus:outline-hidden focus:ring-2 focus:ring-ring focus:ring-offset-2 h-6 gap-1.5 rounded-md px-2 text-[11px] font-medium shadow-none border-amber-600/20 bg-amber-50 text-amber-700 dark:border-amber-400/20 dark:bg-amber-900/30 dark:text-amber-400\"><span class=\"size-1.5 rounded-full bg-amber-500\"></span>Overdue</div><p class=\"text-muted-foreground text-xs tabular-nums\">Due <!-- -->Jun 12, 2026</p></div></button><button class=\"group relative grid min-h-[4.75rem] w-full grid-cols-[minmax(0,1fr)_auto] items-center gap-4 border-b px-4 py-3 text-left transition-colors sm:px-5 hover:bg-muted/25\" type=\"button\"><div class=\"min-w-0\"><div class=\"flex min-w-0 items-center gap-2\"><p class=\"truncate text-sm font-semibold tracking-[-0.01em]\">Pollen Interface</p><span class=\"text-muted-foreground hidden text-xs sm:inline\">INV-7181</span></div><div class=\"text-muted-foreground mt-1 flex min-w-0 flex-wrap items-center gap-x-2 gap-y-1 text-xs leading-5\"><span class=\"truncate\">Duplicate component order</span><span aria-hidden=\"true\">/</span><span>May 29, 2026</span><span aria-hidden=\"true\">/</span><span class=\"font-medium tabular-nums\">$899.00</span></div></div><div class=\"flex min-w-28 flex-col items-end gap-2\"><div class=\"inline-flex items-center border py-0.5 transition-colors focus:outline-hidden focus:ring-2 focus:ring-ring focus:ring-offset-2 h-6 gap-1.5 rounded-md px-2 text-[11px] font-medium shadow-none border-rose-600/20 bg-rose-50 text-rose-700 dark:border-rose-400/20 dark:bg-rose-900/30 dark:text-rose-400\"><span class=\"size-1.5 rounded-full bg-rose-500\"></span>Void</div><p class=\"text-muted-foreground text-xs tabular-nums\">Due <!-- -->Jun 8, 2026</p></div></button><button class=\"group relative grid min-h-[4.75rem] w-full grid-cols-[minmax(0,1fr)_auto] items-center gap-4 border-b px-4 py-3 text-left transition-colors sm:px-5 hover:bg-muted/25\" type=\"button\"><div class=\"min-w-0\"><div class=\"flex min-w-0 items-center gap-2\"><p class=\"truncate text-sm font-semibold tracking-[-0.01em]\">Argent Labs</p><span class=\"text-muted-foreground hidden text-xs sm:inline\">INV-7180</span></div><div class=\"text-muted-foreground mt-1 flex min-w-0 flex-wrap items-center gap-x-2 gap-y-1 text-xs leading-5\"><span class=\"truncate\">Figma kit handoff</span><span aria-hidden=\"true\">/</span><span>May 27, 2026</span><span aria-hidden=\"true\">/</span><span class=\"font-medium tabular-nums\">$1,950.00</span></div></div><div class=\"flex min-w-28 flex-col items-end gap-2\"><div class=\"inline-flex items-center border py-0.5 transition-colors focus:outline-hidden focus:ring-2 focus:ring-ring focus:ring-offset-2 h-6 gap-1.5 rounded-md px-2 text-[11px] font-medium shadow-none border-zinc-300 bg-zinc-50 text-zinc-700 dark:border-zinc-700 dark:bg-zinc-900/60 dark:text-zinc-300\"><span class=\"size-1.5 rounded-full bg-zinc-400\"></span>Draft</div><p class=\"text-muted-foreground text-xs tabular-nums\">Due <!-- -->Jun 24, 2026</p></div></button><button class=\"group relative grid min-h-[4.75rem] w-full grid-cols-[minmax(0,1fr)_auto] items-center gap-4 border-b px-4 py-3 text-left transition-colors sm:px-5 hover:bg-muted/25\" type=\"button\"><div class=\"min-w-0\"><div class=\"flex min-w-0 items-center gap-2\"><p class=\"truncate text-sm font-semi"
+}

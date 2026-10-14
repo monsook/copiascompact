@@ -1,0 +1,59 @@
+{
+  "route": "/project-management/issue-detail-1",
+  "title": "Project Management",
+  "cardsCount": 7,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "Compact timeline loses parent context",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "Calendar view keeps the issue but drops hierarchy",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 6,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 0,
+  "inputsSample": [],
+  "htmlSnapshot": "<div class=\"mx-auto flex max-w-[900px] flex-col gap-8 px-5 py-8 sm:px-8\"><div class=\"text-muted-foreground flex min-w-0 flex-col gap-3 text-sm sm:flex-row sm:items-center sm:justify-between sm:gap-6\"><div class=\"flex min-w-0 flex-wrap items-center gap-x-2 gap-y-1\"><span class=\"text-foreground font-medium\">Redwood Flow</span><span class=\"text-border\">/</span><span>RFC-101</span><span class=\"text-border\">/</span><span>RFC-109<!-- --> (Issue)</span></div><div class=\"flex w-full min-w-0 items-center justify-between gap-3 sm:ml-auto sm:w-auto sm:shrink-0 sm:justify-end\"><div class=\"flex min-w-0 items-center gap-3\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-github size-4 shrink-0\" aria-hidden=\"true\"><path d=\"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4\"></path><path d=\"M9 18c-4.51 2-5-2-7-2\"></path></svg><div class=\"flex min-w-0 items-center gap-2\"><span class=\"truncate\">planning-ui</span><span class=\"text-foreground shrink-0 font-semibold\">#8744</span></div></div><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background shadow-xs hover:bg-accent hover:text-accent-foreground size-9 shrink-0 xl:hidden\" aria-label=\"Open issue details\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-panel-right size-4\" aria-hidden=\"true\"><rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"></rect><path d=\"M15 3v18\"></path></svg></button></div></div><div class=\"bg-background w-fit rounded-md border px-3 py-2.5 shadow-xs\"><div class=\"text-muted-foreground flex items-center gap-2.5 text-sm\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle text-primary size-4\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle></svg><span>RFC-101</span><span>Timeline architecture</span><span class=\"border-l pl-3\">65</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-grid2x2 lucide-grid-2x2 size-4\" aria-hidden=\"true\"><path d=\"M12 3v18\"></path><path d=\"M3 12h18\"></path><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"></rect></svg></div></div><section class=\"flex max-w-[760px] flex-col gap-6\"><h1 class=\"text-xl font-medium tracking-normal\">Bug: timeline density loses issue context</h1><div class=\"text-muted-foreground flex flex-col gap-5 text-[15px] leading-6\"><p>When the project timeline is filtered down to a focused sprint, the issue bars keep their dates but lose the parent issue context. The result is still editable, but it is difficult to tell whether a row belongs to the parent planning track or to a nested follow-up issue.</p><p>Here you can see the nested timeline issue still appears in the direct planning view, but the same issue loses its parent marker after switching to the compact calendar view:</p></div></section><section class=\"flex max-w-[820px] flex-col gap-5\"><div class=\"grid gap-4\"><figure class=\"bg-background overflow-hidden rounded-lg border\"><img alt=\"Timeline UI screenshot showing missing parent context in compact timeline view\" loading=\"lazy\" width=\"1440\" height=\"810\" decoding=\"async\" data-nimg=\"1\" class=\"w-full object-cover\" style=\"color:transparent\" srcset=\"/_next/image?url=%2Fimages%2Fissue-detail%2Ftimeline-context-missing.png&amp;w=1920&amp;q=75&amp;dpl=dpl_43L5Yjk6TACsVN9PKn9oMXfxxBPd 1x, /_next/image?url=%2Fimages%2Fissue-detail%2Ftimeline-context-missing.png&amp;w=3840&amp;q=75&amp;dpl=dpl_43L5Yjk6TACsVN9PKn9oMXfxxBPd 2x\" src=\"/_next/image?url=%2Fimages%2Fissue-detail%2Ftimeline-context-missing.png&amp;w=3840&amp;q=75&amp;dpl=dpl_43L5Yjk6TACsVN9PKn9oMXfxxBPd\"><figcaption class=\"text-muted-foreground border-t px-4 py-2.5 text-xs font-medium\">Compact timeline loses parent context</figcaption></figure><figure class=\"bg-background overflow-hidden rounded-lg border\"><img alt=\"Calendar UI screenshot showing missing parent context in compact calendar view\" loading=\"lazy\" width=\"1440\" height=\"810\" decoding=\"async\" data-nimg=\"1\" class=\"w-full object-cover\" style=\"color:transparent\" srcset=\"/_next/image?url=%2Fimages%2Fissue-detail%2Fcalendar-context-missing.png&amp;w=1920&amp;q=75&amp;dpl=dpl_43L5Yjk6TACsVN9PKn9oMXfxxBPd 1x, /_next/image?url=%2Fimages%2Fissue-detail%2Fcalendar-context-missing.png&amp;w=3840&amp;q=75&amp;dpl=dpl_43L5Yjk6TACsVN9PKn9oMXfxxBPd 2x\" src=\"/_next/image?url=%2Fimages%2Fissue-detail%2Fcalendar-context-missing.png&amp;w=3840&amp;q=75&amp;dpl=dpl_43L5Yjk6TACsVN9PKn9oMXfxxBPd\"><figcaption class=\"text-muted-foreground border-t px-4 py-2.5 text-xs font-medium\">Calendar view keeps the issue but drops hierarchy</figcaption></figure></div></section><section class=\"flex max-w-[820px] flex-col gap-6\"><div class=\"flex flex-col gap-3\"><div class=\"grid gap-2 md:grid-cols-3\"><div class=\"flex items-center justify-between rounded-md border px-3 py-2\"><div class=\"flex min-w-0 items-center gap-3\"><div class=\"flex shrink-0 items-center justify-center rounded-lg\"><img alt=\"PDF\" loading=\"lazy\" width=\"36\" height=\"36\" decoding=\"async\" data-nimg=\"1\" class=\"rounded\" style=\"color:transparent\" srcset=\"/_next/image?url=%2Fpdf.png&amp;w=48&amp;q=75&amp;dpl=dpl_43L5Yjk6TACsVN9PKn9oMXfxxBPd 1x, /_next/image?url=%2Fpdf.png&amp;w=96&amp;q=75&amp;dpl=dpl_43L5Yjk6TACsVN9PKn9oMXfxxBPd 2x\" src=\"/_next/image?url=%2Fpdf.png&amp;w=96&amp;q=75&amp;dpl=dpl_43L5Yjk6TACsVN9PKn9oMXfxxBPd\"></div><div class=\"min-w-0\"><div class=\"text-foreground truncate text-sm font-medium\">Timeline architecture notes.pdf</div><div class=\"text-muted-foreground text-sm\">1.8<!-- --> MB</div></div></div><a href=\"#\" target=\"_blank\" rel=\"noreferrer\" class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-10 w-10 rounded-xl\" aria-label=\"Download Timeline architecture notes.pdf\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-download h-4 w-4\" aria-hidden=\"true\"><path d=\"M12 15V3\"></path><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"></path><path d=\"m7 10 5 5 5-5\"></path></svg></a></div><div class=\"flex items-center justify-between rounded-md border px-3 py-2\"><div class=\"flex min-w-0 items-center gap-3\"><div class=\"flex shrink-0 items-center justify-center rounded-lg\"><img alt=\"Figma\" loading=\"lazy\" width=\"36\" height=\"36\" decoding=\"async\" data-nimg=\"1\" class=\"rounded\" style=\"color:transparent\" srcset=\"/_next/image?url=%2Ffigma.png&amp;w=48&amp;q=75&amp;dpl=dpl_43L5Yjk6TACsVN9PKn9oMXfxxBPd 1x, /_next/image?url=%2Ffigma.png&amp;w=96&amp;q=75&amp;dpl=dpl_43L5Yjk6TACsVN9PKn9oMXfxxBPd 2x\" src=\"/_next/image?url=%2Ffigma.png&amp;w=96&amp;q=75&amp;dpl=dpl_43L5Yjk6TACsVN9PKn9oMXfxxBPd\"></div><div class=\"min-w-0\"><div class=\"text-foreground truncate text-sm font-medium\">Interaction states.fig</div><div class=\"text-muted-foreground text-sm\">3.4<!-- --> MB</div></div></div><a href=\"#\" target=\"_blank\" rel=\"noreferrer\" class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-10 w-10 rounded-xl\" aria-label=\"Download Interaction states.fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-download h-4 w-4\" aria-hidden=\"true\"><path d=\"M12 15V3\"></path><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"></path><path d=\"m7 10 5 5 5-5\"></path></svg></a></div><div class=\"flex items-center justify-between rounded-md border px-3 py-2\"><div class=\"flex min-w-0 items-center gap-3\"><div class=\"flex shrink-0 items-center justify-center rounded-lg\"><img alt=\"ZIP\" loading=\"lazy\" width=\"36\" height=\"36\" decoding=\"async\" data-nimg=\"1\" class=\"rounded\" style=\"color:transparent\" srcset=\"/_next/image?url=%2Fzip.png&amp;w=48&amp;q=75&amp;dpl=dpl_43L5Yjk6TACsVN9PKn9oMXfxxBPd 1x, /_next/image?url=%2Fzip.png&amp;w=96&amp;q=75&amp;dpl=dpl_43L5Yjk6TACsVN9PKn9oMXfxxBPd 2x\" src=\"/_next/image?url=%2Fzip.png&amp;w=96&amp;q=75&amp;dpl=dpl_43L5Yjk6TACsVN9PKn9oMXfxxBPd\"></div><div class=\"min-w-0\"><div class=\"text-foreground truncate text-sm font-medium\">Review packet.zip</div><div class=\"text-muted-foreground text-sm\">7.2<!-- --> MB</div></div></div><a href=\"#\" target=\"_blank\" rel=\"noreferrer\" class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:"
+}

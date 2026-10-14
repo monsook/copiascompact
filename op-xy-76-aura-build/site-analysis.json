@@ -1,0 +1,74 @@
+{
+  "title": "OP–XY Portable Synthesizer & Sequencer Template",
+  "rootHTML_length": 235278,
+  "scrollHeight": 1080,
+  "viewportHeight": 1080,
+  "sections": [],
+  "images": [
+    {
+      "src": "https://op-xy-76.aura.build/logo-aura-gray.svg",
+      "alt": "Aura Logo",
+      "w": 412,
+      "h": 412
+    }
+  ],
+  "videos": [],
+  "navLinks": [],
+  "buttons": [
+    {
+      "tag": "BUTTON",
+      "text": "Preview",
+      "className": "inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Code",
+      "className": "inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible"
+    }
+  ],
+  "headings": [],
+  "paragraphs": [],
+  "cssVars": {
+    "--background": "0 0% 100%",
+    "--foreground": "0 0% 9%",
+    "--card": "0 0% 98%",
+    "--card-foreground": "0 0% 9%",
+    "--popover": "0 0% 98%",
+    "--popover-foreground": "0 0% 9%",
+    "--primary": "0 0% 9%",
+    "--primary-foreground": "0 0% 98%",
+    "--secondary": "0 0% 96%",
+    "--secondary-foreground": "0 0% 9%",
+    "--muted": "0 0% 96%",
+    "--muted-foreground": "0 0% 45%",
+    "--accent": "0 0% 96%",
+    "--accent-foreground": "0 0% 9%",
+    "--destructive": "0 84% 60%",
+    "--destructive-foreground": "0 0% 98%",
+    "--border": "0 0% 90%",
+    "--input": "0 0% 90%",
+    "--ring": "0 0% 20%",
+    "--radius": ".5rem",
+    "--sidebar-background": "0 0% 98%",
+    "--sidebar-foreground": "0 0% 9%",
+    "--sidebar-primary": "0 0% 20%",
+    "--sidebar-primary-foreground": "0 0% 100%",
+    "--sidebar-accent": "0 0% 96%",
+    "--sidebar-accent-foreground": "0 0% 9%",
+    "--sidebar-border": "0 0% 90%",
+    "--sidebar-ring": "0 0% 20%",
+    "--syntax-bg": "#1e1e1e",
+    "--syntax-color": "#d4d4d4",
+    "--slider-track-bg": "rgba(0, 0, 0, .05)",
+    "--slider-active-bg": "rgba(0, 0, 0, .1)"
+  },
+  "canvasCount": 0,
+  "hasThree": false,
+  "rootBg": "rgba(0, 0, 0, 0)",
+  "rootColor": "rgb(23, 23, 23)",
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyColor": "rgb(23, 23, 23)",
+  "bodyClasses": "",
+  "htmlClasses": "",
+  "fonts": "Inter, sans-serif"
+}

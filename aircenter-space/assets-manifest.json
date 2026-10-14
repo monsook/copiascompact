@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-09-21T14:31:52.384Z",
+  "siteUrl": "https://aircenter.space/",
+  "summary": {
+    "totalAssetsFound": 2,
+    "imageSequencesDetected": 0,
+    "heroBackgroundsDetected": 0,
+    "technicalSvgsDetected": 1,
+    "brandAssetsDetected": 1
+  },
+  "replacements": [
+    {
+      "id": "brand_logo-footer",
+      "category": "BRAND_LOGO",
+      "originalFile": "assets/assets/images/common/logo-footer.svg",
+      "recommendedStrategy": "CUSTOM_COMPANY_BRANDING",
+      "rationale": "Substituir pelo logotipo da sua empresa mantendo o container e animações de entrada"
+    },
+    {
+      "id": "icon_icons",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/assets/images/icons.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    }
+  ]
+}

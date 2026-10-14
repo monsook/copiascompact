@@ -1,0 +1,171 @@
+{
+  "route": "/payment-processor/dashboard-4",
+  "title": "Payment Processor",
+  "cardsCount": 23,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "Gross Volume\n\n$125,560",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "Net Revenue\n\n$122,313",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 6,
+      "title": "",
+      "snippet": "Successful Payments\n\n2,345",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 7,
+      "title": "",
+      "snippet": "Pending Payouts\n\n$42,200",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 8,
+      "title": "Hello, Robert",
+      "snippet": "Hello, Robert\n\nSome quick actions for you.\n\nPayment Link\nQuick Payout\nNew Invoice",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 9,
+      "title": "",
+      "snippet": "Payment Link",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 10,
+      "title": "",
+      "snippet": "Quick Payout",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 11,
+      "title": "",
+      "snippet": "New Invoice",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 12,
+      "title": "Payment Regions",
+      "snippet": "Payment Regions\nTop Countries\nUS\n1.184\n18%\nIN\n936\n14%\nGB\n812\n12%\nDE\n748\n11%\nBR\n682\n10%",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 13,
+      "title": "Recent activity",
+      "snippet": "Recent activity\nAmount\tAccount\tMore details\nLIVE QUEUE\n\n$9,842.16 USD\nCaptured\n$286.42 fee\n\t\nVanta Manufacturing\nStripe · Visa ending 4928\n\t\nView detail\n, reference evt_q8N4L2, Vanta Manufacturing\nRef evt_q8N4L2\n\n\n$18,406.72 USD\nPayout\n\t\nKite Harbor\nAdyen · ACH settlement\n\t\nView detail\n, reference p",
+      "hasChart": true,
+      "hasTable": true
+    },
+    {
+      "id": 14,
+      "title": "",
+      "snippet": "Robert Austin\n\n$14,237.86\n\nActive",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 15,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 16,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 17,
+      "title": "Payment Mix",
+      "snippet": "Payment Mix\nView all\nCards\n58%\nMETHOD\nVOLUME\nSHARE\nCHANGE\nCards\n$72.8K\n58%\n+4.1\nWallets\n$23.9K\n19%\n+6.4\nBank\n$16.3K\n13%\n-1.5\nRefunds\n$8.8K\n7%\n+2.8\nDisputes\n$3.7K\n3%\n-2.5",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 18,
+      "title": "What's New?",
+      "snippet": "What's New?\nRisk Engine\nReserve Rules Preview\n\nModel reserve holds before they go live with processor, country, and dispute-rate conditions in one review flow.\n\nReview rules\n01 / 03\nSettlement\nFaster Payout Windows\n\nEligible merchants can now move card settlements into an earlier payout batch when r",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 19,
+      "title": "",
+      "snippet": "",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 20,
+      "title": "Reserve Rules Preview",
+      "snippet": "Risk Engine\nReserve Rules Preview\n\nModel reserve holds before they go live with processor, country, and dispute-rate conditions in one review flow.\n\nReview rules\n01 / 03",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 21,
+      "title": "Faster Payout Windows",
+      "snippet": "Settlement\nFaster Payout Windows\n\nEligible merchants can now move card settlements into an earlier payout batch when risk checks clear before noon.\n\nView batches\n01 / 03",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 22,
+      "title": "Local Wallet Routing",
+      "snippet": "Checkout\nLocal Wallet Routing\n\nCheckout now recommends regional wallets for returning customers based on approval rate and fee performance.\n\nTune routing\n01 / 03",
+      "hasChart": true,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 0,
+  "inputsSample": [],
+  "htmlSnapshot": "<div class=\"mx-auto flex w-full max-w-[1280px] min-w-0 flex-col gap-5 p-4 md:p-6\"><header class=\"flex flex-wrap items-center justify-between gap-3\"><div><p class=\"text-muted-foreground text-sm\">Payment workspace</p><h1 class=\"text-2xl font-semibold tracking-tight\">Dashboard</h1></div><div class=\"flex items-center gap-2\"><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground size-10 rounded-lg shadow-none\" aria-label=\"Calendar\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-calendar-days\" aria-hidden=\"true\"><path d=\"M8 2v4\"></path><path d=\"M16 2v4\"></path><rect width=\"18\" height=\"18\" x=\"3\" y=\"4\" rx=\"2\"></rect><path d=\"M3 10h18\"></path><path d=\"M8 14h.01\"></path><path d=\"M12 14h.01\"></path><path d=\"M16 14h.01\"></path><path d=\"M8 18h.01\"></path><path d=\"M12 18h.01\"></path><path d=\"M16 18h.01\"></path></svg></button><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground size-10 rounded-lg shadow-none\" aria-label=\"More actions\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-ellipsis\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"1\"></circle><circle cx=\"19\" cy=\"12\" r=\"1\"></circle><circle cx=\"5\" cy=\"12\" r=\"1\"></circle></svg></button></div></header><div class=\"grid min-w-0 gap-4 xl:grid-cols-[minmax(0,1fr)_330px]\"><div class=\"flex min-w-0 flex-col gap-4\"><div class=\"grid gap-3 sm:grid-cols-2 xl:grid-cols-4\"><section class=\"border-border/70 bg-card rounded-xl border shadow-[0_18px_50px_rgba(15,23,42,0.06)] min-h-[118px] p-4\"><div class=\"flex h-full flex-col justify-between gap-5\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-badge-dollar-sign size-4 text-sky-600\" aria-hidden=\"true\"><path d=\"M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z\"></path><path d=\"M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8\"></path><path d=\"M12 18V6\"></path></svg><div><p class=\"text-muted-foreground text-xs\">Gross Volume</p><p class=\"mt-1 text-lg font-semibold tracking-tight\">$125,560</p></div></div></section><section class=\"border-border/70 bg-card rounded-xl border shadow-[0_18px_50px_rgba(15,23,42,0.06)] min-h-[118px] p-4\"><div class=\"flex h-full flex-col justify-between gap-5\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-landmark size-4 text-violet-600\" aria-hidden=\"true\"><path d=\"M10 18v-7\"></path><path d=\"M11.12 2.198a2 2 0 0 1 1.76.006l7.866 3.847c.476.233.31.949-.22.949H3.474c-.53 0-.695-.716-.22-.949z\"></path><path d=\"M14 18v-7\"></path><path d=\"M18 18v-7\"></path><path d=\"M3 22h18\"></path><path d=\"M6 18v-7\"></path></svg><div><p class=\"text-muted-foreground text-xs\">Net Revenue</p><p class=\"mt-1 text-lg font-semibold tracking-tight\">$122,313</p></div></div></section><section class=\"border-border/70 bg-card rounded-xl border shadow-[0_18px_50px_rgba(15,23,42,0.06)] min-h-[118px] p-4\"><div class=\"flex h-full flex-col justify-between gap-5\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-check size-4 text-orange-600\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"m9 12 2 2 4-4\"></path></svg><div><p class=\"text-muted-foreground text-xs\">Successful Payments</p><p class=\"mt-1 text-lg font-semibold tracking-tight\">2,345</p></div></div></section><section class=\"border-border/70 bg-card rounded-xl border shadow-[0_18px_50px_rgba(15,23,42,0.06)] min-h-[118px] p-4\"><div class=\"flex h-full flex-col justify-between gap-5\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-wallet-cards size-4 text-emerald-600\" aria-hidden=\"true\"><rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"></rect><path d=\"M3 9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2\"></path><path d=\"M3 11h3c.8 0 1.6.3 2.1.9l1.1.9c1.6 1.6 4.1 1.6 5.7 0l1.1-.9c.5-.5 1.3-.9 2.1-.9H21\"></path></svg><div><p class=\"text-muted-foreground text-xs\">Pending Payouts</p><p class=\"mt-1 text-lg font-semibold tracking-tight\">$42,200</p></div></div></section></div><section class=\"border-border/70 bg-card rounded-xl border shadow-[0_18px_50px_rgba(15,23,42,0.06)] relative overflow-hidden p-4\"><div class=\"relative grid min-w-0 items-center gap-4 lg:grid-cols-[minmax(0,1fr)_auto]\"><div class=\"flex min-w-0 items-center gap-3 pl-2\"><span class=\"relative flex shrink-0 overflow-hidden rounded-full size-11 border shadow-sm\"><img class=\"aspect-square h-full w-full\" alt=\"Robert Austin\" src=\"/avatars/ausrobdev-avatar.png\"></span><div class=\"min-w-0\"><h2 class=\"text-xl font-semibold tracking-tight\">Hello, Robert</h2><p class=\"text-muted-foreground mt-1 text-sm\">Some quick actions for you.</p></div></div><div class=\"grid grid-cols-3 gap-2 lg:justify-self-end\"><button class=\"inline-flex items-center justify-center gap-2 font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input hover:bg-accent hover:text-accent-foreground py-2 bg-background/80 h-10 rounded-lg px-3 text-xs whitespace-nowrap shadow-none\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-link2 lucide-link-2\" aria-hidden=\"true\" data-icon=\"inline-start\"><path d=\"M9 17H7A5 5 0 0 1 7 7h2\"></path><path d=\"M15 7h2a5 5 0 1 1 0 10h-2\"></path><line x1=\"8\" x2=\"16\" y1=\"12\" y2=\"12\"></line></svg>Payment Link</button><button class=\"inline-flex items-center justify-center gap-2 font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input hover:bg-accent hover:text-accent-foreground py-2 bg-background/80 h-10 rounded-lg px-3 text-xs whitespace-nowrap shadow-none\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-rotate-ccw\" aria-hidden=\"true\" data-icon=\"inline-start\"><path d=\"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8\"></path><path d=\"M3 3v5h5\"></path></svg>Quick Payout</button><button class=\"inline-flex items-center justify-center gap-2 font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input hover:bg-accent hover:text-accent-foreground py-2 bg-background/80 h-10 rounded-lg px-3 text-xs whitespace-nowrap shadow-none\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-receipt-text\" aria-hidden=\"true\" data-icon=\"inline-start\"><path d=\"M13 16H8\"></path><path d=\"M14 8H8\"></path><path d=\"M16 12H8\"></path><path d=\"M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z\"></path></svg>New Invoice</button></div></div></section><section class=\"border-border/70 bg-card overflow-hidden rounded-xl border shadow-[0_18px_50px_rgba(15,23,42,0.06)]\"><div class=\"bg-card px-5 py-4\"><h2 class=\"text-lg font-semibold tracking-tight\">Payment Regions</h2></div><div class=\"relative h-[360px] overflow-hidden bg-[color-mix(in_oklch,var(--background)_90%,var(--muted))] dark:bg-[color-mix(in_oklch,var(--background)_86%,black)]\"><div class=\"h-full w-full leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom\" tabindex=\"0\" style=\"background-color: color-mix(in oklch, var(--background) 90%, var(--muted)); cursor: default; height: 100%; outline: none; z-index: 1; position: relative;\"><div class=\"leaflet-pane leaflet-map-pane\" style=\"transform: translate3d(0px, 0px, 0px);\"><div class=\"leaflet-pane leaflet-tile-pane\"></div><div class=\"leaflet-pane leaflet-overlay-pane\"><svg pointer-events=\"none\" clas"
+}

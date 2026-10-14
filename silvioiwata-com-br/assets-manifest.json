@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-09-21T12:58:06.900Z",
+  "siteUrl": "https://silvioiwata.com.br/",
+  "summary": {
+    "totalAssetsFound": 1,
+    "imageSequencesDetected": 0,
+    "heroBackgroundsDetected": 0,
+    "technicalSvgsDetected": 1,
+    "brandAssetsDetected": 0
+  },
+  "replacements": [
+    {
+      "id": "icon_loading",
+      "category": "TECHNICAL_DIAGRAM_SVG",
+      "originalFile": "assets/images/loading.svg",
+      "recommendedStrategy": "CLEAN_LUCIDE_OR_PROCEDURAL_SVG",
+      "rationale": "Replicar os traços geométricos em SVG limpo e parametrizado com suporte a temas dark/light"
+    }
+  ]
+}

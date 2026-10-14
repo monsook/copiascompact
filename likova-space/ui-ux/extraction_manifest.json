@@ -1,0 +1,109 @@
+{
+  "generatedAt": "2026-09-18T18:03:54.290Z",
+  "binaries": [
+    {
+      "url": "https://likova.space/assets/webgl-dark/dark.glb",
+      "filePath": "models/998a431191c5_dark.glb",
+      "mimeType": "application/octet-stream",
+      "size": 2632432,
+      "hash": "998a431191c5"
+    },
+    {
+      "url": "https://unpkg.com/three@0.180.0/examples/jsm/libs/draco/gltf/draco_decoder.wasm",
+      "filePath": "models/a680d927bed9_draco_decoder.wasm",
+      "mimeType": "application/wasm",
+      "size": 192420,
+      "hash": "a680d927bed9"
+    }
+  ],
+  "shaders": [],
+  "blobs": [
+    {
+      "id": "blob:https://likova.space/e09d0ea8-3359-4c8b-9e38-f05e28afce89",
+      "mimeType": "image/png",
+      "size": 129754,
+      "filePath": "blobs/blob_581de22ef59f.png"
+    },
+    {
+      "id": "blob:https://likova.space/7b3b65e3-425e-4f57-8d34-2a12e8ea1d07",
+      "mimeType": "image/png",
+      "size": 1113861,
+      "filePath": "blobs/blob_c594642de2ee.png"
+    },
+    {
+      "id": "blob:https://likova.space/8364eb2a-08cc-4e57-8e2b-ebe2108c617f",
+      "mimeType": "image/png",
+      "size": 1003662,
+      "filePath": "blobs/blob_b4de0cf36629.png"
+    },
+    {
+      "id": "blob:https://likova.space/01633f75-41d2-42d3-ab39-6c2980cc3882",
+      "mimeType": "image/png",
+      "size": 163831,
+      "filePath": "blobs/blob_9646d97ac5a9.png"
+    },
+    {
+      "id": "blob:https://likova.space/a879547d-b37c-4cdd-83c7-6c418226d97f",
+      "mimeType": "image/png",
+      "size": 129754,
+      "filePath": "blobs/blob_581de22ef59f.png"
+    },
+    {
+      "id": "blob:https://likova.space/d23438d8-ebb1-493a-aaf4-d71a837e1e9b",
+      "mimeType": "image/png",
+      "size": 1113861,
+      "filePath": "blobs/blob_c594642de2ee.png"
+    },
+    {
+      "id": "blob:https://likova.space/2eef9c68-a4e4-4bf7-983d-3fb0dbdb2820",
+      "mimeType": "image/png",
+      "size": 1003662,
+      "filePath": "blobs/blob_b4de0cf36629.png"
+    },
+    {
+      "id": "blob:https://likova.space/f698f174-b1ab-43fa-afb0-df2deae14cc0",
+      "mimeType": "image/png",
+      "size": 163831,
+      "filePath": "blobs/blob_9646d97ac5a9.png"
+    },
+    {
+      "id": "blob:https://likova.space/14c6aa08-f49d-4601-a829-c85b05013257",
+      "mimeType": "application/octet-stream",
+      "size": 60557,
+      "filePath": "blobs/blob_1dc380087b18.bin"
+    }
+  ],
+  "sequences": [
+    "sequences/frame_0000.webp",
+    "sequences/frame_0001.webp",
+    "sequences/frame_0002.webp",
+    "sequences/frame_0003.webp",
+    "sequences/frame_0004.webp",
+    "sequences/frame_0005.webp",
+    "sequences/frame_0006.webp",
+    "sequences/frame_0007.webp",
+    "sequences/frame_0008.webp",
+    "sequences/frame_0009.webp",
+    "sequences/frame_0010.webp",
+    "sequences/frame_0011.webp",
+    "sequences/frame_0012.webp",
+    "sequences/frame_0013.webp",
+    "sequences/frame_0014.webp",
+    "sequences/frame_0015.webp",
+    "sequences/frame_0016.webp",
+    "sequences/frame_0017.webp",
+    "sequences/frame_0018.webp",
+    "sequences/frame_0019.webp",
+    "sequences/frame_0020.webp",
+    "sequences/frame_0021.webp",
+    "sequences/frame_0022.webp",
+    "sequences/frame_0023.webp",
+    "sequences/frame_0024.webp",
+    "sequences/frame_0025.webp",
+    "sequences/frame_0026.webp",
+    "sequences/frame_0027.webp",
+    "sequences/frame_0028.webp",
+    "sequences/frame_0029.webp",
+    "sequences/frame_0030.webp"
+  ]
+}

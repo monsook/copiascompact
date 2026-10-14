@@ -1,0 +1,66 @@
+{
+  "gsap": {
+    "detected": false,
+    "version": null,
+    "hasScrollTrigger": false,
+    "scrollTriggerInstances": 0,
+    "tweensCount": 0,
+    "plugins": [],
+    "timelines": []
+  },
+  "lenis": {
+    "detected": false,
+    "config": null
+  },
+  "microInteractions": {
+    "magneticButtons": [
+      {
+        "tag": "button",
+        "text": "Previous",
+        "selector": ".slick-arrow.slick-prev.slick-disabled"
+      },
+      {
+        "tag": "button",
+        "text": "Next",
+        "selector": ".slick-arrow.slick-next"
+      }
+    ],
+    "tiltCards": [],
+    "spotlightElements": [],
+    "textScramble": false
+  },
+  "webglCanvas": {
+    "canvasCount": 0,
+    "hasThreeJs": false,
+    "shadersCount": 0,
+    "shaders": []
+  },
+  "typography": {
+    "splitTextDetected": false,
+    "variableFonts": [],
+    "marqueesCount": 0
+  },
+  "cssEffects": {
+    "keyframes": [
+      {
+        "name": "slideDown",
+        "cssText": "@keyframes slideDown { \n  0% { transform: translateY(0px); }\n  100% { transform: translateY(100%); visibility: hidden; }\n}"
+      },
+      {
+        "name": "logoFloat",
+        "cssText": "@keyframes logoFloat { \n  0% { transform: translateY(0px) rotate(0deg); }\n  100% { transform: translateY(-8px) rotate(2deg); }\n}"
+      },
+      {
+        "name": "scroll",
+        "cssText": "@keyframes scroll { \n  0% { transform: translateX(0px); }\n  100% { transform: translateX(calc(-100% - var(--gap))); }\n}"
+      },
+      {
+        "name": "swiper-preloader-spin",
+        "cssText": "@keyframes swiper-preloader-spin { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(1turn); }\n}"
+      }
+    ],
+    "glassmorphism": false,
+    "clipPaths": [],
+    "svgFilters": []
+  }
+}

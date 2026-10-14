@@ -1,0 +1,28 @@
+{
+  "route": "/login",
+  "title": "Shadcnblocks Admin Kit",
+  "cardsCount": 1,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "Login\n\nEnter your email and password below\nto log into your account\n\nEmail\nPassword\nForgot password?\nLogin\nOR CONTINUE WITH\nGitHub\nFacebook\n\nBy clicking login, you agree to our Terms of Service and Privacy Policy.",
+      "hasChart": true,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 2,
+  "inputsSample": [
+    {
+      "type": "text",
+      "placeholder": "name@example.com",
+      "label": ""
+    },
+    {
+      "type": "password",
+      "placeholder": "********",
+      "label": ""
+    }
+  ],
+  "htmlSnapshot": ""
+}

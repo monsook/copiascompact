@@ -1,0 +1,93 @@
+{
+  "auditTimestamp": "2026-08-25T18:42:33.468Z",
+  "siteSlug": "northtrail-adventure-59-aura-build",
+  "auditPassed": true,
+  "jsErrors": [],
+  "layoutBoxes": [
+    {
+      "index": 0,
+      "tag": "header",
+      "id": "nav",
+      "classes": "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
+      "top": 0,
+      "left": 0,
+      "width": 1440,
+      "height": 78
+    },
+    {
+      "index": 1,
+      "tag": "section",
+      "id": null,
+      "classes": "relative pt-28 lg:pt-36 pb-10 lg:pb-16",
+      "top": 0,
+      "left": 0,
+      "width": 1440,
+      "height": 1208
+    },
+    {
+      "index": 2,
+      "tag": "section",
+      "id": null,
+      "classes": "py-8 border-y border-stone-200 overflow-hidden bg-[#efe9dc]",
+      "top": 1208,
+      "left": 0,
+      "width": 1440,
+      "height": 106
+    },
+    {
+      "index": 3,
+      "tag": "section",
+      "id": "gear",
+      "classes": "py-20 lg:py-28",
+      "top": 1314,
+      "left": 0,
+      "width": 1440,
+      "height": 736
+    },
+    {
+      "index": 4,
+      "tag": "section",
+      "id": "story",
+      "classes": "relative bg-stone-950 text-white",
+      "top": 2050,
+      "left": 0,
+      "width": 1440,
+      "height": 2700
+    },
+    {
+      "index": 5,
+      "tag": "section",
+      "id": null,
+      "classes": "py-20 lg:py-28",
+      "top": 4750,
+      "left": 0,
+      "width": 1440,
+      "height": 1106
+    },
+    {
+      "index": 6,
+      "tag": "section",
+      "id": "experience",
+      "classes": "relative overflow-hidden bg-gradient-to-b from-[#f5f1e8] via-sky-100 to-sky-200 pt-24 pb-0",
+      "top": 5856,
+      "left": 0,
+      "width": 1440,
+      "height": 1092
+    },
+    {
+      "index": 7,
+      "tag": "footer",
+      "id": null,
+      "classes": "bg-stone-950 text-white",
+      "top": 6948,
+      "left": 0,
+      "width": 1440,
+      "height": 429
+    }
+  ],
+  "imagesSummary": {
+    "total": 15,
+    "valid": 15,
+    "broken": []
+  }
+}

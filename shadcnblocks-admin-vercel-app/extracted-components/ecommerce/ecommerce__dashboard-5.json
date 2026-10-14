@@ -1,0 +1,94 @@
+{
+  "route": "/ecommerce/dashboard-5",
+  "title": "Ecommerce App",
+  "cardsCount": 12,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "$276,000.00\n\nTotal Revenue (Last 6 Months)\n\nThis Year\nPrev Year\nJan\nFeb\nMar\nApr\nMay\nJun\n$0\n$15K\n$30K\n$45K\n$60K",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "Total Revenue\n$1,800,000.00\n+12.0%\nvs last month",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "Avg. Fulfillment\n2.4 days\n-5.0%\nvs last month",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "Orders\n9,420\n+18.0%\nvs last month",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 6,
+      "title": "",
+      "snippet": "Conversion Rate\n4.2%\n+1.2%\nvs last month",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 7,
+      "title": "",
+      "snippet": "Return Rate\n3.1%\n-11.0%\nvs last month",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 8,
+      "title": "",
+      "snippet": "Page Views\n184K\n+22.0%\nvs last month",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 9,
+      "title": "Category Performance",
+      "snippet": "Category Performance\n11,308\nElectronics\nClothing\nHome & Garden\nSports\nWeek\nMonth\nMon\nTue\nWed\nThu\nFri\nSat\nSun\n0\n250\n500\n750\n1000",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 10,
+      "title": "",
+      "snippet": "Week\nMonth",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 11,
+      "title": "Order Fulfillment",
+      "snippet": "Order Fulfillment\nOrder\nShipped\nStatus\nDel[%]\nORD-4821\nJan 27, 2025\n92\nORD-4819\nJan 26, 2025\n78\nORD-4815\nJan 25, 2025\n100\nORD-4812\nJan 24, 2025\n65\nORD-4808\nJan 23, 2025\n43\nORD-4805\nJan 22, 2025\n100\nORD-4801\nJan 21, 2025\n88\nORD-4798\nJan 20, 2025\n55\nORD-4794\nJan 19, 2025\n100\nORD-4790\nJan 18, 2025\n71\nO",
+      "hasChart": true,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 0,
+  "inputsSample": [],
+  "htmlSnapshot": "<div class=\"flex flex-col gap-4 xl:flex-row\"><div class=\"bg-card flex min-w-0 flex-1 flex-col gap-4 rounded-xl border p-4 sm:gap-6 sm:p-6\"><div class=\"flex flex-wrap items-center gap-2 sm:gap-4\"><div class=\"flex flex-1 flex-col gap-1\"><p class=\"text-xl leading-tight font-semibold tracking-tight sm:text-2xl\">$276,000.00</p><p class=\"text-muted-foreground text-xs\">Total Revenue (<!-- -->Last 6 Months<!-- -->)</p></div><div class=\"hidden items-center gap-3 sm:flex sm:gap-5\"><div class=\"flex items-center gap-1.5\"><div class=\"size-2.5 rounded-full sm:size-3\" style=\"background-color:var(--primary)\"></div><span class=\"text-muted-foreground text-[10px] sm:text-xs\">This Year</span></div><div class=\"flex items-center gap-1.5\"><div class=\"size-2.5 rounded-full sm:size-3\" style=\"background-color:color-mix(in oklch, var(--primary) 75%, var(--background))\"></div><span class=\"text-muted-foreground text-[10px] sm:text-xs\">Prev Year</span></div></div><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground size-7 sm:size-8\" aria-label=\"Select time period\" type=\"button\" id=\"radix-_R_6linpfiv5uknmlb_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-ellipsis size-4\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"1\"></circle><circle cx=\"19\" cy=\"12\" r=\"1\"></circle><circle cx=\"5\" cy=\"12\" r=\"1\"></circle></svg></button></div><div class=\"h-[200px] w-full min-w-0 sm:h-[240px] lg:h-[280px]\"><div data-slot=\"chart\" data-chart=\"chart-_R_15inpfiv5uknmlb_\" class=\"[&amp;_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&amp;_.recharts-cartesian-grid_line[stroke='#ccc']]:stroke-border/50 [&amp;_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&amp;_.recharts-polar-grid_[stroke='#ccc']]:stroke-border [&amp;_.recharts-radial-bar-background-sector]:fill-muted [&amp;_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&amp;_.recharts-reference-line_[stroke='#ccc']]:stroke-border flex min-h-0 min-w-0 aspect-video justify-center text-xs [&amp;_.recharts-dot[stroke='#fff']]:stroke-transparent [&amp;_.recharts-layer]:outline-hidden [&amp;_.recharts-sector]:outline-hidden [&amp;_.recharts-sector[stroke='#fff']]:stroke-transparent [&amp;_.recharts-surface]:outline-hidden h-full w-full\"><style>\n [data-chart=chart-_R_15inpfiv5uknmlb_] {\n  --color-thisYear: var(--primary);\n  --color-prevYear: color-mix(in oklch, var(--primary) 75%, var(--background));\n}\n\n\n.dark [data-chart=chart-_R_15inpfiv5uknmlb_] {\n  --color-thisYear: var(--primary);\n  --color-prevYear: color-mix(in oklch, var(--primary) 85%, var(--background));\n}\n</style><div class=\"recharts-responsive-container\" style=\"width:100%;height:100%;min-width:1px;min-height:1px\"><div style=\"width:0;height:0;overflow:visible\"><div width=\"810\" height=\"280\" class=\"recharts-wrapper\" style=\"position: relative; cursor: default; width: 810px; height: 280px;\"><div xmlns=\"http://www.w3.org/1999/xhtml\" tabindex=\"-1\" class=\"recharts-tooltip-wrapper\" style=\"visibility: hidden; pointer-events: none; position: absolute; top: 0px; left: 0px;\"></div><svg role=\"application\" tabindex=\"0\" class=\"recharts-surface\" width=\"810\" height=\"280\" viewBox=\"0 0 810 280\" style=\"width: 100%; height: 100%; display: block;\"><title></title><desc></desc><g tabindex=\"-1\" class=\"recharts-zIndex-layer_-100\"><g class=\"recharts-cartesian-grid\"><g class=\"recharts-cartesian-grid-horizontal\"><line stroke-dasharray=\"0\" stroke=\"#ccc\" fill=\"none\" x=\"45\" y=\"5\" width=\"760\" height=\"240\" x1=\"45\" y1=\"245\" x2=\"805\" y2=\"245\"></line><line stroke-dasharray=\"0\" stroke=\"#ccc\" fill=\"none\" x=\"45\" y=\"5\" width=\"760\" height=\"240\" x1=\"45\" y1=\"185\" x2=\"805\" y2=\"185\"></line><line stroke-dasharray=\"0\" stroke=\"#ccc\" fill=\"none\" x=\"45\" y=\"5\" width=\"760\" height=\"240\" x1=\"45\" y1=\"125\" x2=\"805\" y2=\"125\"></line><line stroke-dasharray=\"0\" stroke=\"#ccc\" fill=\"none\" x=\"45\" y=\"5\" width=\"760\" height=\"240\" x1=\"45\" y1=\"65\" x2=\"805\" y2=\"65\"></line><line stroke-dasharray=\"0\" stroke=\"#ccc\" fill=\"none\" x=\"45\" y=\"5\" width=\"760\" height=\"240\" x1=\"45\" y1=\"5\" x2=\"805\" y2=\"5\"></line></g></g></g><g tabindex=\"-1\" class=\"recharts-zIndex-layer_-50\"></g><defs><clipPath id=\"recharts1-clip\"><rect x=\"45\" y=\"5\" height=\"240\" width=\"760\"></rect></clipPath></defs><g tabindex=\"-1\" class=\"recharts-zIndex-layer_100\"></g><g tabindex=\"-1\" class=\"recharts-zIndex-layer_200\"></g><g tabindex=\"-1\" class=\"recharts-zIndex-layer_300\"><g class=\"recharts-layer recharts-bar\" id=\"recharts-bar-_r_0_\"><g class=\"recharts-layer recharts-bar-rectangles\"><g class=\"recharts-layer\"><g class=\"recharts-layer recharts-bar-rectangle\"><g class=\"recharts-layer recharts-inactive-bar\"><path fill=\"var(--color-thisYear)\" name=\"undefined\" x=\"70.1667\" y=\"77\" width=\"24\" height=\"168\" class=\"recharts-rectangle\" d=\"M70.1667,81A 4,4,0,0,1,74.1667,77L 90.1667,77A 4,4,0,0,1,\n        94.1667,81L 94.1667,245L 70.1667,245Z\"></path></g></g><g class=\"recharts-layer recharts-bar-rectangle\"><g class=\"recharts-layer recharts-inactive-bar\"><path fill=\"var(--color-thisYear)\" name=\"undefined\" x=\"196.8333\" y=\"93\" width=\"24\" height=\"152\" class=\"recharts-rectangle\" d=\"M196.8333,97A 4,4,0,0,1,200.8333,93L 216.8333,93A 4,4,0,0,1,\n        220.8333,97L 220.8333,245L 196.8333,245Z\"></path></g></g><g class=\"recharts-layer recharts-bar-rectangle\"><g class=\"recharts-layer recharts-inactive-bar\"><path fill=\"var(--color-thisYear)\" name=\"undefined\" x=\"323.5\" y=\"37\" width=\"24\" height=\"208\" class=\"recharts-rectangle\" d=\"M323.5,41A 4,4,0,0,1,327.5,37L 343.5,37A 4,4,0,0,1,\n        347.5,41L 347.5,245L 323.5,245Z\"></path></g></g><g class=\"recharts-layer recharts-bar-rectangle\"><g class=\"recharts-layer recharts-inactive-bar\"><path fill=\"var(--color-thisYear)\" name=\"undefined\" x=\"450.1667\" y=\"65\" width=\"24\" height=\"180\" class=\"recharts-rectangle\" d=\"M450.1667,69A 4,4,0,0,1,454.1667,65L 470.1667,65A 4,4,0,0,1,\n        474.1667,69L 474.1667,245L 450.1667,245Z\"></path></g></g><g class=\"recharts-layer recharts-bar-rectangle\"><g class=\"recharts-layer recharts-inactive-bar\"><path fill=\"var(--color-thisYear)\" name=\"undefined\" x=\"576.8333\" y=\"13\" width=\"24\" height=\"232\" class=\"recharts-rectangle\" d=\"M576.8333,17A 4,4,0,0,1,580.8333,13L 596.8333,13A 4,4,0,0,1,\n        600.8333,17L 600.8333,245L 576.8333,245Z\"></path></g></g><g class=\"recharts-layer recharts-bar-rectangle\"><g class=\"recharts-layer recharts-inactive-bar\"><path fill=\"var(--color-thisYear)\" name=\"undefined\" x=\"703.5\" y=\"81\" width=\"24\" height=\"164\" class=\"recharts-rectangle\" d=\"M703.5,85A 4,4,0,0,1,707.5,81L 723.5,81A 4,4,0,0,1,\n        727.5,85L 727.5,245L 703.5,245Z\"></path></g></g></g></g></g><g class=\"recharts-layer recharts-bar\" id=\"recharts-bar-_r_1_\"><g class=\"recharts-layer recharts-bar-rectangles\"><g class=\"recharts-layer\"><g class=\"recharts-layer recharts-bar-rectangle\"><g class=\"recharts-layer recharts-inactive-bar\"><path fill=\"var(--color-prevYear)\" fill-opacity=\"0.4\" name=\"undefined\" x=\"121.1667\" y=\"93\" width=\"24\" height=\"152\" class=\"recharts-rectangle\" d=\"M121.1667,97A 4,4,0,0,1,125.1667,93L 141.1667,93A 4,4,0,0,1,\n        145.1667,97L 145.1667,245L 121.1667,245Z\"></path></g></g><g class=\"recharts-layer recharts-bar-rectangle\"><g class=\"recharts-layer recharts-inactive-bar\"><path fill=\"var(--color-prevYear)\" fill-opacity=\"0.4\" name=\"undefined\" x=\"247.8333\" y=\"65\" width=\"24\" height=\"180\" class=\"recharts-rectangle\" d=\"M247.8333,69A 4,4,0,0,1,251.8333,65L 267.8333,65A 4,4,0,0,1,\n        271.8333,69L 271.8333,245L 247.8333,245Z\"></path></g></g><g class=\"recharts-layer recharts-bar-rectangle\"><g class=\"recharts-layer recharts-inactive-bar\"><path fill=\"var(--color-prevYear)\" fill-opacity=\"0.4\" name=\"undefined\" x=\"374.5\" y=\"81\" width=\"24\" height=\"164\" class=\"recharts-rectangle\" d=\"M374.5,85A 4,4,0,0,1,378.5,81L 394.5,81A 4,4,0,0,1,\n        398.5,85L 398.5,245L 374.5,245Z\"></path></g></g><g class=\"recharts-layer recharts-bar-rectangle\"><g class=\"recharts-layer recharts-inactive-bar\"><path fill=\"var(--color-prevYear)\" fill-opacity=\"0.4\" name=\"undefined\" x=\"501.1667\" y=\"53\" width=\"24\" height=\"192\" class=\"recharts-rectangle\" d=\"M501.1667,57A 4,4,0,0,1,505.1667,53L 521.1667,53A 4,4,0,0,1,\n        525.1667,57L 525.1667,245L 501.1667,245Z\"></path></g></g><g class=\"recharts-layer recharts-bar-rectangle\"><g class=\"recharts-layer recharts-inactive-bar\"><path fill=\"var(--color-prevYear)\" fill-opacity=\"0.4\" name=\"undefined\" x=\"627.8333\" y=\"69\" width=\"24\" height=\"176\" class=\"recharts-rectangle\" d=\"M627.8333,73A 4,4,0,0,1,631.8333,69L 647.8333,69A 4,4,0,0,1,\n        651.8333,73L 651.8333,245L 627.8333,245Z\"></path></g></g><g class=\"recharts-layer recharts-bar-rectangle\"><g class=\"recharts-layer recharts-inactive-bar\"><path fill=\"var(--color-prevYear)\" fill-opacity=\"0.4\" name=\"undefined\" x=\"754.5\" y=\"37\" width=\"24\" height=\"208\" class=\"recharts-rectangle\" d=\"M754.5,41A 4,4,0,0,1,758.5,37L 774.5,37A 4,4,0,0,1,\n        778.5,41L 778.5,245L 754.5,245Z\"></path></g></g></g></g></g></g><g tabindex=\"-1\" class=\"recharts-zIndex-layer_400\"></g><g tabindex=\"-1\" class=\"recharts-zIndex-layer_500\"><g class=\"recharts-layer recharts-cartesian-axis recharts-xAxis xAxis\"><g class=\"recharts-cartesian-axis-ticks recharts-xAxis-ticks\"><g class=\"recharts-cartesian-axis-tick-lines recharts-xAxis-tick-lines\"><g class=\"recharts-layer recharts-cartesian-axis-tick\"></g><g class=\"recharts-layer recharts-cartesian-axis-tick\"></g><g class=\"recharts-layer recharts-cartesian-axis-tick\"></g><g class=\"recharts-layer recharts-cartesian-axis-tick\"></g><g class=\"recharts-layer recharts-cartesian-axis-tick\"></g><g class=\"recharts-layer re"
+}

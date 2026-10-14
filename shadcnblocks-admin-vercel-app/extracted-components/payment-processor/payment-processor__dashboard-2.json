@@ -1,0 +1,80 @@
+{
+  "route": "/payment-processor/dashboard-2",
+  "title": "Payment Processor",
+  "cardsCount": 10,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "Gross volume\n\n$125,560.00\n\n+12.8%\n\nSuccessful payments\n\n2,345\n\n+8.3%\n\nNew customers\n\n156\n\n+3.1%\n\nNet volume from sales\n\n$122,312.80\n\n+11.5%\n\n2 AM\n4 AM\n6 AM\n8 AM\n10 AM\nNow\n2 PM\n4 PM\n6 PM\n11:59 PM",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "$3,528,198.72\n\n+14.6%\n\n$3,077,692.08 last month\n\nMay 1\nMay 8\nMay 15\nMay 22\nMay 29\n$0K\n$50K\n$100K\n$150K\n$200K",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "Signals\nVolume pace\n+12.8%\nTracking above yesterday through 10 AM",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "Australia\n\n482 payments\n\n$12.8K\n\n39%\n\nUnited States\n\n316 payments\n\n$8.4K\n\n26%\n\nUnited Kingdom\n\n218 payments\n\n$5.9K\n\n18%\n\nOther countries\n\n210 payments\n\n$5.6K\n\n17%",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 6,
+      "title": "",
+      "snippet": "Available to pay out\n\n$42,215.68\n\nNext payout tomorrow\n\nUSD\n\n$32,124.52\n\n78%\n\nEUR\n\n€9,280.74\n\n22%\nView all balances",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 7,
+      "title": "",
+      "snippet": "View all balances",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 8,
+      "title": "",
+      "snippet": "Jenny Rosen\n\nSucceeded\nVISA\n•••• 4242\n\nToday, 9:41 AM\n\nRobert Fox\n\nSucceeded\nMC\n•••• 4444\n\nToday, 9:32 AM\n\nWade Warren\n\nSucceeded\nAMEX\n•••• 8431\n\nToday, 9:21 AM\n\nEsther Howard\n\nFailed\nVISA\n•••• 4242\n\nToday, 9:02 AM\n\nCameron Williamson\n\nSucceeded\nMC\n•••• 5555\n\nToday, 8:47 AM",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 9,
+      "title": "",
+      "snippet": "Resolution health\n\n86/100\n\n4 open disputes, 1 urgent response due today.\n\nCoverage\n\n92%\n\nWin rate\n\n74%\n\nAt risk\n\n$3.2K",
+      "hasChart": false,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 0,
+  "inputsSample": [],
+  "htmlSnapshot": "<div class=\"min-h-0 flex-1 overflow-y-auto\"><div class=\"mx-auto flex w-full max-w-[1536px] min-w-0 flex-col gap-6 p-4 md:p-6\"><header class=\"flex flex-wrap items-end justify-between gap-4\"><div class=\"min-w-0 flex-1\"><h1 class=\"text-2xl font-semibold tracking-normal\">Welcome back, Alex</h1><div class=\"relative mt-5 max-w-[540px]\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-search text-muted-foreground absolute top-1/2 left-3 size-4 -translate-y-1/2\" aria-hidden=\"true\"><path d=\"m21 21-4.34-4.34\"></path><circle cx=\"11\" cy=\"11\" r=\"8\"></circle></svg><div class=\"border-input bg-background text-muted-foreground flex h-10 items-center rounded-md border pr-3 pl-10 text-sm shadow-xs\"><span class=\"min-w-0 flex-1 truncate\">Search...</span><span class=\"font-mono text-xs\">⌘ K</span></div></div></div><div class=\"flex items-center gap-3\"><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background shadow-xs hover:bg-accent hover:text-accent-foreground py-2 h-9 rounded-md px-4\">Create<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down size-4\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"></path></svg></button><button class=\"items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground px-4 py-2 text-muted-foreground hidden h-9 gap-2 md:inline-flex\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-question-mark size-4\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3\"></path><path d=\"M12 17h.01\"></path></svg>Help</button></div></header><div class=\"grid min-w-0 gap-4 xl:grid-cols-[minmax(0,1fr)_400px] 2xl:grid-cols-[minmax(0,1fr)_430px]\"><div class=\"flex min-w-0 flex-col gap-4\"><section class=\"border-border/80 bg-muted/35 text-card-foreground ring-border/80 rounded-2xl border p-1 shadow-none ring-1 outline-none\"><div class=\"flex h-12 items-center justify-between gap-2 px-3\"><div class=\"flex items-center gap-2\"><h2 class=\"text-base leading-none font-medium\">Today</h2><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-info text-muted-foreground size-4\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M12 16v-4\"></path><path d=\"M12 8h.01\"></path></svg></div><div class=\"flex items-center gap-5 text-sm\"><span class=\"flex items-center gap-2\"><span class=\"bg-primary h-0.5 w-4 rounded-full\"></span>Today</span><span class=\"text-muted-foreground flex items-center gap-2\"><span class=\"bg-muted-foreground/40 h-0.5 w-4 rounded-full\"></span>Yesterday</span></div></div><div class=\"bg-background/95 ring-border rounded-xl ring-1 p-5\"><div class=\"grid divide-y sm:grid-cols-2 sm:divide-x sm:divide-y-0 lg:grid-cols-4\"><div class=\"py-3 first:pt-0 last:pb-0 sm:px-4 sm:py-0 sm:first:pl-0\"><p class=\"text-muted-foreground truncate text-[0.84rem] whitespace-nowrap\">Gross volume</p><p class=\"mt-2 truncate text-xl font-medium tracking-normal whitespace-nowrap 2xl:text-2xl\">$125,560.00</p><p class=\"mt-1 text-sm font-medium whitespace-nowrap text-emerald-600 dark:text-emerald-400\">+12.8%</p></div><div class=\"py-3 first:pt-0 last:pb-0 sm:px-4 sm:py-0 sm:first:pl-0\"><p class=\"text-muted-foreground truncate text-[0.84rem] whitespace-nowrap\">Successful payments</p><p class=\"mt-2 truncate text-xl font-medium tracking-normal whitespace-nowrap 2xl:text-2xl\">2,345</p><p class=\"mt-1 text-sm font-medium whitespace-nowrap text-emerald-600 dark:text-emerald-400\">+8.3%</p></div><div class=\"py-3 first:pt-0 last:pb-0 sm:px-4 sm:py-0 sm:first:pl-0\"><p class=\"text-muted-foreground truncate text-[0.84rem] whitespace-nowrap\">New customers</p><p class=\"mt-2 truncate text-xl font-medium tracking-normal whitespace-nowrap 2xl:text-2xl\">156</p><p class=\"mt-1 text-sm font-medium whitespace-nowrap text-emerald-600 dark:text-emerald-400\">+3.1%</p></div><div class=\"py-3 first:pt-0 last:pb-0 sm:px-4 sm:py-0 sm:first:pl-0\"><p class=\"text-muted-foreground truncate text-[0.84rem] whitespace-nowrap\">Net volume from sales</p><p class=\"mt-2 truncate text-xl font-medium tracking-normal whitespace-nowrap 2xl:text-2xl\">$122,312.80</p><p class=\"mt-1 text-sm font-medium whitespace-nowrap text-emerald-600 dark:text-emerald-400\">+11.5%</p></div></div><div class=\"h-[176px] min-w-0\"><div data-slot=\"chart\" data-chart=\"chart-_R_kb5fiv5uknmlb_\" class=\"[&amp;_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&amp;_.recharts-cartesian-grid_line[stroke='#ccc']]:stroke-border/50 [&amp;_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&amp;_.recharts-polar-grid_[stroke='#ccc']]:stroke-border [&amp;_.recharts-radial-bar-background-sector]:fill-muted [&amp;_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&amp;_.recharts-reference-line_[stroke='#ccc']]:stroke-border flex min-h-0 min-w-0 aspect-video justify-center text-xs [&amp;_.recharts-dot[stroke='#fff']]:stroke-transparent [&amp;_.recharts-layer]:outline-hidden [&amp;_.recharts-sector]:outline-hidden [&amp;_.recharts-sector[stroke='#fff']]:stroke-transparent [&amp;_.recharts-surface]:outline-hidden h-full w-full\"><style>\n [data-chart=chart-_R_kb5fiv5uknmlb_] {\n  --color-today: var(--primary);\n  --color-estimate: var(--primary);\n  --color-yesterday: color-mix(in oklch, var(--muted-foreground) 45%, var(--background));\n}\n\n\n.dark [data-chart=chart-_R_kb5fiv5uknmlb_] {\n  --color-today: var(--primary);\n  --color-estimate: var(--primary);\n  --color-yesterday: color-mix(in oklch, var(--muted-foreground) 45%, var(--background));\n}\n</style><div class=\"recharts-responsive-container\" style=\"width:100%;height:100%;min-width:1px;min-height:1px\"><div style=\"width:0;height:0;overflow:visible\"><div width=\"800\" height=\"176\" class=\"recharts-wrapper\" style=\"position: relative; cursor: default; width: 800px; height: 176px;\"><div xmlns=\"http://www.w3.org/1999/xhtml\" tabindex=\"-1\" class=\"recharts-tooltip-wrapper\" style=\"visibility: hidden; pointer-events: none; position: absolute; top: 0px; left: 0px;\"></div><svg role=\"application\" tabindex=\"0\" class=\"recharts-surface\" width=\"800\" height=\"176\" viewBox=\"0 0 800 176\" style=\"width: 100%; height: 100%; display: block;\"><title></title><desc></desc><g tabindex=\"-1\" class=\"recharts-zIndex-layer_-100\"><g class=\"recharts-cartesian-grid\"><g class=\"recharts-cartesian-grid-horizontal\"><line stroke=\"var(--border)\" stroke-dasharray=\"4 6\" stroke-opacity=\"0.65\" fill=\"none\" x=\"0\" y=\"8\" width=\"792\" height=\"138\" x1=\"0\" y1=\"146\" x2=\"792\" y2=\"146\"></line><line stroke=\"var(--border)\" stroke-dasharray=\"4 6\" stroke-opacity=\"0.65\" fill=\"none\" x=\"0\" y=\"8\" width=\"792\" height=\"138\" x1=\"0\" y1=\"107.66666666666667\" x2=\"792\" y2=\"107.66666666666667\"></line><line stroke=\"var(--border)\" stroke-dasharray=\"4 6\" stroke-opacity=\"0.65\" fill=\"none\" x=\"0\" y=\"8\" width=\"792\" height=\"138\" x1=\"0\" y1=\"69.33333333333333\" x2=\"792\" y2=\"69.33333333333333\"></line><line stroke=\"var(--border)\" stroke-dasharray=\"4 6\" stroke-opacity=\"0.65\" fill=\"none\" x=\"0\" y=\"8\" width=\"792\" height=\"138\" x1=\"0\" y1=\"8\" x2=\"792\" y2=\"8\"></line></g></g></g><g tabindex=\"-1\" class=\"recharts-zIndex-layer_-50\"></g><defs><clipPath id=\"recharts1-clip\"><rect x=\"0\" y=\"8\" height=\"138\" width=\"792\"></rect></clipPath></defs><defs><linearGradient id=\"today-volume-fill\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"1\"><stop offset=\"0%\" stop-color=\"var(--color-today)\" stop-opacity=\"0.14\"></stop><stop offset=\"90%\" stop-color=\"var(--color-today)\" stop-opacity=\"0\"></stop></linearGradient></defs><g tabindex=\"-1\" class=\"recharts-zIndex-layer_100\"><g class=\"recharts-layer recharts-area\"><g class=\"recharts-layer\"><path stroke-dasharray=\"5 5\" stroke-width=\"1.75\" fill=\"transparent\" fill-opacity=\"0.6\" height=\"138\" stroke=\"none\" width=\"792\" id=\"recharts-area-_r_0_\" class=\"recharts-curve recharts-area-area\" d=\"M0,118.4C24,116.611,48,114.822,72,112.267C96,109.711,120,105.367,144,103.067C168,100.767,192,98.467,216,98.467C240,98.467,264,100,288,100C312,100,336,89.267,360,89.267C384,89.267,408,93.867,432,93.867C456,93.867,480,86.2,504,83.133C528,80.067,552,78.789,576,75.467C600,72.144,624,67.289,648,63.2C672,59.111,696,57.067,720,50.933C744,44.8,768,35.6,792,26.4L792,146C768,146,744,146,720,146C696,146,672,146,648,146C624,146,600,146,576,146C552,146,528,146,504,146C480,146,456,146,432,146C408,146,384,146,360,146C336,146,312,146,288,146C264,146,240,146,216,146C192,146,168,146,144,146C120,146,96,146,72,146C48,146,24,146,0,146Z\"></path><path stroke-dasharray=\"5 5\" stroke-width=\"1.75\" fill=\"none\" fill-opacity=\"0.6\" height=\"138\" stroke=\"var(--color-yesterday)\" width=\"792\" class=\"recharts-curve recharts-area-curve\" d=\"M0,118.4C24,116.611,48,114.822,72,112.267C96,109.711,120,105.367,144,103.067C168,100.767,192,98.467,216,98.467C240,98.467,264,100,288,100C312,100,336,89.267,360,89.267C384,89.267,408,93.867,432,93.867C456,93.867,480,86.2,504,83.133C528,80.067,552,78.789,576,75.467C600,72.144,624,67.289,648,63.2C672,59.111,696,57.067,720,50.933C744,44.8,768,35.6,792,26.4\"></path></g></g><g class=\"recharts"
+}

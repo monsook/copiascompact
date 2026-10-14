@@ -1,0 +1,93 @@
+{
+  "route": "/ecommerce/dashboard-7",
+  "title": "Ecommerce App",
+  "cardsCount": 11,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "In-store Sales\n$7,820.75\n+$322.50 vs last month\nBased on 5,000 orders",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "Website Sales\n$985,937.45\n+$109,500.00 vs last month\nBased on 21,000 orders",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "snippet": "Wholesale\n$124,650.00\n+$7,935.00 vs last month\nBased on 890 orders",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 5,
+      "title": "",
+      "snippet": "Returns\n$15,503.00\n-$498.00 vs last month\nBased on 6,000 orders",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 6,
+      "title": "Revenue",
+      "snippet": "Revenue\nRevenue\nExpenses\n\n$8,900.00\n\nTHIS WEEK VS LAST WEEK\n\nMon\nTue\nWed\nThu\nFri\nSat\nSun\n$0\n$750\n$2K\n$2K\n$3K",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 7,
+      "title": "Sales Pipeline",
+      "snippet": "Sales Pipeline\nQuarter 3\n\n3,980\n\nTOTAL ORDERS\n\nJul\nAug\nSep\n\n$94.7K\n\nTOTAL SALES\n\nJul\nAug\nSep",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 8,
+      "title": "Sales by Category",
+      "snippet": "Sales by Category\nElectronics\nClothing\nHome & Garden\nSports\nBeauty",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 9,
+      "title": "Traffic Sources",
+      "snippet": "Traffic Sources\n+30%\nHigh\nMedium\nLow\n6k\n5k\n4k\n2k\n3k\n4.5k\nWeek 1\nWeek 2\nWeek 3\nWeek 4",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 10,
+      "title": "Order Status",
+      "snippet": "Order Status\nORDERS\n4,050\nFulfilled\nPending",
+      "hasChart": true,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 1,
+  "inputsSample": [
+    {
+      "type": "text",
+      "placeholder": "Search invoices… (e.g., INV-00012)",
+      "label": "Search invoices"
+    }
+  ],
+  "htmlSnapshot": "<div class=\"grid gap-3 sm:grid-cols-2 lg:grid-cols-4\"><div class=\"bg-card text-card-foreground rounded-lg border @container/card shadow-none\"><div class=\"flex flex-col space-y-1.5 p-6\"><div class=\"text-muted-foreground text-sm font-medium\">In-store Sales</div><div class=\"tracking-tight text-2xl font-bold @[600px]/card:text-4xl @[800px]/card:text-5xl\">$7,820.75</div></div><div class=\"flex p-6 pt-0 flex-col items-start gap-1 text-sm\"><div class=\"flex min-w-0 items-center gap-1.5 truncate font-medium\"><span class=\"text-success\">+$322.50 vs last month</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-trending-up size-3.5 shrink-0 text-success\" aria-hidden=\"true\"><path d=\"M16 7h6v6\"></path><path d=\"m22 7-8.5 8.5-5-5L2 17\"></path></svg></div><div class=\"text-muted-foreground text-xs\">Based on 5,000 orders</div></div></div><div class=\"bg-card text-card-foreground rounded-lg border @container/card shadow-none\"><div class=\"flex flex-col space-y-1.5 p-6\"><div class=\"text-muted-foreground text-sm font-medium\">Website Sales</div><div class=\"tracking-tight text-2xl font-bold @[600px]/card:text-4xl @[800px]/card:text-5xl\">$985,937.45</div></div><div class=\"flex p-6 pt-0 flex-col items-start gap-1 text-sm\"><div class=\"flex min-w-0 items-center gap-1.5 truncate font-medium\"><span class=\"text-success\">+$109,500.00 vs last month</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-trending-up size-3.5 shrink-0 text-success\" aria-hidden=\"true\"><path d=\"M16 7h6v6\"></path><path d=\"m22 7-8.5 8.5-5-5L2 17\"></path></svg></div><div class=\"text-muted-foreground text-xs\">Based on 21,000 orders</div></div></div><div class=\"bg-card text-card-foreground rounded-lg border @container/card shadow-none\"><div class=\"flex flex-col space-y-1.5 p-6\"><div class=\"text-muted-foreground text-sm font-medium\">Wholesale</div><div class=\"tracking-tight text-2xl font-bold @[600px]/card:text-4xl @[800px]/card:text-5xl\">$124,650.00</div></div><div class=\"flex p-6 pt-0 flex-col items-start gap-1 text-sm\"><div class=\"flex min-w-0 items-center gap-1.5 truncate font-medium\"><span class=\"text-success\">+$7,935.00 vs last month</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-trending-up size-3.5 shrink-0 text-success\" aria-hidden=\"true\"><path d=\"M16 7h6v6\"></path><path d=\"m22 7-8.5 8.5-5-5L2 17\"></path></svg></div><div class=\"text-muted-foreground text-xs\">Based on 890 orders</div></div></div><div class=\"bg-card text-card-foreground rounded-lg border @container/card shadow-none\"><div class=\"flex flex-col space-y-1.5 p-6\"><div class=\"text-muted-foreground text-sm font-medium\">Returns</div><div class=\"tracking-tight text-2xl font-bold @[600px]/card:text-4xl @[800px]/card:text-5xl\">$15,503.00</div></div><div class=\"flex p-6 pt-0 flex-col items-start gap-1 text-sm\"><div class=\"flex min-w-0 items-center gap-1.5 truncate font-medium\"><span class=\"text-destructive\">-$498.00 vs last month</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-trending-down size-3.5 shrink-0 text-destructive\" aria-hidden=\"true\"><path d=\"M16 17h6v-6\"></path><path d=\"m22 17-8.5-8.5-5 5L2 7\"></path></svg></div><div class=\"text-muted-foreground text-xs\">Based on 6,000 orders</div></div></div></div><div class=\"flex flex-col gap-4 sm:gap-6 xl:flex-row\"><div class=\"bg-card flex min-w-0 flex-1 flex-col rounded-xl border\"><div class=\"flex h-14 items-center justify-between border-b px-4 sm:px-5\"><div class=\"flex items-center gap-2.5\"><button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background shadow-xs hover:bg-accent hover:text-accent-foreground size-7 sm:size-8\" aria-label=\"Revenue\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chart-column text-muted-foreground size-4 sm:size-[18px]\" aria-hidden=\"true\"><path d=\"M3 3v16a2 2 0 0 0 2 2h16\"></path><path d=\"M18 17V9\"></path><path d=\"M13 17V5\"></path><path d=\"M8 17v-3\"></path></svg></button><h2 class=\"text-sm font-medium text-pretty sm:text-base\">Revenue</h2></div><div class=\"flex items-center gap-3 sm:gap-5\"><div class=\"flex items-center gap-1.5\"><div class=\"size-2 rounded-full sm:size-2.5\" style=\"background-color: var(--primary);\"></div><span class=\"text-muted-foreground text-[10px] sm:text-xs\">Revenue</span></div><div class=\"flex items-center gap-1.5\"><div class=\"size-2 rounded-full sm:size-2.5\" style=\"background-color: color-mix(in oklch, var(--primary) 75%, var(--background));\"></div><span class=\"text-muted-foreground text-[10px] sm:text-xs\">Expenses</span></div></div></div><div class=\"flex flex-col gap-4 p-4 sm:gap-5 sm:p-5\"><div class=\"flex flex-col gap-1\"><p class=\"text-xl leading-tight font-semibold tracking-tight sm:text-2xl\">$8,900.00</p><p class=\"text-muted-foreground text-[10px] tracking-wider uppercase sm:text-xs\">This week vs last week</p></div><div class=\"h-[180px] w-full min-w-0 sm:h-[220px]\"><div data-slot=\"chart\" data-chart=\"chart-_r_0_\" class=\"[&amp;_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&amp;_.recharts-cartesian-grid_line[stroke='#ccc']]:stroke-border/50 [&amp;_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&amp;_.recharts-polar-grid_[stroke='#ccc']]:stroke-border [&amp;_.recharts-radial-bar-background-sector]:fill-muted [&amp;_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&amp;_.recharts-reference-line_[stroke='#ccc']]:stroke-border flex min-h-0 min-w-0 aspect-video justify-center text-xs [&amp;_.recharts-dot[stroke='#fff']]:stroke-transparent [&amp;_.recharts-layer]:outline-hidden [&amp;_.recharts-sector]:outline-hidden [&amp;_.recharts-sector[stroke='#fff']]:stroke-transparent [&amp;_.recharts-surface]:outline-hidden h-full w-full\"><style>\n [data-chart=chart-_r_0_] {\n  --color-revenue: var(--primary);\n  --color-expenses: color-mix(in oklch, var(--primary) 75%, var(--background));\n}\n\n\n.dark [data-chart=chart-_r_0_] {\n  --color-revenue: var(--primary);\n  --color-expenses: color-mix(in oklch, var(--primary) 85%, var(--background));\n}\n</style><div class=\"recharts-responsive-container\" style=\"width: 100%; height: 100%; min-width: 1px; min-height: 1px;\"><div style=\"width: 0px; height: 0px; overflow: visible;\"><div width=\"594\" height=\"220\" class=\"recharts-wrapper\" style=\"position: relative; cursor: default; width: 594px; height: 220px;\"><div xmlns=\"http://www.w3.org/1999/xhtml\" tabindex=\"-1\" class=\"recharts-tooltip-wrapper\" style=\"visibility: hidden; pointer-events: none; position: absolute; top: 0px; left: 0px;\"></div><svg role=\"application\" tabindex=\"0\" class=\"recharts-surface\" width=\"594\" height=\"220\" viewBox=\"0 0 594 220\" style=\"width: 100%; height: 100%; display: block;\"><title></title><desc></desc><g tabindex=\"-1\" class=\"recharts-zIndex-layer_-100\"><g class=\"recharts-cartesian-grid\"><g class=\"recharts-cartesian-grid-horizontal\"><line stroke-dasharray=\"0\" stroke=\"#ccc\" fill=\"none\" x=\"45\" y=\"5\" width=\"544\" height=\"180\" x1=\"45\" y1=\"185\" x2=\"589\" y2=\"185\"></line><line stroke-dasharray=\"0\" stroke=\"#ccc\" fill=\"none\" x=\"45\" y=\"5\" width=\"544\" height=\"180\" x1=\"45\" y1=\"140\" x2=\"589\" y2=\"140\"></line><line stroke-dasharray=\"0\" stroke=\"#ccc\" fill=\"none\" x=\"45\" y=\"5\" width=\"544\" height=\"180\" x1=\"45\" y1=\"95\" x2=\"589\" y2=\"95\"></line><line stroke-dasharray=\"0\" stroke=\"#ccc\" fill=\"none\" x=\"45\" y=\"5\" width=\"544\" height=\"180\" x1=\"45\" y1=\"50\" x2=\"589\" y2=\"50\"></line><line stroke-dasharray=\"0\" stroke=\"#ccc\" fill=\"none\" x=\"45\" y=\"5\" width=\"544\" height=\"180\" x1=\"45\" y1=\"5\" x2=\"589\" y2=\"5\"></line></g></g></g><g tabindex=\"-1\" class=\"recharts-zIndex-layer_-50\"></g><defs><clipPath id=\"recharts1-clip\"><rect x=\"45\" y=\"5\" height=\"180\" width=\"544\"></rect></clipPath></defs><g tabindex=\"-1\" class=\"recharts-zIndex-layer_100\"></g><g tabindex=\"-1\" class=\"recharts-zIndex-layer_200\"></g><g tabindex=\"-1\" class=\"recharts-zIndex-layer_300\"><g class=\"recharts-layer recharts-bar\" id=\"recharts-bar-_r_11_\"><g class=\"recharts-layer recharts-bar-rectangles\"><g class=\"recharts-layer\"><g class=\"recharts-layer recharts-bar-rectangle\"><g class=\"recharts-layer recharts-inactive-bar\"><path fill=\"var(--color-revenue)\" name=\"undefined\" x=\"52.7714\" y=\"113\" width=\"62\" height=\"72\" class=\"recharts-rectangle\" d=\"M52.7714,113L 114.7714,113L 114.7714,185L 52.7714,185Z\"></path></g></g><g class=\"recharts-layer recharts-bar-rectangle\"><g class=\"recharts-layer recharts-inactive-bar\"><path fill=\"var(--color-revenue)\" name=\"undefined\" x=\"130.4857\" y=\"95\" width=\"62\" height=\"90\" class=\"recharts-rectangle\" d=\"M130.4857,95L 192.4857,95L 192.4857,185L 130.4857,185Z\"></path></g></g><g class=\"recharts-layer recharts-bar-rectangle\"><g class=\"recharts-layer recharts-inactive-bar\"><path fill=\"var(--color-revenue)\" name=\"undefined\" x=\"208.2\" y=\"77\" width=\"62\" height=\"108\" class=\"recharts-rectangle\" d=\"M208.2,77L 270.2,77L 270.2,185L 208.2,185Z\"></path></g></g><g class=\"recharts-layer recharts-bar-rectangle\"><g class=\"recharts-layer recharts-inactive-bar\"><path fill=\"var(--color-revenue)\" name=\"undefined\" x=\"285.9143\" y=\"119\" width=\"62\" height=\"66\" class=\"recharts-rectangle\" d=\"M285.9143,119L 347.9143,119L 347."
+}

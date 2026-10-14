@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "status": "completed",
+  "url": "https://integriimoveis.com.br/",
+  "siteName": "integriimoveis-com-br",
+  "mode": "dna",
+  "startedAt": "2026-09-21T12:58:21.499Z",
+  "completedAt": "2026-09-21T12:58:34.374Z",
+  "stages": [
+    {
+      "name": "detect",
+      "status": "passed",
+      "startedAt": "2026-09-21T12:58:21.500Z",
+      "completedAt": "2026-09-21T12:58:26.259Z"
+    },
+    {
+      "name": "extract-design-dna",
+      "status": "passed",
+      "startedAt": "2026-09-21T12:58:26.262Z",
+      "completedAt": "2026-09-21T12:58:34.307Z"
+    },
+    {
+      "name": "generate-styleguide",
+      "status": "passed",
+      "startedAt": "2026-09-21T12:58:34.308Z",
+      "completedAt": "2026-09-21T12:58:34.314Z"
+    },
+    {
+      "name": "generate-master-spec",
+      "status": "passed",
+      "startedAt": "2026-09-21T12:58:34.318Z",
+      "completedAt": "2026-09-21T12:58:34.359Z"
+    },
+    {
+      "name": "generate-asset-manifest",
+      "status": "passed",
+      "startedAt": "2026-09-21T12:58:34.361Z",
+      "completedAt": "2026-09-21T12:58:34.368Z"
+    },
+    {
+      "name": "generate-prompt-catalog",
+      "status": "passed",
+      "startedAt": "2026-09-21T12:58:34.369Z",
+      "completedAt": "2026-09-21T12:58:34.373Z"
+    }
+  ]
+}

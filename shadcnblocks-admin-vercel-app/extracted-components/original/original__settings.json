@@ -1,0 +1,59 @@
+{
+  "route": "/original/settings",
+  "title": "Original App",
+  "cardsCount": 4,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 2,
+      "title": "",
+      "snippet": "Your application is currently on the free plan\n\nPaid plans offer higher usage limits, additional branches,and much more.Learn more here\n\nChat to us\nUpgrade",
+      "hasChart": true,
+      "hasTable": false
+    },
+    {
+      "id": 3,
+      "title": "",
+      "snippet": "Remove Account\n\nYou can do 'Disable account' to take a break from panel.\n\nDeactivate Account\nDelete Account",
+      "hasChart": false,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 4,
+  "inputsSample": [
+    {
+      "type": "file",
+      "placeholder": "Company Logo",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": "Inter\nManrope\nSystem"
+    },
+    {
+      "type": "text",
+      "placeholder": "Business Tax ID",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "Business Address",
+      "label": ""
+    }
+  ],
+  "htmlSnapshot": ""
+}

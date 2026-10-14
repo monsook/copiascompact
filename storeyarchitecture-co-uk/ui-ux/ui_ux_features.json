@@ -1,0 +1,79 @@
+{
+  "gsap": {
+    "detected": false,
+    "version": null,
+    "hasScrollTrigger": false,
+    "scrollTriggerInstances": 0,
+    "tweensCount": 0,
+    "plugins": [],
+    "timelines": []
+  },
+  "lenis": {
+    "detected": true,
+    "config": null
+  },
+  "microInteractions": {
+    "magneticButtons": [
+      {
+        "tag": "a",
+        "text": "",
+        "selector": ".pointer-events-none.absolute.inset-0"
+      },
+      {
+        "tag": "a",
+        "text": "",
+        "selector": ".pointer-events-none.absolute.inset-0"
+      },
+      {
+        "tag": "a",
+        "text": "",
+        "selector": ".pointer-events-none.absolute.inset-0"
+      },
+      {
+        "tag": "a",
+        "text": "",
+        "selector": ".pointer-events-none.absolute.inset-0"
+      },
+      {
+        "tag": "a",
+        "text": "",
+        "selector": ".pointer-events-none.absolute.inset-0"
+      },
+      {
+        "tag": "a",
+        "text": "",
+        "selector": ".pointer-events-none.absolute.inset-0"
+      },
+      {
+        "tag": "a",
+        "text": "",
+        "selector": ".pointer-events-none.absolute.inset-0"
+      },
+      {
+        "tag": "a",
+        "text": "",
+        "selector": ".pointer-events-none.absolute.inset-0"
+      }
+    ],
+    "tiltCards": [],
+    "spotlightElements": [],
+    "textScramble": false
+  },
+  "webglCanvas": {
+    "canvasCount": 0,
+    "hasThreeJs": false,
+    "shadersCount": 0,
+    "shaders": []
+  },
+  "typography": {
+    "splitTextDetected": false,
+    "variableFonts": [],
+    "marqueesCount": 0
+  },
+  "cssEffects": {
+    "keyframes": [],
+    "glassmorphism": false,
+    "clipPaths": [],
+    "svgFilters": []
+  }
+}

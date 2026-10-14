@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design System & Styleguide - DNA Inspector</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #0b0f19;
+      --card-bg: #111827;
+      --card-border: #1f2937;
+      --text-color: #f3f4f6;
+      --text-muted: #9ca3af;
+      --accent: #3b82f6;
+      --accent-glow: rgba(59, 130, 246, 0.2);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      padding: 40px 20px;
+      line-height: 1.6;
+    }
+    .container { max-width: 1200px; margin: 0 auto; }
+    header {
+      margin-bottom: 40px;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 20px;
+    }
+    h1 { font-size: 2.2rem; font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .subtitle { color: var(--text-muted); font-size: 1.1rem; }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 32px;
+    }
+    .card h2 { font-size: 1.3rem; margin-bottom: 20px; color: #fff; border-bottom: 1px solid var(--card-border); padding-bottom: 10px; }
+    .color-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+    }
+    .color-card {
+      background: #1e293b;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--card-border);
+    }
+    .color-preview { height: 90px; width: 100%; }
+    .color-info { padding: 12px; }
+    .color-name { display: block; font-weight: 600; font-size: 0.85rem; color: #fff; margin-bottom: 4px; word-break: break-all; }
+    .color-val { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--text-muted); }
+    table { width: 100%; border-collapse: collapse; text-align: left; }
+    th, td { padding: 12px; border-bottom: 1px solid var(--card-border); }
+    th { font-size: 0.85rem; text-transform: uppercase; color: var(--text-muted); }
+    code { font-family: 'JetBrains Mono', monospace; background: #1e293b; padding: 2px 6px; border-radius: 4px; font-size: 0.85rem; }
+    .sections-grid { display: flex; flex-direction: column; gap: 12px; }
+    .section-card {
+      display: flex;
+      align-items: center;
+      background: #1e293b;
+      padding: 14px 18px;
+      border-radius: 8px;
+      border: 1px solid var(--card-border);
+      gap: 16px;
+    }
+    .section-badge {
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .section-details { flex-grow: 1; }
+    .sec-id { color: var(--accent); font-family: 'JetBrains Mono', monospace; font-size: 0.9rem; }
+    .classes-list { font-size: 0.8rem; color: var(--text-muted); margin-top: 2px; }
+    .sec-text { font-size: 0.85rem; color: #cbd5e1; font-style: italic; margin-top: 4px; }
+    .section-height { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--text-muted); flex-shrink: 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎨 Design System & Styleguide</h1>
+      <p class="subtitle">Especificação compilada automaticamente a partir da extração do Design DNA.</p>
+    </header>
+
+    <div class="card">
+      <h2>1. Cores & Design Tokens</h2>
+      <div class="color-grid">
+          <div class="color-card">
+            <div class="color-preview" style="background-color: white;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--white</span>
+              <span class="color-val">white</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #686868;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--deep-gray</span>
+              <span class="color-val">#686868</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #090909;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--simple-black</span>
+              <span class="color-val">#090909</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #fffcf2;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--calming-white</span>
+              <span class="color-val">#fffcf2</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #fff0;"></div>
+            <div class="color-info">
+              <span class="color-name">--color-shades--transparent</span>
+              <span class="color-val">#fff0</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #ffc552;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--primary</span>
+              <span class="color-val">#ffc552</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #cecac24d;"></div>
+            <div class="color-info">
+              <span class="color-name">--color-shades--pastel-grey-30</span>
+              <span class="color-val">#cecac24d</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #0000001a;"></div>
+            <div class="color-info">
+              <span class="color-name">--color-shades--black-10</span>
+              <span class="color-val">#0000001a</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #e5e2d9;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--plaster-of-paris</span>
+              <span class="color-val">#e5e2d9</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #09090980;"></div>
+            <div class="color-info">
+              <span class="color-name">--color-shades--simple-black-50</span>
+              <span class="color-val">#09090980</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #fffcf5;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--cottage-cheese</span>
+              <span class="color-val">#fffcf5</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #0e1c29;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--mirage</span>
+              <span class="color-val">#0e1c29</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #999690;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--vintage-gray</span>
+              <span class="color-val">#999690</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #fff9e5;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--early-dawn</span>
+              <span class="color-val">#fff9e5</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #e21616;"></div>
+            <div class="color-info">
+              <span class="color-name">--error--color</span>
+              <span class="color-val">#e21616</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #b2cbdc;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--tartan-clear-blue</span>
+              <span class="color-val">#b2cbdc</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #ffffff4d;"></div>
+            <div class="color-info">
+              <span class="color-name">--color-shades--white-30</span>
+              <span class="color-val">#ffffff4d</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #a3a3a3;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--new-gray</span>
+              <span class="color-val">#a3a3a3</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #c3c5ca;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--haze</span>
+              <span class="color-val">#c3c5ca</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #f9f9f9;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--hint-of-red</span>
+              <span class="color-val">#f9f9f9</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #fffcf7;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--sour-cream</span>
+              <span class="color-val">#fffcf7</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #efebe5;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--platinum-dust</span>
+              <span class="color-val">#efebe5</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #fff7e8;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--cosmic-latte</span>
+              <span class="color-val">#fff7e8</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #cecac2;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--pastel-grey</span>
+              <span class="color-val">#cecac2</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #858585;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--gunsmoke</span>
+              <span class="color-val">#858585</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #5c5c5c;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--dravit-grey</span>
+              <span class="color-val">#5c5c5c</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #6f6f80;"></div>
+            <div class="color-info">
+              <span class="color-name">--colors--heather</span>
+              <span class="color-val">#6f6f80</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #ffc5520d;"></div>
+            <div class="color-info">
+              <span class="color-name">--color-shades--primary-5</span>
+              <span class="color-val">#ffc5520d</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #ffffff1a;"></div>
+            <div class="color-info">
+              <span class="color-name">--color-shades--white-10</span>
+              <span class="color-val">#ffffff1a</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #ffffffe6;"></div>
+            <div class="color-info">
+              <span class="color-name">--color-shades--white-90</span>
+              <span class="color-val">#ffffffe6</span>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="card">
+      <h2>2. Escala Tipográfica Computada</h2>
+      <div style="overflow-x: auto;">
+        <table>
+          <thead>
+            <tr><th>Elemento</th><th>Visualização</th><th>Font Family</th><th>Size</th><th>Weight</th><th>Line Height</th></tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td><strong>H1</strong></td>
+          <td>
+            <div style="font-family: Anton, sans-serif; font-size: 320px; font-weight: 400; line-height: 288px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>Anton, sans-serif</code></td>
+          <td>320px</td>
+          <td>400</td>
+          <td>288px</td>
+        </tr>
+      
+        <tr>
+          <td><strong>H2</strong></td>
+          <td>
+            <div style="font-family: Inter, sans-serif; font-size: 44px; font-weight: 600; line-height: 61.6px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>Inter, sans-serif</code></td>
+          <td>44px</td>
+          <td>600</td>
+          <td>61.6px</td>
+        </tr>
+      
+        <tr>
+          <td><strong>H3</strong></td>
+          <td>
+            <div style="font-family: Inter, sans-serif; font-size: 24px; font-weight: 600; line-height: 28.8px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>Inter, sans-serif</code></td>
+          <td>24px</td>
+          <td>600</td>
+          <td>28.8px</td>
+        </tr>
+      
+        <tr>
+          <td><strong>PARAGRAPH</strong></td>
+          <td>
+            <div style="font-family: Inter, sans-serif; font-size: 20px; font-weight: 400; line-height: 28px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>Inter, sans-serif</code></td>
+          <td>20px</td>
+          <td>400</td>
+          <td>28px</td>
+        </tr>
+      
+        <tr>
+          <td><strong>BUTTON</strong></td>
+          <td>
+            <div style="font-family: Inter, sans-serif; font-size: 20px; font-weight: 500; line-height: 16px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>Inter, sans-serif</code></td>
+          <td>20px</td>
+          <td>500</td>
+          <td>16px</td>
+        </tr>
+      </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>3. Arquitetura & Seções Mapeadas</h2>
+      <div class="sections-grid">
+        <div class="section-card">
+          <div class="section-badge">1</div>
+          <div class="section-details">
+            <h4>&lt;nav&gt; <span class="sec-id">#nav-1</span></h4>
+            <p class="classes-list">Classes: <code>section, navbar, w-variant-ef739076-0998-6507-f8c5-80c7b86de609</code></p>
+            <p class="sec-text">"Home Home About About Services Services Insights Insights Review Review CONTACT US CONTACT US..."</p>
+          </div>
+          <div class="section-height">108px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">2</div>
+          <div class="section-details">
+            <h4>&lt;main&gt; <span class="sec-id">#main-2</span></h4>
+            <p class="classes-list">Classes: <code>main-wrapper</code></p>
+            <p class="sec-text">"SEO THAT CONVERTS Boost traffic, leads, and revenue with SEO. About us We’re a results-driven SEO ag..."</p>
+          </div>
+          <div class="section-height">14714px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">3</div>
+          <div class="section-details">
+            <h4>&lt;header&gt; <span class="sec-id">#home</span></h4>
+            <p class="classes-list">Classes: <code>section, hero</code></p>
+            <p class="sec-text">"SEO THAT CONVERTS Boost traffic, leads, and revenue with SEO...."</p>
+          </div>
+          <div class="section-height">894px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">4</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-4</span></h4>
+            <p class="classes-list">Classes: <code>section, logo</code></p>
+            
+          </div>
+          <div class="section-height">174px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">5</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#about</span></h4>
+            <p class="classes-list">Classes: <code>section, about</code></p>
+            <p class="sec-text">"About us We’re a results-driven SEO agency helping businesses grow traffic, boost rankings, and achi..."</p>
+          </div>
+          <div class="section-height">570px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">6</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-6</span></h4>
+            <p class="classes-list">Classes: <code>section, result</code></p>
+            <p class="sec-text">"OUR RESULT OUR RESULT  Results-driven SEO agency increasing traffic, rankings, and qualified leads. ..."</p>
+          </div>
+          <div class="section-height">960px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">7</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-7</span></h4>
+            <p class="classes-list">Classes: <code>section, value</code></p>
+            <p class="sec-text">"CHOOSE US CHOOSE US  Increasing traffic, rankings, and qualified leads.  Proven Results  Enhance you..."</p>
+          </div>
+          <div class="section-height">1072px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">8</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#services</span></h4>
+            <p class="classes-list">Classes: <code>section, service</code></p>
+            <p class="sec-text">"OUR SERVICES OUR SERVICES  Boost your site's reach and draw in the right audience with our SEO exper..."</p>
+          </div>
+          <div class="section-height">1894px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">9</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-9</span></h4>
+            <p class="classes-list">Classes: <code>section, pricing</code></p>
+            <p class="sec-text">"PRICING PLAN PRICING PLAN  Increasing visitors, enhancing search positions, and drawing in targeted ..."</p>
+          </div>
+          <div class="section-height">887px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">10</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#insights</span></h4>
+            <p class="classes-list">Classes: <code>section, insights</code></p>
+            <p class="sec-text">"SEO INSIGHTS SEO INSIGHTS April 10, 2026 Click SEO Performance Tracsking March 27, 2026 Click On-Pag..."</p>
+          </div>
+          <div class="section-height">4660px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">11</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#review</span></h4>
+            <p class="classes-list">Classes: <code>section, review</code></p>
+            <p class="sec-text">"CLIENT REVIEW CLIENT REVIEW David Carter Ecom Owner Sarah Mitchell SaaS Founder M. Thompson Startup ..."</p>
+          </div>
+          <div class="section-height">864px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">12</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-12</span></h4>
+            <p class="classes-list">Classes: <code>section, faq</code></p>
+            <p class="sec-text">"SEO QUERIE SEO QUERIE  Strategic SEO built to increase rankings and conversions.  Guaranteed #1 Rank..."</p>
+          </div>
+          <div class="section-height">1046px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">13</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-13</span></h4>
+            <p class="classes-list">Classes: <code>section, newsletter</code></p>
+            <p class="sec-text">"SUBSCRIBE FOR EXPERT SEO EXPERT SEO TIPS SUBSCRIBE FOR EXPERT SEO EXPERT SEO TIPS SUBSCRIBE FOR EXPE..."</p>
+          </div>
+          <div class="section-height">540px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">14</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#contact</span></h4>
+            <p class="classes-list">Classes: <code>section, contact</code></p>
+            <p class="sec-text">"CONTACT US CONTACT US SUBMIT NOW SUBMIT NOW..."</p>
+          </div>
+          <div class="section-height">1154px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">15</div>
+          <div class="section-details">
+            <h4>&lt;footer&gt; <span class="sec-id">#footer-15</span></h4>
+            <p class="classes-list">Classes: <code>section, footer</code></p>
+            <p class="sec-text">"ACILAV Style Guide Licence Changelog 404 Password Explore Home About Services Insights Contact Conta..."</p>
+          </div>
+          <div class="section-height">1641px</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

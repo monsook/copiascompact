@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "status": "completed",
+  "url": "https://likova.space/",
+  "siteName": "likova-space",
+  "mode": "all",
+  "startedAt": "2026-09-18T18:03:14.921Z",
+  "completedAt": "2026-09-18T18:04:11.213Z",
+  "stages": [
+    {
+      "name": "detect",
+      "status": "passed",
+      "startedAt": "2026-09-18T18:03:14.922Z",
+      "completedAt": "2026-09-18T18:03:27.940Z"
+    },
+    {
+      "name": "clone",
+      "status": "passed",
+      "startedAt": "2026-09-18T18:03:27.941Z",
+      "completedAt": "2026-09-18T18:03:41.138Z"
+    },
+    {
+      "name": "normalize-assets",
+      "status": "passed",
+      "startedAt": "2026-09-18T18:03:41.138Z",
+      "completedAt": "2026-09-18T18:03:41.274Z"
+    },
+    {
+      "name": "extract-design-dna",
+      "status": "passed",
+      "startedAt": "2026-09-18T18:03:41.275Z",
+      "completedAt": "2026-09-18T18:03:54.160Z"
+    },
+    {
+      "name": "generate-styleguide",
+      "status": "passed",
+      "startedAt": "2026-09-18T18:03:54.161Z",
+      "completedAt": "2026-09-18T18:03:54.166Z"
+    },
+    {
+      "name": "extract-ui-ux",
+      "status": "passed",
+      "startedAt": "2026-09-18T18:03:54.167Z",
+      "completedAt": "2026-09-18T18:04:11.193Z"
+    },
+    {
+      "name": "generate-master-spec",
+      "status": "passed",
+      "startedAt": "2026-09-18T18:04:11.194Z",
+      "completedAt": "2026-09-18T18:04:11.205Z"
+    },
+    {
+      "name": "generate-asset-manifest",
+      "status": "passed",
+      "startedAt": "2026-09-18T18:04:11.206Z",
+      "completedAt": "2026-09-18T18:04:11.211Z"
+    },
+    {
+      "name": "generate-prompt-catalog",
+      "status": "passed",
+      "startedAt": "2026-09-18T18:04:11.211Z",
+      "completedAt": "2026-09-18T18:04:11.212Z"
+    }
+  ]
+}

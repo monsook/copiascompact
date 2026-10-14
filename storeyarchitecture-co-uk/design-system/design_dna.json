@@ -1,0 +1,79 @@
+{
+  "colors": {
+    "variables": {
+      "--color-primary": "255 255 255",
+      "--color-secondary": "0 0 0",
+      "--color-form": "254 254 254",
+      "--color-formSecondary": "61 61 61",
+      "--font-sans": "\"New Grotesk\",system-ui,sans-serif",
+      "--font-mono": "\"New Grotesk Mono\",ui-monospace,monospace"
+    },
+    "defaults": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)"
+    }
+  },
+  "typography": {
+    "h1": {
+      "fontFamily": "\"New Grotesk\", system-ui, sans-serif",
+      "fontSize": "153.6px",
+      "fontWeight": "500",
+      "lineHeight": "153.6px",
+      "letterSpacing": "-3%",
+      "color": "rgb(255, 255, 255)"
+    },
+    "paragraph": {
+      "fontFamily": "\"New Grotesk\", system-ui, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "16px",
+      "letterSpacing": "-3%",
+      "color": "rgb(61, 61, 61)"
+    },
+    "button": {
+      "fontFamily": "\"New Grotesk\", system-ui, sans-serif",
+      "fontSize": "21.12px",
+      "fontWeight": "400",
+      "lineHeight": "21.12px",
+      "letterSpacing": "-3%",
+      "color": "rgb(61, 61, 61)"
+    }
+  },
+  "sections": [
+    {
+      "id": "transition-overlay",
+      "tag": "div",
+      "classes": [
+        "w-full",
+        "h-screen",
+        "bg-black",
+        "fixed",
+        "top-0",
+        "left-0",
+        "z-[999999]",
+        "opacity-100",
+        "pointer-events-none"
+      ],
+      "approxHeight": 1080,
+      "summaryText": ""
+    },
+    {
+      "id": "div-2",
+      "tag": "div",
+      "classes": [
+        "h-fit"
+      ],
+      "approxHeight": 18614,
+      "summaryText": "Storey Projects Studio Journal Contact Storey Projects Studio Journal Contact Storey designs contemp"
+    }
+  ],
+  "detectedScripts": [
+    "https://www.storeyarchitecture.co.uk/js/script.js",
+    "https://www.storeyarchitecture.co.uk/_nuxt/BV5TILUP.js"
+  ],
+  "detectedCSS": [
+    "https://www.storeyarchitecture.co.uk/_nuxt/entry.BKewY8MT.css",
+    "https://www.storeyarchitecture.co.uk/_nuxt/usePageSeo.DXu_W-RH.css",
+    "https://www.storeyarchitecture.co.uk/_nuxt/studio.BgaQnxmd.css"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "route": "/original/settings/billing",
+  "title": "Original App",
+  "cardsCount": 2,
+  "cards": [
+    {
+      "id": 0,
+      "title": "",
+      "snippet": "",
+      "hasChart": false,
+      "hasTable": false
+    },
+    {
+      "id": 1,
+      "title": "",
+      "snippet": "Default",
+      "hasChart": true,
+      "hasTable": false
+    }
+  ],
+  "inputsCount": 9,
+  "inputsSample": [
+    {
+      "type": "text",
+      "placeholder": "Enter username",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "Enter City",
+      "label": ""
+    },
+    {
+      "type": "radio",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "radio",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "radio",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "Enter Card No",
+      "label": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": "January\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember"
+    },
+    {
+      "type": "text",
+      "placeholder": "",
+      "label": "2026\n2027\n2028\n2029\n2030\n2031\n2032\n2033\n2034\n2035"
+    },
+    {
+      "type": "text",
+      "placeholder": "CVC",
+      "label": ""
+    }
+  ],
+  "htmlSnapshot": ""
+}

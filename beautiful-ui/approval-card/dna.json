@@ -1,0 +1,222 @@
+{
+  "dnaVersion": "1.0.0",
+  "identity": {
+    "id": "bui-approval-card-01",
+    "semanticName": "ActionApprovalCard",
+    "suggestedArchetype": "ApprovalGate"
+  },
+  "provenance": {
+    "corpusHash": "f4e3d2c1b0a987654321fedcba0987654321fedcba0987654321fedcba098765",
+    "sourceProvider": "beautiful-ui",
+    "sourceUrl": "https://beautiful.design/components/approval-card",
+    "capturedAt": "2026-10-05T16:30:00Z",
+    "licensePolicy": "REFERENCE_ONLY"
+  },
+  "epistemology": {
+    "anatomy": "OBSERVED",
+    "geometryConstraints.relations": "OBSERVED",
+    "stateMachine.states": "OBSERVED",
+    "motionDynamics.transitions": "OBSERVED",
+    "accessibilityContract": "DERIVED"
+  },
+  "epistemologicalConfidence": {
+    "confidenceLevel": "OBSERVED",
+    "sources": [
+      "cdp.dom",
+      "css.computed_styles",
+      "aom.ax_tree"
+    ]
+  },
+  "anatomy": {
+    "rootRole": "ApprovalCardRoot",
+    "subcomponents": [
+      {
+        "role": "ToolSummaryHeader",
+        "optional": false,
+        "children": [
+          {
+            "role": "ToolIcon",
+            "optional": false,
+            "children": []
+          },
+          {
+            "role": "ToolTitle",
+            "optional": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "role": "ActionDiffViewer",
+        "optional": false,
+        "children": [
+          {
+            "role": "DiffContent",
+            "optional": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "role": "ActionDecisionCluster",
+        "optional": false,
+        "children": [
+          {
+            "role": "RejectButton",
+            "optional": false,
+            "children": []
+          },
+          {
+            "role": "ApproveButton",
+            "optional": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "geometryConstraints": {
+    "density": "normal",
+    "layoutMode": "flex-col",
+    "relations": [
+      {
+        "sourceRole": "ToolSummaryHeader",
+        "targetRole": "ApprovalCardRoot",
+        "constraintType": "align-start",
+        "valueToken": "spacing.0"
+      },
+      {
+        "sourceRole": "ActionDiffViewer",
+        "targetRole": "ToolSummaryHeader",
+        "constraintType": "stacked-below",
+        "valueToken": "spacing.md"
+      },
+      {
+        "sourceRole": "ActionDecisionCluster",
+        "targetRole": "ApprovalCardRoot",
+        "constraintType": "pin-bottom",
+        "valueToken": "spacing.0"
+      }
+    ],
+    "breakpoints": {
+      "mobile": {
+        "padding": "spacing.sm"
+      },
+      "desktop": {
+        "padding": "spacing.md"
+      }
+    }
+  },
+  "relativeGeometryConstraints": [
+    {
+      "sourceRole": "ToolSummaryHeader",
+      "targetRole": "ApprovalCardRoot",
+      "constraintType": "align-start",
+      "valueToken": "spacing.0"
+    },
+    {
+      "sourceRole": "ActionDiffViewer",
+      "targetRole": "ToolSummaryHeader",
+      "constraintType": "stacked-below",
+      "valueToken": "spacing.md"
+    },
+    {
+      "sourceRole": "ActionDecisionCluster",
+      "targetRole": "ApprovalCardRoot",
+      "constraintType": "pin-bottom",
+      "valueToken": "spacing.0"
+    }
+  ],
+  "tokens": {
+    "colorRoles": {
+      "surface": "color.neutral.50",
+      "danger": "color.red.600",
+      "success": "color.green.600",
+      "border": "color.neutral.200"
+    },
+    "spacingScale": [
+      4,
+      8,
+      12,
+      16,
+      24
+    ],
+    "typographyHierarchy": {
+      "headerText": {
+        "fontSize": "16px",
+        "lineHeight": "1.4"
+      },
+      "diffText": {
+        "fontSize": "13px",
+        "lineHeight": "1.5"
+      }
+    },
+    "radius": "radius.xl"
+  },
+  "stateMachine": {
+    "initialState": "pending_review",
+    "states": [
+      "pending_review",
+      "inspecting_diff",
+      "approved",
+      "rejected"
+    ],
+    "transitions": [
+      {
+        "from": "pending_review",
+        "to": "inspecting_diff",
+        "trigger": "TOGGLE_DIFF_VIEW"
+      },
+      {
+        "from": "pending_review",
+        "to": "approved",
+        "trigger": "CONFIRM_APPROVAL"
+      },
+      {
+        "from": "pending_review",
+        "to": "rejected",
+        "trigger": "CONFIRM_REJECTION"
+      },
+      {
+        "from": "inspecting_diff",
+        "to": "approved",
+        "trigger": "CONFIRM_APPROVAL"
+      },
+      {
+        "from": "inspecting_diff",
+        "to": "rejected",
+        "trigger": "CONFIRM_REJECTION"
+      }
+    ]
+  },
+  "motionDynamics": {
+    "transitions": [
+      {
+        "targetRole": "ApprovalCardRoot",
+        "property": "scale",
+        "curveType": "spring",
+        "durationMs": 160,
+        "curveParams": {
+          "stiffness": 260,
+          "damping": 22,
+          "mass": 1
+        }
+      }
+    ],
+    "reducedMotionFallback": "fade-only"
+  },
+  "accessibilityContract": {
+    "ariaRole": "alertdialog",
+    "keyboardInteractions": {
+      "Escape": "Reject or close action",
+      "Enter": "Approve focused action"
+    },
+    "focusManagement": "trap"
+  },
+  "dependencies": [
+    {
+      "name": "framer-motion",
+      "classification": "replaceable"
+    }
+  ]
+}

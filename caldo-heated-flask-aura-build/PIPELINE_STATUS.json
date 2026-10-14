@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "status": "completed",
+  "url": "https://caldo-heated-flask.aura.build/",
+  "siteName": "caldo-heated-flask-aura-build",
+  "mode": "all",
+  "startedAt": "2026-09-25T17:03:20.790Z",
+  "completedAt": "2026-09-25T17:05:36.068Z",
+  "stages": [
+    {
+      "name": "detect",
+      "status": "passed",
+      "startedAt": "2026-09-25T17:03:20.791Z",
+      "completedAt": "2026-09-25T17:04:07.801Z"
+    },
+    {
+      "name": "clone",
+      "status": "passed",
+      "startedAt": "2026-09-25T17:04:07.801Z",
+      "completedAt": "2026-09-25T17:05:23.702Z"
+    },
+    {
+      "name": "normalize-assets",
+      "status": "passed",
+      "startedAt": "2026-09-25T17:05:23.703Z",
+      "completedAt": "2026-09-25T17:05:24.064Z"
+    },
+    {
+      "name": "extract-design-dna",
+      "status": "passed",
+      "startedAt": "2026-09-25T17:05:24.065Z",
+      "completedAt": "2026-09-25T17:05:31.576Z"
+    },
+    {
+      "name": "generate-styleguide",
+      "status": "passed",
+      "startedAt": "2026-09-25T17:05:31.577Z",
+      "completedAt": "2026-09-25T17:05:31.581Z"
+    },
+    {
+      "name": "extract-ui-ux",
+      "status": "passed",
+      "startedAt": "2026-09-25T17:05:31.582Z",
+      "completedAt": "2026-09-25T17:05:36.051Z"
+    },
+    {
+      "name": "generate-master-spec",
+      "status": "passed",
+      "startedAt": "2026-09-25T17:05:36.052Z",
+      "completedAt": "2026-09-25T17:05:36.062Z"
+    },
+    {
+      "name": "generate-asset-manifest",
+      "status": "passed",
+      "startedAt": "2026-09-25T17:05:36.062Z",
+      "completedAt": "2026-09-25T17:05:36.066Z"
+    },
+    {
+      "name": "generate-prompt-catalog",
+      "status": "passed",
+      "startedAt": "2026-09-25T17:05:36.066Z",
+      "completedAt": "2026-09-25T17:05:36.067Z"
+    }
+  ]
+}

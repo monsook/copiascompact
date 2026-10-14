@@ -1,0 +1,76 @@
+{
+  "colors": {
+    "variables": {
+      "--swiper-theme-color": "#007aff"
+    },
+    "defaults": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)"
+    }
+  },
+  "typography": {
+    "h1": {
+      "fontFamily": "__moderat_3f51ce, __moderat_Fallback_3f51ce",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(72, 58, 151)"
+    },
+    "paragraph": {
+      "fontFamily": "__moderat_3f51ce, __moderat_Fallback_3f51ce",
+      "fontSize": "18px",
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(72, 58, 151)"
+    },
+    "button": {
+      "fontFamily": "Arial",
+      "fontSize": "0px",
+      "fontWeight": "400",
+      "lineHeight": "0px",
+      "letterSpacing": "normal",
+      "color": "rgba(0, 0, 0, 0)"
+    }
+  },
+  "sections": [
+    {
+      "id": "footer-2",
+      "tag": "footer",
+      "classes": [
+        "footer-wrapper"
+      ],
+      "approxHeight": 1091,
+      "summaryText": "Friends let friends know about affordable supplements Range Our Products Where to Buy Learn About Us"
+    }
+  ],
+  "detectedScripts": [
+    "https://cdn.cookiehub.eu/c2/386d47d6.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-WZKNQRH",
+    "https://www.habitsupps.com/_next/static/chunks/fd9d1056-9a5a8824340eaa65.js",
+    "https://www.habitsupps.com/_next/static/chunks/23-87371d5a35a89737.js",
+    "https://www.habitsupps.com/_next/static/chunks/main-app-693d2cd1d3938aa5.js",
+    "https://www.habitsupps.com/_next/static/chunks/30-af06f023b80c9c98.js",
+    "https://www.habitsupps.com/_next/static/chunks/239-0536ada6844878b5.js",
+    "https://www.habitsupps.com/_next/static/chunks/546-d2e1a22ba4df00b9.js",
+    "https://www.habitsupps.com/_next/static/chunks/800-d0e64252807469b1.js",
+    "https://www.habitsupps.com/_next/static/chunks/app/%5Blang%5D/layout-909a4961388ea574.js",
+    "https://www.habitsupps.com/_next/static/chunks/923-507fe2dd5c7024ad.js",
+    "https://www.habitsupps.com/_next/static/chunks/app/%5Blang%5D/not-found-aff7dd30ffb9b087.js",
+    "https://www.habitsupps.com/_next/static/chunks/e8686b1f-13185e9da4c7dbf4.js",
+    "https://www.habitsupps.com/_next/static/chunks/805-3923325d13685558.js",
+    "https://www.habitsupps.com/_next/static/chunks/5-e89fa1f98635381c.js",
+    "https://www.habitsupps.com/_next/static/chunks/app/%5Blang%5D/product/%5Bid%5D/page-ac2d7078db11bab9.js",
+    "https://www.habitsupps.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+    "https://static.elfsight.com/apps/instashow/stable/0a484bc561902694bd8eb5ce1cc0fb32ed86c629/app/instashow.js",
+    "https://www.habitsupps.com/_next/static/chunks/webpack-0e0b94fb9ca9f7d7.js",
+    "https://apps.elfsight.com/p/platform.js"
+  ],
+  "detectedCSS": [
+    "https://www.habitsupps.com/_next/static/css/8bd83ccf3c8721a6.css",
+    "https://www.habitsupps.com/_next/static/css/af805e9051f2c5b8.css",
+    "https://www.habitsupps.com/_next/static/css/65340e56a388e6ff.css",
+    "https://cookiehub.net/c2/css/386d47d6.css"
+  ]
+}

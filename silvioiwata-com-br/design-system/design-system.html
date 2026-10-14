@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design System & Styleguide - DNA Inspector</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #0b0f19;
+      --card-bg: #111827;
+      --card-border: #1f2937;
+      --text-color: #f3f4f6;
+      --text-muted: #9ca3af;
+      --accent: #3b82f6;
+      --accent-glow: rgba(59, 130, 246, 0.2);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      padding: 40px 20px;
+      line-height: 1.6;
+    }
+    .container { max-width: 1200px; margin: 0 auto; }
+    header {
+      margin-bottom: 40px;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 20px;
+    }
+    h1 { font-size: 2.2rem; font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .subtitle { color: var(--text-muted); font-size: 1.1rem; }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 32px;
+    }
+    .card h2 { font-size: 1.3rem; margin-bottom: 20px; color: #fff; border-bottom: 1px solid var(--card-border); padding-bottom: 10px; }
+    .color-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+    }
+    .color-card {
+      background: #1e293b;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--card-border);
+    }
+    .color-preview { height: 90px; width: 100%; }
+    .color-info { padding: 12px; }
+    .color-name { display: block; font-weight: 600; font-size: 0.85rem; color: #fff; margin-bottom: 4px; word-break: break-all; }
+    .color-val { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--text-muted); }
+    table { width: 100%; border-collapse: collapse; text-align: left; }
+    th, td { padding: 12px; border-bottom: 1px solid var(--card-border); }
+    th { font-size: 0.85rem; text-transform: uppercase; color: var(--text-muted); }
+    code { font-family: 'JetBrains Mono', monospace; background: #1e293b; padding: 2px 6px; border-radius: 4px; font-size: 0.85rem; }
+    .sections-grid { display: flex; flex-direction: column; gap: 12px; }
+    .section-card {
+      display: flex;
+      align-items: center;
+      background: #1e293b;
+      padding: 14px 18px;
+      border-radius: 8px;
+      border: 1px solid var(--card-border);
+      gap: 16px;
+    }
+    .section-badge {
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .section-details { flex-grow: 1; }
+    .sec-id { color: var(--accent); font-family: 'JetBrains Mono', monospace; font-size: 0.9rem; }
+    .classes-list { font-size: 0.8rem; color: var(--text-muted); margin-top: 2px; }
+    .sec-text { font-size: 0.85rem; color: #cbd5e1; font-style: italic; margin-top: 4px; }
+    .section-height { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--text-muted); flex-shrink: 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎨 Design System & Styleguide</h1>
+      <p class="subtitle">Especificação compilada automaticamente a partir da extração do Design DNA.</p>
+    </header>
+
+    <div class="card">
+      <h2>1. Cores & Design Tokens</h2>
+      <div class="color-grid">
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #ffffff;"></div>
+            <div class="color-info">
+              <span class="color-name">--cor-font-topo</span>
+              <span class="color-val">#ffffff</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #056d33;"></div>
+            <div class="color-info">
+              <span class="color-name">--cor-button</span>
+              <span class="color-val">#056d33</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #ffffff;"></div>
+            <div class="color-info">
+              <span class="color-name">--cor-font-pesquisa</span>
+              <span class="color-val">#ffffff</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #ffffff;"></div>
+            <div class="color-info">
+              <span class="color-name">--cor-footer-font</span>
+              <span class="color-val">#ffffff</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #055227;"></div>
+            <div class="color-info">
+              <span class="color-name">--cor-primaria</span>
+              <span class="color-val">#055227</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #8dbc2a;"></div>
+            <div class="color-info">
+              <span class="color-name">--cor-secundaria</span>
+              <span class="color-val">#8dbc2a</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #ffffff;"></div>
+            <div class="color-info">
+              <span class="color-name">--cor-terciaria</span>
+              <span class="color-val">#ffffff</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: rgba(0, 80, 35, 0.8);"></div>
+            <div class="color-info">
+              <span class="color-name">--cor-topo</span>
+              <span class="color-val">rgba(0, 80, 35, 0.8)</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: rgba(0, 80, 35, 1);"></div>
+            <div class="color-info">
+              <span class="color-name">--cor-topo2</span>
+              <span class="color-val">rgba(0, 80, 35, 1)</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: rgba(5, 82, 39, 0.8);"></div>
+            <div class="color-info">
+              <span class="color-name">--cor-primaria-transparente</span>
+              <span class="color-val">rgba(5, 82, 39, 0.8)</span>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="card">
+      <h2>2. Escala Tipográfica Computada</h2>
+      <div style="overflow-x: auto;">
+        <table>
+          <thead>
+            <tr><th>Elemento</th><th>Visualização</th><th>Font Family</th><th>Size</th><th>Weight</th><th>Line Height</th></tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td><strong>H1</strong></td>
+          <td>
+            <div style="font-family: FontOpen, sans-serif; font-size: 50px; font-weight: 400; line-height: 55px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>FontOpen, sans-serif</code></td>
+          <td>50px</td>
+          <td>400</td>
+          <td>55px</td>
+        </tr>
+      
+        <tr>
+          <td><strong>H2</strong></td>
+          <td>
+            <div style="font-family: FontOpen, sans-serif; font-size: 22px; font-weight: 300; line-height: 29.7px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>FontOpen, sans-serif</code></td>
+          <td>22px</td>
+          <td>300</td>
+          <td>29.7px</td>
+        </tr>
+      
+        <tr>
+          <td><strong>H3</strong></td>
+          <td>
+            <div style="font-family: FontOpen, sans-serif; font-size: 24px; font-weight: 500; line-height: 26.4px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>FontOpen, sans-serif</code></td>
+          <td>24px</td>
+          <td>500</td>
+          <td>26.4px</td>
+        </tr>
+      
+        <tr>
+          <td><strong>PARAGRAPH</strong></td>
+          <td>
+            <div style="font-family: FontOpen, sans-serif; font-size: 14px; font-weight: 300; line-height: 18.9px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>FontOpen, sans-serif</code></td>
+          <td>14px</td>
+          <td>300</td>
+          <td>18.9px</td>
+        </tr>
+      
+        <tr>
+          <td><strong>BUTTON</strong></td>
+          <td>
+            <div style="font-family: FontOpen, sans-serif; font-size: 16px; font-weight: 400; line-height: 25.1429px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>FontOpen, sans-serif</code></td>
+          <td>16px</td>
+          <td>400</td>
+          <td>25.1429px</td>
+        </tr>
+      </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>3. Arquitetura & Seções Mapeadas</h2>
+      <div class="sections-grid">
+        <div class="section-card">
+          <div class="section-badge">1</div>
+          <div class="section-details">
+            <h4>&lt;nav&gt; <span class="sec-id">#nav-1</span></h4>
+            <p class="classes-list">Classes: <code>navbar, navbar-expand-sm, bg-dark, navbar-dark</code></p>
+            <p class="sec-text">"Locação Vendas Lançamentos Institucional ATENDIMENTO..."</p>
+          </div>
+          <div class="section-height">55px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">2</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-2</span></h4>
+            <p class="classes-list">Classes: <code>slider, imovel-destaque-launchs, slick-initialized, slick-slider, slick-dotted</code></p>
+            <p class="sec-text">"Previous  Reserva do PortoMaringá - PR  Residencial MartiniMaringá - PR  Forte de ArundelMaringá - P..."</p>
+          </div>
+          <div class="section-height">520px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">3</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-162</span></h4>
+            <p class="classes-list">Classes: <code>slider, imovel-articles, slick-initialized, slick-slider</code></p>
+            <p class="sec-text">"Descubra agora qual é o melhor para você. Veja mais [+] Alugar ou financiar o imóvel? Saiba como a G..."</p>
+          </div>
+          <div class="section-height">336px</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design System & Styleguide - DNA Inspector</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #0b0f19;
+      --card-bg: #111827;
+      --card-border: #1f2937;
+      --text-color: #f3f4f6;
+      --text-muted: #9ca3af;
+      --accent: #3b82f6;
+      --accent-glow: rgba(59, 130, 246, 0.2);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      padding: 40px 20px;
+      line-height: 1.6;
+    }
+    .container { max-width: 1200px; margin: 0 auto; }
+    header {
+      margin-bottom: 40px;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 20px;
+    }
+    h1 { font-size: 2.2rem; font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .subtitle { color: var(--text-muted); font-size: 1.1rem; }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 32px;
+    }
+    .card h2 { font-size: 1.3rem; margin-bottom: 20px; color: #fff; border-bottom: 1px solid var(--card-border); padding-bottom: 10px; }
+    .color-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+    }
+    .color-card {
+      background: #1e293b;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--card-border);
+    }
+    .color-preview { height: 90px; width: 100%; }
+    .color-info { padding: 12px; }
+    .color-name { display: block; font-weight: 600; font-size: 0.85rem; color: #fff; margin-bottom: 4px; word-break: break-all; }
+    .color-val { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--text-muted); }
+    table { width: 100%; border-collapse: collapse; text-align: left; }
+    th, td { padding: 12px; border-bottom: 1px solid var(--card-border); }
+    th { font-size: 0.85rem; text-transform: uppercase; color: var(--text-muted); }
+    code { font-family: 'JetBrains Mono', monospace; background: #1e293b; padding: 2px 6px; border-radius: 4px; font-size: 0.85rem; }
+    .sections-grid { display: flex; flex-direction: column; gap: 12px; }
+    .section-card {
+      display: flex;
+      align-items: center;
+      background: #1e293b;
+      padding: 14px 18px;
+      border-radius: 8px;
+      border: 1px solid var(--card-border);
+      gap: 16px;
+    }
+    .section-badge {
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .section-details { flex-grow: 1; }
+    .sec-id { color: var(--accent); font-family: 'JetBrains Mono', monospace; font-size: 0.9rem; }
+    .classes-list { font-size: 0.8rem; color: var(--text-muted); margin-top: 2px; }
+    .sec-text { font-size: 0.85rem; color: #cbd5e1; font-style: italic; margin-top: 4px; }
+    .section-height { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--text-muted); flex-shrink: 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎨 Design System & Styleguide</h1>
+      <p class="subtitle">Especificação compilada automaticamente a partir da extração do Design DNA.</p>
+    </header>
+
+    <div class="card">
+      <h2>1. Cores & Design Tokens</h2>
+      <div class="color-grid">
+      <div class="color-card">
+        <div class="color-preview" style="background-color: rgb(245, 241, 232);"></div>
+        <div class="color-info">
+          <span class="color-name">Body Background</span>
+          <span class="color-val">rgb(245, 241, 232)</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-preview" style="background-color: rgb(28, 25, 23);"></div>
+        <div class="color-info">
+          <span class="color-name">Body Default Text</span>
+          <span class="color-val">rgb(28, 25, 23)</span>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="card">
+      <h2>2. Escala Tipográfica Computada</h2>
+      <div style="overflow-x: auto;">
+        <table>
+          <thead>
+            <tr><th>Elemento</th><th>Visualização</th><th>Font Family</th><th>Size</th><th>Weight</th><th>Line Height</th></tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td><strong>H1</strong></td>
+          <td>
+            <div style="font-family: Archivo, sans-serif; font-size: 96px; font-weight: 700; line-height: 96px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>Archivo, sans-serif</code></td>
+          <td>96px</td>
+          <td>700</td>
+          <td>96px</td>
+        </tr>
+      
+        <tr>
+          <td><strong>H2</strong></td>
+          <td>
+            <div style="font-family: Archivo, sans-serif; font-size: 60px; font-weight: 700; line-height: 60px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>Archivo, sans-serif</code></td>
+          <td>60px</td>
+          <td>700</td>
+          <td>60px</td>
+        </tr>
+      
+        <tr>
+          <td><strong>H3</strong></td>
+          <td>
+            <div style="font-family: Archivo, sans-serif; font-size: 14px; font-weight: 700; line-height: 20px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>Archivo, sans-serif</code></td>
+          <td>14px</td>
+          <td>700</td>
+          <td>20px</td>
+        </tr>
+      
+        <tr>
+          <td><strong>PARAGRAPH</strong></td>
+          <td>
+            <div style="font-family: Archivo, sans-serif; font-size: 12px; font-weight: 600; line-height: 16px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>Archivo, sans-serif</code></td>
+          <td>12px</td>
+          <td>600</td>
+          <td>16px</td>
+        </tr>
+      
+        <tr>
+          <td><strong>BUTTON</strong></td>
+          <td>
+            <div style="font-family: Archivo, sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>Archivo, sans-serif</code></td>
+          <td>16px</td>
+          <td>400</td>
+          <td>24px</td>
+        </tr>
+      </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>3. Arquitetura & Seções Mapeadas</h2>
+      <div class="sections-grid">
+        <div class="section-card">
+          <div class="section-badge">1</div>
+          <div class="section-details">
+            <h4>&lt;header&gt; <span class="sec-id">#nav</span></h4>
+            <p class="classes-list">Classes: <code>fixed, top-0, left-0, right-0, z-50, transition-all, duration-500</code></p>
+            <p class="sec-text">"NORTHTRAIL Apparel Camping Outdoor Gear Accessories Expeditions 2 Shop Now..."</p>
+          </div>
+          <div class="section-height">78px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">2</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-3</span></h4>
+            <p class="classes-list">Classes: <code>relative, pt-28, lg:pt-36, pb-10, lg:pb-16</code></p>
+            <p class="sec-text">"EST. 2011 · FIELD TESTED  ADVENTURE BEGINS WITH RIGHT GEAR.  A curated range of hunting & camping ge..."</p>
+          </div>
+          <div class="section-height">1338px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">3</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-4</span></h4>
+            <p class="classes-list">Classes: <code>py-8, border-y, border-stone-200, overflow-hidden, bg-[#efe9dc]</code></p>
+            <p class="sec-text">"WATERPROOF SHELLS ULTRALIGHT TENTS DOWN INSULATION TRAIL FOOTWEAR HUNTING OPTICS CAMP KITCHENS WATER..."</p>
+          </div>
+          <div class="section-height">106px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">4</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#gear</span></h4>
+            <p class="classes-list">Classes: <code>py-20, lg:py-28</code></p>
+            <p class="sec-text">"BEST APPAREL FOR YOU trending  Adventure-ready apparel to fuel your hiking and camping journey.  Add..."</p>
+          </div>
+          <div class="section-height">736px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">5</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#story</span></h4>
+            <p class="classes-list">Classes: <code>relative, bg-stone-950, text-white</code></p>
+            <p class="sec-text">"01 / 03  01 — ENGINEERED FABRIC  DESIGNED FOR TOUGH CLIMATES  Every shell is laminated with a 3-laye..."</p>
+          </div>
+          <div class="section-height">3240px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">6</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-7</span></h4>
+            <p class="classes-list">Classes: <code>py-20, lg:py-28</code></p>
+            <p class="sec-text">"HUNTING & CAMPING GEAR.  Buy hunting and camping gear with discounts — earn reward points on every d..."</p>
+          </div>
+          <div class="section-height">1106px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">7</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#experience</span></h4>
+            <p class="classes-list">Classes: <code>relative, overflow-hidden, bg-gradient-to-b, from-[#f5f1e8], via-sky-100, to-sky-200, pt-24, pb-0</code></p>
+            <p class="sec-text">"the mountain's calling  EXPERIENCE  Join 92,000 explorers who trust our gear on summits, ridgelines ..."</p>
+          </div>
+          <div class="section-height">1297px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">8</div>
+          <div class="section-details">
+            <h4>&lt;footer&gt; <span class="sec-id">#footer-9</span></h4>
+            <p class="classes-list">Classes: <code>bg-stone-950, text-white</code></p>
+            <p class="sec-text">"NORTHTRAIL  Gear that's engineered to perform — hunting, camping & outdoor equipment since 2011.  SH..."</p>
+          </div>
+          <div class="section-height">429px</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

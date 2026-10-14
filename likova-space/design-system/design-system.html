@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design System & Styleguide - DNA Inspector</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #0b0f19;
+      --card-bg: #111827;
+      --card-border: #1f2937;
+      --text-color: #f3f4f6;
+      --text-muted: #9ca3af;
+      --accent: #3b82f6;
+      --accent-glow: rgba(59, 130, 246, 0.2);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      padding: 40px 20px;
+      line-height: 1.6;
+    }
+    .container { max-width: 1200px; margin: 0 auto; }
+    header {
+      margin-bottom: 40px;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 20px;
+    }
+    h1 { font-size: 2.2rem; font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .subtitle { color: var(--text-muted); font-size: 1.1rem; }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 32px;
+    }
+    .card h2 { font-size: 1.3rem; margin-bottom: 20px; color: #fff; border-bottom: 1px solid var(--card-border); padding-bottom: 10px; }
+    .color-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+    }
+    .color-card {
+      background: #1e293b;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--card-border);
+    }
+    .color-preview { height: 90px; width: 100%; }
+    .color-info { padding: 12px; }
+    .color-name { display: block; font-weight: 600; font-size: 0.85rem; color: #fff; margin-bottom: 4px; word-break: break-all; }
+    .color-val { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--text-muted); }
+    table { width: 100%; border-collapse: collapse; text-align: left; }
+    th, td { padding: 12px; border-bottom: 1px solid var(--card-border); }
+    th { font-size: 0.85rem; text-transform: uppercase; color: var(--text-muted); }
+    code { font-family: 'JetBrains Mono', monospace; background: #1e293b; padding: 2px 6px; border-radius: 4px; font-size: 0.85rem; }
+    .sections-grid { display: flex; flex-direction: column; gap: 12px; }
+    .section-card {
+      display: flex;
+      align-items: center;
+      background: #1e293b;
+      padding: 14px 18px;
+      border-radius: 8px;
+      border: 1px solid var(--card-border);
+      gap: 16px;
+    }
+    .section-badge {
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .section-details { flex-grow: 1; }
+    .sec-id { color: var(--accent); font-family: 'JetBrains Mono', monospace; font-size: 0.9rem; }
+    .classes-list { font-size: 0.8rem; color: var(--text-muted); margin-top: 2px; }
+    .sec-text { font-size: 0.85rem; color: #cbd5e1; font-style: italic; margin-top: 4px; }
+    .section-height { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--text-muted); flex-shrink: 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎨 Design System & Styleguide</h1>
+      <p class="subtitle">Especificação compilada automaticamente a partir da extração do Design DNA.</p>
+    </header>
+
+    <div class="card">
+      <h2>1. Cores & Design Tokens</h2>
+      <div class="color-grid">
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #fff;"></div>
+            <div class="color-info">
+              <span class="color-name">--c-white</span>
+              <span class="color-val">#fff</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #070b20;"></div>
+            <div class="color-info">
+              <span class="color-name">--c-blue-gray</span>
+              <span class="color-val">#070b20</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #232739;"></div>
+            <div class="color-info">
+              <span class="color-name">--c-blue-dark</span>
+              <span class="color-val">#232739</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #57566a;"></div>
+            <div class="color-info">
+              <span class="color-name">--c-blue-deep</span>
+              <span class="color-val">#57566a</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #bdbec4;"></div>
+            <div class="color-info">
+              <span class="color-name">--c-gray</span>
+              <span class="color-val">#bdbec4</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #e3e6eb;"></div>
+            <div class="color-info">
+              <span class="color-name">--c-gray-light</span>
+              <span class="color-val">#e3e6eb</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #393c4d;"></div>
+            <div class="color-info">
+              <span class="color-name">--c-border</span>
+              <span class="color-val">#393c4d</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: rgba(0,0,0,.2);"></div>
+            <div class="color-info">
+              <span class="color-name">--c-tap-highlight</span>
+              <span class="color-val">rgba(0,0,0,.2)</span>
+            </div>
+          </div>
+        
+          <div class="color-card">
+            <div class="color-preview" style="background-color: #ce1d20;"></div>
+            <div class="color-info">
+              <span class="color-name">--c-error</span>
+              <span class="color-val">#ce1d20</span>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="card">
+      <h2>2. Escala Tipográfica Computada</h2>
+      <div style="overflow-x: auto;">
+        <table>
+          <thead>
+            <tr><th>Elemento</th><th>Visualização</th><th>Font Family</th><th>Size</th><th>Weight</th><th>Line Height</th></tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td><strong>H1</strong></td>
+          <td>
+            <div style="font-family: "TT Norms Pro", Helvetica, Arial, sans-serif; font-size: 200px; font-weight: 400; line-height: 190px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>"TT Norms Pro", Helvetica, Arial, sans-serif</code></td>
+          <td>200px</td>
+          <td>400</td>
+          <td>190px</td>
+        </tr>
+      
+        <tr>
+          <td><strong>H2</strong></td>
+          <td>
+            <div style="font-family: "TT Norms Pro", Helvetica, Arial, sans-serif; font-size: 17px; font-weight: 450; line-height: 20px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>"TT Norms Pro", Helvetica, Arial, sans-serif</code></td>
+          <td>17px</td>
+          <td>450</td>
+          <td>20px</td>
+        </tr>
+      
+        <tr>
+          <td><strong>PARAGRAPH</strong></td>
+          <td>
+            <div style="font-family: "TT Norms Pro", Helvetica, Arial, sans-serif; font-size: 200px; font-weight: 400; line-height: 190px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>"TT Norms Pro", Helvetica, Arial, sans-serif</code></td>
+          <td>200px</td>
+          <td>400</td>
+          <td>190px</td>
+        </tr>
+      
+        <tr>
+          <td><strong>BUTTON</strong></td>
+          <td>
+            <div style="font-family: "TT Norms Pro", Helvetica, Arial, sans-serif; font-size: 17px; font-weight: 450; line-height: 20px; color: var(--text-color);">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </td>
+          <td><code>"TT Norms Pro", Helvetica, Arial, sans-serif</code></td>
+          <td>17px</td>
+          <td>450</td>
+          <td>20px</td>
+        </tr>
+      </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>3. Arquitetura & Seções Mapeadas</h2>
+      <div class="sections-grid">
+        <div class="section-card">
+          <div class="section-badge">1</div>
+          <div class="section-details">
+            <h4>&lt;header&gt; <span class="sec-id">#header-1</span></h4>
+            <p class="classes-list">Classes: <code>header, is-hidden--print, header--sticky, header--landing, ui-dark</code></p>
+            <p class="sec-text">"SELECT OFFICE SPACE 0 CONTACT US..."</p>
+          </div>
+          <div class="section-height">70px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">2</div>
+          <div class="section-details">
+            <h4>&lt;main&gt; <span class="sec-id">#top</span></h4>
+            <p class="classes-list">Classes: <code>page-content__overflow-fix</code></p>
+            <p class="sec-text">"LIKOVA — WHERE FUTURE GAINS MOMENTUM  WHERE FUTURE GAINS MOMENTUM  BUSINESS CENTER ON THE EDGE OF TH..."</p>
+          </div>
+          <div class="section-height">63040px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">3</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-3</span></h4>
+            <p class="classes-list">Classes: <code>intro, section, ui-dark, ui-background</code></p>
+            <p class="sec-text">"LIKOVA — WHERE FUTURE GAINS MOMENTUM  WHERE FUTURE GAINS MOMENTUM  BUSINESS CENTER ON THE EDGE OF TH..."</p>
+          </div>
+          <div class="section-height">4580px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">4</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#about</span></h4>
+            <p class="classes-list">Classes: <code>idea, section, section--top, ui-dark</code></p>
+            <p class="sec-text">"IMPRESSIVE IDEAS. DARING INSPIRATION. 1  LIKE A STRIKING WORK OF ART, THIS BUSINESS CENTER TURNS HEA..."</p>
+          </div>
+          <div class="section-height">2619px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">5</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-5</span></h4>
+            <p class="classes-list">Classes: <code>information, section, ui-dark, ui-background</code></p>
+            <p class="sec-text">"ИНФОРМАЦИЯ  VARIABLE NUMBER OF  6-7-8..."</p>
+          </div>
+          <div class="section-height">6480px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">6</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#location</span></h4>
+            <p class="classes-list">Classes: <code>location, section, ui-dark, ui-background</code></p>
+            
+          </div>
+          <div class="section-height">9180px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">7</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-7</span></h4>
+            <p class="classes-list">Classes: <code>accessibility, section, ui-light, ui-background</code></p>
+            
+          </div>
+          <div class="section-height">9180px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">8</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-8</span></h4>
+            <p class="classes-list">Classes: <code>environment, section, ui-dark, ui-background</code></p>
+            
+          </div>
+          <div class="section-height">6480px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">9</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#genplan</span></h4>
+            <p class="classes-list">Classes: <code>general-plan, section, ui-light, ui-background-alternative</code></p>
+            <p class="sec-text">"THE MASTER PLAN  BEAUTY OF YOUR PLANS  SEE THE MASTER PLAN..."</p>
+          </div>
+          <div class="section-height">2516px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">10</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#architecture</span></h4>
+            <p class="classes-list">Classes: <code>architecture, section, ui-dark, ui-background</code></p>
+            
+          </div>
+          <div class="section-height">9536px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">11</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#lobby</span></h4>
+            <p class="classes-list">Classes: <code>lobby, section, ui-dark, ui-background</code></p>
+            
+          </div>
+          <div class="section-height">7195px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">12</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#offices</span></h4>
+            <p class="classes-list">Classes: <code>offices, section, ui-dark, ui-background</code></p>
+            
+          </div>
+          <div class="section-height">6296px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">13</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#section-13</span></h4>
+            <p class="classes-list">Classes: <code>section, section--top-2, ui-light, ui-background</code></p>
+            <p class="sec-text">"PRICELESS IDEAS ARE BORN IN COMFORT.  PRICELESS IDEAS ARE BORN IN COMFORT. LIKOVA PROVIDES YOU WITH ..."</p>
+          </div>
+          <div class="section-height">1716px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">14</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#engineering</span></h4>
+            <p class="classes-list">Classes: <code>engineering, section, section--top, ui-dark, ui-background</code></p>
+            <p class="sec-text">"TECHNOLOGY 7  INNOVATION IN ACTION  THIS BUILDING FEATURES FULLY AUTOMATED ENGINEERING SYSTEMS RANGI..."</p>
+          </div>
+          <div class="section-height">4323px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">15</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#infrastructure</span></h4>
+            <p class="classes-list">Classes: <code>infrastructure, section, ui-dark, ui-background</code></p>
+            <p class="sec-text">"RETAIL  RESTAURANTS  CAFÉS  MEDICAL CENTER  FITNESS CLUB  COMMUNAL SPACES  THESE AMENITIES WILL MAKE..."</p>
+          </div>
+          <div class="section-height">10220px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">16</div>
+          <div class="section-details">
+            <h4>&lt;section&gt; <span class="sec-id">#team</span></h4>
+            <p class="classes-list">Classes: <code>team, section, section--top, ui-light, ui-background</code></p>
+            <p class="sec-text">"OUR TEAM 9  SUPPORTING YOUR SUCCESS  ARCHITECTURAL CONCEPT-PLAN  ARCHITECTURAL LIGHTING  PUBLIC SPAC..."</p>
+          </div>
+          <div class="section-height">1210px</div>
+        </div>
+      
+        <div class="section-card">
+          <div class="section-badge">17</div>
+          <div class="section-details">
+            <h4>&lt;footer&gt; <span class="sec-id">#footer-17</span></h4>
+            <p class="classes-list">Classes: <code>footer, section, ui-dark, ui-background, is-hidden--print</code></p>
+            <p class="sec-text">"CONTACT LIKOVA  OPEN DAILY, 9:00 AM – 9:00 PM  © 2026. LIKOVA  PRIVACY POLICY WEBSITE BY VIDE INFRA ..."</p>
+          </div>
+          <div class="section-height">588px</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
