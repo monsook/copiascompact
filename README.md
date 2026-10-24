@@ -24,6 +24,10 @@ Este diretório contém os esqueletos e clones de alta fidelidade brutos extraí
 | `21oaks-org` | https://21oaks.org/ | Webflow + GSAP ScrollTrigger + Lenis | ✅ 95% Extraído | **Referência Multi-Family / Hotspots SVG / Dimerização de Luz / Scribble Underline** |
 | `habitsupps-com` | https://www.habitsupps.com/product/stress-relief-capsule | Next.js (SSR) + Sanity CMS | ✅ Extraído | **Referência D2C Wellness / 3D Brand Mascot Slot System / Ingredient Video Loops** |
 | `more-nutrition-webflow-io` | https://more-nutrition.webflow.io/#reviews | Webflow + Canvas 3D + GSAP + Lenis | ✅ 95% Extraído | **Referência D2C Matcha / 3D Product Frame Sequence Scrubber (200 frames) / UGC Video** |
+| `shadcnblocks-admin-vercel-app` | https://shadcnblocks-admin.vercel.app/ | Next.js + Tailwind + Shadcn UI | ✅ Extraído (36+ telas) | **Referência Enterprise: Chat AI, Tools/Plugins, Billing, Settings, CRM e Projetos** |
+| `shadcnuikit-dashboards` | https://shadcnuikit.com/dashboard/default | React / TypeScript + Tailwind | ✅ Pacote Completo | **5 Dashboards (Classic, Sales, CRM, AI Analytics, Kanban, Chat) + UI Primitives** |
+| `reactbitspremium` | https://reactbits.dev/ | React + Framer Motion + Tailwind | ✅ 87 Componentes | **Chat AI (PromptBar, ThoughtLine), Billing Sliders, Microinterações, Bento Grids** |
+| `enterprise-ai-components` | Studio DNA Synthesized Vault | React (TSX) + GenUI Schemas | ✅ 8 Arquétipos | **ApprovalGate, ConversationalShell, ToolCallDisclosure, ExecutionTimeline, Widgets** |
 
 ---
 
